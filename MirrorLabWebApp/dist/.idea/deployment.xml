@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="memospeak.sabir.pro">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/memospeak.sabir.pro" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mirrorlab.sabir.pro">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/mirrorlab.sabir.pro" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

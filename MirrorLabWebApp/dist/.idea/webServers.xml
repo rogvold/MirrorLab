@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35a6c515-cc0e-472c-8291-c5d87815a7bd" name="memospeak.sabir.pro" url="http://178.62.205.147">
+        <fileTransfer host="178.62.205.147" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e128137c-344f-47bb-8872-8af048401bfa" name="mirrorlab.sabir.pro" url="http://178.62.230.14">
+        <fileTransfer host="178.62.230.14" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

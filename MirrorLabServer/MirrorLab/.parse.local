@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "MirrorLab": {
+      "applicationId": "8nTOIzskvbkddeAmPfpZ32oC9QdqdqE8nV4n52Gk"
+    },
+    "_default": {
+      "link": "MirrorLab"
+    }
+  }
+}

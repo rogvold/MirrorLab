@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3a0120c7-b599-431e-9b07-e5c90c40d8ab" name="drive.sabir.pro" url="http://188.166.84.120">
+        <fileTransfer host="188.166.84.120" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="eb9300ae-aa2f-4bbe-a11b-fde86d4b2dfe" name="timeflipparse.sabir.pro" url="http://95.85.44.14">
+        <fileTransfer host="95.85.44.14" port="10022" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10022" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

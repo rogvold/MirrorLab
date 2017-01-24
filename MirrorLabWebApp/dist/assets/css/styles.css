@@ -1,0 +1,126 @@
+.box {
+  border: 1px solid #E7E9E9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px; }
+
+.upload_photo_panel {
+  width: 820px;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .upload_photo_panel .button_placeholder {
+    text-align: center; }
+  .upload_photo_panel .photo_placeholder {
+    margin-bottom: 10px; }
+    .upload_photo_panel .photo_placeholder img {
+      width: 100%;
+      display: block; }
+
+.pimpled_image {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .pimpled_image img {
+    display: block;
+    width: 100%; }
+  .pimpled_image .pimples_placeholder {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .pimpled_image .pimples_placeholder .pimples {
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      .pimpled_image .pimples_placeholder .pimples .pimple {
+        position: absolute;
+        z-index: 2;
+        border-radius: 1000px;
+        background-color: rgba(240, 128, 128, 0.6);
+        border: 1px solid lightcoral;
+        width: 10px;
+        height: 10px; }
+
+.photos_list {
+  width: 100%; }
+  .photos_list .photo {
+    width: calc(25% - 10px);
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer; }
+    .photos_list .photo:hover {
+      opacity: 0.8;
+      background-color: floralwhite; }
+    .photos_list .photo .info_placeholder {
+      font-size: 12px; }
+      .photos_list .photo .info_placeholder .date {
+        opacity: 0.6; }
+
+.user_images_panel {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  min-height: 140px; }
+
+.upload_user_photo_panel {
+  text-align: center;
+  padding: 10px; }
+
+.selected_photo_content {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: whitesmoke; }
+  .selected_photo_content .left {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 100px);
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .selected_photo_content .right {
+    width: 100px;
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    background-color: floralwhite; }
+    .selected_photo_content .right .close_button_placeholder {
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+      .selected_photo_content .right .close_button_placeholder .close_button {
+        cursor: pointer;
+        border: 2px solid #54140a;
+        border-radius: 1000px;
+        width: 30px;
+        height: 30px;
+        line-height: 26px;
+        text-align: center; }
+        .selected_photo_content .right .close_button_placeholder .close_button i {
+          margin-right: 0px !important; }
+        .selected_photo_content .right .close_button_placeholder .close_button:hover {
+          opacity: 0.7; }
