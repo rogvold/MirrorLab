@@ -6,6 +6,7 @@ import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
+
 class PimpledImage extends React.Component {
 
     static defaultProps = {
@@ -77,8 +78,6 @@ class PimpledImage extends React.Component {
     render = () => {
         let {src, pimples, switchViewEnabled} = this.props;
         let {mode} = this.state;
-
-        console.log('rendering PimpledImage: src, mode = ', src, mode);
 
         if (src == undefined){
             return null;

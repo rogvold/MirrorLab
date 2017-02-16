@@ -2,9 +2,9 @@
  * Created by sabir on 24.01.17.
  */
 
-var ECR = require('cloud/helpers/ErrorCodesRegistry');
-var CommonHelper = require('cloud/helpers/CommonHelper');
-var MathHelper = require('cloud/helpers/MathHelper');
+var ECR = require('../helpers/ErrorCodesRegistry');
+var CommonHelper = require('../helpers/CommonHelper');
+var MathHelper = require('../helpers/MathHelper');
 
 var PhotosModule = {
 
@@ -51,6 +51,7 @@ var PhotosModule = {
         var p = new Photo();
         p.set('userId', data.userId);
         p.set('url', data.url);
+        p.set('originalUrl', data.originalUrl);
         p.set('version', data.version);
         p.set('hash', data.hash);
         p.set('data', data.data);

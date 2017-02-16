@@ -34,12 +34,23 @@ class UploadUserPhotoPanel extends React.Component {
     onFileUploaded = (d) => {
         console.log('onFileUploaded: d = ', d);
         let {currentUser, createPhoto} = this.props;
-        d.data = Object.assign({}, d);
-        d.userId = currentUser.id;
-        d.url = d.filename;
-        d.version = d.version;
-        console.log(' ---   >>>   CREATING PHOTO: d = ', d);
-        createPhoto(d);
+
+        if (d.error != undefined){
+            alert(d.error.message);
+            return;
+        }
+
+        let dataToSave = {
+            userId: currentUser.id,
+            url: d.imgInfo.fileName,
+            originalUrl: d.imgInfo.originalFileName,
+            data: d,
+            hash: d.imgInfo.hash,
+            version: d.version
+        }
+
+        console.log(' ---   >>>   CREATING PHOTO: dataToSave = ', dataToSave);
+        createPhoto(dataToSave);
     }
 
     render = () => {

@@ -8,7 +8,11 @@ import {bindActionCreators} from 'redux';
 
 import PimpledImage from '../image/PimpledImage'
 
+import SkinryImage from '../image/SkinryImage'
+import SkinryUserImage from '../image/SkinryUserImage'
+
 import moment from 'moment'
+
 
 class PhotosList extends React.Component {
 
@@ -54,6 +58,9 @@ class PhotosList extends React.Component {
 
                             <div className={'img_placeholder'} >
                                 <PimpledImage src={p.url} pimples={data.spots} />
+
+                                <SkinryUserImage id={p.id}  />
+
                             </div>
 
                             <div className={'info_placeholder'} >

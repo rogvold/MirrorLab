@@ -1,5 +1,7 @@
-var UsersModule = require('cloud/modules/UsersModule');
-var PhotosModule = require('cloud/modules/PhotosModule');
+var UsersModule = require('./modules/UsersModule');
+var PhotosModule = require('./modules/PhotosModule');
+
+require('./app.js');
 
 Parse.Cloud.define("loadUserPhotos", function(request, response) {
     var data = request.params.data;

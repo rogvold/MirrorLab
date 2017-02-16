@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9b8de2ee-a10a-4fa3-9093-e60165c191dc" name="patientparse.sabir.pro" url="http://patientparse.sabir.pro">
+        <fileTransfer host="patientparse.sabir.pro" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="eecf0dac-ec75-421c-b47c-1bc43c5cc43a" name="dashboard.sabir.pro" url="http://dashboard.sabir.pro">
+        <fileTransfer host="dashboard.sabir.pro" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a66d48b6-113f-4bfe-996b-22a42f3e8c9d" name="mirrorparse.sabir.pro" url="http://mirrorparse.sabir.pro">
+        <fileTransfer host="mirrorparse.sabir.pro" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

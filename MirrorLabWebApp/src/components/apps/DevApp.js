@@ -26,7 +26,15 @@ import MemospeakTotalPanel from '../memospeak/steps/panels/MemospeakTotalPanel'
 import CoolEditor from '../articles/editor/CoolEditor'
 // import PatientEditor from '../articles/editor/PatientEditor'
 
+
+
 import UploadPhotoPanel from '../skinry/upload/panels/UploadPhotoPanel'
+
+import SkinryCanvaPanel from '../skinry/canvas/SkinryCanvaPanel'
+
+import SkinryImage from '../skinry/image/SkinryImage'
+
+
 
 class DevApp extends React.Component {
 
@@ -63,8 +71,13 @@ class DevApp extends React.Component {
          return (
              <div>
 
+                <div style={{width: 300}} >
 
-                 <UploadPhotoPanel />
+                    <SkinryImage
+                        url={'https://mirrorlab.sabir.pro/uploads/drnhlsflzytmugqbqaxlaqklyihvsg.jpg'} />
+
+                </div>
+
 
              </div>
          )

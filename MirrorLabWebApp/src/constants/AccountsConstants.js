@@ -2,9 +2,19 @@
  * Created by sabir on 02.01.17.
  */
 
-export const PARSE_APP_ID = '8nTOIzskvbkddeAmPfpZ32oC9QdqdqE8nV4n52Gk';
-export const PARSE_JS_KEY = 'cOYqwx2l2JtnNNMihHaQnq43NkV6Oo2wDButbzpn';
+// export const PARSE_SERVER_URL = 'https://patientparse.sabir.pro';
+// export const PARSE_SERVER_URL = 'https://mirrorparse.sabir.pro/';
+export const PARSE_SERVER_URL = 'https://mirrorparse.sabir.pro/parse';
+
+
+// export const PARSE_APP_ID = '8nTOIzskvbkddeAmPfpZ32oC9QdqdqE8nV4n52Gk';
+export const PARSE_APP_ID = 'mirror_app_id';
+// export const PARSE_JS_KEY = 'cOYqwx2l2JtnNNMihHaQnq43NkV6Oo2wDButbzpn';
+export const PARSE_JS_KEY = 'mirror_js_key';
+
+
 export const PARSE_REST_API_KEY = '';
+
 
 export const  PUSHER_APP_ID = '276854';
 export const  PUSHER_KEY = 'dcc7007725e03b22ab92';

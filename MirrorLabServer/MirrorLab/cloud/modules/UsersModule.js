@@ -1,8 +1,8 @@
 /**
  * Created by sabir on 26.08.16.
  */
-var ECR = require('cloud/helpers/ErrorCodesRegistry');
-var CommonHelper = require('cloud/helpers/CommonHelper');
+var ECR = require('../helpers/ErrorCodesRegistry');
+var CommonHelper = require('../helpers/CommonHelper');
 
 var UsersModule = {
 
