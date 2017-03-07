@@ -10,6 +10,7 @@
 
  import * as colors from '../../../constants/AppColors'
 
+
  import {
      AppRegistry,
      StyleSheet,
@@ -28,7 +29,11 @@
      ActivityIndicator
  } from 'react-native';
 
-import FitImage from 'react-native-fit-image';
+ import FitImage from 'react-native-fit-image';
+
+ // import CacheableImage from 'react-native-cacheable-image'
+
+import CacheableFitImage from '../../image/CacheableFitImage'
 
  class PhotosList extends React.Component {
 
@@ -65,8 +70,8 @@ import FitImage from 'react-native-fit-image';
 
                 <View style={styles.image_placeholder} >
 
-                    <FitImage
-                        source={{uri: photo.url}}
+                    <CacheableFitImage
+                        url={photo.url}
                         originalWidth={50}
                         originalHeight={50}
                         style={{borderRadius: 4}}

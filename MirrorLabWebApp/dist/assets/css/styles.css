@@ -51,11 +51,26 @@
         border: 1px solid lightcoral;
         width: 10px;
         height: 10px; }
+        .pimpled_image .pimples_placeholder .pimples .pimple.selected .inner_pimple {
+          display: block; }
+        .pimpled_image .pimples_placeholder .pimples .pimple .inner_pimple {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: none; }
+          .pimpled_image .pimples_placeholder .pimples .pimple .inner_pimple .pimple_info_placeholder {
+            position: absolute;
+            bottom: -50px;
+            height: 40px;
+            width: 150px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: white; }
 
 .photos_list {
   width: 100%; }
   .photos_list .photo {
-    width: calc(25% - 10px);
+    width: calc(33.3% - 10px);
     margin: 5px;
     display: inline-block;
     vertical-align: top;
@@ -64,11 +79,7 @@
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     border-radius: 3px;
-    background-color: white;
-    cursor: pointer; }
-    .photos_list .photo:hover {
-      opacity: 0.8;
-      background-color: floralwhite; }
+    background-color: white; }
     .photos_list .photo .img_placeholder {
       position: relative; }
     .photos_list .photo .info_placeholder {
@@ -148,3 +159,46 @@
     .skinry_image .image_placeholder img {
       display: block;
       width: 100%; }
+
+.skinry_pimple_editor {
+  width: 100%;
+  height: 100%; }
+  .skinry_pimple_editor .left {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 200px); }
+  .skinry_pimple_editor .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    background-color: floralwhite;
+    padding: 10px; }
+    .skinry_pimple_editor .right .circles_number_placeholder {
+      margin-top: 10px;
+      text-align: center; }
+    .skinry_pimple_editor .right .save_button_placeholder {
+      margin-top: 20px; }
+  .skinry_pimple_editor .pimple_editor_controls {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    z-index: 10000;
+    width: 200px;
+    height: 15px; }
+    .skinry_pimple_editor .pimple_editor_controls .slider {
+      width: 100%;
+      height: 100%; }
+      .skinry_pimple_editor .pimple_editor_controls .slider .handle {
+        background-color: green;
+        width: 15px;
+        height: 15px;
+        border-radius: 1000px;
+        border: 1px solid white; }
+  .skinry_pimple_editor .pimples_placeholder {
+    background-color: rgba(0, 0, 0, 0.1) !important; }
+    .skinry_pimple_editor .pimples_placeholder .pimple {
+      background-color: rgba(128, 152, 240, 0.2) !important;
+      border: 1px solid rgba(128, 152, 240, 0.8) !important; }
+      .skinry_pimple_editor .pimples_placeholder .pimple.selected {
+        border: 1px solid #30f060 !important;
+        background-color: rgba(210, 240, 225, 0.2) !important; }

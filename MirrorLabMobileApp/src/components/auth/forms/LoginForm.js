@@ -22,10 +22,16 @@ import ParseAPI from '../../../api/ParseAPI'
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
-     ActivityIndicator
+     ActivityIndicator,
  } from 'react-native';
 
- import {Input, Button, Spinner} from 'nachos-ui';
+ import ReactNative from 'react-native';
+
+
+
+ import {Input, Spinner, Button} from 'nachos-ui';
+
+ // import MyButton from '../../buttons/MyButton'
 
  class LoginForm extends React.Component {
 
@@ -78,6 +84,7 @@ import ParseAPI from '../../../api/ParseAPI'
          return true;
      }
 
+
      render = () => {
          let {loading} = this.props;
          let canSubmit = this.canSubmit() && (loading == false);
@@ -104,9 +111,13 @@ import ParseAPI from '../../../api/ParseAPI'
                  </View>
 
                  <View style={styles.button_placeholder}>
-                     <Button  onPress={this.onSubmit} disabled={!canSubmit} >
-                         {loading == true ? 'Loading...' : 'Login'}
-                     </Button>
+                     {Platform.OS != 'ios' ?
+                         <ReactNative.Button onPress={this.onSubmit} disabled={!canSubmit} title={loading == true ? 'Loading...' : 'Login'} /> :
+                         <Button onPress={this.onSubmit} disabled={!canSubmit} >
+                             {loading == true ? 'Loading...' : 'Login'}
+                         </Button>
+                     }
+
                  </View>
 
              </View>

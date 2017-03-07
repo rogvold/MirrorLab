@@ -82,15 +82,13 @@ import PhotosList from '../list/PhotosList'
  });
 
  let getPhotos_ = (state) => {
-     let map = state.photos.photosMap;
-     let arr = [];
-     for (var key in map){
-         arr.push(map[key]);
-     }
-     arr.sort((a, b) => {
-         return (b.timestamp - a.timestamp);
-     });
-     return arr;
+     let {currentUserId} = state.users;
+     let photos = state.photos.photosMap.toArray().filter((p) => {return (p.userId == currentUserId)}).sort(
+         (a, b) => {
+             return (b.timestamp - a.timestamp)
+         }
+     );
+     return photos;
  }
 
  const mapStateToProps = (state) => {

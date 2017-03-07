@@ -10,7 +10,10 @@ import {bindActionCreators} from 'redux';
 class PimpledImage extends React.Component {
 
     static defaultProps = {
-        switchViewEnabled: false
+        switchViewEnabled: false,
+
+        selectedPimpleIndex: undefined
+
     }
 
     static propTypes = {}

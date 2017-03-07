@@ -7,11 +7,13 @@ import UsersReducer from './UsersReducer.js';
 import NavigationReducer from './NavigationReducer.js';
 import PhotosReducer from './PhotosReducer.js';
 import UploadReducer from './UploadReducer.js';
+import ChatReducer from './ChatReducer.js';
 
 export const reducer = combineReducers({
     users: UsersReducer,
     photos: PhotosReducer,
     navigation: NavigationReducer,
-    upload: UploadReducer
+    upload: UploadReducer,
+    chat: ChatReducer
 
 });

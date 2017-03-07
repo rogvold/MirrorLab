@@ -32,7 +32,7 @@ const ParseAPI = {
             email: u.get('email'),
             firstName: u.get('firstName'),
             lastName: u.get('lastName'),
-            avatar: u.get('avatar')
+            avatar: (u.get('avatar') == undefined) ? constants.EMPTY_AVATAR : u.get('avatar')
         }
     },
 
@@ -184,6 +184,21 @@ const ParseAPI = {
             })
         });
         return promise;
+    },
+
+    getUsersByIds(ids) {
+        var self = this;
+        var q = new Parse.Query(Parse.User);
+        q.limit(10000);
+        q.containedIn('objectId', ids);
+        return new Promise(function(resolve, reject){
+            q.find(function(loadedUsers){
+                var users = loadedUsers.map(function(u){
+                    return self.transformUser(u);
+                })
+                resolve(users);
+            });
+        })
     }
 
 }

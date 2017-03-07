@@ -4,27 +4,9 @@
 
 import React, {PropTypes} from 'react';
 
-import MemoSpeakBunchedList from '../memospeak/list/MemoSpeakBunchedList'
 
 import {Map, Stack, Set} from 'immutable'
 
-import IndexDBHelper from "../../helpers/IndexDBHelper"
-
-import VideoCacheLoader from '../cache/VideoCacheLoader'
-import VideoCacheTestPanel from '../cache/VideoCacheTestPanel'
-
-import MemoSpeakPlayerTestPanel from '../memospeak/player/MemoSpeakPlayerTestPanel'
-
-import TestSlidesPanel from '../memospeak/slides/panels/TestSlidesPanel'
-
-import UpdateMemoSpeakWrapper from '../memospeak/buttons/UpdateMemoSpeakWrapper'
-
-import MemoSpeaksListPanel from '../memospeak/panels/MemoSpeaksListPanel'
-
-import MemospeakTotalPanel from '../memospeak/steps/panels/MemospeakTotalPanel'
-
-import CoolEditor from '../articles/editor/CoolEditor'
-// import PatientEditor from '../articles/editor/PatientEditor'
 
 
 
@@ -34,6 +16,7 @@ import SkinryCanvaPanel from '../skinry/canvas/SkinryCanvaPanel'
 
 import SkinryImage from '../skinry/image/SkinryImage'
 
+import SkinryPimpleEditor from '../skinry/editor/SkinryPimpleEditor'
 
 
 class DevApp extends React.Component {
@@ -57,7 +40,6 @@ class DevApp extends React.Component {
 
      componentDidMount(){
 
-         IndexDBHelper.loadUrlBlobMapAsPromise();
 
      }
 
@@ -69,14 +51,14 @@ class DevApp extends React.Component {
      render = () => {
 
          return (
-             <div>
+             <div style={{width: 800, height: 600, margin: '0 auto'}}>
 
-                <div style={{width: 300}} >
 
-                    <SkinryImage
-                        url={'https://mirrorlab.sabir.pro/uploads/drnhlsflzytmugqbqaxlaqklyihvsg.jpg'} />
+                    {/*<SkinryImage*/}
+                        {/*url={'https://mirrorlab.sabir.pro/uploads/drnhlsflzytmugqbqaxlaqklyihvsg.jpg'} />*/}
 
-                </div>
+
+                    <SkinryPimpleEditor />
 
 
              </div>

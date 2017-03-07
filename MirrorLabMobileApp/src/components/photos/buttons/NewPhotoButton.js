@@ -22,8 +22,11 @@
      Platform,
      BackAndroid,
      ActivityIndicator,
+     StatusBar,
      Dimensions
  } from 'react-native';
+
+ import ReactNative from 'react-native';
 
  import {Button} from 'nachos-ui'
 
@@ -81,11 +84,16 @@
              <View style={styles.container} >
 
                  <View style={styles.button_placeholder} >
-                     <Button
-                         iconName={'ios-camera-outline'}
-                         onPress={() => {this.setState({modalVisible: true})}} >
-                         {buttonName}
-                     </Button>
+                     {Platform.OS === 'ios' ?
+                         <Button
+                             iconName={'ios-camera-outline'}
+                             onPress={() => {this.setState({modalVisible: true})}} >
+                             {buttonName}
+                         </Button> :
+                         <ReactNative.Button title={buttonName}
+                                             onPress={() => {this.setState({modalVisible: true})}} />
+                     }
+
                  </View>
 
                  <Modal
@@ -93,6 +101,7 @@
                      transparent={false}
                      visible={modalVisible}
                  >
+
                      <View style={styles.modal_style} >
 
                          <TouchableHighlight style={styles.close_style} onPress={() => {this.setState({modalVisible: false})}}>
@@ -127,6 +136,7 @@
 
      modal_style: {
          // paddingTop: 22
+         marginTop: Platform.OS === 'android' ? -StatusBar.currentHeight : 0
      },
 
      button_placeholder: {
@@ -135,8 +145,6 @@
          // marginBottom: 120
          marginBottom: 80
      },
-
-
 
      close_style: {
          position: 'absolute',

@@ -11,6 +11,8 @@ import PimpledImage from '../image/PimpledImage'
 import SkinryImage from '../image/SkinryImage'
 import SkinryUserImage from '../image/SkinryUserImage'
 
+import SkinryUpdatablePimpleEditorPanel from '../editor/SkinryUpdatablePimpleEditorPanel'
+
 import moment from 'moment'
 
 
@@ -41,6 +43,11 @@ class PhotosList extends React.Component {
         this.props.onPhotoClick(p);
     }
 
+    onPhotoEditOpen = (p) => {
+        console.log('onPhotoEditOpen: p = ', p);
+        this.props.onPhotoEditOpen(p);
+    }
+
     render = () => {
         let {photos} = this.props;
 
@@ -52,11 +59,13 @@ class PhotosList extends React.Component {
                     let data = p.data;
                     let spots = (data.spots == undefined) ? [] : data.spots;
                     let onClick = this.onPhotoClick.bind(this, p);
+                    let onEditOpen = this.onPhotoEditOpen.bind(this, p);
 
                     return (
-                        <div className={'photo'} key={key} onClick={onClick} >
+                        <div className={'photo'} key={key} >
 
                             <div className={'img_placeholder'} >
+
                                 <PimpledImage src={p.url} pimples={data.spots} />
 
                                 <SkinryUserImage id={p.id}  />
@@ -64,6 +73,14 @@ class PhotosList extends React.Component {
                             </div>
 
                             <div className={'info_placeholder'} >
+                                <div onClick={onClick}  >
+                                    <i className={'icon expand'} ></i> view
+                                </div>
+
+                                <div onClick={onEditOpen}  >
+                                    <i className={'icon pencil'} ></i> edit
+                                </div>
+
                                 <div className={'date'} >
                                     <i className={'icon calendar'} ></i> {moment(p.timestamp).format('LLL')}
                                 </div>

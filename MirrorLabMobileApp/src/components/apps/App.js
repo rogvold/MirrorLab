@@ -20,7 +20,8 @@
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
-     ActivityIndicator
+     ActivityIndicator,
+     StatusBar
  } from 'react-native';
 
  import {Button} from 'nachos-ui';
@@ -33,6 +34,8 @@
  import SettingsApp from './SettingsApp'
  import IndexApp from './IndexApp'
  import PhotosApp from './PhotosApp'
+ import DevApp from './DevApp'
+ import ChatApp from './ChatApp'
 
  import LogoutButton from '../auth/buttons/LogoutButton'
 
@@ -73,6 +76,10 @@
                  return <SettingsApp/>
              case 'photos':
                  return <PhotosApp/>
+             case 'chat':
+                 return <ChatApp />
+             case 'dev':
+                 return <DevApp />
 
              default:
                  return null;
@@ -98,9 +105,14 @@
          return (
              <View style={styles.container} >
 
+                 <StatusBar hidden={true} />
+
                  {this.getCurrentTab()}
 
-                 <IOSNavigationTabBarsPanel />
+                 {true == false ? null :
+                     <IOSNavigationTabBarsPanel />
+                 }
+
 
              </View>
          )

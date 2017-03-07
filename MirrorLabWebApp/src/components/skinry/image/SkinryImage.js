@@ -13,7 +13,11 @@ class SkinryImage extends React.Component {
     static defaultProps = {
         url: 'https://mirrorlab.sabir.pro/uploads/kohrzhxeesnyrpdogdjyciuyjlgmlp.jpg',
         landmarks: [],
-        spots: []
+
+        spots: [],
+
+        selectedSpotIndex: undefined
+
     }
 
     static propTypes = {
@@ -40,7 +44,9 @@ class SkinryImage extends React.Component {
         let {landmarks, spots} = this.props;
         console.log('getPoints: landmarks, spots = ', landmarks, spots);
         let landmarksPoints = landmarks.map((p) => {return Object.assign({}, p, {rx: 0.007, ry: 0.007, fillColor: 'grey', borderColor: 'grey'})});
+
         let spotsPoints = spots.map((p) => {return Object.assign({}, p, {fillColor: 'rgba(240, 128, 128, 0.6)', borderColor: 'lightcoral'})});;
+
         let res = landmarksPoints.concat(spotsPoints);
         console.log('returning ', res);
         return res;
@@ -48,6 +54,10 @@ class SkinryImage extends React.Component {
 
     getLandmarksPolylines = () => {
         let {landmarks} = this.props;
+        if (landmarks == undefined || landmarks.length == 0){
+            return [];
+        }
+
         let res = [];
         let outlinePolyline = {
             name: 'outline',
@@ -155,6 +165,7 @@ class SkinryImage extends React.Component {
 
         console.log('SkinryImage: points: ', points);
         console.log('SkinryImage: polylines: ', polylines);
+
 
         return (
             <div className={'skinry_image'} >

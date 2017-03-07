@@ -88,6 +88,36 @@ var PhotosModule = {
         });
     },
 
+    updatePhoto: function(data, success, error){
+        if (data == undefined){
+            error({code: ECR.INCORRECT_INPUT_DATA.code, message: 'data is not defined'});
+            return;
+        }
+        if (data.id == undefined){
+            error({code: ECR.INCORRECT_INPUT_DATA.code, message: 'id is not defined'});
+            return;
+        }
+        var self = this;
+        var q = new Parse.Query('Photo');
+        q.get(data.id, {
+            useMasterKey: true,
+            success: function(p){
+                for (var key in data){
+                    if (key == 'id' || key == 'timestamp'){
+                        continue;
+                    }
+                    p.set(key, data[key])
+                }
+                p.save(null, {useMasterKey: true}).then(function(savedPhoto){
+                    success(self.transformPhoto(savedPhoto))
+                })
+            },
+            error: function(){
+                error({code: ECR.NOT_FOUND.code, message: 'can not find photo with id = ' + data.id});
+            }
+        });
+    },
+
     loadUserPhotos: function(data, success, error){
         if (data == undefined){
             error({code: ECR.INCORRECT_INPUT_DATA.code, message: 'data is not defined'});

@@ -2,11 +2,12 @@
  * Created by sabir on 14.02.17.
  */
 
+import {Map, Stack, Set} from 'immutable'
 import * as types from '../constants/ActionTypes.js'
 
 const initialState = {
     loading: false,
-    photosMap: {},
+    photosMap: Map(),
     error: undefined
 }
 
@@ -18,36 +19,16 @@ const stopLoading = (state, action) => {
     return { ...state, loading: false, error: action.error}
 }
 
-const consumePhotos = (state, photos) => {
-    if (photos == undefined){
-        return state;
-    }
-    let photosMap = Object.assign({}, state.photosMap);
-    for (let a of photos){
-        photosMap[a.id] = a;
-    }
-    return Object.assign({}, state.photosMap, photosMap);
-}
-
-const deletePhoto = (state, photoId) => {
-    if (photoId == undefined){
-        return state.photosMap;
-    }
-    let map = Object.assign({}, state.photosMap);
-    for (let key in map){
-        if (key == undefined){
-            continue;
-        }
-        if (key == photoId){
-            map[key] = undefined;
-        }
-    }
-    return map;
-}
-
 const PhotosReducer =  (state = initialState, action = {}) => {
 
     switch (action.type) {
+
+        case types.LOGOUT_SUCCESS:
+            return {
+                ...state,
+                loading: false,
+                photosMap: Map()
+            }
 
         case types.LOAD_PHOTOS:
             return startLoading(state, action)
@@ -57,7 +38,7 @@ const PhotosReducer =  (state = initialState, action = {}) => {
             return {
                 ...state,
                 loading: false,
-                photosMap: consumePhotos(state, action.photos)
+                photosMap: state.photosMap.merge(action.photos.reduce((map, photo) => {return map.set(photo.id, photo)}, Map()))
             }
 
         case types.CREATE_PHOTO:
@@ -68,7 +49,7 @@ const PhotosReducer =  (state = initialState, action = {}) => {
             return {
                 ...state,
                 loading: false,
-                photosMap: consumePhotos(state, [action.photo])
+                photosMap: state.photosMap.set(action.photo.id, action.photo)
             }
 
 
@@ -80,7 +61,7 @@ const PhotosReducer =  (state = initialState, action = {}) => {
             return {
                 ...state,
                 loading: false,
-                photosMap: deletePhoto(state, action.id)
+                photosMap: state.photosMap.delete(action.id)
             }
 
 

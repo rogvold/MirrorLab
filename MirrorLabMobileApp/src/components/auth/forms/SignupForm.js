@@ -25,6 +25,8 @@ import {
     ActivityIndicator
 } from 'react-native';
 
+import ReactNative from 'react-native';
+
 import {Input, Button, Spinner} from 'nachos-ui';
 
 class SignupForm extends React.Component {
@@ -76,6 +78,10 @@ class SignupForm extends React.Component {
         if (ParseAPI.isEmail(data.email) == false || data.password == undefined || data.password.trim() == ''){
             return false;
         }
+        if (this.state.confirmPassword != data.password){
+            return false;
+        }
+
         return true;
     }
 
@@ -114,9 +120,12 @@ class SignupForm extends React.Component {
                 </View>
 
                 <View style={styles.button_placeholder}>
-                    <Button  onPress={this.onSubmit} disabled={!canSubmit} >
-                        {loading == true ? 'Loading...' : 'Signup'}
-                    </Button>
+                    {Platform.OS != 'ios' ?
+                        <ReactNative.Button onPress={this.onSubmit} disabled={!canSubmit} title={loading == true ? 'Loading...' : 'Signup'} /> :
+                        <Button  onPress={this.onSubmit} disabled={!canSubmit} >
+                            {loading == true ? 'Loading...' : 'Signup'}
+                        </Button>
+                    }
                 </View>
 
             </View>

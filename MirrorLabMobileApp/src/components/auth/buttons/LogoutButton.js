@@ -26,6 +26,8 @@
      ActivityIndicator
  } from 'react-native';
 
+ import ReactNative from 'react-native';
+
  import {Button} from 'nachos-ui'
 
  class LogoutButton extends React.Component {
@@ -57,6 +59,14 @@
 
      render = () => {
          let {buttonName, loading, loadingText} = this.props;
+
+         if (Platform.OS != 'ios'){
+             return (
+                 <ReactNative.Button
+                     onPress={this.onSubmit}
+                     title={loading == true ? loadingText : buttonName} />
+             )
+         }
 
          return (
              <Button onPress={this.onSubmit} disabled={loading}>

@@ -38,3 +38,15 @@ Parse.Cloud.define("deletePhoto", function(request, response) {
         response.error(err);
     });
 });
+
+Parse.Cloud.define("updatePhoto", function(request, response) {
+    var data = request.params.data;
+    if (data == undefined){
+        data = request.params;
+    }
+    PhotosModule.updatePhoto(data, function(p){
+        response.success(p);
+    }, function(err){
+        response.error(err);
+    });
+});

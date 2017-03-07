@@ -61,7 +61,7 @@ const UsersReducer =  (state = initialState, action = {}) => {
             return stopLoading(state, action)
 
         case  types.LOGOUT_SUCCESS:
-            return {...state, currentUserId: undefined, loading: false, error: undefined}
+            return {...state, currentUserId: undefined, loading: false, error: undefined, usersMap: Map()}
 
         case types.INITIALIZE_AUTH:
             return {...state, loading: true, initialized: false}

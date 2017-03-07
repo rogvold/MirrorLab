@@ -116,13 +116,48 @@ let authInitSuccess = (user) => {
 //thunk
 export function initializeAuthorization(){
     return (dispatch, getState) => {
-        if (getState().users.initialized == true){
-            return Promise.resolve()
-        }
+        // if (getState().users.initialized == true){
+        //     return Promise.resolve()
+        // }
+
         dispatch(startAuthInit());
         return ParseAPI.fetchCurrentUserAsPromise().then(
             user => dispatch(authInitSuccess(user)),
             err => dispatch(authInitFailed())
         );
+    }
+}
+
+//USERS
+let loadUsers_ = () => {
+    return {
+        type: types.LOAD_USERS
+    }
+}
+
+let loadUsersFail = (error) => {
+    return {
+        type: types.LOAD_USERS_FAIL,
+        error: error
+    }
+}
+
+let loadUsersSuccess = (users) => {
+    return {
+        type: types.LOAD_USERS_SUCCESS,
+        users: users
+    }
+}
+
+export function loadUsersByIds(ids){
+    if (__DEV__){
+        console.log('loadUsersByIds occured: ids = ', ids);
+    }
+    return (dispatch, getState) => {
+        dispatch(loadUsers_());
+        return ParseAPI.getUsersByIds(ids).then(
+            users => dispatch(loadUsersSuccess(users)),
+            error => dispatch(loadUsersFail(error))
+        )
     }
 }

@@ -129,6 +129,9 @@ class SkinryCanvaPanel extends React.Component {
     getPolylines = () => {
         let {polylines} = this.props;
         let {width, height} = this.state.dimensions;
+        if (polylines == undefined){
+            polylines = [];
+        }
 
         return polylines.map( (p, k) => {
             let key = 'polyline_' + k;
@@ -136,6 +139,9 @@ class SkinryCanvaPanel extends React.Component {
             let arr = [];
             for (var i in p.lines){
                 let po = p.lines[i];
+                if (po == undefined){
+                    continue;
+                }
                 arr.push((+po.x) * (+width));
                 arr.push((+po.y) * (+height));
             }

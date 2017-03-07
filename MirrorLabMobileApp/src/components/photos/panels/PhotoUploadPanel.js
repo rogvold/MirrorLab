@@ -26,6 +26,8 @@
      ActivityIndicator
  } from 'react-native';
 
+ import ReactNative from 'react-native';
+
  import {Button} from 'nachos-ui';
 
  import FitImage from 'react-native-fit-image';
@@ -87,9 +89,13 @@
 
 
                  <View style={styles.submit_button_placeholder} >
-                     <Button iconName={'md-cloud-upload'} onPress={this.onUpload} >
-                         Upload
-                     </Button>
+                     {Platform.OS === 'ios' ?
+                         <Button iconName={'md-cloud-upload'} onPress={this.onUpload} >
+                             Upload
+                         </Button> :
+                         <ReactNative.Button onPress={this.onUpload} title={'Upload'} />
+                     }
+
                  </View>
 
 

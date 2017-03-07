@@ -104,6 +104,30 @@
                  <View></View>
              </TabNavigator.Item>
 
+             <TabNavigator.Item
+                 selected={tab === 'chat'}
+                 title="Messages"
+                 allowFontScaling={true}
+                 titleStyle={{fontSize: 14, color: colors.inactiveText}}
+                 selectedTitleStyle={{fontSize: 14, color: colors.darkText}}
+                 renderIcon={() => <Icon name="wechat" color={colors.inactiveText} size={24} />}
+                 renderSelectedIcon={() => <Icon name="wechat" color={colors.darkText} size={24} />}
+                 onPress={this.onTabSelect.bind(this, 'chat')} >
+                 <View></View>
+             </TabNavigator.Item>
+
+             <TabNavigator.Item
+                 selected={tab === 'dev'}
+                 title="Dev"
+                 allowFontScaling={true}
+                 titleStyle={{fontSize: 14, color: colors.inactiveText}}
+                 selectedTitleStyle={{fontSize: 14, color: colors.darkText}}
+                 renderIcon={() => <Icon name="th" color={colors.inactiveText} size={24} />}
+                 renderSelectedIcon={() => <Icon name="th" color={colors.darkText} size={24} />}
+                 onPress={this.onTabSelect.bind(this, 'dev')} >
+                 <View></View>
+             </TabNavigator.Item>
+
          </TabNavigator>
          )
      }

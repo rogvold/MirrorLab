@@ -82,6 +82,17 @@ const PhotosReducer =  (state = initialState, action = {}) => {
                 photosMap: deletePhoto(state, action.id)
             }
 
+        case types.UPDATE_PHOTO:
+            return startLoading(state, action)
+        case types.UPDATE_PHOTO_FAIL:
+            return stopLoading(state, action)
+        case types.UPDATE_PHOTO_SUCCESS:
+            return {
+                ...state,
+                loading: false,
+                photosMap: consumePhotos(state, [action.photo])
+            }
+
 
         default:
             return state;

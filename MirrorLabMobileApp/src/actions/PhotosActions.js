@@ -3,6 +3,7 @@
  */
 import * as types from '../constants/ActionTypes.js'
 import ParseAPI from '../api/ParseAPI.js';
+import PhotosAPI from '../api/PhotosAPI.js';
 
 //LOAD PHOTOS
 let loadPhotos_ = () => {
@@ -25,9 +26,17 @@ let loadPhotosSuccess = (photos) => {
 //thunk
 export function loadUserPhotos(userId){
     return (dispatch, getState) => {
+        let {photosMap} = getState().photos;
+        let photosArr = photosMap.toArray();
+        let max = 0;
+        for (let i in photosArr){
+            if (photosArr[i].timestamp > max && photosArr[i].userId == userId){
+                max = photosArr[i].timestamp;
+            }
+        }
         dispatch(loadPhotos_())
-        return ParseAPI.runCloudFunctionAsPromise('loadUserPhotos', {userId: userId}).then(
-            d => dispatch(loadPhotosSuccess(d.photos)),
+        return PhotosAPI.getUserPhotos(userId, max).then(
+            photos => dispatch(loadPhotosSuccess(photos)),
             error => dispatch(loadPhotosFail(error))
         )
     }

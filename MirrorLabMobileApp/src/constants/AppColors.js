@@ -8,3 +8,12 @@ export const darkText = '#032250'
 export const lightText = '#7F91A7'
 export const cellBorder = '#EEEEEE'
 export const darkBackground = '#183E63'
+
+export const questionnaireHeaderColor = '#FF0078'
+export const questionnaireInfoColor = '#B7B7BB'
+
+
+export const button1Color = '#EEA849'
+export const button2Color = '#A9BA5B'
+export const button3Color = '#76C0CD'
+export const button4Color = '#E90C7F'

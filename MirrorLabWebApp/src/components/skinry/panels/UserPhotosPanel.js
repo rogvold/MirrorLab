@@ -16,6 +16,10 @@ import UploadUserPhotoPanel from '../upload/panels/UploadUserPhotoPanel'
 
 import PimpledImage from '../image/PimpledImage'
 
+import SkinryUpdatablePimpleEditorPanel from '../editor/SkinryUpdatablePimpleEditorPanel'
+
+import Dialog from '../../dialog/Dialog'
+
 class UserPhotosPanel extends React.Component {
 
     static defaultProps = {}
@@ -23,7 +27,8 @@ class UserPhotosPanel extends React.Component {
     static propTypes = {}
 
     state = {
-        selectedPhoto: undefined
+        selectedPhoto: undefined,
+        selectedEditPhoto: undefined
     }
 
     //ES5 - componentWillMount
@@ -56,6 +61,24 @@ class UserPhotosPanel extends React.Component {
         this.setState({
             selectedPhoto: p
         })
+    }
+
+    onPhotoEditOpen = (p) => {
+        console.log('onPhotoEditOpen: p = ', p);
+        this.setState({
+            selectedEditPhoto: p
+        })
+    }
+
+    getSelectedEditPhotoContent = () => {
+        let {selectedEditPhoto} = this.state;
+        if (selectedEditPhoto == undefined){
+            return null;
+        }
+        let id = selectedEditPhoto.id;
+        return (
+            <SkinryUpdatablePimpleEditorPanel id={id}  />
+        )
     }
 
     getSelectedPhotoContent = () => {
@@ -95,13 +118,17 @@ class UserPhotosPanel extends React.Component {
         let photos = this.getPhotos();
         let {loading} = this.props;
 
+        let {selectedEditPhoto} = this.state;
+
         return (
             <div className={'user_images_panel'} >
 
                 <UploadUserPhotoPanel />
 
                 <div className={'photos_list_placeholder'} >
-                    <PhotosList photos={photos} onPhotoClick={this.onPhotoClick} />
+                    <PhotosList photos={photos}
+                                onPhotoEditOpen={this.onPhotoEditOpen}
+                                onPhotoClick={this.onPhotoClick} />
                 </div>
 
                 {loading == false ? null :
@@ -109,6 +136,13 @@ class UserPhotosPanel extends React.Component {
                 }
 
                 {this.getSelectedPhotoContent()}
+
+                {selectedEditPhoto == undefined ? null :
+                    <Dialog visible={true}
+                            content={this.getSelectedEditPhotoContent()}
+                            onClose={() => {this.setState({selectedEditPhoto: undefined})}} />
+                }
+
 
             </div>
         )

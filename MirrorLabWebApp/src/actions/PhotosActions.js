@@ -91,3 +91,30 @@ export function deletePhoto(id) {
         )
     }
 }
+
+let updatePhoto_ = () => {
+    return {
+        type: types.UPDATE_PHOTO
+    }
+}
+let updatePhotoFail = (error) => {
+    return {
+        type: types.UPDATE_PHOTO_FAIL,
+        error: error
+    }
+}
+let updatePhotoSuccess = (photo) => {
+    return {
+        type: types.UPDATE_PHOTO_SUCCESS,
+        photo: photo
+    }
+}
+export function updatePhoto(data) {
+    return (dispatch, getState) => {
+        dispatch(updatePhoto_())
+        return ParseAPI.runCloudFunctionAsPromise("updatePhoto", data).then(
+            (photo) => dispatch(updatePhotoSuccess(photo)),
+            error => dispatch(updatePhotoFail(error))
+        )
+    }
+}

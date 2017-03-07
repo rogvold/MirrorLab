@@ -19,6 +19,7 @@ import {
     Dimensions,
     Navigator,
     TouchableHighlight,
+    NativeModules,
     NativeAppEventEmitter,
     Platform,
     BackAndroid,
@@ -85,7 +86,8 @@ class IndexApp extends React.Component {
 
 }
 
-
+// const { StatusBarManager } = NativeModules;
+// const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 0 : StatusBarManager.HEIGHT;
 
 var styles = StyleSheet.create({
     container: {

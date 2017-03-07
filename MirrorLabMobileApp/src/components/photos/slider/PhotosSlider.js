@@ -26,12 +26,14 @@
      ActivityIndicator
  } from 'react-native';
 
-import ImageSlider from 'react-native-image-slider';
+ import ImageSlider from 'react-native-image-slider';
  import {Spinner} from 'nachos-ui'
 
-import FitImage from 'react-native-fit-image';
+ import FitImage from 'react-native-fit-image';
 
-import Swiper from 'react-native-swiper'
+ import Swiper from 'react-native-swiper'
+
+ import CacheableFitImage from '../../image/CacheableFitImage'
 
  class PhotosSlider extends React.Component {
 
@@ -67,8 +69,11 @@ import Swiper from 'react-native-swiper'
 
                          return (
                              <View key={key} style={styles.photo_item} >
-                                 <FitImage source={{uri: p.url}}
-                                           style={styles.local_image} />
+                                 <CacheableFitImage url={p.url}
+                                           style={{
+                                                height: Dimensions.get('window').height,
+                                                width: Dimensions.get('window').width
+                                           }} />
                              </View>
                          )
 
@@ -95,22 +100,22 @@ import Swiper from 'react-native-swiper'
 
      local_image: {
          // height: 200,
-         height: Dimensions.get('window').height,
-         width: Dimensions.get('window').width
+
      }
 
  });
 
 let getPhotos_ = (state) => {
-    let map = state.photos.photosMap;
-    let arr = [];
-    for (var key in map){
-        arr.push(map[key]);
+    let {currentUserId} = state.users;
+    if (__DEV__){
+        console.log('getPhotos_: state = ', state);
     }
-    arr.sort((a, b) => {
-        return (b.timestamp - a.timestamp);
-    });
-    return arr;
+    let photos = state.photos.photosMap.toArray().filter((p) => {return (p.userId == currentUserId)}).sort(
+        (a, b) => {
+            return (b.timestamp - a.timestamp)
+        }
+    );
+    return photos;
 }
 
  const mapStateToProps = (state) => {
@@ -129,3 +134,7 @@ let getPhotos_ = (state) => {
  PhotosSlider = connect(mapStateToProps, mapDispatchToProps)(PhotosSlider)
 
  export default PhotosSlider
+
+
+// oraportaldba@yahoo.com
+// Juniper1324

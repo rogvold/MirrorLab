@@ -18,9 +18,6 @@ import App from './components/apps/App'
 import ParseAPI from './api/ParseAPI';
 
 import * as usersActions from './actions/UsersActions';
-import * as videoCacheActions from './actions/VideoCacheActions';
-import * as memoSpeakActions from './actions/MemoSpeakActions';
-import * as stepsActions from './actions/StepsActions';
 
 import {reducer} from './reducers'
 
@@ -57,9 +54,6 @@ ReactDOM.render(
 let dispatchPreparations = () => {
     return (dispatch, getState) => {
         dispatch(usersActions.initializeAuthorization());
-        // dispatch(videoCacheActions.initializeDB());
-        // dispatch(memoSpeakActions.loadMemospeaks());
-        // dispatch(stepsActions.loadAttitudesMap());
     }
 }
 
