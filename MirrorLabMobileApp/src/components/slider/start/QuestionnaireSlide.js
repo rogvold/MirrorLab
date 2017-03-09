@@ -172,7 +172,7 @@
      },
 
      backButton: {
-        color: colors.questionnaireHeaderColor,
+         color: colors.questionnaireHeaderColor,
          fontSize: 16
      },
 

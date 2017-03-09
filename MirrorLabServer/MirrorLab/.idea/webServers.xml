@@ -19,7 +19,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="a66d48b6-113f-4bfe-996b-22a42f3e8c9d" name="mirrorparse.sabir.pro" url="http://mirrorparse.sabir.pro">
-        <fileTransfer host="mirrorparse.sabir.pro" port="22" accessType="SFTP">
+        <fileTransfer host="mirrorparse.sabir.pro" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

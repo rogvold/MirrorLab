@@ -1,7 +1,60 @@
 var UsersModule = require('./modules/UsersModule');
 var PhotosModule = require('./modules/PhotosModule');
+var UserLinksModule = require('./modules/UserLinksModule');
 
-require('./app.js');
+// Parse.Cloud.define("hello", function(request, response) {
+//     var data = request.params.data;
+//     response.success(data);
+// });
+
+//links
+
+Parse.Cloud.define("loadLinks", function(request, response) {
+    var data = request.params.data;
+    // response.success(data);
+    UserLinksModule.loadUserUserLinks(data, function(d){
+        response.success(d);
+    }, function(err){
+        response.error(err);
+    });
+});
+
+Parse.Cloud.define("loadUserLinks", function(request, response) {
+    var data = request.params.data;
+    UserLinksModule.loadUserUserLinks(data, function(d){
+        response.success(d);
+    }, function(err){
+        response.error(err);
+    });
+});
+
+Parse.Cloud.define("createUserLink", function(request, response) {
+    var data = request.params.data;
+    UserLinksModule.createLink(data, function(link){
+        response.success(link);
+    }, function(err){
+        response.error(err);
+    });
+});
+
+Parse.Cloud.define("deleteUserLink", function(request, response) {
+    var data = request.params.data;
+    UserLinksModule.deleteLink(data, function(){
+        response.success(data);
+    }, function(err){
+        response.error(err);
+    });
+});
+
+Parse.Cloud.define("updateUserLink", function(request, response) {
+    var data = request.params.data;
+    UserLinksModule.updateLink(data, function(updatedLink){
+        response.success(updatedLink);
+    }, function(err){
+        response.error(err);
+    });
+});
+
 
 Parse.Cloud.define("loadUserPhotos", function(request, response) {
     var data = request.params.data;
@@ -50,3 +103,4 @@ Parse.Cloud.define("updatePhoto", function(request, response) {
         response.error(err);
     });
 });
+

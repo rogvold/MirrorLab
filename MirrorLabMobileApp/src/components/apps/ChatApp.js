@@ -33,6 +33,8 @@ import UploadDaemon from '../upload/UploadDaemon'
 
 import ChatUserPanel from '../chat/panels/ChatUserPanel'
 
+import ChatFriendsPanel from '../chat/panels/ChatFriendsPanel'
+
 class ChatApp extends React.Component {
 
     static defaultProps = {}
@@ -59,7 +61,7 @@ class ChatApp extends React.Component {
         return (
             <View style={styles.container} >
 
-                <ChatUserPanel />
+                <ChatFriendsPanel />
 
             </View>
         )
@@ -71,10 +73,12 @@ var styles = StyleSheet.create({
     container: {
         // flex: 1,
         // paddingTop: 22,
-        paddingTop: 42,
+        // paddingTop: 42,
         height: Dimensions.get('window').height,
 
-        // backgroundColor: 'white',
+
+        backgroundColor: 'white',
+
         // flexDirection: 'column',
         // alignItems: 'center',
         // justifyContent: 'center'

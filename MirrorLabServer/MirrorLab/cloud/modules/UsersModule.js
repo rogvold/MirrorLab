@@ -135,6 +135,25 @@ var UsersModule = {
                 success(self.transformUser(updatedUser));
             });
         }, function(){});
+    },
+
+    loadUsersByIds: function(ids, callback){
+        console.log('loadUsersByIds: ids = ' + JSON.stringify(ids));
+        var q = new Parse.Query(Parse.User);
+        q.limit(10000);
+        q.containedIn('objectId', ids);
+        var self = this;
+        q.find({useMasterKey: true}).then(
+            function(users){
+                if (users == undefined){
+                    users = [];
+                }
+                users = users.map(function(u){
+                    return self.transformUser(u);
+                })
+                callback(users);
+            }
+        )
     }
 
 };

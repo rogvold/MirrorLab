@@ -156,17 +156,26 @@ import { GiftedChat } from 'react-native-gifted-chat';
      }
      let {usersMap, currentUserId} = state.users;
      let {messagesMap} = state.chat;
-     let messages = messagesMap.toArray().sort((a, b) => {
+     let allMessages = messagesMap.toArray();
+
+     if (__DEV__){
+         console.log('all messages = ', allMessages);
+     }
+
+     let messages = allMessages.sort((a, b) => {
          return (b.timestamp - a.timestamp);
      }).filter((m) => {
          return (
-             (m.fromId == friendId && m.fromId == currentUserId) ||
+             (m.fromId == friendId && m.toId == currentUserId) ||
              (m.fromId == currentUserId && m.toId == friendId)
          );
      }).map((m) => {
          let author = usersMap.get(m.fromId);
          return transformMessage(m, author)
-     })
+     });
+     if (__DEV__){
+         console.log('returning ', messages);
+     }
      return messages;
  }
 
@@ -175,7 +184,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
         currentUserId: state.users.currentUserId,
         currentUser: state.users.usersMap.get(state.users.currentUserId),
         loading: state.users.loading || state.chat.loading,
-        messages: getMessagesForChat(state, ownProps.toId)
+        messages: getMessagesForChat(state, ownProps.friendId)
     }
  }
 

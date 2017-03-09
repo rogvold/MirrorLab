@@ -97,6 +97,10 @@ let init = () => {
                     (payload) => {
                         return dispatch(chatActions.loadUserMessages(user.id))
                     }
+                ).then(
+                    (payload) => {
+                        return dispatch(usersActions.loadUserUserLinks(user.id))
+                    }
                 );
             }
         )

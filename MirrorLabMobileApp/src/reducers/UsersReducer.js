@@ -9,6 +9,7 @@ const initialState = {
     initialized: false,
     loading: false,
     usersMap: Map(),
+    linksMap: Map(),
     currentUserId: undefined,
     error: undefined
 }
@@ -101,6 +102,56 @@ const UsersReducer =  (state = initialState, action = {}) => {
                 ...state,
                 usersMap: state.usersMap.merge(action.users.reduce((res, u) => {return res.set(u.id, u)}, Map())),
                 loading: false
+            }
+
+        case types.LOAD_USER_LINKS:
+            return startLoading(state, action);
+
+        case types.LOAD_USER_LINKS_FAIL:
+            return stopLoading(state, action);
+
+        case types.LOAD_USER_LINKS_SUCCESS:
+            return {
+                ...state,
+                loading: false,
+                error: undefined,
+                usersMap: state.usersMap.merge(action.users.reduce((res, u) => {return res.set(u.id, u)}, Map())),
+                linksMap: state.linksMap.merge(action.links.reduce((res, u) => {return res.set(u.id, u)}, Map())),
+            }
+
+
+
+        case types.CREATE_USER_LINK:
+            return startLoading(state, action);
+        case types.CREATE_USER_LINK_FAIL:
+            return stopLoading(state, action);
+        case types.CREATE_USER_LINK_SUCCESS:
+            return {
+                ...state,
+                loading: false,
+                linksMap: state.linksMap.set(action.link.id, action.link)
+            }
+
+        case types.UPDATE_USER_LINK:
+            return startLoading(state, action);
+        case types.UPDATE_USER_LINK_FAIL:
+            return stopLoading(state, action);
+        case types.UPDATE_USER_LINK_SUCCESS:
+            return {
+                ...state,
+                loading: false,
+                linksMap: state.linksMap.set(action.link.id, action.link)
+            }
+
+        case types.DELETE_USER_LINK:
+            return startLoading(state, action);
+        case types.DELETE_USER_LINK_FAIL:
+            return stopLoading(state, action);
+        case types.DELETE_USER_LINK_SUCCESS:
+            return {
+                ...state,
+                loading: false,
+                linksMap: state.linksMap.delete(action.id)
             }
 
 

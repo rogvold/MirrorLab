@@ -32,6 +32,9 @@ let loadMessagesSuccess = (messages) => {
 //thunk
 export function loadUserMessages(userId){
     return (dispatch, getState) => {
+        if (userId == undefined){
+            userId = getState().users.currentUserId;
+        }
         let {messagesMap} = getState().chat;
         let messagesArr = messagesMap.toArray();
         let max = 0;
