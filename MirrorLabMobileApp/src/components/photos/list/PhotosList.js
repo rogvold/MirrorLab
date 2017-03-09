@@ -22,6 +22,7 @@
      Image,
      TextInput,
      Navigator,
+     TouchableOpacity,
      TouchableHighlight,
      NativeAppEventEmitter,
      Platform,
@@ -38,7 +39,14 @@ import CacheableFitImage from '../../image/CacheableFitImage'
  class PhotosList extends React.Component {
 
      static defaultProps = {
-         photos: []
+         photos: [],
+
+         onPhotoClick: (photoId) => {
+             if (__DEV__){
+                 console.log('onPhotoClick: photoId = ', photoId);
+             }
+         }
+
      }
 
      static propTypes = {}
@@ -64,25 +72,39 @@ import CacheableFitImage from '../../image/CacheableFitImage'
          return ds.cloneWithRows(photos);
      }
 
+     onPhotoClick = (photoId) => {
+         this.props.onPhotoClick(photoId);
+     }
+
      getPhotoRow = (photo) => {
         return (
             <View style={styles.photo_item}>
 
-                <View style={styles.image_placeholder} >
+                <TouchableOpacity style={{
+                                                flex: 1,
+                                                flexWrap: 'wrap',
+                                                flexDirection:'row',
+                                                justifyContent: 'flex-start',
+                                                alignItems: 'center'
+                                            }}
+                                  onPress={this.onPhotoClick.bind(this, photo.id)} >
+                    <View style={styles.image_placeholder} >
 
-                    <CacheableFitImage
-                        url={photo.url}
-                        originalWidth={50}
-                        originalHeight={50}
-                        style={{borderRadius: 4}}
-                    />
+                        <CacheableFitImage
+                            url={photo.url}
+                            originalWidth={50}
+                            originalHeight={50}
+                            style={{borderRadius: 4}}
+                        />
 
-                </View>
-                <View style={styles.info_placeholder} >
-                    <Text>
-                        {moment(photo.timestamp).format('LLL')}
-                    </Text>
-                </View>
+                    </View>
+                    <View style={styles.info_placeholder} >
+                        <Text>
+                            {moment(photo.timestamp).format('LLL')}
+                        </Text>
+                    </View>
+
+                </TouchableOpacity>
             </View>
         )
      }

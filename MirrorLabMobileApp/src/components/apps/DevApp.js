@@ -33,6 +33,12 @@ import UploadDaemon from '../upload/UploadDaemon'
  import InfoSlider from '../slider/info/InfoSlider'
  import QuestionnaireSwiper from '../slider/start/QuestionnaireSwiper'
 
+ import SkinryImage from '../skinry/image/SkinryImage'
+ import SkinryUserImage from '../skinry/image/SkinryUserImage'
+
+ // import { Animated } from 'react-native';
+ // import Animation from 'lottie-react-native';
+
 class DevApp extends React.Component {
 
     static defaultProps = {}
@@ -59,7 +65,16 @@ class DevApp extends React.Component {
         return (
             <View style={styles.container} >
 
-                <QuestionnaireSwiper />
+                {/*<QuestionnaireSwiper />*/}
+
+
+                {/*<SkinryImage />*/}
+
+                <SkinryUserImage photoId={'QP2EzjwH2O'} />
+
+
+
+
 
             </View>
         )
