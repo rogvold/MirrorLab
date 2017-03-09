@@ -137,9 +137,6 @@ import Svg,{
          let {points} = this.props;
          let {width, height} = this.props;
 
-         if (__DEV__){
-             console.log('getPoints: points = ', points);
-         }
 
          return points.map( (p, k) => {
              let key = 'circle_' + k;

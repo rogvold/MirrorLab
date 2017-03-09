@@ -36,9 +36,6 @@ import UploadDaemon from '../upload/UploadDaemon'
  import SkinryImage from '../skinry/image/SkinryImage'
  import SkinryUserImage from '../skinry/image/SkinryUserImage'
 
- // import { Animated } from 'react-native';
- // import Animation from 'lottie-react-native';
-
 class DevApp extends React.Component {
 
     static defaultProps = {}

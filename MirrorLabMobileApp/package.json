@@ -10,7 +10,6 @@
 		"crypto-js": "^3.1.9-1",
 		"immutable": "^3.8.1",
 		"isemail": "^2.2.1",
-		"lottie-react-native": "^1.0.6",
 		"moment": "^2.17.1",
 		"nachos-ui": "^0.1.2",
 		"native-base": "^2.0.11",

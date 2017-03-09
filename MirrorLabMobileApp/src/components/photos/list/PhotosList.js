@@ -76,6 +76,36 @@ import CacheableFitImage from '../../image/CacheableFitImage'
          this.props.onPhotoClick(photoId);
      }
 
+     shouldComponentUpdate(nextProps, nextState) {
+         if (__DEV__){
+             console.log('PhotosList: shouldComponentUpdate occured');
+         }
+         let oldPhotos = this.props.photos;
+         let {photos} = nextProps;
+         let res = false;
+         if (photos == undefined || oldPhotos == undefined){
+             if (__DEV__){
+                 console.log('PhotosList: shouldComponentUpdate: returning res = (photos == undefined || oldPhotos == undefined)', true);
+             }
+             return true;
+         }
+         if (photos.length != oldPhotos.length){
+             if (__DEV__){
+                 console.log('PhotosList: shouldComponentUpdate: returning res = (photos.length != oldPhotos.length)', true);
+             }
+             return true;
+         }
+         for (let i in photos){
+             if (photos[i].url != oldPhotos[i].url){
+                 res = true;
+             }
+         }
+         if (__DEV__){
+             console.log('PhotosList: shouldComponentUpdate: returning res = ', res);
+         }
+         return res;
+     }
+
      getPhotoRow = (photo) => {
         return (
             <View style={styles.photo_item}>

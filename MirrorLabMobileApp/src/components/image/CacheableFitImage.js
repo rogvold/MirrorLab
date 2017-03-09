@@ -72,8 +72,11 @@
         }
         let {url} = this.props;
         let newUrl = nextProps.url;
-        // return (url != newUrl)
-         return true;
+        let res = ((url != newUrl) || (nextState.cachedUri != this.state.cachedUri));
+        if (__DEV__){
+            console.log('shouldComponentUpdate: returning ', res);
+        }
+        return res;
      }
 
      loadImage = (url) => {
