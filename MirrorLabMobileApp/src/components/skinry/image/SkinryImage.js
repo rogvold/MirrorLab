@@ -34,6 +34,8 @@
 
  import SkinrySvgPanel from './SkinrySvgPanel'
 
+ import CacheableFitImage from '../../image/CacheableFitImage'
+
  class SkinryImage extends React.Component {
 
      static defaultProps = {
@@ -43,8 +45,14 @@
          url: 'https://pophaircuts.com/images/2012/12/Audrey-Tautou-Short-Haircuts-for-Curly-Hair.jpg',
 
          landmarks: [],
+         spots: [],
+         undereyes: [],
 
-         spots: []
+         onClick: () => {
+             if (__DEV__){
+                 console.log('onClick occured');
+             }
+         }
 
      }
 
@@ -67,17 +75,13 @@
 
      getPoints = () => {
          let {landmarks, spots} = this.props;
-         if (__DEV__){
-             console.log('getPoints: landmarks, spots = ', landmarks, spots);
-         }
+
          let landmarksPoints = landmarks.map((p) => {return Object.assign({}, p, {rx: 0.007, ry: 0.007, fillColor: 'grey', borderColor: 'grey'})});
 
          let spotsPoints = spots.map((p) => {return Object.assign({}, p, {fillColor: 'rgba(240, 128, 128, 0.6)', borderColor: 'lightcoral'})});;
 
          let res = landmarksPoints.concat(spotsPoints);
-         if (__DEV__){
-             console.log('returning ', res);
-         }
+
          return res;
      }
 
@@ -165,6 +169,9 @@
              return [];
          }
          let {pointsLeft, pointsRight} = undereyes;
+         pointsLeft = pointsLeft == undefined ? [] : pointsLeft;
+         pointsRight = pointsRight == undefined ? [] : pointsRight;
+
          let left = {
              color: 'blue',
              lines: (pointsLeft.length == 0) ? [] : pointsLeft.concat([pointsLeft[0]])
@@ -175,7 +182,6 @@
          }
          res.push(left);
          res.push(right);
-         console.log('getUnderEyesPolylines: returning res = ', res);
          return res;
      }
 
@@ -196,27 +202,34 @@
          }
 
          return (
-             <View style={st} >
+             <TouchableHighlight style={st} onPress={this.props.onClick} >
 
-                 <View style={{zIndex: 2, position: 'absolute',
-                               left: 0, right: 0, top: 0, bottom: 0,
-                               backgroundColor: 'rgba(0, 0, 0, 0.3)'}} >
+                 <View style={{flex: 1}} >
 
-                     <SkinrySvgPanel
-                                    width={width}
-                                    height={height}
-                                    polylines={this.getPolylines()}
-                                    points={this.getPoints()}
-                            />
+                     <View style={{zIndex: 2, position: 'absolute',
+                                   left: 0, right: 0, top: 0, bottom: 0,
+                                   backgroundColor: 'rgba(0, 0, 0, 0.3)'}} >
+
+                         <SkinrySvgPanel
+                                        width={width}
+                                        height={height}
+                                        polylines={this.getPolylines()}
+                                        points={this.getPoints()}
+                                />
+
+                     </View>
+
+                     <View style={{position: 'absolute', top: 0, bottom: 0, left: 0, right: 0, zIndex: 1}} >
+                         <CacheableFitImage style={{width: width, height: height}}
+                                            originalWidth={width}
+                                            originalHeight={height}
+                                            url={url}
+                                source={{uri: url}} />
+                     </View>
 
                  </View>
 
-                 <View style={{position: 'absolute', top: 0, bottom: 0, left: 0, right: 0, zIndex: 1}} >
-                     <Image style={{width: width, height: height}}
-                            source={{uri: url}} />
-                 </View>
-
-             </View>
+             </TouchableHighlight>
          )
      }
 

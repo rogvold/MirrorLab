@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -13,8 +12,8 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* MirrorLabMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MirrorLabMobileAppTests.m */; };
-		033186261E56772B00A4FB37 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 033186251E56772B00A4FB37 /* main.jsbundle */; };
 		036A638A1E51F41F00F8B865 /* RCTBundleURLProvider.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 036A63891E51F41F00F8B865 /* RCTBundleURLProvider.h */; };
+		036B652B1E71FA1E00AAF277 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 036B652A1E71FA1E00AAF277 /* main.jsbundle */; };
 		063800F8DC634C409F503526 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71D3359B1647FFBC4E7BDD /* Rubik-LightItalic.ttf */; };
 		080E8FF0840C47968B3F6AAA /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4567E0538804BE9898A25AA /* Roboto_medium.ttf */; };
 		0A3A7DAB05774342ACBF6E49 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6ECE0F512E46E7BF529E3A /* libRCTCamera.a */; };
@@ -316,8 +315,8 @@
 		00E356EE1AD99517003FC87E /* MirrorLabMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorLabMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MirrorLabMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorLabMobileAppTests.m; sourceTree = "<group>"; };
-		033186251E56772B00A4FB37 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		036A63891E51F41F00F8B865 /* RCTBundleURLProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBundleURLProvider.h; path = "../node_modules/react-native/React/Base/RCTBundleURLProvider.h"; sourceTree = "<group>"; };
+		036B652A1E71FA1E00AAF277 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		0D03CA066A9E43D594208AE6 /* Courier New.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Courier New.ttf"; path = "../node_modules/native-base/Fonts/Courier New.ttf"; sourceTree = "<group>"; };
 		0DD31064FFFA4EA6B63E0C8E /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../node_modules/native-base/Fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		131F9CD2B9A949F398B7EECC /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
@@ -563,7 +562,7 @@
 		13B07FAE1A68108700A75B9A /* MirrorLabMobileApp */ = {
 			isa = PBXGroup;
 			children = (
-				033186251E56772B00A4FB37 /* main.jsbundle */,
+				036B652A1E71FA1E00AAF277 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -1131,7 +1130,6 @@
 				A86605075C374BFA9CA518B2 /* MaterialIcons.ttf in Resources */,
 				1240AFE2E1FB4695A0948932 /* Octicons.ttf in Resources */,
 				23F5C51F03054ADDBED6F955 /* SimpleLineIcons.ttf in Resources */,
-				033186261E56772B00A4FB37 /* main.jsbundle in Resources */,
 				9500F723C8EA4929A14E2EBC /* Zocial.ttf in Resources */,
 				B4535A5C33A3422080AD6A33 /* Andale Mono.ttf in Resources */,
 				57FA4E67961B445E8337367D /* Arial Black.ttf in Resources */,
@@ -1166,6 +1164,7 @@
 				8A57E247053C480BA9EB156E /* SF-UI-Text-Regular.otf in Resources */,
 				28B2D87E2C71464DAEC2C393 /* Skia.ttf in Resources */,
 				BF95C445966044F9A91CEDAE /* Times New Roman.ttf in Resources */,
+				036B652B1E71FA1E00AAF277 /* main.jsbundle in Resources */,
 				AF6A6108F6804561AE256D20 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

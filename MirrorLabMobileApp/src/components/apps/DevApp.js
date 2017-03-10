@@ -21,7 +21,8 @@ import {
     Platform,
     BackAndroid,
     ActivityIndicator,
-    Dimensions
+    Dimensions,
+    Picker
 } from 'react-native';
 
 import LogoutButton from '../auth/buttons/LogoutButton'
@@ -36,13 +37,23 @@ import UploadDaemon from '../upload/UploadDaemon'
  import SkinryImage from '../skinry/image/SkinryImage'
  import SkinryUserImage from '../skinry/image/SkinryUserImage'
 
+ const { width, height } = Dimensions.get('window')
+
+ import FoldView from 'react-native-foldview';
+
+ import PhotosHistoryTabbedPanel from '../photos/history/panels/PhotosHistoryTabbedPanel'
+
+ const Item = Picker.Item;
+
 class DevApp extends React.Component {
 
     static defaultProps = {}
 
     static propTypes = {}
 
-    state = {}
+    state = {
+        expanded: false
+    }
 
     //ES5 - componentWillMount
     constructor(props) {
@@ -57,6 +68,15 @@ class DevApp extends React.Component {
 
     }
 
+    flip() {
+        this.setState({
+            expanded: !this.state.expanded,
+        });
+    }
+
+
+
+
     render = () => {
 
         return (
@@ -64,13 +84,22 @@ class DevApp extends React.Component {
 
                 {/*<QuestionnaireSwiper />*/}
 
-
                 {/*<SkinryImage />*/}
 
-                <SkinryUserImage photoId={'QP2EzjwH2O'} />
+                {/*<SkinryUserImage photoId={'QP2EzjwH2O'} />*/}
 
 
-
+                {/*<FoldView*/}
+                    {/*expanded={this.state.expanded}*/}
+                    {/*renderBackface={this.renderBackface}*/}
+                    {/*renderFrontface={this.renderFrontface}*/}
+                {/*>*/}
+                    {/*<View>*/}
+                        {/*<Text>*/}
+                            {/*base*/}
+                        {/*</Text>*/}
+                    {/*</View>*/}
+                {/*</FoldView>*/}
 
 
             </View>

@@ -22,7 +22,8 @@ import {
     Platform,
     BackAndroid,
     ActivityIndicator,
-    Dimensions
+    Dimensions,
+    StatusBar
 } from 'react-native';
 
 import LogoutButton from '../auth/buttons/LogoutButton'
@@ -34,6 +35,8 @@ import UploadDaemon from '../upload/UploadDaemon'
 import ChatUserPanel from '../chat/panels/ChatUserPanel'
 
 import ChatFriendsPanel from '../chat/panels/ChatFriendsPanel'
+
+import * as colors from '../../constants/AppColors'
 
 class ChatApp extends React.Component {
 
@@ -61,7 +64,15 @@ class ChatApp extends React.Component {
         return (
             <View style={styles.container} >
 
-                <ChatFriendsPanel />
+                <View style={styles.headerPlaceholder} >
+                    <Text style={styles.headerTextPlaceholder} >
+                        Messages
+                    </Text>
+                </View>
+
+                <View style={styles.contentPlaceholder} >
+                    <ChatFriendsPanel />
+                </View>
 
             </View>
         )
@@ -69,24 +80,43 @@ class ChatApp extends React.Component {
 
 }
 
+let {width, height} = Dimensions.get('window');
+
 var styles = StyleSheet.create({
     container: {
         // flex: 1,
         // paddingTop: 22,
         // paddingTop: 42,
-        height: Dimensions.get('window').height,
+        height: height,
 
 
         backgroundColor: 'white',
+
 
         // flexDirection: 'column',
         // alignItems: 'center',
         // justifyContent: 'center'
     },
 
-    button_placeholder: {
-        height: 50,
-        alignSelf: 'center'
+    headerPlaceholder: {
+        height: 40,
+        width: width,
+        alignItems: 'center',
+        justifyContent: 'center',
+
+        borderBottomWidth: 1,
+        borderBottomColor: colors.cellBorder
+
+    },
+
+    headerTextPlaceholder: {
+        textAlign: 'center',
+        fontSize: 16
+    },
+
+    contentPlaceholder: {
+        height: height - 40 - 22,
+        width: width
     }
 
 

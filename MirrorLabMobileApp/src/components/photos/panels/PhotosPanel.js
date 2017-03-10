@@ -129,7 +129,7 @@ import PhotosList from '../list/PhotosList'
          let currentNumber = this.getCurrentNumber();
 
          return (
-             <ScrollView style={styles.container} >
+             <View style={styles.container} >
 
                  {loading == false ? null :
                      <View style={{alignItems: 'center', justifyContent: 'center', height: 30}} >
@@ -169,7 +169,8 @@ import PhotosList from '../list/PhotosList'
                                  <PhotoAnalysisPanel
                                      canPrev={+currentNumber > 0}
                                      canNext={+currentNumber < photos.length - 1}
-                                     photoId={selectedPhotoId} onPrev={this.onPrev} onNext={this.onNext} />
+                                     photoId={selectedPhotoId}
+                                     onPrev={this.onPrev} onNext={this.onNext} />
                              </ScrollView>
 
                          </View>
@@ -177,7 +178,7 @@ import PhotosList from '../list/PhotosList'
 
                  </Modal>
 
-             </ScrollView>
+             </View>
          )
      }
 

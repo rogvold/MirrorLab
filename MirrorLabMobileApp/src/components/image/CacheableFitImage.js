@@ -64,6 +64,11 @@
         this.loadImage(url);
      }
 
+     componentWillReceiveProps(nextProps) {
+         if (nextProps.url != this.props.url){
+             this.loadImage(nextProps.url);
+         }
+     }
 
 
      shouldComponentUpdate = (nextProps, nextState) => {
@@ -105,7 +110,7 @@
          if (loading == true){
              return (
                  <View style={st} >
-                    <Text>loading...</Text>
+                    <Text style={{textAlign: 'center', marginTop: 10}} >loading...</Text>
                  </View>
              )
          }

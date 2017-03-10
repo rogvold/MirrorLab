@@ -1851,7 +1851,7 @@ inquirer@^0.12.0:
     strip-ansi "^3.0.0"
     through "^2.3.6"
 
-invariant@^2.0.0, invariant@^2.2.0:
+invariant@^2.0.0, invariant@^2.2.0, invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -3190,6 +3190,13 @@ react-native-fit-image@^1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/react-native-fit-image/-/react-native-fit-image-1.4.7.tgz#4d9cdadeb850fe582981f8f2448e10e122b29d8b"
 
+react-native-foldview@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-foldview/-/react-native-foldview-1.1.1.tgz#0eb9181439d85d82b70670d626aaf44ab0203562"
+  dependencies:
+    invariant "^2.2.2"
+    warning "^3.0.0"
+
 react-native-fs@^2.0.1-rc.2:
   version "2.0.1-rc.3"
   resolved "https://registry.yarnpkg.com/react-native-fs/-/react-native-fs-2.0.1-rc.3.tgz#c7db2b42bb666719232b935a2a0981af92c7bf85"
@@ -3270,7 +3277,7 @@ react-native-scrollable-mixin@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-native-scrollable-mixin/-/react-native-scrollable-mixin-1.0.1.tgz#34a32167b64248594154fd0d6a8b03f22740548e"
 
-react-native-scrollable-tab-view@^0.7.1:
+react-native-scrollable-tab-view@^0.7.1, react-native-scrollable-tab-view@^0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-native-scrollable-tab-view/-/react-native-scrollable-tab-view-0.7.2.tgz#8d35bfdcd922d22beb8cbb079be277e09e86978a"
   dependencies:
@@ -4146,6 +4153,12 @@ walker@~1.0.5:
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   dependencies:
     makeerror "1.0.x"
+
+warning@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
 
 watch@~0.10.0:
   version "0.10.0"

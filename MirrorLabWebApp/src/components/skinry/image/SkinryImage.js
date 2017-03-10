@@ -12,6 +12,7 @@ class SkinryImage extends React.Component {
 
     static defaultProps = {
         url: 'https://mirrorlab.sabir.pro/uploads/kohrzhxeesnyrpdogdjyciuyjlgmlp.jpg',
+
         landmarks: [],
 
         spots: [],

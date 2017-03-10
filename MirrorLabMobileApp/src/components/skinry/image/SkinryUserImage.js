@@ -34,6 +34,7 @@
  const { StatusBarManager } = NativeModules;
 
  import SkinryImage from './SkinryImage'
+ import SkinryToggableImage from './SkinryToggableImage'
 
  class SkinryUserImage extends React.Component {
 
@@ -63,7 +64,7 @@
      }
 
      render = () => {
-         let {photo, photoWidth} = this.props;
+         let {photo, photoWidth, photoHeight} = this.props;
 
          if (__DEV__){
              console.log('rendering SkinryUserImage: photo = ', photo);
@@ -78,8 +79,18 @@
          let w = photoWidth;
          let h = (1.0 * height / width) * w;
 
+         if (photoHeight != undefined && photoWidth != undefined){
+             if ((1.0 * height / width) >= (1.0 * photoWidth / photoHeight)){
+                 h = photoHeight;
+                 w = (1.0 * width / height) * photoHeight;
+             }else {
+                 w = photoWidth;
+                 height = (1.0 * height / width) * photoWidth;
+             }
+         }
+
          return (
-             <SkinryImage
+             <SkinryToggableImage
                           width={w}
                           height={h}
                           landmarks={photo.data.imgInfo.landmarksXY} url={photo.url}

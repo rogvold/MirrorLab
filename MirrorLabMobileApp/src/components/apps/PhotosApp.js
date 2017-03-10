@@ -32,6 +32,8 @@ import PhotosPanel from '../photos/panels/PhotosPanel'
 
 import UploadDaemon from '../upload/UploadDaemon'
 
+import PhotosHistoryTabbedPanel from '../photos/history/panels/PhotosHistoryTabbedPanel'
+
 class PhotosApp extends React.Component {
 
     static defaultProps = {}
@@ -61,7 +63,7 @@ class PhotosApp extends React.Component {
         return (
             <View style={styles.container} >
 
-                <PhotosPanel />
+                <PhotosHistoryTabbedPanel />
 
                 <UploadDaemon/>
 
@@ -76,7 +78,7 @@ let screenHeight = Dimensions.get("window").height;
 var styles = StyleSheet.create({
     container: {
         // flex: 1,
-        paddingTop: 22,
+        // paddingTop: 22,
         // alignSelf: 'stretch',
         backgroundColor: 'whitesmoke',
         height: screenHeight,

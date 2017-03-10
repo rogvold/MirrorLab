@@ -147,6 +147,7 @@ class SkinryCanvaPanel extends React.Component {
             }
             return (
                 <Group key={key} >
+
                     <Line
                         points={arr}
                         tension={0.7}

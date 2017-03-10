@@ -177,6 +177,9 @@ import Svg,{
                  arr.push((+po.y) * (+height));
              }
              let pointsString = arr.join(',');
+             if (arr.length == 0){
+                 return null;
+             }
              return (
                  <G key={key} >
                      <Polyline
