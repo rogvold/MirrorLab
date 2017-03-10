@@ -45,6 +45,8 @@ import UploadDaemon from '../upload/UploadDaemon'
 
  const Item = Picker.Item;
 
+ // import Chart from 'react-native-chart';
+
 class DevApp extends React.Component {
 
     static defaultProps = {}
@@ -79,10 +81,26 @@ class DevApp extends React.Component {
 
     render = () => {
 
+        // const data = [[
+        //     [0, 1],
+        //     [1, 3],
+        //     [3, 7],
+        //     [4, 9],
+        // ]];
+
         return (
             <View style={styles.container} >
 
-                {/*<QuestionnaireSwiper />*/}
+                {/*<Chart*/}
+                    {/*style={styles.chart}*/}
+                    {/*data={data}*/}
+                    {/*verticalGridStep={5}*/}
+                    {/*type="line"*/}
+                    {/*showDataPoint={true}*/}
+                    {/*color={['#e1cd00']}*/}
+                {/*/>*/}
+
+                <QuestionnaireSwiper />
 
                 {/*<SkinryImage />*/}
 
@@ -117,13 +135,19 @@ var styles = StyleSheet.create({
         backgroundColor: 'white',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        //
     },
 
     button_placeholder: {
         height: 50,
         alignSelf: 'center'
-    }
+    },
+
+    chart: {
+        width: 200,
+        height: 200,
+    },
 
 
 });
