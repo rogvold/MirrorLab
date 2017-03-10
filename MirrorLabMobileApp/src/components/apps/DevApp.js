@@ -47,6 +47,10 @@ import UploadDaemon from '../upload/UploadDaemon'
 
  // import Chart from 'react-native-chart';
 
+ import TestChartPanel from '../stats/charts/TestChartPanel'
+
+
+
 class DevApp extends React.Component {
 
     static defaultProps = {}
@@ -90,6 +94,11 @@ class DevApp extends React.Component {
 
         return (
             <View style={styles.container} >
+
+
+
+
+                {/*<TestChartPanel />*/}
 
                 {/*<Chart*/}
                     {/*style={styles.chart}*/}
