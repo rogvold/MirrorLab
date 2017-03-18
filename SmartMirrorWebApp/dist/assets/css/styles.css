@@ -1,0 +1,787 @@
+.ui.button.primary {
+  background-color: #48468E !important;
+  color: white; }
+  .ui.button.primary i {
+    margin-left: 10px;
+    margin-right: -7px; }
+  .ui.button.primary:hover {
+    opacity: 0.85; }
+
+.dialog .dialog_overlay {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  /*background: rgba(150, 181, 116, 0.8);*/
+  background: rgba(0, 0, 0, 0.9); }
+
+.dialog .main_panel {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+  .dialog .main_panel .dialog_content_placeholder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center; }
+    .dialog .main_panel .dialog_content_placeholder .dialog_content {
+      display: inline-block;
+      margin-top: 50px;
+      max-height: calc(100vh - 50px);
+      height: auto;
+      text-align: left; }
+      .dialog .main_panel .dialog_content_placeholder .dialog_content .inner_content {
+        width: 100%;
+        height: 100%;
+        max-height: 80vh;
+        /*overflow-y: ;*/
+        position: relative; }
+    .dialog .main_panel .dialog_content_placeholder .close_button_placeholder {
+      position: absolute;
+      right: -26px;
+      top: -26px;
+      width: 26px;
+      height: 26px;
+      line-height: 26px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 1000px;
+      /*background-color: white;*/
+      cursor: pointer;
+      opacity: 0.9;
+      color: white;
+      transition: all .3s ease-in-out; }
+      .dialog .main_panel .dialog_content_placeholder .close_button_placeholder:hover {
+        opacity: 1;
+        transform: scale(1.1); }
+      .dialog .main_panel .dialog_content_placeholder .close_button_placeholder i {
+        margin-right: 0px !important;
+        font-weight: 100 !important;
+        opacity: 0.7;
+        vertical-align: top; }
+
+.corporate_template {
+  width: 100vw;
+  height: 100vh; }
+  .corporate_template .left_sidebar {
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    background: #343268; }
+    .corporate_template .left_sidebar .logo_placeholder {
+      height: 50px;
+      width: 100%;
+      background: #343268;
+      padding: 4px; }
+      .corporate_template .left_sidebar .logo_placeholder .logo {
+        height: 100%; }
+    .corporate_template .left_sidebar .sidebar_placeholder {
+      height: calc(100% - 50px);
+      max-height: calc(100% - 50px);
+      overflow-y: auto;
+      width: 100%; }
+      .corporate_template .left_sidebar .sidebar_placeholder .sidebar {
+        width: 100%; }
+        .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder {
+          width: 100%;
+          margin-top: 30px; }
+          .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder .links {
+            width: 100%; }
+            .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder .links .link {
+              width: 100%;
+              padding: 15px;
+              font-size: 18px;
+              color: #6562A3;
+              cursor: pointer; }
+              .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder .links .link.selected, .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder .links .link:hover {
+                font-weight: bold;
+                background-color: #48468E;
+                color: white; }
+              .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder .links .link.selected {
+                cursor: default; }
+              .corporate_template .left_sidebar .sidebar_placeholder .sidebar .links_placeholder .links .link.logout_link {
+                position: absolute;
+                bottom: 0px; }
+  .corporate_template .main_area {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 200px);
+    height: 100%; }
+    .corporate_template .main_area > .header {
+      background: #FFFFFF;
+      height: 50px;
+      border-bottom: 1px solid lightgrey; }
+      .corporate_template .main_area > .header .header_inner {
+        height: 100%;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative; }
+        .corporate_template .main_area > .header .header_inner .left_placeholder {
+          position: absolute;
+          height: 100%;
+          left: 10px; }
+          .corporate_template .main_area > .header .header_inner .left_placeholder .current_page_name_placeholder .current_page_name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #858598; }
+        .corporate_template .main_area > .header .header_inner .right_placeholder {
+          height: 100%;
+          position: absolute;
+          right: 10px; }
+          .corporate_template .main_area > .header .header_inner .right_placeholder .current_user_placeholder {
+            height: 100%; }
+            .corporate_template .main_area > .header .header_inner .right_placeholder .current_user_placeholder .name_placeholder {
+              display: inline-block;
+              vertical-align: top;
+              color: #858598;
+              font-weight: bold; }
+            .corporate_template .main_area > .header .header_inner .right_placeholder .current_user_placeholder .avatar_placeholder {
+              height: 100%;
+              display: inline-block;
+              vertical-align: top;
+              padding: 6px; }
+              .corporate_template .main_area > .header .header_inner .right_placeholder .current_user_placeholder .avatar_placeholder img {
+                height: 100%;
+                border-radius: 1000px; }
+    .corporate_template .main_area .content {
+      height: calc(100% - 50px - 1px);
+      max-height: calc(100% - 50px - 1px);
+      overflow-y: auto;
+      background: #F3F3F8;
+      position: relative; }
+
+.users_panel .users_list .user_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  width: calc(25% - 10px);
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer; }
+  .users_panel .users_list .user_item .top_placeholder .avatar_placeholder {
+    padding: 20px; }
+    .users_panel .users_list .user_item .top_placeholder .avatar_placeholder .avatar {
+      width: 100%;
+      border-radius: 4px; }
+  .users_panel .users_list .user_item .medium_placeholder .name_placeholder .name {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: #858598; }
+  .users_panel .users_list .user_item .bottom_placeholder {
+    margin-top: 15px; }
+    .users_panel .users_list .user_item .bottom_placeholder .info_links_placeholder .info_item {
+      margin-bottom: 10px;
+      color: #858598;
+      text-align: center; }
+      .users_panel .users_list .user_item .bottom_placeholder .info_links_placeholder .info_item .icon_placeholder {
+        background-color: #E2E5EE;
+        color: #9098B1;
+        padding: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 2px;
+        border-radius: 1000px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top; }
+        .users_panel .users_list .user_item .bottom_placeholder .info_links_placeholder .info_item .icon_placeholder i {
+          margin-right: 0px !important; }
+      .users_panel .users_list .user_item .bottom_placeholder .info_links_placeholder .info_item .info_placeholder {
+        display: inline-block;
+        vertical-align: top;
+        color: #A6A7B7;
+        text-align: left; }
+        .users_panel .users_list .user_item .bottom_placeholder .info_links_placeholder .info_item .info_placeholder .bottom {
+          font-weight: bold; }
+  .users_panel .users_list .user_item:hover .medium_placeholder .name_placeholder .name, .users_panel .users_list .user_item:hover .bottom_placeholder .icon_placeholder i {
+    color: #6565FB !important; }
+  .users_panel .users_list .user_item:hover {
+    opacity: 0.8; }
+
+.user_panel, .edit_profile_panel {
+  background-color: white;
+  position: relative;
+  width: 640px;
+  margin: 0 auto;
+  height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
+  border-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; }
+  .user_panel .top, .edit_profile_panel .top {
+    text-align: center; }
+    .user_panel .top .avatar_placeholder, .edit_profile_panel .top .avatar_placeholder {
+      display: inline-block;
+      text-align: center;
+      padding-top: 10px;
+      position: relative;
+      height: auto; }
+      .user_panel .top .avatar_placeholder .avatar, .edit_profile_panel .top .avatar_placeholder .avatar {
+        display: inline-block;
+        width: 120px; }
+      .user_panel .top .avatar_placeholder .edit_placeholder, .edit_profile_panel .top .avatar_placeholder .edit_placeholder {
+        display: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding-top: 10px; }
+      .user_panel .top .avatar_placeholder .edit_placeholder, .edit_profile_panel .top .avatar_placeholder .edit_placeholder {
+        display: block;
+        color: #48468E; }
+        .user_panel .top .avatar_placeholder .edit_placeholder .span, .edit_profile_panel .top .avatar_placeholder .edit_placeholder .span {
+          padding: 5px;
+          border-radius: 1000px;
+          background-color: rgba(0, 0, 0, 0.6);
+          color: white; }
+        .user_panel .top .avatar_placeholder .edit_placeholder i, .edit_profile_panel .top .avatar_placeholder .edit_placeholder i {
+          margin-right: 0px !important;
+          cursor: pointer; }
+    .user_panel .top .name_placeholder .name, .edit_profile_panel .top .name_placeholder .name {
+      text-align: center;
+      color: #858598;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px; }
+  .user_panel .bottom, .edit_profile_panel .bottom {
+    margin-bottom: 20vh;
+    position: relative; }
+    .user_panel .bottom .tabs_placeholder, .edit_profile_panel .bottom .tabs_placeholder {
+      text-align: center;
+      margin-top: 20px;
+      line-height: 10px; }
+      .user_panel .bottom .tabs_placeholder .tab, .edit_profile_panel .bottom .tabs_placeholder .tab {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        color: #858598;
+        opacity: 0.7; }
+        .user_panel .bottom .tabs_placeholder .tab.active, .edit_profile_panel .bottom .tabs_placeholder .tab.active {
+          color: #48468E;
+          font-weight: bold;
+          opacity: 0.99;
+          cursor: default;
+          padding-bottom: 7px;
+          border-bottom: 3px solid #48468E; }
+        .user_panel .bottom .tabs_placeholder .tab:hover, .edit_profile_panel .bottom .tabs_placeholder .tab:hover {
+          opacity: 0.99;
+          color: #48468E; }
+    .user_panel .bottom .current_tab, .edit_profile_panel .bottom .current_tab {
+      padding: 10px;
+      margin-top: 10px; }
+      .user_panel .bottom .current_tab .update_about_form .prompt, .edit_profile_panel .bottom .current_tab .update_about_form .prompt {
+        opacity: 0.6;
+        margin-bottom: 10px;
+        text-align: center; }
+      .user_panel .bottom .current_tab ui.button.primary i, .edit_profile_panel .bottom .current_tab ui.button.primary i {
+        margin-right: 5px !important;
+        margin-left: 5px !important; }
+      .user_panel .bottom .current_tab .update_about_form .button_placeholder, .edit_profile_panel .bottom .current_tab .update_about_form .button_placeholder {
+        text-align: right; }
+
+.container {
+  width: 780px;
+  margin: 0 auto;
+  padding: 5px; }
+
+.search_input_placeholder input {
+  background-color: #F3F3F8 !important; }
+
+.session_item .header {
+  color: #858598; }
+
+.session_item .content .extended_content {
+  min-height: 120px; }
+
+.searchable_users_panel .search_panel {
+  padding: 6px; }
+  .searchable_users_panel .search_panel .search_input_placeholder {
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px; }
+    .searchable_users_panel .search_panel .search_input_placeholder input {
+      border: none !important; }
+    .searchable_users_panel .search_panel .search_input_placeholder i {
+      left: 8px !important; }
+
+.express_users_panel > .add_new_user_placeholder {
+  line-height: 50px;
+  height: 55px;
+  font-size: 16px;
+  border-bottom: 1px solid #E1E1E9;
+  position: relative;
+  margin: 0 auto;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+  .express_users_panel > .add_new_user_placeholder .text_placeholder {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    color: #77768C;
+    font-weight: bold; }
+  .express_users_panel > .add_new_user_placeholder .button_placeholder {
+    position: absolute;
+    right: 0px;
+    height: 100%; }
+    .express_users_panel > .add_new_user_placeholder .button_placeholder .ui.button {
+      background-color: #48468E;
+      color: white;
+      margin-right: 0px !important; }
+      .express_users_panel > .add_new_user_placeholder .button_placeholder .ui.button i {
+        margin-left: 10px;
+        margin-right: -7px; }
+      .express_users_panel > .add_new_user_placeholder .button_placeholder .ui.button:hover {
+        opacity: 0.85; }
+
+.express_users_panel .searchable_users_panel_placeholder .loading_placeholder {
+  opacity: 0.6;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center; }
+
+.add_new_user_panel {
+  position: relative;
+  width: 400px;
+  padding: 10px;
+  line-height: 20px;
+  border-radius: 4px; }
+  .add_new_user_panel .active_tab_content {
+    border: none; }
+
+.express_canva_panel {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white; }
+  .express_canva_panel .express_canva_div {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+
+.simple_ecg_chart_placeholder {
+  overflow: auto;
+  width: 100%;
+  border: 1px solid black; }
+  .simple_ecg_chart_placeholder .simple_ecg_chart {
+    width: 15000px;
+    position: relative;
+    height: 400px; }
+
+.range_slider_placeholder {
+  padding: 10px; }
+
+.no_sessions_panel {
+  text-align: center; }
+  .no_sessions_panel .no_sessions_img_placeholder {
+    text-align: center;
+    padding-bottom: 2px; }
+    .no_sessions_panel .no_sessions_img_placeholder img.no_sessions_img {
+      display: inline-block;
+      width: 50%; }
+  .no_sessions_panel .no_sessions_text {
+    font-size: 14px;
+    opacity: 0.8; }
+
+.selected_sessions_dialog {
+  background-color: white;
+  position: fixed;
+  z-index: 100000;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+  .selected_sessions_dialog .placeholder {
+    width: 100%;
+    height: 100%; }
+    .selected_sessions_dialog .placeholder .left {
+      display: inline-block;
+      vertical-align: top;
+      height: 100%;
+      overflow-y: auto;
+      max-height: 100%;
+      width: calc(100% - 80px); }
+    .selected_sessions_dialog .placeholder .right {
+      display: inline-block;
+      vertical-align: top;
+      height: 100%;
+      overflow-y: auto;
+      max-height: 100%;
+      width: 80px;
+      position: relative; }
+      .selected_sessions_dialog .placeholder .right .close_placeholder {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        padding: 10px;
+        text-align: center; }
+        .selected_sessions_dialog .placeholder .right .close_placeholder .close_button {
+          width: 40px;
+          height: 40px;
+          border-radius: 1000px;
+          border: 2px solid lightgray;
+          line-height: 30px;
+          font-size: 18px;
+          cursor: pointer;
+          padding: 4px; }
+          .selected_sessions_dialog .placeholder .right .close_placeholder .close_button:hover {
+            opacity: 0.6; }
+          .selected_sessions_dialog .placeholder .right .close_placeholder .close_button i {
+            margin-right: 0px !important; }
+
+.user_notes_panel {
+  position: relative; }
+  .user_notes_panel .note_item {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    cursor: pointer; }
+    .user_notes_panel .note_item.selected {
+      cursor: default;
+      background-color: linen; }
+    .user_notes_panel .note_item .date_placeholder {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 5px;
+      color: #858598; }
+    .user_notes_panel .note_item .content {
+      background-color: whitesmoke !important;
+      opacity: 0.8; }
+    .user_notes_panel .note_item .selected_content {
+      padding-top: 10px; }
+
+.update_note_form .button_placeholder {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.selected_session_panel {
+  position: fixed;
+  background: whitesmoke;
+  z-index: 100000000;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+  .selected_session_panel .selected_session_panel_inner {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .selected_session_panel .selected_session_panel_inner > .header_placeholder {
+      height: 50px;
+      background-color: white;
+      width: 100%; }
+      .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: white;
+        border-bottom: 1px solid lightgray; }
+        .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .user_info_placeholder {
+          position: absolute;
+          left: 10px;
+          height: 100%;
+          line-height: 50px; }
+          .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .user_info_placeholder .avatar_placeholder {
+            display: inline-block;
+            vertical-align: top;
+            height: 100%;
+            padding: 4px; }
+            .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .user_info_placeholder .avatar_placeholder img.avatar {
+              height: 100%;
+              border-radius: 4px; }
+          .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .user_info_placeholder .username_placeholder {
+            display: inline-block;
+            vertical-align: top;
+            height: 100%;
+            font-size: 18px;
+            color: #858598;
+            font-weight: bold; }
+        .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header > .session_name_placeholder {
+          position: absolute;
+          right: 120px;
+          left: 120px;
+          height: 100%;
+          z-index: 10;
+          line-height: 50px;
+          text-align: center;
+          font-weight: bold;
+          color: #858598;
+          font-size: 18px; }
+        .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .close_placeholder {
+          position: absolute;
+          right: 10px;
+          height: 100%;
+          line-height: 50px; }
+          .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .close_placeholder .close_text {
+            font-size: 18px;
+            cursor: pointer; }
+            .selected_session_panel .selected_session_panel_inner > .header_placeholder > .header .close_placeholder .close_text:hover {
+              opacity: 0.9;
+              text-decoration: underline; }
+    .selected_session_panel .selected_session_panel_inner > .content_placeholder {
+      height: calc(100vh - 50px);
+      width: 100%;
+      position: relative;
+      background-color: white; }
+      .selected_session_panel .selected_session_panel_inner > .content_placeholder .left_placeholder {
+        height: 100%;
+        vertical-align: top;
+        display: inline-block;
+        width: 180px;
+        padding: 3px;
+        max-height: 100%;
+        overflow-y: auto;
+        background-color: white;
+        border-right: 1px solid lightgray; }
+      .selected_session_panel .selected_session_panel_inner > .content_placeholder .middle_placeholder {
+        height: 100%;
+        vertical-align: top;
+        display: inline-block;
+        padding: 5px;
+        position: relative;
+        width: calc(100% - 180px - 300px); }
+      .selected_session_panel .selected_session_panel_inner > .content_placeholder .right_placeholder {
+        height: 100%;
+        max-height: 100%;
+        overflow-y: auto;
+        vertical-align: top;
+        display: inline-block;
+        width: 300px;
+        padding: 3px;
+        background-color: white;
+        border-left: 1px solid lightgray; }
+
+.session_item {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: white;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align: center; }
+  .session_item:hover {
+    opacity: 0.8; }
+  .session_item.selected {
+    background-color: wheat; }
+
+.controls_placeholder {
+  margin-top: 15px; }
+  .controls_placeholder .markers_placeholder .marker_placeholder {
+    display: inline-block;
+    vertical-align: top;
+    width: 160px; }
+    .controls_placeholder .markers_placeholder .marker_placeholder .row {
+      margin-bottom: 10px; }
+      .controls_placeholder .markers_placeholder .marker_placeholder .row > .left {
+        width: 80px;
+        display: inline-block;
+        vertical-align: top;
+        font-weight: bold; }
+      .controls_placeholder .markers_placeholder .marker_placeholder .row > .right {
+        width: 80px;
+        display: inline-block;
+        vertical-align: top; }
+
+.underline {
+  text-decoration: underline; }
+
+.upload_image_panel {
+  position: relative;
+  min-height: 120px;
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 4px; }
+  .upload_image_panel .info_text {
+    font-size: 18px;
+    color: #858598;
+    opacity: 0.8;
+    margin-bottom: 20px; }
+
+.doctor_dashboard_panel {
+  position: relative;
+  border-radius: 4px;
+  min-height: 200px;
+  height: 100%;
+  min-width: 700px; }
+  .doctor_dashboard_panel .top_block {
+    background-color: white;
+    padding: 10px;
+    height: 85px; }
+    .doctor_dashboard_panel .top_block .section {
+      width: 33.333%;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      min-width: 200px; }
+      .doctor_dashboard_panel .top_block .section .image_placeholder {
+        display: inline-block;
+        vertical-align: top;
+        width: 60px; }
+        .doctor_dashboard_panel .top_block .section .image_placeholder img {
+          width: 100%; }
+      .doctor_dashboard_panel .top_block .section .info_placeholder {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        color: #858598; }
+        .doctor_dashboard_panel .top_block .section .info_placeholder > .top {
+          height: 40px;
+          line-height: 40px;
+          font-size: 28px;
+          font-weight: bold; }
+        .doctor_dashboard_panel .top_block .section .info_placeholder > .bottom {
+          height: 20px;
+          line-height: 20px; }
+  .doctor_dashboard_panel .middle_block {
+    height: calc(100% - 85px);
+    max-height: calc(100% - 85px);
+    overflow-y: hidden; }
+    .doctor_dashboard_panel .middle_block .header_text {
+      font-size: 18px;
+      line-height: 30px;
+      color: #858598;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .doctor_dashboard_panel .middle_block .left_block {
+      vertical-align: top;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+      padding-right: 10px;
+      padding-top: 10px; }
+    .doctor_dashboard_panel .middle_block .right_block {
+      vertical-align: top;
+      display: inline-block;
+      width: 0px;
+      height: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+      padding-top: 10px; }
+    .doctor_dashboard_panel .middle_block.with_right .left_block {
+      width: calc(100% - 300px); }
+    .doctor_dashboard_panel .middle_block.with_right .right_block {
+      width: 300px; }
+
+.user_index_app_content {
+  height: 100%;
+  padding: 10px; }
+
+.cute_sessions_list > .item {
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  height: 55px;
+  cursor: pointer; }
+  .cute_sessions_list > .item:hover {
+    opacity: 0.8; }
+  .cute_sessions_list > .item .user_avatar_placeholder {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top; }
+    .cute_sessions_list > .item .user_avatar_placeholder img {
+      height: 100%;
+      border-radius: 4px; }
+  .cute_sessions_list > .item .info_placeholder {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    margin-left: 5px; }
+    .cute_sessions_list > .item .info_placeholder > .user_name {
+      color: #858598;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px; }
+    .cute_sessions_list > .item .info_placeholder > .session_name {
+      color: #858598;
+      opacity: 0.8;
+      line-height: 30px; }
+
+.calendar_spot {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  cursor: pointer; }
+  .calendar_spot:hover {
+    opacity: 0.9; }
+  .calendar_spot .calendar_inner {
+    border-radius: 1000px;
+    background-color: #858598;
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+  .calendar_spot:hover .calendar_inner {
+    background-color: #343268; }
+
+.sessions_calendar_panel .day_placeholder.selected {
+  background-color: #F3F3F8; }
+  .sessions_calendar_panel .day_placeholder.selected .calendar_spot .calendar_inner {
+    background-color: #343268; }
+
+.calendar_sessions_panel {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-top: 1px solid #F3F3F8;
+  border-bottom: 1px solid #F3F3F8;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .calendar_sessions_panel .cute_sessions_list > .item {
+    border: 1px solid #F3F3F8; }
+
+.edit_profile_panel {
+  padding: 10px;
+  position: relative; }
+  .edit_profile_panel .avatar_placeholder {
+    text-align: center; }
+    .edit_profile_panel .avatar_placeholder img.avatar {
+      border-radius: 4px; }
+    .edit_profile_panel .avatar_placeholder .edit_placeholder {
+      text-align: center; }
+      .edit_profile_panel .avatar_placeholder .edit_placeholder span {
+        cursor: pointer; }
+
+.add_attachment_button {
+  cursor: pointer; }
+  .add_attachment_button:hover {
+    opacity: 0.7; }
+
+.attachments_list .attachment {
+  display: inline-block;
+  margin-right: 5px; }
+  .attachments_list .attachment a {
+    cursor: pointer; }
+  .attachments_list .attachment .att_remove_button {
+    color: firebrick;
+    cursor: pointer; }
+    .attachments_list .attachment .att_remove_button:hover {
+      opacity: 0.8; }
+
+.add_new_attachment_placeholder {
+  text-align: right; }

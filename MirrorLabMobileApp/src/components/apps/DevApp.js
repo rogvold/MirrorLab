@@ -12,7 +12,6 @@ import {
     Text,
     Modal,
     View,
-    ScrollView,
     Image,
     TextInput,
     Navigator,
@@ -22,7 +21,8 @@ import {
     BackAndroid,
     ActivityIndicator,
     Dimensions,
-    Picker
+    Picker,
+    ScrollView
 } from 'react-native';
 
 import LogoutButton from '../auth/buttons/LogoutButton'
@@ -50,6 +50,8 @@ import UploadDaemon from '../upload/UploadDaemon'
  import TestChartPanel from '../stats/charts/TestChartPanel'
 
 
+import MonthPanel from '../calendar/MonthPanel'
+import CalendarPanel from '../calendar/CalendarPanel'
 
 class DevApp extends React.Component {
 
@@ -96,7 +98,7 @@ class DevApp extends React.Component {
             <View style={styles.container} >
 
 
-
+                <CalendarPanel />
 
                 {/*<TestChartPanel />*/}
 
@@ -109,7 +111,7 @@ class DevApp extends React.Component {
                     {/*color={['#e1cd00']}*/}
                 {/*/>*/}
 
-                <QuestionnaireSwiper />
+                {/*<QuestionnaireSwiper />*/}
 
                 {/*<SkinryImage />*/}
 

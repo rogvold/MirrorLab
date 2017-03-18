@@ -70,6 +70,10 @@
 
      }
 
+     componentWillMount() {
+         StatusBar.setHidden(true);
+     }
+
      onUserPress = (userId) => {
          this.setState({
              selectedUserId: userId
@@ -97,6 +101,8 @@
 
          return (
              <View style={styles.container} >
+
+                 <StatusBar hidden={true} />
 
                  <View style={styles.listPlaceholder}>
 
@@ -159,7 +165,9 @@
 
      modalInner: {
         flex: 1,
-         backgroundColor: 'whitesmoke'
+         backgroundColor: 'whitesmoke',
+         // marginTop: (Platform.OS == 'android') ? -22 : 0
+         // paddingBottom: (Platform.OS == 'android') ? 22 : 0
      },
 
      modalHeader: {
@@ -198,8 +206,8 @@
      },
 
      modalContent: {
-        height: height - 40,
-         width: width,
+        height: height - 40 - (Platform.OS == 'android' ? StatusBar.currentHeight : 0),
+        width: width,
      },
 
  });

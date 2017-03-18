@@ -102,9 +102,13 @@ let startAuthInit = () => {
         type: types.INITIALIZE_AUTH
     }
 }
-let authInitFailed = () => {
+let authInitFailed = (err) => {
+     if (__DEV__){
+         console.log('authInitFailed occured');
+     }
     return {
-        type: types.INITIALIZE_AUTH_FAIL
+        type: types.INITIALIZE_AUTH_FAIL,
+        error: err
     }
 }
 let authInitSuccess = (user) => {
@@ -119,7 +123,6 @@ export function initializeAuthorization(){
         // if (getState().users.initialized == true){
         //     return Promise.resolve()
         // }
-
         dispatch(startAuthInit());
         return ParseAPI.fetchCurrentUserAsPromise().then(
             user => dispatch(authInitSuccess(user)),

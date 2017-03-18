@@ -22,7 +22,8 @@ var PhotosModule = {
             version: s.get('version'),
             data: s.get('data'),
             hash: s.get('hash'),
-            url: s.get('url')
+            url: s.get('url'),
+            thumbnail: (s.get('thumbnail') == undefined) ? s.get('url') : s.get('thumbnail')
         }
     },
 
@@ -49,12 +50,21 @@ var PhotosModule = {
         }
         var Photo = Parse.Object.extend('Photo');
         var p = new Photo();
-        p.set('userId', data.userId);
-        p.set('url', data.url);
-        p.set('originalUrl', data.originalUrl);
-        p.set('version', data.version);
-        p.set('hash', data.hash);
-        p.set('data', data.data);
+
+        for (var key in data){
+            if (key == 'id' || key == 'timestamp'){
+                continue;
+            }
+            p.set(key, data[key]);
+        }
+
+        // p.set('userId', data.userId);
+        // p.set('url', data.url);
+        // p.set('originalUrl', data.originalUrl);
+        // p.set('version', data.version);
+        // p.set('hash', data.hash);
+        // p.set('data', data.data);
+
         var self = this;
         p.save().then(function (savedPhoto) {
             success(self.transformPhoto(savedPhoto));

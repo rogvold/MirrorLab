@@ -66,6 +66,10 @@
 
      }
 
+     componentWillMount() {
+         StatusBar.setHidden(true);
+     }
+
 
      getCurrentTab = () => {
          let {tab} = this.props;
@@ -105,7 +109,7 @@
          return (
              <View style={styles.container} >
 
-                 <StatusBar hidden={true} />
+                 <StatusBar hidden={true} translucent={true} />
 
                  {this.getCurrentTab()}
 

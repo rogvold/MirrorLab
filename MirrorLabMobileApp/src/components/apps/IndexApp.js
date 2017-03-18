@@ -7,6 +7,8 @@ import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
+import * as Animatable from 'react-native-animatable';
+
 import {
     AppRegistry,
     StyleSheet,
@@ -38,6 +40,10 @@ import UploadDaemon from '../upload/UploadDaemon'
 
 import PhotosSlider from '../photos/slider/PhotosSlider'
 
+import LastPhotosList from '../photos/list/LastPhotosList'
+
+import CalendarPanel from '../calendar/CalendarPanel'
+
 class IndexApp extends React.Component {
 
     static defaultProps = {}
@@ -67,10 +73,16 @@ class IndexApp extends React.Component {
         return (
             <View style={styles.container} >
 
+                {true == true ? null :
+                    <View style={styles.slider_placeholder} >
+                        <PhotosSlider />
+                    </View>
+                }
 
-                <View style={styles.slider_placeholder} >
-                    <PhotosSlider />
+                <View>
+                    <LastPhotosList />
                 </View>
+
 
                 <View style={styles.create_photo_panel_placeholder} >
                     <CreateNewPhotoPanel />

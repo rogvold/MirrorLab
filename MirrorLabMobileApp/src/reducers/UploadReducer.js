@@ -56,6 +56,12 @@ const UploadReducer =  (state = initialState, action = {}) => {
                 photosMap: state.photosMap.set(action.url, {data: action.data, url: action.url})
             }
 
+        case types.LOGOUT:
+            return {
+                ...state,
+                loadingSet: Set()
+            }
+
         default:
             return state;
     }

@@ -68,7 +68,11 @@ const UsersReducer =  (state = initialState, action = {}) => {
             return {...state, loading: true, initialized: false}
 
         case types.INITIALIZE_AUTH_FAIL:
-            return {...state, loading: false, initialized: false}
+            return { ...state,
+                        loading: false,
+                        // initialized: false
+                        initialized: true
+            }
 
         case types.INITIALIZE_AUTH_SUCCESS:
             return {...state,

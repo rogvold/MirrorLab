@@ -64,6 +64,12 @@ const PhotosReducer =  (state = initialState, action = {}) => {
                 photosMap: state.photosMap.delete(action.id)
             }
 
+        case types.LOGOUT:
+            return {
+                ...state,
+                loading: false
+            }
+
 
         default:
             return state;

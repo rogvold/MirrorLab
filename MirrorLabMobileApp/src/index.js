@@ -24,6 +24,9 @@ import {reducer} from './reducers'
 
 const loggerMiddleware = createLogger()
 
+// import codePush from "react-native-code-push"
+var codePush = require("react-native-code-push");
+
 import {persistStore, autoRehydrate} from 'redux-persist'
 import immutableTransform from 'redux-persist-transform-immutable'
 import {AsyncStorage} from 'react-native'
@@ -45,6 +48,8 @@ const store = (__DEV__ ? createStore(
         )
     )
 )
+
+
 
 // const store = (__DEV__ ? createStore(
 //             reducer,
@@ -80,6 +85,7 @@ export default function setup() {
     // store.dispatch(init());
 
     return RootApp;
+    // return codePush(RootApp);
 }
 
 
@@ -107,6 +113,30 @@ let init = () => {
     }
 }
 
-persistStore(store, {storage: AsyncStorage, transforms: [immutableTransform()]}, () => {
+let startNotFirstTime = () => {
+    persistStore(store, {storage: AsyncStorage, transforms: [immutableTransform()]}, () => {
+        store.dispatch(init());
+    })
+}
+
+let startFirstTime = () => {
+    console.log('startFirstTime occured');
     store.dispatch(init());
+}
+
+
+//checking if the launch is the first
+AsyncStorage.getItem("alreadyLaunched").then(value => {
+    if(value == null){
+        console.log('this is the first launch!');
+        AsyncStorage.setItem('alreadyLaunched', '1');
+        startFirstTime();
+    }else {
+        console.log('not first launch');
+        startNotFirstTime();
+    }
 })
+
+// persistStore(store, {storage: AsyncStorage, transforms: [immutableTransform()]}, () => {
+//     store.dispatch(init());
+// })

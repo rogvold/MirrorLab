@@ -23,7 +23,8 @@
      BackAndroid,
      ActivityIndicator,
      StatusBar,
-     Dimensions
+     Dimensions,
+     TouchableOpacity
  } from 'react-native';
 
  import ReactNative from 'react-native';
@@ -35,6 +36,8 @@
  import Icon from 'react-native-vector-icons/FontAwesome';
 
  import * as colors from '../../../constants/AppColors'
+
+ import * as Animatable from 'react-native-animatable';
 
  class NewPhotoButton extends React.Component {
 
@@ -84,16 +87,18 @@
              <View style={styles.container} >
 
                  <View style={styles.button_placeholder} >
-                     {Platform.OS === 'ios' ?
-                         <Button
-                             iconName={'ios-camera-outline'}
-                             onPress={() => {this.setState({modalVisible: true})}} >
-                             {buttonName}
-                         </Button> :
-                         <ReactNative.Button title={buttonName}
-                                             onPress={() => {this.setState({modalVisible: true})}} />
-                     }
+                     <Animatable.View
+                         animation="pulse" easing="ease-out" iterationCount="infinite"
+                         style={styles.buttonStyle} >
 
+                         <TouchableOpacity
+                             onPress={() => {this.setState({modalVisible: true})}}
+                         >
+                             <Text style={{ textAlign: 'center', color: 'white', fontSize: 20 }}>
+                                 <Icon name="camera" size={20} color={'white'} /> {buttonName}
+                                 ️</Text>
+                         </TouchableOpacity>
+                     </Animatable.View>
                  </View>
 
                  <Modal
@@ -160,6 +165,17 @@
          // borderColor: colors.darkText,
          alignItems: 'center',
          justifyContent: 'center'
+     },
+
+     buttonStyle: {
+         height: 50,
+         padding: 10,
+         paddingLeft: 20,
+         paddingRight: 20,
+         backgroundColor: colors.messengerColor,
+         borderRadius: 25,
+         justifyContent: 'center',
+         alignItems: 'center'
      }
 
  });

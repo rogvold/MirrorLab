@@ -44,6 +44,7 @@ class UploadUserPhotoPanel extends React.Component {
             userId: currentUser.id,
             url: d.imgInfo.fileName,
             originalUrl: d.imgInfo.originalFileName,
+            thumbnail: d.imgInfo.thumbnail,
             data: d,
             hash: d.imgInfo.hash,
             version: d.version

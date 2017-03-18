@@ -174,6 +174,95 @@ const ParseAPI = {
             })
         });
         return promise;
+    },
+
+    getMaxUpdatedTimestamp(objectsMap) {
+        let max = 0;
+        if (objectsMap == undefined){
+            return max;
+        }
+        let arr = objectsMap.toArray();
+        for (let i in arr){
+            if (arr[i].updatedTimestamp > max){
+                max = arr[i].updatedTimestamp;
+            }
+        }
+        return max;
+    },
+
+    getFreshObjects(className, objectsMap, filterData, transformFunction) {
+        console.log('getFreshObjects: ' + className);
+        let self = this;
+        return new Promise((resolve, reject) => {
+            let q = new Parse.Query(className);
+            q.limit(100000);
+            q.addAscending('createdAt');
+            for (let key in filterData){
+                let v = filterData[key];
+                if (v != undefined && v.length > 0){
+                    for (let j in v){
+                        q[key](...v[j]);
+                    }
+                }
+            }
+            q.greaterThan('updatedAt', new Date(self.getMaxUpdatedTimestamp(objectsMap)));
+            q.find().then((results) => {
+                // console.log('objects loaded: objects = ', results);
+                let objects = results.map( (m) => {
+                    return transformFunction(m);
+                });
+                // console.log('transformed objects = ', objects);
+                resolve(objects);
+            }, (err) => {
+                reject(err);
+            });
+        })
+    },
+
+    updateObject(className, data, transformFun){
+        console.log('updateObject: ' + className, data);
+        let self = this;
+        let q = new Parse.Query(className);
+        return new Promise((resolve, reject) => {
+            q.get(data.id, {
+                success: (loadedObject) => {
+                    for (let key in data){
+                        let d = data[key];
+                        if (key == 'id' || key == 'timestamp' || key == 'creatorId'){
+                            continue;
+                        }
+                        loadedObject.set(key, data[key]);
+                    }
+                    loadedObject.save().then((savedObject) => {
+                        let obj = transformFun(savedObject);
+                        resolve(obj);
+                    });
+                },
+                error: (err) =>{
+                    reject(err);
+                }
+            })
+        });
+    },
+
+    createObject(className, data, transformFun){
+        console.log('createObject: ' + className, data);
+        let self = this;
+        let Obj = Parse.Object.extend(className);
+        let obj = new Obj();
+        return new Promise((resolve, reject) => {
+            for (let key in data){
+                let d = data[key];
+                if (key == 'id' || key == 'timestamp'){
+                    continue;
+                }
+                obj.set(key, data[key]);
+            }
+            obj.save().then((savedObject) => {
+                let sObj = transformFun(savedObject);
+                resolve(sObj);
+            });
+        });
     }
 
 }

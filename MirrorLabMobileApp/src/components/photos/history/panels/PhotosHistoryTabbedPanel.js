@@ -37,6 +37,8 @@
 
  import PhotosComparePanel from './PhotosComparePanel'
 
+ import PhotosCalendarPanel from '../../panels/PhotosCalendarPanel'
+
  class PhotosHistoryTabbedPanel extends React.Component {
 
      static defaultProps = {}
@@ -72,6 +74,12 @@
                      <PhotosComparePanel />
 
                  </View>
+
+                 <View style={styles.photosComparePlaceholder} tabLabel={'Calendar'}  >
+                     <PhotosCalendarPanel />
+                 </View>
+
+
 
              </ScrollableTabView>
          )

@@ -28,6 +28,16 @@ Parse.Cloud.define("loadUserLinks", function(request, response) {
     });
 });
 
+//shit - repeat
+Parse.Cloud.define("loadUserUserLinks", function(request, response) {
+    var data = request.params.data;
+    UserLinksModule.loadUserUserLinks(data, function(d){
+        response.success(d);
+    }, function(err){
+        response.error(err);
+    });
+});
+
 Parse.Cloud.define("createUserLink", function(request, response) {
     var data = request.params.data;
     UserLinksModule.createLink(data, function(link){

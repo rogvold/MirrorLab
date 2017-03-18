@@ -98,7 +98,7 @@
 
      render = () => {
          let {loading, cachedUri} = this.state;
-         let {style, originalWidth, originalHeight} = this.props;
+         let {style, originalWidth, originalHeight, url} = this.props;
          let st = Object.assign({}, style);
          if (originalHeight != undefined){
              st = Object.assign({}, st, {height: originalHeight})
@@ -113,6 +113,11 @@
                     <Text style={{textAlign: 'center', marginTop: 10}} >loading...</Text>
                  </View>
              )
+         }
+
+         //hack!!!
+         if (Platform.OS == 'android'){
+             cachedUri = url;
          }
 
          return (
