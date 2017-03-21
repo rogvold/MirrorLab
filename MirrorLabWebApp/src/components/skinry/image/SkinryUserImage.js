@@ -42,7 +42,7 @@ class SkinryUserImage extends React.Component {
     render = () => {
         let p = this.getPhoto();
 
-        console.log('rendering SkinryUserImage: photo = ', p);
+        // console.log('rendering SkinryUserImage: photo = ', p);
 
         if (p == undefined || p.data == undefined || p.data.imgInfo == undefined){
             return null;

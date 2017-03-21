@@ -9,6 +9,7 @@ import {bindActionCreators} from 'redux';
 import * as actions from '../../../actions/PhotosActions'
 
 import PhotosList from '../list/PhotosList'
+import PagedPhotosList from '../list/PagedPhotosList'
 
 import CoolPreloader from '../../preloader/CoolPreloader'
 
@@ -126,7 +127,7 @@ class UserPhotosPanel extends React.Component {
                 <UploadUserPhotoPanel />
 
                 <div className={'photos_list_placeholder'} >
-                    <PhotosList photos={photos}
+                    <PagedPhotosList photos={photos}
                                 onPhotoEditOpen={this.onPhotoEditOpen}
                                 onPhotoClick={this.onPhotoClick} />
                 </div>

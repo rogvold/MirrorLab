@@ -43,13 +43,13 @@ class SkinryImage extends React.Component {
 
     getPoints = () => {
         let {landmarks, spots} = this.props;
-        console.log('getPoints: landmarks, spots = ', landmarks, spots);
+        // console.log('getPoints: landmarks, spots = ', landmarks, spots);
         let landmarksPoints = landmarks.map((p) => {return Object.assign({}, p, {rx: 0.007, ry: 0.007, fillColor: 'grey', borderColor: 'grey'})});
 
         let spotsPoints = spots.map((p) => {return Object.assign({}, p, {fillColor: 'rgba(240, 128, 128, 0.6)', borderColor: 'lightcoral'})});;
 
         let res = landmarksPoints.concat(spotsPoints);
-        console.log('returning ', res);
+        // console.log('returning ', res);
         return res;
     }
 
@@ -139,15 +139,15 @@ class SkinryImage extends React.Component {
         let {pointsLeft, pointsRight} = undereyes;
         let left = {
             color: 'blue',
-            lines: (pointsLeft.length == 0) ? [] : pointsLeft.concat([pointsLeft[0]])
+            lines: (pointsLeft == undefined || pointsLeft.length == 0) ? [] : pointsLeft.concat([pointsLeft[0]])
         }
         let right = {
             color: 'blue',
-            lines: (pointsRight.length == 0) ? [] : pointsRight.concat([pointsRight[0]])
+            lines: (pointsRight == undefined || pointsRight.length == 0) ? [] : pointsRight.concat([pointsRight[0]])
         }
         res.push(left);
         res.push(right);
-        console.log('getUnderEyesPolylines: returning res = ', res);
+        // console.log('getUnderEyesPolylines: returning res = ', res);
         return res;
     }
 
@@ -164,8 +164,8 @@ class SkinryImage extends React.Component {
         let points = this.getPoints();
         let polylines = this.getPolylines();
 
-        console.log('SkinryImage: points: ', points);
-        console.log('SkinryImage: polylines: ', polylines);
+        // console.log('SkinryImage: points: ', points);
+        // console.log('SkinryImage: polylines: ', polylines);
 
 
         return (

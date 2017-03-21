@@ -356,3 +356,29 @@ $editor_right_width: 200px;
   }
 
 }
+
+.pagination_placeholder{
+  .page_item{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+    &.selected{
+      background-color: lightcoral;
+      font-weight: bold;
+      color: white;
+      cursor: default;
+    }
+
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}
