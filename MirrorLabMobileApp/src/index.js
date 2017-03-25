@@ -120,7 +120,10 @@ let startNotFirstTime = () => {
 }
 
 let startFirstTime = () => {
-    console.log('startFirstTime occured');
+    if (__DEV__){
+        console.log('startFirstTime occured - not using redux persist');
+    }
+
     store.dispatch(init());
 }
 

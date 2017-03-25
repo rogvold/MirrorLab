@@ -66,7 +66,7 @@ class PhotosList extends React.Component {
 
                             <div className={'img_placeholder'} >
 
-                                <PimpledImage src={p.url} pimples={data.spots} />
+                                {/*<PimpledImage src={p.url} pimples={data.spots} />*/}
 
                                 <SkinryUserImage id={p.id}  />
 
