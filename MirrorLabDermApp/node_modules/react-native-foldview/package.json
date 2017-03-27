@@ -1,0 +1,85 @@
+{
+  "name": "react-native-foldview",
+  "version": "1.1.1",
+  "description": "FoldingCell impl in JavaScript",
+  "main": "src/index",
+  "jsnext:main": "src/index",
+  "files": [
+    "*.md",
+    "src"
+  ],
+  "author": "Jake Murzy <jake@murzy>",
+  "license": "MIT",
+  "homepage": "https://github.com/jmurzy/react-native-foldview",
+  "tags": [
+    "react",
+    "react-native",
+    "FoldView",
+    "FoldingCell",
+    "ListView",
+    "ScrollView"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "ios",
+    "andorid",
+    "FoldingCell",
+    "folding",
+    "cell",
+    "view"
+  ],
+  "contributors": [
+    {
+      "name": "Jake Murzy",
+      "email": "jake@murzy"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "npm run spec && npm run lint",
+    "spec": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp spec",
+    "lint": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp lint",
+    "watch": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmurzy/react-native-foldview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmurzy/react-native-foldview/issues"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2",
+    "react-native": "0.40.0"
+  },
+  "dependencies": {
+    "invariant": "^2.2.2",
+    "warning": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-react-native": "^1.9.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "flow-bin": "^0.33.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
+    "react": "^15.4.2",
+    "react-native": "0.40.0",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.2.2"
+  }
+}

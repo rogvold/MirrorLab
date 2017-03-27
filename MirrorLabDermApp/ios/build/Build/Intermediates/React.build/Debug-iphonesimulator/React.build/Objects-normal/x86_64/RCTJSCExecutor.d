@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Executors/RCTJSCExecutor.mm \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Executors/RCTJSCExecutor.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Executors/RCTJSCErrorHandling.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Profiler/RCTJSCProfiler.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/node_modules/react-native/React/Base/RCTUtils.h
