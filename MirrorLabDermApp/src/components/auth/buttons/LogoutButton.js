@@ -23,12 +23,17 @@
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
-     ActivityIndicator
+     ActivityIndicator,
+     TouchableOpacity
  } from 'react-native';
 
  import ReactNative from 'react-native';
 
  import {Button} from 'nachos-ui'
+
+ import * as colors from '../../../constants/AppColors'
+
+ import I18nText from '../../i18n/I18nText'
 
  class LogoutButton extends React.Component {
 
@@ -60,21 +65,12 @@
      render = () => {
          let {buttonName, loading, loadingText} = this.props;
 
-         if (Platform.OS != 'ios'){
-             return (
-                 <ReactNative.Button
-                     onPress={this.onSubmit}
-                     title={loading == true ? loadingText : buttonName} />
-             )
-         }
-
          return (
-             <Button onPress={this.onSubmit} disabled={loading}>
-                 {loading == true ?
-                     loadingText : buttonName
-                 }
-             </Button>
+             <TouchableOpacity style={styles.logoutButton} onPress={this.onSubmit} >
+                 <I18nText name={'LOGOUT'}  style={{color: 'white', fontSize: 16}} />
+             </TouchableOpacity>
          )
+
      }
 
  }
@@ -83,6 +79,15 @@
      container: {
          flex: 1,
      },
+
+     logoutButton: {
+         backgroundColor: colors.primaryColor,
+         padding: 5,
+         height: 40,
+         borderRadius: 20,
+         alignItems: 'center',
+         justifyContent: 'center'
+     }
 
  });
 

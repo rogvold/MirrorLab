@@ -46,6 +46,8 @@
 
  import * as actions from '../../../actions/ChatActions'
 
+ import I18nHelper from '../../../helpers/I18nHelper'
+
  class ChatFriendsPanel extends React.Component {
 
      static defaultProps = {
@@ -121,7 +123,7 @@
 
 
      render = () => {
-         let {users, selectedUserId, openUser, closeUser, getNotReadMessagesNumber} = this.props;
+         let {users, selectedUserId, openUser, closeUser, getNotReadMessagesNumber, lang} = this.props;
          let selectedUser = this.getSelectedUser();
 
          return (
@@ -151,7 +153,7 @@
                                  <TouchableOpacity style={styles.headerBackPlaceholder} onPress={() => {closeUser()}} >
                                      <Text style={styles.backButton} >
                                          <Icon name="chevron-left" color={colors.fbColor} size={16} style={{marginRight: 5}} />
-                                         Back
+                                         {I18nHelper.getString(lang, 'BACK')}
                                      </Text>
                                  </TouchableOpacity>
 
@@ -272,6 +274,7 @@ let getNotReadFriendMessagesNumber = (state, friendId) => {
         currentUserId: state.users.currentUserId,
         loading: state.users.loading,
         selectedUserId: state.chat.selectedUserId,
+        lang: state.settings.lang,
         users: getUsers(state),
         getNotReadMessagesNumber: uId => getNotReadFriendMessagesNumber(state, uId)
     }

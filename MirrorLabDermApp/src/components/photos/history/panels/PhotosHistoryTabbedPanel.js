@@ -75,7 +75,7 @@
                  </View>
 
                  <View style={styles.photosComparePlaceholder} tabLabel={'clone'}  >
-                     <PhotosComparePanel showSkinry={true} />
+                     <PhotosComparePanel showSkinry={false} />
                  </View>
 
                  <View style={styles.photosPanelPlaceholder} tabLabel={'list-ul'} >

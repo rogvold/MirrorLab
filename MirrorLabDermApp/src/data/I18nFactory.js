@@ -508,6 +508,26 @@ let I18nFactory = {
         ru: 'Назад'
     },
 
+    LOGOUT: {
+        en: 'LOGOUT',
+        ru: 'ВЫХОД'
+    },
+
+    CHAT_INPUT_PLACEHOLDER: {
+        en: 'Type a message...',
+        ru: 'Ваше сообщение...'
+    },
+
+    COMMENT_INPUT_PLACEHOLDER: {
+        en: 'Type a comment...',
+        ru: 'Ваш комментарий...'
+    },
+
+    SEND: {
+        en: 'Send',
+        ru: 'Отправить'
+    }
+
 
 };
 

@@ -43,6 +43,8 @@
 
  import KeyboardSpacer from 'react-native-keyboard-spacer';
 
+ import I18nHelper from '../../../helpers/I18nHelper'
+
  class CommentsPanel extends React.Component {
 
      static defaultProps = {
@@ -90,7 +92,7 @@
      }
 
      render = () => {
-         let {comments} = this.props;
+         let {comments, lang} = this.props;
          let {loading, text} = this.state;
 
 
@@ -107,7 +109,7 @@
                      <View style={styles.inputPlaceholder} >
                          <TextInput
                              multiline={true}
-                             placeholder={'Your comment...'}
+                             placeholder={I18nHelper.getString(lang, 'COMMENT_INPUT_PLACEHOLDER')}
                              value={this.state.text}
                              style={{
                                  height: this.state.height,
@@ -126,7 +128,7 @@
                          <View style={styles.buttonPlaceholder} >
                              <TouchableOpacity onPress={this.onSend}>
                                  <Text style={styles.buttonText} >
-                                     Send
+                                     {I18nHelper.getString(lang, 'SEND')}
                                  </Text>
                              </TouchableOpacity>
                          </View>
@@ -202,7 +204,8 @@
     return {
         comments: getComments(state, ownProps.relatedId),
         currentUserId: state.users.currentUserId,
-        loading: state.comments.loading
+        loading: state.comments.loading,
+        lang: state.settings.lang
     }
  }
 

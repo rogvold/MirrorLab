@@ -36,6 +36,8 @@
 
 import { GiftedChat } from 'react-native-gifted-chat';
 
+import I18nHelper from '../../../helpers/I18nHelper'
+
  class ChatUserPanel extends React.Component {
 
      static defaultProps = {
@@ -90,7 +92,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
          if (__DEV__){
              console.log('onSend: messages = ', messages);
          }
-         let {sendMessage, friendId, currentUser} = this.props;
+         let {sendMessage, friendId, currentUser, lang} = this.props;
          let text = messages[0].text;
          let data = {content: text, toId: friendId};
 
@@ -109,7 +111,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
      }
 
      render = () => {
-         let {currentUser, loading} = this.props;
+         let {currentUser, loading, lang} = this.props;
          if (currentUser == undefined){
              return null;
          }
@@ -119,6 +121,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
                  messages={this.state.messages}
                  onSend={this.onSend}
                  renderAvatarOnTop={true}
+                 placeholder={I18nHelper.getString(lang, 'CHAT_INPUT_PLACEHOLDER')}
                  user={{
                               _id: currentUser.id,
                               name: currentUser.firstName + ' ' + currentUser.lastName,
@@ -184,6 +187,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
         currentUserId: state.users.currentUserId,
         currentUser: state.users.usersMap.get(state.users.currentUserId),
         loading: state.users.loading || state.chat.loading,
+        lang: state.settings.lang,
         messages: getMessagesForChat(state, ownProps.friendId)
     }
  }

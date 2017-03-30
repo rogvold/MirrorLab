@@ -47,6 +47,7 @@ import PhotosList from '../list/PhotosList'
 
 import KeyboardSpacer from 'react-native-keyboard-spacer';
 
+ import I18nText from '../../i18n/I18nText'
 
  class PhotosPanel extends React.Component {
 
@@ -158,10 +159,12 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
                              <View style={styles.modalHeader} >
 
                                  <TouchableOpacity style={styles.headerBackPlaceholder} onPress={() => {this.setState({selectedPhotoId: undefined})}} >
-                                     <Text style={styles.backButton} >
-                                         <Icon name="chevron-left" color={colors.fbColor} size={16} style={{marginRight: 5}} />
-                                         Back
-                                     </Text>
+                                     <View style={{flexDirection: 'row', alignItems: 'center'}} >
+                                         <Text style={styles.backButton} >
+                                             <Icon name="chevron-left" color={colors.fbColor} size={16} style={{marginRight: 5}} />
+                                         </Text>
+                                         <I18nText name={'BACK'}  style={styles.backButton}  />
+                                     </View>
                                  </TouchableOpacity>
 
                                  <View style={styles.selectedUserPlaceholder} >
@@ -184,8 +187,6 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
                                  {commentsEnabled == false ? null :
                                     <CommentsPanel relatedId={selectedPhotoId} />
                                  }
-
-
 
                              </ScrollView>
 

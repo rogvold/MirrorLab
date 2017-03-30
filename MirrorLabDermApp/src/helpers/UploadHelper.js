@@ -14,13 +14,6 @@ const UploadHelper = {
             console.log('transformData: d = ', d);
         }
 
-        // let {currentUser, createPhoto} = this.props;
-        //
-        // if (d.error != undefined){
-        //     alert(d.error.message);
-        //     return;
-        // }
-
         let dataToSave = {
             // userId: currentUser.id,
             url: d.imgInfo.fileName,
@@ -48,7 +41,8 @@ const UploadHelper = {
                                     reject(data.error);
                                     return;
                                 }
-                                resolve(self.transformData(data))
+                                // resolve(self.transformData(data))
+                                resolve(data);
             }).catch((err) => {
                 if (__DEV__){
                     console.log('uploadPhotoAsPromise: error: err = ', err);

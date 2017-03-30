@@ -48,7 +48,8 @@
      }
 
      state = {
-         takenPhoto: undefined
+         takenPhoto: undefined,
+         cameraMode: 'front'
      }
 
      //ES5 - componentWillMount
@@ -80,6 +81,14 @@
          let {takenPhoto} = this.state;
          let {path} = takenPhoto;
          this.props.onSubmit(path);
+     }
+
+     changeCameraMode = () => {
+         let {cameraMode} = this.state;
+         let newMode = (cameraMode == 'front') ? 'back' : 'front';
+         this.setState({
+             cameraMode: newMode
+         });
      }
 
      renderPreview = () => {
@@ -116,7 +125,7 @@
      }
 
      render = () => {
-         let {takenPhoto} = this.state;
+         let {takenPhoto, cameraMode} = this.state;
          let {closeCamera, cameraEnabled} = this.props;
          if (cameraEnabled == false){
              return null;
@@ -134,14 +143,14 @@
          return (
              <View style={styles.container} >
 
-                 <TouchableHighlight style={styles.close_style} onPress={() => {closeCamera()}}>
+                 <TouchableOpacity style={styles.close_style} onPress={() => {closeCamera()}}>
                      <Icon name="close" size={35} color={colors.lightText} />
-                 </TouchableHighlight>
+                 </TouchableOpacity>
 
                  <Camera
                      ref={(cam) => { this.camera = cam;}}
                      style={styles.preview}
-                     type="front"
+                     type={cameraMode}
                      captureTarget={Camera.constants.CaptureTarget.temp}
                      aspect={Camera.constants.Aspect.fill}>
 
@@ -152,9 +161,21 @@
                  </View>
 
                  <View style={styles.capture_placeholder}>
-                     <Text style={styles.capture} onPress={this.takePicture.bind(this)}>
-                         <Icon name="camera" size={40} color={'white'} />
-                     </Text>
+                     <View style={styles.captureSidePlaceholder} >
+                         <TouchableOpacity onPress={this.changeCameraMode} >
+                             <Icon name={'exchange'} size={40} color={'white'} />
+                         </TouchableOpacity>
+                     </View>
+
+                     <View style={styles.captureCenterPlaceholder} >
+                         <Text style={{textAlign: 'center'}} onPress={this.takePicture.bind(this)}>
+                             <Icon name="camera" size={40} color={'white'} />
+                         </Text>
+                     </View>
+
+                     <View style={styles.captureSidePlaceholder} >
+
+                     </View>
                  </View>
 
 
@@ -181,7 +202,8 @@ let screenHeight = Dimensions.get("window").height;
          height: 50,
          width: 50,
          alignItems: 'center',
-         justifyContent: 'center'
+         justifyContent: 'center',
+         backgroundColor: 'transparent'
      },
 
      preview: {
@@ -206,6 +228,16 @@ let screenHeight = Dimensions.get("window").height;
          backgroundColor: colors.primaryColor
      },
 
+     captureSidePlaceholder: {
+         width: 70,
+         // backgroundColor: 'pink'
+     },
+
+     captureCenterPlaceholder: {
+         flex: 1,
+         alignItems: 'center',
+         justifyContent: 'center'
+     },
 
      overlay: {
          backgroundColor: 'rgba(255, 255, 255, 0.2)',
@@ -222,7 +254,6 @@ let screenHeight = Dimensions.get("window").height;
          width: Dimensions.get('window').width,
          height: Dimensions.get('window').height,
      }
-
 
  });
 
