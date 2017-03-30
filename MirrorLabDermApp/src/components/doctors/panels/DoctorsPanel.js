@@ -43,6 +43,14 @@
 
  import DoctorInfoPanel from './DoctorInfoPanel'
 
+ import CacheableFitImage from '../../image/CacheableFitImage'
+
+ let {width, height} = Dimensions.get('window');
+
+ import I18nText from '../../i18n/I18nText'
+
+ import I18nHelper from '../../../helpers/I18nHelper'
+
  class DoctorsPanel extends React.Component {
 
      static defaultProps = {}
@@ -78,16 +86,28 @@
      }
 
      render = () => {
-         let {isMyDoctor, loading, selectedDoctorId, selectDoctor, unselectDoctor, selectedDoctor} = this.props;
+         let {isMyDoctor, loading, lang, selectedDoctorId, selectDoctor, unselectDoctor, selectedDoctor, closeFindDoctor} = this.props;
          let {searchQuery} = this.state;
          let doctors = this.getDoctors();
 
          return (
              <View style={styles.container} >
 
+                 <View style={styles.headerPlaceholder} >
+                     <I18nText name={'FIND_DOCTOR'} style={{textAlign: 'center', fontSize: 20, fontWeight: 'bold', color: colors.fbColor}} />
+
+                     <TouchableOpacity onPress={() => {closeFindDoctor()}}
+                         style={{position: 'absolute', left: 5, top: 0, bottom: 0, width: 80, justifyContent: 'center'}} >
+                         <View style={{alignItems: 'center', flexDirection: 'row'}} >
+                             <Icon name="chevron-left" size={20} color={colors.lightText} style={{marginRight: 5}} />
+                             <I18nText name={'BACK'} style={{fontSize: 20, color: colors.lightText}} />
+                         </View>
+                     </TouchableOpacity>
+                 </View>
+
                  <View style={styles.searchInputPlaceholder} >
                      <TextInput
-                                placeholder={'Find a doctor...'}
+                                placeholder={I18nHelper.getString(lang, 'FIND_DOCTOR')}
                                 style={styles.searchInput} onChangeText={(t) => {this.setState({searchQuery: t})}}
                                 value={searchQuery} />
                  </View>
@@ -95,14 +115,18 @@
                  <ScrollView style={styles.listPlaceholder}>
                      {doctors.map((d, k) => {
                          let key = 'doctor_' + k + '_' + d.id;
+                         let avaSt = [styles.avatar];
+                         if (isMyDoctor(d.id) == true){
+                             avaSt.push(styles.activeAvatar);
+                         }
 
                          return (
                              <TouchableOpacity style={styles.doctorItem} key={key} onPress={() => {selectDoctor(d.id)}} >
 
-                                 <View style={styles.doctorItem} >
+                                 <View style={{flexDirection: 'row',}} >
 
                                      <View style={styles.avatarPlaceholder} >
-                                        <Image source={{uri: d.avatar}} style={styles.avatar} />
+                                        <CacheableFitImage url={d.avatar} style={avaSt} />
                                      </View>
 
                                      <View style={styles.infoPlaceholder} >
@@ -111,7 +135,7 @@
                                                  {d.firstName} {d.lastName}
                                              </Text>
                                          </View>
-                                         <View>
+                                         <View style={styles.jobTitlePlaceholder}>
                                              <Text style={styles.jobTitle} >
                                                  {d.jobTitle}
                                              </Text>
@@ -135,16 +159,28 @@
                      <View style={styles.modal_style} >
 
                          <TouchableOpacity style={styles.backPlaceholder} onPress={() => {unselectDoctor()}}>
-                             <Text style={{alignSelf: 'center'}} >
-                                 <Icon name="chevron-left" size={24} color={colors.lightText} />
-                                 Back
-                             </Text>
+
+                             <View>
+                                 <Text style={{fontSize: 20, color: colors.lightText}} >
+                                     <Icon name="chevron-left" size={24} color={colors.lightText} style={{marginRight: 5}} />
+                                 </Text>
+                             </View>
+
+
+                             <View style={{position: 'absolute', left: 0, bottom: 0, right: 0, top: 0, justifyContent: 'center', alignItems: 'center'}} >
+                                 <Text style={{textAlign: 'center', fontWeight: 'bold', color: colors.inactiveText, fontSize: 20}} >
+                                     {selectedDoctor == undefined ? null :
+                                         (selectedDoctor.firstName + ' ' + selectedDoctor.lastName)
+                                     }
+                                 </Text>
+                             </View>
+
                          </TouchableOpacity>
 
                          {selectedDoctor == undefined ? null :
-                             <ScrollView >
+                             <View>
                                  <DoctorInfoPanel />
-                             </ScrollView>
+                             </View>
                          }
 
                      </View>
@@ -166,9 +202,19 @@
          alignItems: 'stretch'
      },
 
+     headerPlaceholder: {
+         height: 40,
+         padding: 10,
+         borderBottomWidth: 1,
+         borderBottomColor: colors.cellBorder,
+         justifyContent: 'center'
+     },
+
+
+
      searchInputPlaceholder: {
          height: 50,
-         // backgroundColor: 'purple'
+         padding: 5
      },
 
      searchInput: {
@@ -178,15 +224,14 @@
 
      listPlaceholder: {
          flex: 1,
+         padding: 5,
          paddingBottom: 10,
-         // backgroundColor: 'blue',
          alignSelf: 'stretch'
      },
 
      doctorItem: {
-         flexDirection: 'row',
          // backgroundColor: 'pink',
-         height: 60,
+         minHeight: 60,
          borderRadius: 4,
          marginBottom: 10,
          borderBottomWidth: 1,
@@ -195,8 +240,6 @@
 
      avatarPlaceholder: {
         width: 60,
-        // padding: 10,
-        // backgroundColor: 'yellow',
          alignItems: 'flex-start'
      },
 
@@ -206,26 +249,30 @@
          borderRadius: 4
      },
 
+     activeAvatar: {
+        borderWidth: 2,
+         borderColor: colors.primaryColor
+     },
+
      infoPlaceholder: {
-        // flex: 1
-        //  alignSelf: 'stretch'
+
      },
 
      userNamePlaceholder: {
-
+        flex: 1
      },
 
      jobTitlePlaceholder: {
-
+         flex: 1
      },
 
      jobTitle: {
-
+        color: colors.inactiveText
      },
 
      userName: {
         fontWeight: 'bold',
-         fontSize: 16,
+         fontSize: 20,
          color: colors.darkText
      },
 
@@ -236,7 +283,12 @@
          flexWrap: 'wrap',
          alignItems: 'flex-start',
          flexDirection:'row',
-     }
+     },
+
+     modal_style: {
+         height: height,
+         marginTop: Platform.OS === 'android' ? -StatusBar.currentHeight : 0
+     },
 
  });
 
@@ -266,6 +318,7 @@
 
  const mapStateToProps = (state) => {
     return {
+        lang: state.settings.lang,
         currentUserId: state.users.currentUserId,
         loading: state.users.loading,
         selectedDoctorId: state.users.selectedDoctorId,
@@ -287,6 +340,9 @@
         },
         unselectDoctor: () => {
             return dispatch(actions.unselectDoctorToView())
+        },
+        closeFindDoctor: () => {
+            return dispatch(actions.unselectFindDoctorMode())
         }
     }
  }

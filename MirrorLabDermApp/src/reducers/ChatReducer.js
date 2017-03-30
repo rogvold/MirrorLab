@@ -7,7 +7,8 @@ import * as types from '../constants/ActionTypes.js'
 const initialState = {
     loading: false,
     messagesMap: Map(),
-    error: undefined
+    error: undefined,
+    selectedUserId: undefined
 }
 
 const startLoading = (state, action) => {
@@ -37,7 +38,7 @@ const ChatReducer =  (state = initialState, action = {}) => {
             return {
                 ...state,
                 loading: false,
-                messagesMap: state.messagesMap.merge(action.messages.reduce((map, meassage) => {return map.set(meassage.id, meassage)}, Map()))
+                messagesMap: state.messagesMap.merge(action.messages.reduce((map, message) => {return map.set(message.id, message)}, Map()))
             }
 
         case types.CREATE_MESSAGE:
@@ -49,6 +50,33 @@ const ChatReducer =  (state = initialState, action = {}) => {
                 ...state,
                 loading: false,
                 messagesMap: state.messagesMap.set(action.message.id, action.message)
+            }
+
+        case types.VIEW_MESSAGES:
+            return {
+                ...state
+            }
+
+        case types.VIEW_MESSAGES_FAIL:
+            return {
+                ...state
+            }
+
+        case types.VIEW_MESSAGES_SUCCESS:
+            return {
+                ...state,
+                messagesMap: state.messagesMap.merge(action.messages.reduce((map, message) => {return map.set(message.id, message)}, Map()))
+            }
+
+        case types.SELECT_CHAT_USER:
+            return {
+                ...state,
+                selectedUserId: action.id
+            }
+        case types.UNSELECT_CHAT_USER:
+            return {
+                ...state,
+                selectedUserId: undefined
             }
 
 

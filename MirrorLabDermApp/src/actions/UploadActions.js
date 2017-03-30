@@ -10,36 +10,21 @@ import {Set, OrderedSet, Map, Stack, Iterable} from 'immutable';
 
 import * as photosActions from '../actions/PhotosActions'
 
+let putPhotosInUploadingSet = (urls) => {
+    return (dispatch, getState) => {
+        return dispatch({
+            type: types.PUT_PHOTOS_IN_UPLOADING_SET,
+            urls: urls
+        })
+    }
+}
+
 //add to queue
 export function addToQueue(urls){
     return (dispatch, getState) => {
-        let state = getState().upload;
-
-        if (__DEV__){
-            console.log('addToQueue: urls = ', urls);
-            console.log('state = ', state);
-        }
-
-        let urlsSet = Set(urls);
-
-        if (__DEV__){
-            console.log('addToQueue: urlsSet.toJS = ', urlsSet.toJS());
-            console.log('loadingSet: loadingSet.toJS = ', state.loadingSet.toJS());
-            console.log('state.queueSet: state.queueSet.toJS = ', state.queueSet.toJS());
-        }
-
-
-        if (urlsSet.isSubset(state.loadingSet) || urlsSet.isSubset(state.queueSet)){
-            if (__DEV__){
-                console.log('isSubset of loadingSet or queueSet');
-            }
-            return Promise.resolve();
-        }
-
         return new Promise((resolve, reject) => {
-            resolve(dispatch({type: types.PUT_PHOTOS_IN_UPLOADING_SET, urls: urls}))
-        });
-
+            resolve(dispatch(putPhotosInUploadingSet(urls)))
+        })
     }
 }
 

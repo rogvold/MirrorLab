@@ -37,6 +37,7 @@
  import DevApp from './DevApp'
  import ChatApp from './ChatApp'
  import DoctorsApp from './DoctorsApp'
+ import TakePhotoApp from './TakePhotoApp'
 
  import LogoutButton from '../auth/buttons/LogoutButton'
 
@@ -76,7 +77,10 @@
 
 
      getCurrentTab = () => {
-         let {tab} = this.props;
+         let {tab, camera} = this.props;
+         if (camera == true){
+             return <TakePhotoApp />
+         }
          switch (tab){
              case 'index':
                  return <IndexApp/>
@@ -97,7 +101,7 @@
      }
 
      render = () => {
-         let {loading, initialized, currentUserId} = this.props;
+         let {loading, initialized, currentUserId, camera} = this.props;
 
          console.log('rendering App: loading, initialized, currentUserId = ', loading, initialized, currentUserId);
 
@@ -112,11 +116,14 @@
              );
          }
 
+         if (camera == true){
+             return <TakePhotoApp/>
+         }
+
          return (
              <View style={styles.container} >
 
                  <StatusBar hidden={true} translucent={true} />
-
 
                  <View style={styles.tabPlaceholder} >
                      {this.getCurrentTab()}
@@ -129,6 +136,8 @@
                  {true == true ? null :
                      <IOSNavigationTabBarsPanel />
                  }
+
+                 <UploadDaemon />
 
              </View>
          )
@@ -159,7 +168,8 @@
         currentUserId: state.users.currentUserId,
         loading: state.users.loading,
         initialized: state.users.initialized,
-        tab: state.navigation.tab
+        tab: state.navigation.tab,
+        camera: state.navigation.camera
     }
  }
 

@@ -26,14 +26,6 @@ import {
     StatusBar
 } from 'react-native';
 
-import LogoutButton from '../auth/buttons/LogoutButton'
-
-import {H2, H3, H4} from 'nachos-ui';
-
-import UploadDaemon from '../upload/UploadDaemon'
-
-import ChatUserPanel from '../chat/panels/ChatUserPanel'
-
 import ChatFriendsPanel from '../chat/panels/ChatFriendsPanel'
 
 import * as colors from '../../constants/AppColors'

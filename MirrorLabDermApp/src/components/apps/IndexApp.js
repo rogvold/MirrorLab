@@ -46,6 +46,10 @@ import CalendarPanel from '../calendar/CalendarPanel'
 
 import PhotosHistoryTabbedPanel from '../photos/history/panels/PhotosHistoryTabbedPanel'
 
+import * as colors from '../../constants/AppColors'
+
+import I18nText from '../i18n/I18nText'
+
 class IndexApp extends React.Component {
 
     static defaultProps = {}
@@ -74,6 +78,10 @@ class IndexApp extends React.Component {
 
         return (
             <View style={styles.container} >
+
+                <View style={styles.headerPlaceholder} >
+                    <I18nText name={'PHOTOS'} style={styles.headerText} />
+                </View>
 
                 {true == true ? null :
                     <View style={styles.slider_placeholder} >
@@ -109,14 +117,10 @@ class IndexApp extends React.Component {
 // const { StatusBarManager } = NativeModules;
 // const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 0 : StatusBarManager.HEIGHT;
 
-var styles = StyleSheet.create({
+let {width, height} = Dimensions.get('window');
+
+let styles = StyleSheet.create({
     container: {
-        // flex: 1,
-        // paddingTop: 22,
-        // paddingTop: 42,
-        // backgroundColor: 'purple',
-        // paddingTop: 22,
-        // alignSelf: 'stretch',
         height: Dimensions.get('window').height,
         flexDirection: 'column'
     },
@@ -124,11 +128,6 @@ var styles = StyleSheet.create({
     slider_placeholder: {
         backgroundColor: 'whitesmoke',
         flex: 1,
-        // flex: 1,
-        // flexGrow: 1
-        // height: 200,
-        // flexGrow: 1,
-        // width: Dimensions.get('window').width,
     },
 
     create_photo_panel_placeholder: {
@@ -139,10 +138,25 @@ var styles = StyleSheet.create({
         left: 0,
         right: 0,
         height: 340
-        // height: Dimensions.get('window').height - 200,
-        // flexGrow: 1,
-        // width: Dimensions.get('window').width,
-    }
+    },
+
+    headerPlaceholder: {
+        height: 40,
+        width: width,
+        alignItems: 'center',
+        justifyContent: 'center',
+
+        // borderBottomWidth: 1,
+        // borderBottomColor: colors.cellBorder
+
+    },
+
+    headerText: {
+        textAlign: 'center',
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: colors.fbColor
+    },
 
 
 });

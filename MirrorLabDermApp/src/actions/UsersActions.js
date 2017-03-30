@@ -121,9 +121,6 @@ let authInitSuccess = (user) => {
 //thunk
 export function initializeAuthorization(){
     return (dispatch, getState) => {
-        // if (getState().users.initialized == true){
-        //     return Promise.resolve()
-        // }
         dispatch(startAuthInit());
         return ParseAPI.fetchCurrentUserAsPromise().then(
             user => dispatch(authInitSuccess(user)),
@@ -211,7 +208,6 @@ export function  loadUserUserLinks(userId){
             return;
         }
         dispatch(loadUserLinks_());
-        // return ParseAPI.runCloudFunctionAsPromise('loadUserLinks', {userId: userId}).then(
         return ParseAPI.runCloudFunctionAsPromise('loadLinks', {userId: userId}).then(
             d => {dispatch(loadUserLinksSuccess(d.links, d.users))},
             err => {dispatch(loadUserLinksFail(err))}
@@ -288,6 +284,41 @@ export function deleteUserLink(id){
     }
 }
 
+// update user
+
+let updateUser_ = () => {
+    return {
+        type: types.UPDATE_USER
+    }
+}
+
+let updateUserFail = (err) => {
+    return {
+        type: types.UPDATE_USER_FAIL,
+        error: err
+    }
+}
+
+let updateUserSuccess = (user) => {
+    return {
+        type: types.UPDATE_USER_SUCCESS,
+        user: user
+    }
+}
+
+//thunk
+export function updateUser(data){
+    return (dispatch, getState) => {
+        let {currentUserId, usersMap} = getState().users;
+        data.id = currentUserId;
+        dispatch(updateUser_());
+        return ParseAPI.updateObject(Parse.User, data, ParseAPI.transformUser).then(
+            user => dispatch(updateUserSuccess(user)),
+            err => dispatch(updateUserFail(err))
+        )
+    }
+}
+
 export function selectDoctorToView(id){
     return (dispatch, getState) => {
         dispatch({
@@ -301,6 +332,22 @@ export function unselectDoctorToView(id){
     return (dispatch, getState) => {
         dispatch({
             type: types.UNSELECT_DOCTOR_TO_VIEW
+        });
+    }
+}
+
+export function selectFindDoctorMode(id){
+    return (dispatch, getState) => {
+        dispatch({
+            type: types.SELECT_FIND_DOCTOR_MODE,
+        });
+    }
+}
+
+export function unselectFindDoctorMode(id){
+    return (dispatch, getState) => {
+        dispatch({
+            type: types.UNSELECT_FIND_DOCTOR_MODE,
         });
     }
 }

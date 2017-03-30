@@ -91,7 +91,7 @@
 
      render = () => {
          let {comments} = this.props;
-         let {loading} = this.state;
+         let {loading, text} = this.state;
 
 
          return (
@@ -121,13 +121,17 @@
                              onChange={this.onTextChange.bind(this)}
                              onChangeText={(text) => this.setState({text})} />
                      </View>
-                     <View style={styles.buttonPlaceholder} >
-                         <TouchableOpacity onPress={this.onSend}>
-                             <Text style={styles.buttonText} >
-                                 Send
-                             </Text>
-                         </TouchableOpacity>
-                     </View>
+
+                     {(text == undefined || text.trim() == '') ? null :
+                         <View style={styles.buttonPlaceholder} >
+                             <TouchableOpacity onPress={this.onSend}>
+                                 <Text style={styles.buttonText} >
+                                     Send
+                                 </Text>
+                             </TouchableOpacity>
+                         </View>
+                     }
+
                  </View>
 
                  <KeyboardSpacer />
@@ -184,7 +188,7 @@
  let getComments = (state, relatedId) => {
      let {usersMap} = state.users;
      let res = state.comments.commentsMap.toArray().filter((p) => {
-         return (p.relatedId == relatedId)}).sort((a, b) => {return (b.timestamp - a.timestamp)
+         return (p.relatedId == relatedId)}).sort((a, b) => {return (a.timestamp - b.timestamp)
      }).map((comment) => {
          return {
              comment: comment,

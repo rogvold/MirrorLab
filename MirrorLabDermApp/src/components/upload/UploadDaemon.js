@@ -48,14 +48,14 @@
      }
 
      componentWillReceiveProps() {
-
+         if (__DEV__){
+             console.log('UploadDaemon: componentWillReceiveProps occured');
+         }
+         this.props.uploadPhotoFromQueue();
      }
 
      componentDidUpdate = () => {
-         if (__DEV__){
-             console.log('UploadDaemon: componentDidUpdate occured');
-         }
-         this.props.uploadPhotoFromQueue();
+
      }
 
      render = () => {
@@ -97,6 +97,9 @@
  const mapDispatchToProps = (dispatch) => {
     return {
         uploadPhotoFromQueue: () => {
+            if (__DEV__){
+                console.log('uploadPhotoFromQueue occured');
+            }
             return dispatch(actions.uploadPhotoFromQueue())
         }
     }

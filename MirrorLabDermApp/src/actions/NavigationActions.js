@@ -9,3 +9,19 @@ export function switchTab(tab){
         tab: tab
     }
 }
+
+export function openCamera() {
+    return (dispatch, getState) => {
+        return dispatch({
+            type: types.OPEN_CAMERA
+        })
+    }
+}
+
+export function closeCamera() {
+    return (dispatch, getState) => {
+        return dispatch({
+            type: types.CLOSE_CAMERA
+        })
+    }
+}

@@ -18,6 +18,8 @@ const ChatAPI = {
             updatedTimestamp: (new Date(m.updatedAt)).getTime(),
             status: m.get('status'),
 
+            viewed: (m.get('viewed') == undefined) ? false : m.get('viewed'),
+
             content: m.get('content'),
             attachments: m.get('attachments'),
             fromId: m.get('fromId'),
@@ -99,6 +101,34 @@ const ChatAPI = {
             m.save().then(function(savedMessage){
                 resolve(self.transformChatMessage(savedMessage));
             })
+        });
+    },
+
+    makeMessagesViewed: function(ids){
+        var self = this;
+        return new Promise(function(resolve, reject){
+            if (ids == undefined || ids.length == 0){
+                resolve([]);
+                return;
+            }
+            var q = new Parse.Query('ChatMessage');
+            q.containedIn('objectId', ids);
+            q.find(function(results){
+                for (var i in results){
+                    results[i].set('viewed', true);
+                }
+                Parse.Object.saveAll(results, {
+                    success: function(savedMessages){
+                        savedMessages = savedMessages.map(function(m){
+                            return self.transformChatMessage(m)
+                        });
+                        resolve(savedMessages);
+                    },
+                    error: function(e){
+                        reject(e);
+                    }
+                });
+            });
         });
     }
 

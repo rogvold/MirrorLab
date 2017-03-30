@@ -9,6 +9,7 @@ import PhotosReducer from './PhotosReducer.js';
 import UploadReducer from './UploadReducer.js';
 import ChatReducer from './ChatReducer.js';
 import CommentsReducer from './CommentsReducer.js';
+import SettingsReducer from './SettingsReducer.js';
 
 export const reducer = combineReducers({
     users: UsersReducer,
@@ -17,5 +18,6 @@ export const reducer = combineReducers({
     upload: UploadReducer,
     chat: ChatReducer,
     comments: CommentsReducer,
+    settings: SettingsReducer,
 
 });

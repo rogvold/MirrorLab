@@ -31,6 +31,13 @@ const UploadReducer =  (state = initialState, action = {}) => {
 
 
         case types.PUT_PHOTOS_IN_UPLOADING_SET:
+            let urls = action.urls;
+            let urlsSet = Set(urls);
+            if (urlsSet.isSubset(state.loadingSet) || urlsSet.isSubset(state.queueSet)){
+                return {
+                    ...state
+                }
+            }
             return {
                 ...state,
                 queueSet: state.queueSet.concat(action.urls)

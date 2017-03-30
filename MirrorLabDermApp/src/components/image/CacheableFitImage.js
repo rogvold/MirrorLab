@@ -43,9 +43,7 @@
          originalWidth: undefined,
          originalHeight: undefined,
 
-         style: {
-            borderRadius: 4
-         }
+         style: {}
      }
 
      static propTypes = {}
@@ -99,17 +97,16 @@
      render = () => {
          let {loading, cachedUri} = this.state;
          let {style, originalWidth, originalHeight, url} = this.props;
-         let st = Object.assign({}, style);
-         if (originalHeight != undefined){
-             st = Object.assign({}, st, {height: originalHeight})
-         }
-         if (originalWidth != undefined){
-             st = Object.assign({}, st, {width: originalWidth})
-         }
+         // if (originalHeight != undefined){
+         //     st = Object.assign({}, st, {height: originalHeight})
+         // }
+         // if (originalWidth != undefined){
+         //     st = Object.assign({}, st, {width: originalWidth})
+         // }
 
          if (loading == true){
              return (
-                 <View style={st} >
+                 <View style={style} >
                     <Text style={{textAlign: 'center', marginTop: 10}} >loading...</Text>
                  </View>
              )

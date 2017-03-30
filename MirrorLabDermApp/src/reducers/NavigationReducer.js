@@ -5,7 +5,10 @@
 import * as types from '../constants/ActionTypes.js'
 
 const initialState = {
-    tab: 'index'
+    tab: 'index',
+
+    camera: false
+
 }
 
 const NavigationReducer =  (state = initialState, action = {}) => {
@@ -14,6 +17,18 @@ const NavigationReducer =  (state = initialState, action = {}) => {
 
         case types.SWITCH_TAB:
             return {...state, tab: action.tab}
+
+        case types.OPEN_CAMERA:
+            return {
+                ...state,
+                camera: true
+            }
+
+        case types.CLOSE_CAMERA:
+            return {
+                ...state,
+                camera: false
+            }
 
         default:
             return state;

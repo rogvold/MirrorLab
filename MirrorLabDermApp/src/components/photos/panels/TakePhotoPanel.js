@@ -22,7 +22,8 @@
      Platform,
      BackAndroid,
      Dimensions,
-     ActivityIndicator
+     ActivityIndicator,
+     TouchableOpacity
  } from 'react-native';
 
  import Icon from 'react-native-vector-icons/FontAwesome';
@@ -30,6 +31,8 @@
  import Camera from 'react-native-camera';
 
  import * as colors from '../../../constants/AppColors'
+
+ import * as navigationActions from '../../../actions/NavigationActions'
 
  class TakePhotoPanel extends React.Component {
 
@@ -97,9 +100,14 @@
                         source={{uri: path}} />
 
                  <View style={styles.capture_placeholder}>
-                     <Text style={styles.capture} onPress={this.onSubmit} >
-                         <Icon name="check-circle-o" size={50} color={'white'} />
-                     </Text>
+
+                     <TouchableOpacity  onPress={this.onSubmit} style={{marginLeft: 15, marginRight: 15}} >
+                         <Icon name="check" size={50} color={'white'} />
+                     </TouchableOpacity>
+
+                     <TouchableOpacity  style={{marginLeft: 15, marginRight: 15}}  onPress={() => {this.setState({takenPhoto: undefined})}} >
+                         <Icon name="close" size={50} color={'white'} />
+                     </TouchableOpacity>
                  </View>
 
 
@@ -109,6 +117,11 @@
 
      render = () => {
          let {takenPhoto} = this.state;
+         let {closeCamera, cameraEnabled} = this.props;
+         if (cameraEnabled == false){
+             return null;
+         }
+
 
          if (__DEV__){
              console.log('TakenPhotoPanel: takenPhoto = ', takenPhoto);
@@ -120,6 +133,10 @@
 
          return (
              <View style={styles.container} >
+
+                 <TouchableHighlight style={styles.close_style} onPress={() => {closeCamera()}}>
+                     <Icon name="close" size={35} color={colors.lightText} />
+                 </TouchableHighlight>
 
                  <Camera
                      ref={(cam) => { this.camera = cam;}}
@@ -154,6 +171,19 @@ let screenHeight = Dimensions.get("window").height;
          height: screenHeight
      },
 
+     close_style: {
+         position: 'absolute',
+         zIndex: 100,
+         top: 30,
+         right: 8,
+         padding: 5,
+         borderRadius: 25,
+         height: 50,
+         width: 50,
+         alignItems: 'center',
+         justifyContent: 'center'
+     },
+
      preview: {
          flex: 1,
          justifyContent: 'flex-end',
@@ -170,14 +200,12 @@ let screenHeight = Dimensions.get("window").height;
          right: 0,
          alignItems: 'center',
          justifyContent: 'center',
-         backgroundColor: colors.darkBackground
+         flexDirection: 'row',
+         padding: 10,
+         // backgroundColor: colors.darkBackground
+         backgroundColor: colors.primaryColor
      },
 
-     capture: {
-         flex: 0,
-         padding: 10,
-         borderRadius: 10
-     },
 
      overlay: {
          backgroundColor: 'rgba(255, 255, 255, 0.2)',
@@ -199,21 +227,20 @@ let screenHeight = Dimensions.get("window").height;
  });
 
 
- //const mapStateToProps = (state) => {
- //    return {
- //        currentUserId: state.users.currentUserId,
- //        loading: state.users.loading
- //    }
- //}
+ const mapStateToProps = (state) => {
+    return {
+        cameraEnabled: state.navigation.camera
+    }
+ }
 
- //const mapDispatchToProps = (dispatch) => {
- //    return {
- //        onLogout: (data) => {
- //            dispatch(actions.logOut())
- //        }
- //    }
- //}
+ const mapDispatchToProps = (dispatch) => {
+    return {
+        closeCamera: () => {
+            return dispatch(navigationActions.closeCamera())
+        }
+    }
+ }
 
- //TakePhotoPanel = connect(mapStateToProps, mapDispatchToProps)(TakePhotoPanel)
+ TakePhotoPanel = connect(mapStateToProps, mapDispatchToProps)(TakePhotoPanel)
 
  export default TakePhotoPanel

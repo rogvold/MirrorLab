@@ -13,7 +13,8 @@ const initialState = {
     currentUserId: undefined,
     error: undefined,
 
-    selectedDoctorId: undefined
+    selectedDoctorId: undefined,
+    findDoctorMode: false
 
 
 }
@@ -124,9 +125,9 @@ const UsersReducer =  (state = initialState, action = {}) => {
                 loading: false,
                 error: undefined,
                 usersMap: state.usersMap.merge(action.users.reduce((res, u) => {return res.set(u.id, u)}, Map())),
-                linksMap: state.linksMap.merge(action.links.reduce((res, u) => {return res.set(u.id, u)}, Map())),
+                // linksMap: state.linksMap.merge(action.links.reduce((res, u) => {return res.set(u.id, u)}, Map())),
+                linksMap: action.links.reduce((res, u) => {return res.set(u.id, u)}, Map()),
             }
-
 
 
         case types.CREATE_USER_LINK:
@@ -173,6 +174,18 @@ const UsersReducer =  (state = initialState, action = {}) => {
             return {
                 ...state,
                 selectedDoctorId: undefined
+            }
+
+        case types.SELECT_FIND_DOCTOR_MODE:
+            return {
+                ...state,
+                findDoctorMode: true
+            }
+
+        case types.UNSELECT_FIND_DOCTOR_MODE:
+            return {
+                ...state,
+                findDoctorMode: false
             }
 
 

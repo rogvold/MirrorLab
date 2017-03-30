@@ -159,7 +159,7 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
 
                                  <TouchableOpacity style={styles.headerBackPlaceholder} onPress={() => {this.setState({selectedPhotoId: undefined})}} >
                                      <Text style={styles.backButton} >
-                                         <Icon name="chevron-left" color={colors.messengerColor} size={16} style={{marginRight: 5}} />
+                                         <Icon name="chevron-left" color={colors.fbColor} size={16} style={{marginRight: 5}} />
                                          Back
                                      </Text>
                                  </TouchableOpacity>
@@ -233,7 +233,7 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
      },
 
      backButton: {
-         color: colors.messengerColor,
+         color: colors.fbColor,
          fontSize: 16
      },
 

@@ -42,9 +42,14 @@
 
  import * as Animatable from 'react-native-animatable';
 
+ import I18nText from '../i18n/I18nText'
+
+
  class DermaNavigationTabBarsPanel extends React.Component {
 
-     static defaultProps = {}
+     static defaultProps = {
+         noText: true
+     }
 
      static propTypes = {}
 
@@ -70,24 +75,25 @@
              textAlign: 'center',
              fontSize: 16
          });
+         let {noText} = this.props;
          return (
              <TouchableOpacity style={styles.tabPlaceholder} onPress={onClick} >
                  <View style={{flex: 1}} >
                      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}} >
-                         <Icon name={iconName} color={(isActive == true) ? colors.fbColor : colors.inactiveText} size={24} />
+                         <Icon name={iconName} color={(isActive == true) ? colors.fbColor : colors.inactiveText} size={(noText == false ? 24 : 32)} />
                      </View>
-                     <View style={{height: 20, alignItems: 'center', justifyContent: 'center'}} >
-                         <Text style={textSt}>
-                             {displayName}
-                         </Text>
-                     </View>
+                     {noText == true ? null :
+                         <View style={{height: 20, alignItems: 'center', justifyContent: 'center'}} >
+                             <I18nText name={displayName} style={textSt} />
+                         </View>
+                     }
                  </View>
              </TouchableOpacity>
          )
      }
 
      render = () => {
-         let {tab, switchTab} = this.props;
+         let {tab, switchTab, openCamera} = this.props;
 
          return (
              <View style={styles.container} >
@@ -103,7 +109,7 @@
                  <Animatable.View
                      animation="pulse" easing="ease-out" iterationCount="infinite"
                      style={styles.centerView} >
-                     <TouchableOpacity style={styles.centerButton} >
+                     <TouchableOpacity style={styles.centerButton} onPress={() => {openCamera()}} >
                          <Text style={styles.centerButtonText} >
                              +
                          </Text>
@@ -111,7 +117,7 @@
                  </Animatable.View>
 
                  <View style={styles.sideView} >
-                     {this.getSideTab('Settings', 'gear', (tab == 'settings'), () => {switchTab('settings')})}
+                     {this.getSideTab('SETTINGS_SHORT', 'gear', (tab == 'settings'), () => {switchTab('settings')})}
                  </View>
 
                  <View style={styles.sideView} >
@@ -197,6 +203,9 @@ const mapDispatchToProps = (dispatch) => {
     return {
         switchTab: (tab) => {
             return dispatch(actions.switchTab(tab))
+        },
+        openCamera: () => {
+            return dispatch(actions.openCamera())
         }
     }
 }

@@ -37,10 +37,18 @@
 
  import * as colors from '../../../constants/AppColors'
 
+ import CacheableFitImage from '../../image/CacheableFitImage'
+
+ let {width, height} = Dimensions.get('window');
+
+ import I18nText from '../../i18n/I18nText'
+
  class DoctorInfoPanel extends React.Component {
 
      static defaultProps = {
+        onUpdated: () => {
 
+        }
      }
 
      static propTypes = {
@@ -63,19 +71,19 @@
      }
 
      onAdd = () => {
-         let {onAdd, selectedDoctorId} = this.props;
+         let {onAdd, selectedDoctorId, closeFindDoctor, unselectDoctor} = this.props;
          let data = {
              friendId: selectedDoctorId
          }
-         onAdd(data);
+         onAdd(data).then(() => {unselectDoctor()}).then(()=> {closeFindDoctor()})
      }
 
      onDelete = () => {
-         let {onDelete, link} = this.props;
+         let {onDelete, link, closeFindDoctor, unselectDoctor} = this.props;
          if (link == undefined){
              return;
          }
-         onDelete(link.id);
+         onDelete(link.id).then(() => {unselectDoctor()}).then(()=> {closeFindDoctor()})
      }
 
      render = () => {
@@ -84,45 +92,54 @@
              return null;
          }
          if (__DEV__){
-             console.log('rendering DoctorInfoPanel');
+             console.log('rendering DoctorInfoPanel: doctor = ', doctor);
          }
 
          return (
-             <ScrollView style={styles.container} >
+             <View style={{height: height}}>
 
-                 <View style={styles.avatarPlaceholder} >
-                     <Image source={{uri: doctor.avatar}} style={styles.avatar} />
-                 </View>
+                 <ScrollView style={styles.container} >
 
-                 <View style={styles.doctorInfoPlaceholder}>
-
-                     <View style={styles.namePlaceholder} >
-                         <Text style={styles.userName} >
-                             {doctor.firstName} {doctor.lastName}
-                         </Text>
+                     <View style={styles.avatarPlaceholder} >
+                         <CacheableFitImage url={doctor.avatar} style={styles.avatar} />
                      </View>
 
-                 </View>
+                     <View style={styles.doctorInfoPlaceholder}>
 
+                         <View style={styles.aboutPlaceholder} >
+                             <View style={styles.headerBlock}>
+                                <Text style={styles.header} >
+                                    About
+                                </Text>
+                             </View>
+                             <View>
+                                 <Text style={[styles.about, styles.p]} >
+                                     {doctor.about}
+                                 </Text>
+                             </View>
 
-                 {isFriend == true ?
-                     <View style={{alignItems: 'center', justifyContent: 'center'}} >
-                         <View style={styles.deleteDoctorButton} >
-                             <Text style={{textAlign: 'center', color: 'white'}}>
-                                 Delete doctor
-                             </Text>
                          </View>
-                     </View> :
-                     <View style={styles.addDoctorButtonPlaceholder} >
-                         <TouchableOpacity style={styles.addDoctorButton} onPress={this.onAdd} >
-                             <Text style={{textAlign: 'center'}} >
-                                 + ADD DOCTOR
-                             </Text>
-                         </TouchableOpacity>
-                     </View>
-                 }
 
-             </ScrollView>
+                     </View>
+
+                 </ScrollView>
+
+                 <View style={{height: 100, padding: 10}}  >
+                     {isFriend == true ?
+                         <View style={{alignItems: 'center', justifyContent: 'center'}} >
+                             <TouchableOpacity style={styles.deleteDoctorButton} onPress={this.onDelete} >
+                                 <I18nText isUpper={true} name={'DELETE_DOCTOR'} style={{textAlign: 'center', color: 'white', fontWeight: 'bold'}} />
+                             </TouchableOpacity>
+                         </View> :
+                         <View style={styles.addDoctorButtonPlaceholder} >
+                             <TouchableOpacity style={styles.addDoctorButton} onPress={this.onAdd} >
+                                 <I18nText isUpper={true} name={'ADD_DOCTOR_PLUS'} style={{textAlign: 'center', color: 'white', fontWeight: 'bold'}} />
+                             </TouchableOpacity>
+                         </View>
+                     }
+                 </View>
+
+             </View>
          )
      }
 
@@ -134,8 +151,12 @@
      },
 
      avatarPlaceholder: {
-         height: 120,
-         backgroundColor: 'pink'
+         height: 160,
+         backgroundColor: 'pink',
+         borderBottomWidth: 1,
+         borderTopWidth: 1,
+         borderTopColor: colors.cellBorder,
+         borderBottomColor: colors.cellBorder
      },
 
      avatar: {
@@ -154,22 +175,32 @@
      addDoctorButton: {
          height: 40,
          padding: 5,
-         borderRadius: 15,
-         backgroundColor: colors.button2Color,
+         borderRadius: 20,
+         backgroundColor: colors.primaryColor,
          alignItems: 'center',
-         justifyContent: 'center'
+         justifyContent: 'center',
+         alignSelf: 'stretch'
      },
 
      namePlaceholder: {
         padding: 10,
-        alignItems: 'center'
+        // alignItems: 'center'
      },
 
      userName: {
          fontWeight: 'bold',
          color: colors.inactiveText,
          fontSize: 24,
-         textAlign: 'center'
+         // textAlign: 'center'
+     },
+
+     aboutPlaceholder: {
+
+     },
+
+     about: {
+        color: colors.lightText,
+        fontSize: 16
      },
 
      deleteDoctorButton: {
@@ -178,6 +209,22 @@
          alignItems: 'center',
          justifyContent: 'center',
          backgroundColor: colors.dangerColor,
+         padding: 10,
+         alignSelf: 'stretch'
+     },
+
+     headerBlock: {
+         padding: 10,
+     },
+
+     header: {
+         fontWeight: 'bold',
+         color: colors.primaryColor,
+         fontSize: 24
+     },
+
+     p: {
+         color: colors.inactiveText,
          padding: 10
      }
 
@@ -198,6 +245,9 @@
          if (link.creatorId == currentUserId && link.friendId == selectedDoctorId){
              res = link;
          }
+     }
+     if (__DEV__){
+         console.log('getLink occured: returning link = ', res);
      }
      return res;
  }
@@ -220,6 +270,12 @@
         },
         onDelete: (id) => {
             return dispatch(actions.deleteUserLink(id))
+        },
+        closeFindDoctor: () => {
+            return dispatch(actions.unselectFindDoctorMode());
+        },
+        unselectDoctor: () => {
+            return dispatch(actions.unselectDoctorToView())
         }
     }
  }

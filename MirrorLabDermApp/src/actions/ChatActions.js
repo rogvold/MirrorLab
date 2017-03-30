@@ -87,7 +87,55 @@ export function createMessage(data){
     }
 }
 
+//VIEW
+let viewMessages_ = () => {
+    return {
+        type: types.VIEW_MESSAGES
+    }
+}
+let viewMessagesSuccess = (messages) => {
+    return {
+        type: types.VIEW_MESSAGES_SUCCESS,
+        messages: messages
+    }
+}
+let viewMessagesFail = (err) => {
+    return {
+        type: types.VIEW_MESSAGES_FAIL,
+        error: err
+    }
+}
+//thunk
+export function viewMessagesFromSelectedUser(){
+    return (dispatch, getState) => {
+        let {currentUserId} = getState().users;
+        let {messagesMap, selectedUserId} = getState().chat;
+        let notReadMessagesIds = messagesMap.toArray()
+            .filter((m) => {return ((m.fromId == selectedUserId) && (m.toId == currentUserId) && (m.viewed != true))})
+            .map(m => m.id);
+        return ChatAPI.makeMessagesViewed(notReadMessagesIds).then(
+            messages => dispatch(viewMessagesSuccess(messages)),
+            err => dispatch(viewMessagesFail(err))
+        )
+    }
+}
 
+//chat window
+export function openChatUser(id){
+    return (dispatch, getState) => {
+        dispatch({
+            type: types.SELECT_CHAT_USER,
+            id: id
+        });
+    }
+}
+export function closeChatUser(id){
+    return (dispatch, getState) => {
+        dispatch({
+            type: types.UNSELECT_CHAT_USER
+        });
+    }
+}
 
 //additionals
 

@@ -30,6 +30,16 @@ import {H2, H3, H4} from 'nachos-ui';
 
 import UploadDaemon from '../upload/UploadDaemon'
 
+import UpdateProfilePanel from '../settings/panels/UpdateProfilePanel'
+
+import KeyboardSpacer from 'react-native-keyboard-spacer';
+
+import * as colors from '../../constants/AppColors'
+
+import LanguageSwitcherPanel from '../settings/panels/LanguageSwitcherPanel'
+
+import I18nText from '../i18n/I18nText'
+
 class SettingsApp extends React.Component {
 
     static defaultProps = {}
@@ -56,12 +66,25 @@ class SettingsApp extends React.Component {
         return (
             <View style={styles.container} >
 
-                <View style={styles.button_placeholder} >
+                <View style={styles.headerPlaceholder} >
+                    <I18nText name={'SETTINGS'} style={styles.headerText} />
+                </View>
+
+                <View style={{height: 280}} >
+                    <UpdateProfilePanel />
+                </View>
+
+                <View style={{height: 140}} >
+                    <LanguageSwitcherPanel />
+                </View>
+
+                <View style={{padding: 10}} >
                     <LogoutButton buttonName={'Logout'} loadingText={'Logging out...'} />
                 </View>
 
+                {/*<UploadDaemon />*/}
 
-                <UploadDaemon />
+                <KeyboardSpacer />
 
             </View>
         )
@@ -69,22 +92,43 @@ class SettingsApp extends React.Component {
 
 }
 
+let {width, height} = Dimensions.get('window');
+
 var styles = StyleSheet.create({
     container: {
         // flex: 1,
         // paddingTop: 22,
-        paddingTop: 42,
-        height: Dimensions.get('window').height,
+        height: height,
+        width: width,
         backgroundColor: 'white',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center'
+
+        // flexDirection: 'column',
+        // alignItems: 'center',
+        // justifyContent: 'center'
     },
 
     button_placeholder: {
         height: 50,
-        alignSelf: 'center'
-    }
+        // alignSelf: 'center'
+    },
+
+    headerPlaceholder: {
+        height: 40,
+        width: width,
+        alignItems: 'center',
+        justifyContent: 'center',
+
+        borderBottomWidth: 1,
+        borderBottomColor: colors.cellBorder
+
+    },
+
+    headerText: {
+        textAlign: 'center',
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: colors.fbColor
+    },
 
 
 });

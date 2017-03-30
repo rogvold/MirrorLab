@@ -43,6 +43,9 @@ class ChatUsersList extends React.Component {
     static defaultProps = {
         onUserPress: (uId) => {
 
+        },
+        getNotReadMessagesNumber: (uId) => {
+
         }
     }
 
@@ -76,7 +79,9 @@ class ChatUsersList extends React.Component {
     }
 
     getPhotoRow = (user) => {
+        let {getNotReadMessagesNumber} = this.props;
         let avatar = (user.avatar == undefined) ? constants.EMPTY_AVATAR : user.avatar;
+        let notReadNumber = getNotReadMessagesNumber(user.id)
 
         return (
             <View style={styles.user_item}>
@@ -95,10 +100,18 @@ class ChatUsersList extends React.Component {
 
                     </View>
                     <View style={styles.info_placeholder} >
-                        <Text>
+                        <Text style={{fontSize: 16, color: colors.inactiveText}} >
                             {user.firstName + ' ' + user.lastName}
                         </Text>
                     </View>
+
+                    {notReadNumber == user || notReadNumber == 0 ? null :
+                        <View style={styles.notReadPlaceholder} >
+                            <Text style={styles.notReadText} >
+                                ({notReadNumber})
+                            </Text>
+                        </View>
+                    }
 
                 </TouchableOpacity>
             </View>
@@ -141,7 +154,8 @@ let styles = StyleSheet.create({
     },
 
     info_placeholder: {
-        paddingLeft: 5
+        paddingLeft: 5,
+        flex: 1
     },
 
     touchablePlaceholder: {
@@ -151,7 +165,20 @@ let styles = StyleSheet.create({
         // justifyContent: 'center',
         justifyContent: 'flex-start',
         alignItems: 'center'
-    }
+    },
+
+    notReadPlaceholder: {
+        width: 30,
+        paddingRight: 5,
+        // backgroundColor: 'pink'
+    },
+
+    notReadText: {
+        fontWeight: 'bold',
+        textAlign: 'right',
+        fontSize: 16,
+        color: colors.primaryColor
+    },
 
 });
 

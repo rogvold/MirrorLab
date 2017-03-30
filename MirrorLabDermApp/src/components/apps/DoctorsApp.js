@@ -1,6 +1,8 @@
 /**
  * Created by sabir on 26.03.17.
  */
+
+
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
@@ -20,14 +22,23 @@ import {
     Platform,
     BackAndroid,
     ActivityIndicator,
-    Dimensions
+    Dimensions,
+    StatusBar,
+    TouchableOpacity
 } from 'react-native';
 
-import LogoutButton from '../auth/buttons/LogoutButton'
 
-import {H2, H3, H4} from 'nachos-ui';
+import ChatFriendsPanel from '../chat/panels/ChatFriendsPanel'
 
-import UploadDaemon from '../upload/UploadDaemon'
+import * as colors from '../../constants/AppColors'
+
+import Icon from 'react-native-vector-icons/FontAwesome'
+
+import * as actions from '../../actions/UsersActions'
+
+import DoctorsPanel from '../doctors/panels/DoctorsPanel'
+
+import I18nText from '../i18n/I18nText'
 
 class DoctorsApp extends React.Component {
 
@@ -51,11 +62,39 @@ class DoctorsApp extends React.Component {
     }
 
     render = () => {
+        let {findDoctorMode, closeFindDoctor} = this.props;
 
         return (
             <View style={styles.container} >
 
-                <UploadDaemon />
+                <View style={styles.headerPlaceholder} >
+                    <View>
+                        <I18nText name={'MY_DOCTORS'} style={styles.headerTextPlaceholder} />
+                    </View>
+                    <TouchableOpacity style={{position: 'absolute', right: 10, top: 0, bottom: 0, width: 50,
+                                  alignItems: 'flex-end', justifyContent: 'center'}}
+                                  onPress={() => {this.props.openFindDoctor()}}
+                    >
+                        <Icon name="plus" size={24} color={colors.fbColor} />
+                    </TouchableOpacity>
+
+                </View>
+
+                <View style={styles.contentPlaceholder} >
+                    <ChatFriendsPanel />
+                </View>
+
+                <Modal
+                    animationType={'slide'}
+                    visible={(findDoctorMode == true)}
+                    onRequestClose={() => {closeFindDoctor()}}
+                >
+
+                    <View style={{flex: 1}} >
+                        <DoctorsPanel />
+                    </View>
+
+                </Modal>
 
             </View>
         )
@@ -63,42 +102,70 @@ class DoctorsApp extends React.Component {
 
 }
 
+let {width, height} = Dimensions.get('window');
+
 var styles = StyleSheet.create({
     container: {
         // flex: 1,
         // paddingTop: 22,
-        paddingTop: 42,
-        height: Dimensions.get('window').height,
+        // paddingTop: 42,
+        height: height,
+
+
         backgroundColor: 'white',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center'
+
+
+        // flexDirection: 'column',
+        // alignItems: 'center',
+        // justifyContent: 'center'
     },
 
-    button_placeholder: {
-        height: 50,
-        alignSelf: 'center'
+    headerPlaceholder: {
+        height: 40,
+        width: width,
+        alignItems: 'center',
+        justifyContent: 'center',
+
+        borderBottomWidth: 1,
+        borderBottomColor: colors.cellBorder
+
+    },
+
+    headerTextPlaceholder: {
+        textAlign: 'center',
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: colors.fbColor
+    },
+
+    contentPlaceholder: {
+        height: height - 40 - 22,
+        width: width
     }
 
 
 });
 
 
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
+const mapStateToProps = (state) => {
+   return {
+       currentUserId: state.users.currentUserId,
+       loading: state.users.loading,
+       findDoctorMode: state.users.findDoctorMode
+   }
+}
 
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
+const mapDispatchToProps = (dispatch) => {
+   return {
+       openFindDoctor: () => {
+           return dispatch(actions.selectFindDoctorMode())
+       },
+       closeFindDoctor: () => {
+           return dispatch(actions.unselectFindDoctorMode())
+       }
+   }
+}
 
-//SplashApp = connect(mapStateToProps, mapDispatchToProps)(SplashApp)
+DoctorsApp = connect(mapStateToProps, mapDispatchToProps)(DoctorsApp)
 
 export default DoctorsApp

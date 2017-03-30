@@ -48,7 +48,9 @@
 
  class ChatFriendsPanel extends React.Component {
 
-     static defaultProps = {}
+     static defaultProps = {
+         checkMessagesInterval: 10 * 1000
+     }
 
      static propTypes = {}
 
@@ -62,8 +64,33 @@
      }
 
      componentDidMount() {
-        let {loadFreshMessages} = this.props;
+        let {loadFreshMessages, checkMessagesInterval} = this.props;
         loadFreshMessages();
+         this.viewSelectedUserMessages();
+        if (this.interval == undefined){
+            this.interval = setInterval(() => {
+                loadFreshMessages();
+                this.viewSelectedUserMessages();
+            }, checkMessagesInterval)
+        }
+     }
+
+     componentWillUnmount() {
+         if (this.interval != undefined){
+             clearInterval(this.interval);
+         }
+     }
+
+     viewSelectedUserMessages() {
+         let {viewMessagesFromSelectedUser, selectedUserId, getNotReadMessagesNumber} = this.props;
+         if (selectedUserId == undefined){
+             return;
+         }
+         let n = getNotReadMessagesNumber(selectedUserId);
+         if (n == 0){
+             return;
+         }
+         viewMessagesFromSelectedUser();
      }
 
      componentWillReceiveProps() {
@@ -75,14 +102,13 @@
      }
 
      onUserPress = (userId) => {
-         this.setState({
-             selectedUserId: userId
-         });
+         let {openUser} = this.props;
+         openUser(userId);
      }
 
      getSelectedUser = () => {
          let {users} = this.props;
-         let userId = this.state.selectedUserId;
+         let userId = this.props.selectedUserId;
          let res = undefined;
          for (let i in users){
              if (users[i].id == userId){
@@ -95,8 +121,7 @@
 
 
      render = () => {
-         let {users} = this.props;
-         let {selectedUserId} = this.state;
+         let {users, selectedUserId, openUser, closeUser, getNotReadMessagesNumber} = this.props;
          let selectedUser = this.getSelectedUser();
 
          return (
@@ -106,7 +131,8 @@
 
                  <View style={styles.listPlaceholder}>
 
-                     <ChatUsersList users={users} onUserPress={this.onUserPress} />
+                     <ChatUsersList users={users} getNotReadMessagesNumber={getNotReadMessagesNumber}
+                                    onUserPress={this.onUserPress} />
 
                  </View>
 
@@ -114,7 +140,7 @@
                      animationType={'slide'}
                      transparent={this.state.transparent}
                      visible={(selectedUserId != undefined)}
-                     onRequestClose={() => {this.setState({selectedUserId: undefined})}}
+                     onRequestClose={() => {closeUser()}}
                  >
 
                      {selectedUser == undefined ? null :
@@ -122,9 +148,9 @@
 
                              <View style={styles.modalHeader} >
 
-                                 <TouchableOpacity style={styles.headerBackPlaceholder} onPress={() => {this.setState({selectedUserId: undefined})}} >
+                                 <TouchableOpacity style={styles.headerBackPlaceholder} onPress={() => {closeUser()}} >
                                      <Text style={styles.backButton} >
-                                         <Icon name="chevron-left" color={colors.messengerColor} size={16} style={{marginRight: 5}} />
+                                         <Icon name="chevron-left" color={colors.fbColor} size={16} style={{marginRight: 5}} />
                                          Back
                                      </Text>
                                  </TouchableOpacity>
@@ -190,7 +216,7 @@
      },
 
      backButton: {
-         color: colors.messengerColor,
+         color: colors.fbColor,
          fontSize: 16
      },
 
@@ -214,8 +240,11 @@
 
 
  let getUsers = (state) => {
-     let {usersMap, currentUserId} = state.users;
-     let users = usersMap.toArray();
+     let {usersMap, currentUserId, linksMap} = state.users;
+     let links = linksMap.toArray();
+     let users = links.map((l) => {
+         return usersMap.get(l.friendId)
+     }).filter((a) => {return (a != undefined)});
      users.sort((a, b) => {
          let s1 = (a.firstName == undefined) ? '' : a.firstName;
          let s2 = (b.firstName == undefined) ? '' : b.firstName;
@@ -227,15 +256,24 @@
      });
      users = users.filter( (u) => {
          return (u.id != currentUserId)
-     } )
+     })
      return users;
  }
+
+let getNotReadFriendMessagesNumber = (state, friendId) => {
+    let {messagesMap} = state.chat;
+    let {currentUserId} = state.users;
+    let messages = messagesMap.toArray().filter((m) => {return ((m.fromId == friendId) && (m.toId == currentUserId) && (m.viewed != true))})
+    return messages.length;
+}
 
  const mapStateToProps = (state) => {
     return {
         currentUserId: state.users.currentUserId,
         loading: state.users.loading,
-        users: getUsers(state)
+        selectedUserId: state.chat.selectedUserId,
+        users: getUsers(state),
+        getNotReadMessagesNumber: uId => getNotReadFriendMessagesNumber(state, uId)
     }
  }
 
@@ -243,6 +281,15 @@
     return {
         loadFreshMessages: () => {
             return dispatch(actions.loadUserMessages());
+        },
+        openUser: (id) => {
+            return dispatch(actions.openChatUser(id));
+        },
+        closeUser: () => {
+            return dispatch(actions.closeChatUser());
+        },
+        viewMessagesFromSelectedUser: () => {
+            return dispatch(actions.viewMessagesFromSelectedUser())
         }
     }
  }
