@@ -80,6 +80,8 @@
     -ms-border-radius: 3px;
     border-radius: 3px;
     background-color: white; }
+    .photos_list .photo.finished {
+      background-color: #e6eed8; }
     .photos_list .photo .img_placeholder {
       position: relative; }
     .photos_list .photo .info_placeholder {
@@ -221,3 +223,11 @@
     cursor: default; }
   .pagination_placeholder .page_item:hover {
     opacity: 0.8; }
+
+.update_photo_switcher .item {
+  cursor: pointer; }
+  .update_photo_switcher .item:hover {
+    opacity: 0.8; }
+
+.pointer {
+  cursor: pointer; }

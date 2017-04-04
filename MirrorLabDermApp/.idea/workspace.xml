@@ -18,16 +18,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PhotosHistoryTabbedPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/photos/history/panels/PhotosHistoryTabbedPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PhotosPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/photos/panels/PhotosPanel.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,7 +33,7 @@
       <file leaf-file-name="ChatFriendsPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatFriendsPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="1950">
               <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
               <folding>
                 <element signature="e#619#680#0" expanded="true" />
@@ -53,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatUserPanel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatUserPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatUserPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+            <state relative-caret-position="2790">
+              <caret line="202" column="39" lean-forward="false" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
               <folding>
                 <element signature="e#44#83#0" expanded="true" />
                 <element signature="e#680#734#0" expanded="true" />
@@ -66,11 +56,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UploadReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/UploadReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="I18nFactory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/I18nFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="520" column="32" lean-forward="true" selection-start-line="520" selection-start-column="32" selection-end-line="520" selection-end-column="32" />
+            <state relative-caret-position="7800">
+              <caret line="520" column="32" lean-forward="false" selection-start-line="520" selection-start-column="32" selection-end-line="520" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -79,7 +79,7 @@
       <file leaf-file-name="CommentsPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/comments/panels/CommentsPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="1425">
               <caret line="130" column="70" lean-forward="false" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="70" />
               <folding>
                 <element signature="e#44#83#0" expanded="true" />
@@ -93,21 +93,34 @@
       <file leaf-file-name="UploadActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/UploadActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#42#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadHelper.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadHelper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/helpers/UploadHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="319">
+              <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+              <folding>
+                <element signature="e#42#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,16 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexApp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/apps/IndexApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -143,9 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>I18nText</find>
-      <find>PROFILE</find>
-      <find>switch</find>
       <find>TakePhotoApp</find>
       <find>capture_placeholder</find>
       <find>flexDirc</find>
@@ -173,6 +173,9 @@
       <find>lang</find>
       <find>your comment</find>
       <find>send</find>
+      <find>fetch</find>
+      <find>react-native-fetch-blob</find>
+      <find>from 'react-native-fetch-blob'</find>
     </findStrings>
     <replaceStrings>
       <replace>DoctorsApp</replace>
@@ -268,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -446,8 +448,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,19 +566,20 @@
       <updated>1490446684301</updated>
       <workItem from="1490446686075" duration="37445000" />
       <workItem from="1490548868078" duration="53407000" />
-      <workItem from="1490868949365" duration="1492000" />
+      <workItem from="1490868949365" duration="1671000" />
+      <workItem from="1491044450153" duration="2364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92344000" />
+    <option name="totallyTimeSpent" value="94887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25605816" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32594937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -565,7 +587,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -609,13 +631,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/comments/list/CommentsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="131" column="15" lean-forward="false" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/doctors/list/DoctorsList.js" />
     <entry file="file://$PROJECT_DIR$/src/components/apps/DevApp.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5693">
           <caret line="30939" column="0" lean-forward="false" selection-start-line="30939" selection-start-column="0" selection-end-line="30939" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,13 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="151" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/UploadReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="42" column="60" lean-forward="false" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -860,9 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2205">
           <caret line="175" column="18" lean-forward="true" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-          <folding>
-            <element signature="e#591#652#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,9 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="92" column="33" lean-forward="false" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="33" />
-          <folding>
-            <element signature="e#42#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,10 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#44#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,24 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/UploadActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/UploadHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -962,7 +941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/comments/panels/CommentsPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="1425">
           <caret line="130" column="70" lean-forward="false" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="70" />
           <folding>
             <element signature="e#44#83#0" expanded="true" />
@@ -974,15 +953,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/I18nFactory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="520" column="32" lean-forward="true" selection-start-line="520" selection-start-column="32" selection-end-line="520" selection-end-column="32" />
+        <state relative-caret-position="7800">
+          <caret line="520" column="32" lean-forward="false" selection-start-line="520" selection-start-column="32" selection-end-line="520" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatFriendsPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="1950">
           <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
           <folding>
             <element signature="e#619#680#0" expanded="true" />
@@ -991,13 +970,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/UploadReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatUserPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        <state relative-caret-position="2790">
+          <caret line="202" column="39" lean-forward="false" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
           <folding>
             <element signature="e#44#83#0" expanded="true" />
             <element signature="e#680#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/UploadActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#42#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/UploadHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <element signature="e#42#100#0" expanded="true" />
           </folding>
         </state>
       </provider>

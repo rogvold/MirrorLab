@@ -47,10 +47,13 @@ class SkinryUserImage extends React.Component {
         if (p == undefined || p.data == undefined || p.data.imgInfo == undefined){
             return null;
         }
+        let wrinkles = p.data.wrinkles == undefined ? [] : p.data.wrinkles;
+        wrinkles = wrinkles.map((w) => {return {x: w[0], y: w[1]}})
 
         return (
             <SkinryImage landmarks={p.data.imgInfo.landmarksXY} url={p.url}
                          undereyes={p.data.undereyes}
+                         wrinkles={wrinkles}
                          spots={p.data.spots}
             />
         )

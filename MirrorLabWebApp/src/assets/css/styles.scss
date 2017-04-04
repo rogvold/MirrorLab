@@ -151,6 +151,10 @@ $patient_editor_width: 740px;
         //background-color: floralwhite;
       }
 
+      &.finished{
+        background-color: #e6eed8;
+      }
+
 
       .img_placeholder{
           position: relative;
@@ -158,6 +162,8 @@ $patient_editor_width: 740px;
 
       .info_placeholder{
           font-size: 12px;
+
+
 
           .date{
             opacity: 0.6;
@@ -381,4 +387,17 @@ $editor_right_width: 200px;
       opacity: 0.8;
     }
   }
+}
+
+.update_photo_switcher{
+  .item{
+    cursor: pointer;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}
+
+.pointer{
+  cursor: pointer;
 }

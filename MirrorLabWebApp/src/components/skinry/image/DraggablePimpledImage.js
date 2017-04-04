@@ -92,27 +92,18 @@ class DraggablePimpledImage extends React.Component {
         points[k].rx = rx;
         points[k].ry = ry;
 
-
-
-        // this.setState({
-        //     points: points
-        // });
-
         this.props.onPointsChange(points);
 
     }
 
     onDrag = (k, a, b, c, d) => {
         // console.log('onDrag: k, a, b, c, d = ', k, a, b, c, d);
-
     }
 
     onRadChange = (v) => {
         let k = this.props.selectedIndex;
         console.log('onRadChange: v = ', v);
         let {width, height} = this.state.dimensions;
-
-        // console.log('v.target.value = ', v.target.value);
 
         let {points} = this.props;
 
@@ -123,23 +114,14 @@ class DraggablePimpledImage extends React.Component {
 
         console.log('setting points = ', points);
 
-
-
-        // this.setState({
-        //     points: points
-        // });
-
         this.props.onPointsChange(points);
 
-        // setTimeout(function(){
-        //     let {points} = this.state;
-        //     points[k].r = v / 1000.0;
-        //     console.log('setting points = ', points);
-        //     this.setState({
-        //         points: points
-        //     });
-        // }.bind(this), 1000)
+    }
 
+    onRemove = () => {
+        let {selectedIndex, onPointsChange, points} = this.props;
+        points = points.filter((p, k) => {return (k != selectedIndex)});
+        onPointsChange(points);
     }
 
     getPoints = () => {
@@ -209,7 +191,7 @@ class DraggablePimpledImage extends React.Component {
         let {points} = this.props;
         let {width, height} = this.state.dimensions;
 
-        if (selectedIndex == undefined || selectedIndex > points.length || selectedIndex < 0){
+        if (selectedIndex == undefined || selectedIndex >= points.length || selectedIndex < 0){
             return {
                 display: 'none'
             }
@@ -229,7 +211,7 @@ class DraggablePimpledImage extends React.Component {
         let {points} = this.props;
         let {width, height} = this.state.dimensions;
 
-        if (selectedIndex == undefined || selectedIndex > points.length || selectedIndex < 0) {
+        if (selectedIndex == undefined || selectedIndex >= points.length || selectedIndex < 0) {
             return 1;
         }
         let p = points[selectedIndex]
@@ -279,7 +261,11 @@ class DraggablePimpledImage extends React.Component {
                                 onChange={this.onRadChange}
                             />
 
-
+                            <span style={{marginLeft: 15}} >
+                                    <i className={'pointer icon remove'}
+                                       onClick={this.onRemove}
+                                       style={{color: 'firebrick'}} ></i>
+                                </span>
 
                         </div>
                     </div>

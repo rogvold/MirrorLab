@@ -19,6 +19,8 @@ var PhotosModule = {
             timestamp: (new Date(s.createdAt)).getTime(),
             userId: s.get('userId'),
 
+            status: s.get('status'),
+
             version: s.get('version'),
             data: s.get('data'),
             hash: s.get('hash'),

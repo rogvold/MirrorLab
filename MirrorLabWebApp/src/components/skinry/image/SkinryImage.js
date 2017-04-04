@@ -13,6 +13,8 @@ class SkinryImage extends React.Component {
     static defaultProps = {
         url: 'https://mirrorlab.sabir.pro/uploads/kohrzhxeesnyrpdogdjyciuyjlgmlp.jpg',
 
+        wrinkles: [],
+
         landmarks: [],
 
         spots: [],
@@ -42,13 +44,15 @@ class SkinryImage extends React.Component {
     }
 
     getPoints = () => {
-        let {landmarks, spots} = this.props;
+        let {landmarks, spots, wrinkles} = this.props;
         // console.log('getPoints: landmarks, spots = ', landmarks, spots);
         let landmarksPoints = landmarks.map((p) => {return Object.assign({}, p, {rx: 0.007, ry: 0.007, fillColor: 'grey', borderColor: 'grey'})});
 
-        let spotsPoints = spots.map((p) => {return Object.assign({}, p, {fillColor: 'rgba(240, 128, 128, 0.6)', borderColor: 'lightcoral'})});;
+        let wrinklesPoints = wrinkles.map((p) => {return Object.assign({}, p, {rx: 0.004, ry: 0.004, fillColor: 'pink', borderColor: 'transparent'})});
 
-        let res = landmarksPoints.concat(spotsPoints);
+        let spotsPoints = spots.map((p) => {return Object.assign({}, p, {rx: p.rx / 2.0, ry: p.ry / 2.0}, {fillColor: 'rgba(240, 128, 128, 0.6)', borderColor: 'lightcoral'})});;
+
+        let res = landmarksPoints.concat(spotsPoints).concat(wrinklesPoints);
         // console.log('returning ', res);
         return res;
     }

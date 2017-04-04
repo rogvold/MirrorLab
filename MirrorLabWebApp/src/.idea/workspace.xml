@@ -21,8 +21,18 @@
       <file leaf-file-name="SkinryImage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="52" column="105" lean-forward="false" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotosReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reducers/PhotosReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -31,18 +41,8 @@
       <file leaf-file-name="SkinryUserImage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkinryCanvaPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/skinry/canvas/SkinryCanvaPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+            <state relative-caret-position="329">
+              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -51,30 +51,8 @@
       <file leaf-file-name="PhotosList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/skinry/list/PhotosList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPhotosPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/skinry/panels/UserPhotosPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="130" column="32" lean-forward="false" selection-start-line="130" selection-start-column="32" selection-end-line="131" selection-end-column="64" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagedPhotosList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/skinry/list/PagedPhotosList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+            <state relative-caret-position="177">
+              <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -85,9 +63,21 @@
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5640">
-              <caret line="376" column="21" lean-forward="false" selection-start-line="376" selection-start-column="21" selection-end-line="376" selection-end-column="21" />
+            <state relative-caret-position="348">
+              <caret line="401" column="17" lean-forward="false" selection-start-line="401" selection-start-column="17" selection-end-line="401" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagedPhotosList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/skinry/list/PagedPhotosList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+              <folding>
+                <element signature="e#42#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +85,8 @@
       <file leaf-file-name="PhotosActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/PhotosActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+            <state relative-caret-position="-870">
+              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding>
                 <element signature="e#42#94#0" expanded="true" />
               </folding>
@@ -104,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkinryUpdatablePimpleEditorPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryUpdatablePimpleEditorPanel.js">
+      <file leaf-file-name="UpdatePhotoStatusPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/status/panels/UpdatePhotoStatusPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="56" column="63" lean-forward="true" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -116,15 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/apps/App.js">
+      <file leaf-file-name="SkinryPimpleEditor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="162">
+              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
-                <element signature="e#399#432#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DraggablePimpledImage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="151" column="45" lean-forward="true" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,14 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.pimple{</find>
-      <find>todo</find>
-      <find>{points}</find>
-      <find>.state</find>
-      <find>points:</find>
-      <find>on</find>
-      <find>onWhee</find>
-      <find>onWheel</find>
       <find>rx</find>
       <find>width / height</find>
       <find>.rx</find>
@@ -165,11 +156,19 @@
       <find>&lt;SkinryImage</find>
       <find>.createPhoto</find>
       <find>SkinryImage: points:</find>
-      <find>SkinryImage: points:</find>
       <find>yesPolylines: returning r</find>
       <find>getPoints: landmarks, spots</find>
       <find>dering SkinryUserImage: photo</find>
       <find>&lt;PhotosList</find>
+      <find>Удалить круг</find>
+      <find>photos_list</find>
+      <find>info_placeholder</find>
+      <find>onCircleRemove</find>
+      <find>selectedIndex</find>
+      <find>remove</find>
+      <find>getSliderStyle</find>
+      <find>onStopDrag</find>
+      <find>selectedIndex &gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>grey</replace>
@@ -178,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/memospeak/list/MemoSpeakBunchedList.js" />
         <option value="$PROJECT_DIR$/components/memospeak/steps/first_step/panels/MemospeakPanel.js" />
         <option value="$PROJECT_DIR$/components/memospeak/steps/second_step/panels/SecondStepGroupsPanel.js" />
         <option value="$PROJECT_DIR$/components/memospeak/slides/panels/MemoSpeakSlidesPanel.js" />
@@ -213,8 +211,6 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/components/skinry/image/PimpledImage.js" />
         <option value="$PROJECT_DIR$/assets/css/custom.css" />
-        <option value="$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js" />
-        <option value="$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js" />
         <option value="$PROJECT_DIR$/constants/ActionTypes.js" />
         <option value="$PROJECT_DIR$/reducers/PhotosReducer.js" />
         <option value="$PROJECT_DIR$/actions/PhotosActions.js" />
@@ -223,12 +219,15 @@
         <option value="$PROJECT_DIR$/components/skinry/canvas/SkinryCanvaPanel.js" />
         <option value="$PROJECT_DIR$/components/skinry/upload/panels/UploadUserPhotoPanel.js" />
         <option value="$PROJECT_DIR$/api/ParseAPI.js" />
-        <option value="$PROJECT_DIR$/components/skinry/image/SkinryImage.js" />
-        <option value="$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js" />
         <option value="$PROJECT_DIR$/components/skinry/panels/UserPhotosPanel.js" />
-        <option value="$PROJECT_DIR$/assets/css/styles.scss" />
         <option value="$PROJECT_DIR$/components/skinry/list/PagedPhotosList.js" />
+        <option value="$PROJECT_DIR$/components/status/panels/UpdatePhotoStatusPanel.js" />
         <option value="$PROJECT_DIR$/components/skinry/list/PhotosList.js" />
+        <option value="$PROJECT_DIR$/assets/css/styles.scss" />
+        <option value="$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js" />
+        <option value="$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js" />
+        <option value="$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js" />
+        <option value="$PROJECT_DIR$/components/skinry/image/SkinryImage.js" />
       </list>
     </option>
   </component>
@@ -247,7 +246,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="732" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -329,6 +328,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="status" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panels" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,8 +627,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,7 +641,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="photosa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/actions/PhotosActions.js&#10;photosl&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/list/PhotosList.js&#10;dev&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/DevApp.js&#10;editor&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/editor/SkinryPimpleEditor.js&#10;deva&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/DevApp.js&#10;app&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/App.js&#10;photo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/list/PhotosList.js&#10;шьф&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/image/PimpledImage.js&#10;user&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/user/UserIndexApp.js&#10;styl&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/assets/css/styles.scss&#10;userinde&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/user/UserIndexApp.js&#10;sty&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/assets/css/styles.scss&#10;st&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/assets/css/styles.scss&#10;bunch&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/list/MemoSpeakBunchedList.js&#10;memospe&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/first_step/panels/MemospeakPanel.js&#10;constan&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/constants/AccountsConstants.js&#10;total&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/panels/MemospeakTotalPanel.js&#10;attit&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/first_step/panels/AttitudeIcon.js&#10;coolpre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/preloader/CoolPreloader.js&#10;фееш&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/first_step/panels/AttitudeButtonsPanel.js&#10;bunc&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/list/MemoSpeakBunchedList.js&#10;styles.&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/assets/css/styles.scss&#10;memosp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/list/MemoSpeakItem.js&#10;style&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/assets/css/styles.scss&#10;slides&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/slides/panels/TestSlidesPanel.js&#10;uplo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/upload/FileUploadPanel.js&#10;гздщфв&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/upload/FileUploadPanel.js&#10;updatem&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/panels/UpdateMemoSpeakPanel.js&#10;parsea&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/api/ParseAPI.js" />
+    <property name="SearchEverywhereHistoryKey" value="photos&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/list/PhotosList.js&#10;skinr&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/image/SkinryImage.js&#10;photosa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/actions/PhotosActions.js&#10;photosl&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/list/PhotosList.js&#10;dev&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/DevApp.js&#10;editor&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/editor/SkinryPimpleEditor.js&#10;deva&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/DevApp.js&#10;app&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/App.js&#10;photo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/list/PhotosList.js&#10;шьф&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/skinry/image/PimpledImage.js&#10;user&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/user/UserIndexApp.js&#10;styl&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/assets/css/styles.scss&#10;userinde&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/components/apps/user/UserIndexApp.js&#10;sty&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabWebApp/src/assets/css/styles.scss&#10;st&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/assets/css/styles.scss&#10;bunch&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/list/MemoSpeakBunchedList.js&#10;memospe&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/first_step/panels/MemospeakPanel.js&#10;constan&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/constants/AccountsConstants.js&#10;total&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/panels/MemospeakTotalPanel.js&#10;attit&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/first_step/panels/AttitudeIcon.js&#10;coolpre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/preloader/CoolPreloader.js&#10;фееш&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/steps/first_step/panels/AttitudeButtonsPanel.js&#10;bunc&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/list/MemoSpeakBunchedList.js&#10;styles.&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/assets/css/styles.scss&#10;memosp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/list/MemoSpeakItem.js&#10;style&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/assets/css/styles.scss&#10;slides&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/slides/panels/TestSlidesPanel.js&#10;uplo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/upload/FileUploadPanel.js&#10;гздщфв&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/upload/FileUploadPanel.js&#10;updatem&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/components/memospeak/panels/UpdateMemoSpeakPanel.js&#10;parsea&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MemoSpeak/MemoSpeakWebApp/src/api/ParseAPI.js" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -733,35 +754,36 @@
       <workItem from="1489676034188" duration="481000" />
       <workItem from="1490122640529" duration="4527000" />
       <workItem from="1490130979189" duration="340000" />
+      <workItem from="1491331371825" duration="5129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247620000" />
+    <option name="totallyTimeSpent" value="252749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33764136" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34248787" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3015625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30031446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,13 +800,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/articles/editor/CoolEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="55" column="50" lean-forward="false" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry.js" />
     <entry file="file://$PROJECT_DIR$/components/articles/editor/buttons/AddImageButton.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -980,31 +995,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="131" column="42" lean-forward="false" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/constants/ActionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
           <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reducers/PhotosReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1029,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryUpdatablePimpleEditorPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="135">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#42#81#0" expanded="true" />
@@ -1045,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/apps/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="90">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#42#81#0" expanded="true" />
@@ -1054,19 +1048,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/PhotosActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry/panels/UserPhotosPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
+        <state relative-caret-position="1665">
           <caret line="130" column="32" lean-forward="false" selection-start-line="130" selection-start-column="32" selection-end-line="131" selection-end-column="64" />
           <folding>
             <element signature="e#42#81#0" expanded="true" />
@@ -1074,18 +1058,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
+    <entry file="file://$PROJECT_DIR$/components/skinry/canvas/SkinryCanvaPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5640">
-          <caret line="376" column="21" lean-forward="false" selection-start-line="376" selection-start-column="21" selection-end-line="376" selection-end-column="21" />
+        <state relative-caret-position="1500">
+          <caret line="108" column="45" lean-forward="false" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/PhotosActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="e#42#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry/list/PagedPhotosList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="-90">
           <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reducers/PhotosReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="401" column="17" lean-forward="false" selection-start-line="401" selection-start-column="17" selection-end-line="401" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/status/panels/UpdatePhotoStatusPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="56" column="63" lean-forward="true" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="151" column="45" lean-forward="true" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding>
             <element signature="e#42#81#0" expanded="true" />
           </folding>
@@ -1094,32 +1132,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry/list/PhotosList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/canvas/SkinryCanvaPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="177">
+          <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="329">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="52" column="105" lean-forward="false" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
           <folding />
         </state>
       </provider>

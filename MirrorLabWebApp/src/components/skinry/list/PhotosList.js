@@ -15,6 +15,7 @@ import SkinryUpdatablePimpleEditorPanel from '../editor/SkinryUpdatablePimpleEdi
 
 import moment from 'moment'
 
+import UpdatePhotoStatusPanel from '../../status/panels/UpdatePhotoStatusPanel'
 
 class PhotosList extends React.Component {
 
@@ -60,9 +61,10 @@ class PhotosList extends React.Component {
                     let spots = (data.spots == undefined) ? [] : data.spots;
                     let onClick = this.onPhotoClick.bind(this, p);
                     let onEditOpen = this.onPhotoEditOpen.bind(this, p);
+                    let status = (p.status == undefined) ? 'new' : p.status;
 
                     return (
-                        <div className={'photo'} key={key} >
+                        <div className={'photo ' + status} key={key} >
 
                             <div className={'img_placeholder'} >
 
@@ -72,14 +74,17 @@ class PhotosList extends React.Component {
 
                             </div>
 
-                            <div className={'info_placeholder'} >
-                                <div onClick={onClick}  >
+                            <div className={'info_placeholder'}  >
+                                <div onClick={onClick}  className={'pointer'}  >
                                     <i className={'icon expand'} ></i> view
                                 </div>
 
-                                <div onClick={onEditOpen}  >
+                                <div onClick={onEditOpen} className={'pointer'} >
                                     <i className={'icon pencil'} ></i> edit
                                 </div>
+
+                                <UpdatePhotoStatusPanel id={p.id} />
+
 
                                 <div className={'date'} >
                                     <i className={'icon calendar'} ></i> {moment(p.timestamp).format('LLL')}
