@@ -1,132 +1,130 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:1:1-31:12
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:1:1-31:12
 	package
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:2:5-37
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:4:5-30
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:11:5-67
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.41.2] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/AndroidManifest.xml:11:5-78
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.41.2] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:7:22-75
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [MirrorLabMobileApp:react-native-svg:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-svg/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-fetch-blob/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [MirrorLabMobileApp:react-native-vector-icons:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.41.2] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.4.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.41.2] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [MirrorLabMobileApp:react-native-svg:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-svg/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-fetch-blob/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [MirrorLabMobileApp:react-native-vector-icons:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:11:9-38
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:10:9-35
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:13:5-29:19
-MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:13:5-15:19
-MERGED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-fetch-blob/unspecified/AndroidManifest.xml:11:5-14:19
-MERGED from [com.facebook.react:react-native:0.41.2] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:13:5-29:19
+MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:13:5-15:19
+MERGED from [com.facebook.react:react-native:0.41.2] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-fetch-blob/unspecified/AndroidManifest.xml:11:5-14:19
 	android:label
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:16:7-39
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:16:7-39
 	android:supportsRtl
-		ADDED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-fetch-blob/unspecified/AndroidManifest.xml:13:9-35
+		ADDED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-fetch-blob/unspecified/AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:15:7-33
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:15:7-33
 	android:icon
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:17:7-41
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:17:7-41
 	android:theme
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:18:7-38
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:14:7-38
 activity#com.mirrorlabmobileapp.MainActivity
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:19:7-27:18
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:19:7-27:18
 	android:label
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:21:9-41
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:21:9-41
 	android:configChanges
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:22:9-79
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:22:9-79
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:20:9-37
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:20:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
 action#android.intent.action.MAIN
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:24:13-65
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:24:13-65
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:24:21-62
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:24:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:25:13-73
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:25:13-73
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:25:23-70
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:25:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:28:7-84
-MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:14:9-86
+ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:28:7-84
+MERGED from [MirrorLabMobileApp:react-native-code-push:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-code-push/unspecified/AndroidManifest.xml:14:9-86
 	android:name
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:28:17-81
-uses-permission#android.permission.CAMERA
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:11:5-65
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:11:22-62
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:12:5-71
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:12:22-68
-uses-permission#android.permission.RECORD_VIDEO
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:13:5-71
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:13:22-68
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:14:5-80
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:14:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:15:5-81
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:15:22-78
-uses-feature#android.hardware.camera
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:17:5-19:36
-	android:required
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:19:9-33
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:18:9-47
-uses-feature#android.hardware.camera.autofocus
-ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:20:5-22:36
-	android:required
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:22:9-33
-	android:name
-		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:21:9-57
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:28:17-81
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+MERGED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:15:5-81
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+MERGED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:14:5-80
+uses-permission#android.permission.CAMERA
+ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:13:22-68
+uses-feature#android.hardware.camera
+ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:18:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [MirrorLabMobileApp:react-native-camera:unspecified] /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/MirrorLabMobileApp/react-native-camera/unspecified/AndroidManifest.xml:21:9-57

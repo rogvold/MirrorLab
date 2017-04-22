@@ -121,7 +121,7 @@
                  </View>
 
                  <View style={styles.sideView} >
-                     {this.getSideTab('Help', 'question-circle-o', (tab == 'dev'), () => {switchTab('dev')})}
+                     {this.getSideTab('Help', 'question-circle-o', (tab == 'info'), () => {switchTab('info')})}
                  </View>
 
              </View>
@@ -144,7 +144,7 @@
      },
 
      centerView: {
-         width: 60,
+         width: (Platform.OS === 'android') ? 40 : 60,
          // width: 0,
          // backgroundColor: 'pink',
          alignItems: 'center',
@@ -154,14 +154,15 @@
 
 
      centerButton: {
-         width: 60,
-         height: 60,
-         borderRadius: 30,
+         width: (Platform.OS === 'android') ? 40 : 60,
+         height: (Platform.OS === 'android') ? 40 : 60,
+         // borderRadius: 30,
+         borderRadius: (Platform.OS === 'android') ? 20 : 30,
          justifyContent: 'center',
          alignItems: 'center',
          backgroundColor: colors.primaryColor,
          position: 'absolute',
-         bottom: 10,
+         bottom: (Platform.OS === 'android') ? 5 : 10,
          // left: -30
          left: 0,
          // right: 0

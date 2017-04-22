@@ -57,6 +57,8 @@ import CommentsPanel from '../comments/panels/CommentsPanel'
 
 import DoctorsPanel from '../doctors/panels/DoctorsPanel'
 
+import UploadQueueButton from '../upload/UploadQueueButton'
+
 class DevApp extends React.Component {
 
     static defaultProps = {}
@@ -101,9 +103,11 @@ class DevApp extends React.Component {
         return (
             <View style={styles.container} >
 
-                <View style={{flex: 1, width: width, padding: 5}} >
-                    <DoctorsPanel />
-                </View>
+                {/*<View style={{flex: 1, width: width, padding: 5}} >*/}
+                    {/*<DoctorsPanel />*/}
+                {/*</View>*/}
+
+                <UploadQueueButton />
 
                 {/*<View style={{flex: 1, width: width}} >*/}
                     {/*<CommentsPanel relatedId={'wHF6qBvHzf'} />*/}

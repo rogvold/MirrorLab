@@ -18,6 +18,7 @@
      TextInput,
      Navigator,
      TouchableHighlight,
+     TouchableOpacity,
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
@@ -27,6 +28,10 @@
 
  import LoginForm from './LoginForm'
  import SignupForm from './SignupForm'
+
+ import I18nText from '../../i18n/I18nText'
+
+ import * as colors from '../../../constants/AppColors'
 
  class AuthForm extends React.Component {
 
@@ -108,11 +113,21 @@
                      </View>
                  }
 
-                 <TouchableHighlight style={styles.switcher_placeholder} onPress={this.switchMode} underlayColor={'white'} >
-                     <Text>
-                         {mode == 'login' ? 'Do not have an account? Sign up!' : 'Have an account? Sign in!' }
-                     </Text>
-                 </TouchableHighlight>
+                 {error == undefined ? null :
+                    <View style={{marginVertical: 7, alignItems: 'center', justifyContent: 'center', paddingLeft: 20, paddingRight: 20}} >
+                        <Text style={{color: colors.dangerColor, textAlign: 'center', backgroundColor: 'transparent'}} >
+                            {error.message}
+                        </Text>
+                    </View>
+                 }
+
+                 <TouchableOpacity style={styles.switcher_placeholder} onPress={this.switchMode}  >
+                     {mode == 'login' ?
+                         <I18nText name={'NOT_REGISTERED_YET'} style={{backgroundColor: 'transparent', color: 'rgba(255, 255, 255, 0.6)'}} />
+                         :
+                         <I18nText name={'ALREADY_REGISTERED'} style={{backgroundColor: 'transparent', color: 'rgba(255, 255, 255, 0.6)'}} />
+                     }
+                 </TouchableOpacity>
 
              </View>
          )
@@ -148,21 +163,18 @@
  });
 
 
- //const mapStateToProps = (state) => {
- //    return {
- //        currentUserId: state.users.currentUserId,
- //        loading: state.users.loading
- //    }
- //}
+ const mapStateToProps = (state) => {
+    return {
+        lang: state.settings.lang
+    }
+ }
 
- //const mapDispatchToProps = (dispatch) => {
- //    return {
- //        onLogout: (data) => {
- //            dispatch(actions.logOut())
- //        }
- //    }
- //}
+ const mapDispatchToProps = (dispatch) => {
+    return {
 
- //AuthForm = connect(mapStateToProps, mapDispatchToProps)(AuthForm)
+    }
+ }
+
+ AuthForm = connect(mapStateToProps, mapDispatchToProps)(AuthForm)
 
  export default AuthForm

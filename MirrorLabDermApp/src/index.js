@@ -20,6 +20,7 @@ import * as usersActions from './actions/UsersActions.js';
 import * as photosActions from './actions/PhotosActions.js';
 import * as chatActions from './actions/ChatActions.js';
 import * as commentsActions from './actions/CommentsActions.js';
+import * as initActions from './actions/InitActions'
 
 import {reducer} from './reducers'
 
@@ -30,8 +31,12 @@ var codePush = require("react-native-code-push");
 
 import {persistStore, autoRehydrate} from 'redux-persist'
 import immutableTransform from 'redux-persist-transform-immutable'
-import {AsyncStorage} from 'react-native'
+import {AsyncStorage, View} from 'react-native'
 // persistStore(store, {storage: AsyncStorage})
+
+import KeyboardSpacer from 'react-native-keyboard-spacer';
+
+
 
 const store = (__DEV__ ? createStore(
     reducer,
@@ -89,8 +94,6 @@ export default function setup() {
     // return codePush(RootApp);
 }
 
-
-
 let init = () => {
     return (dispatch, getState) => {
         return dispatch(usersActions.initializeAuthorization())
@@ -116,7 +119,7 @@ let init = () => {
 
 let startNotFirstTime = () => {
     persistStore(store, {storage: AsyncStorage, transforms: [immutableTransform()]}, () => {
-        store.dispatch(init());
+        store.dispatch(initActions.init());
     })
 }
 
@@ -124,8 +127,7 @@ let startFirstTime = () => {
     if (__DEV__){
         console.log('startFirstTime occured - not using redux persist');
     }
-
-    store.dispatch(init());
+    store.dispatch(initActions.init());
 }
 
 

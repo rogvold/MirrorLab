@@ -39,6 +39,8 @@
 
  const { width, height } = Dimensions.get('window')
 
+import I18nText from '../../../i18n/I18nText'
+
  class PhotoPicker extends React.Component {
 
      static defaultProps = {
@@ -133,13 +135,19 @@
                          let key = 'picker_' + k;
                          let onPress = this.onPress.bind(this, p.id)
 
-
                          return (
                              <TouchableOpacity style={isSelected == true ? styles.selectedItem : styles.item}
                                                key={key} onPress={onPress} >
+
+                                 <I18nText style={isSelected == true ? styles.selectedText : styles.text}
+                                           name={moment(p.timestamp).format('MMM').toUpperCase()} />
+
+                                 <Text style={{width: 3}} ></Text>
+
                                  <Text style={isSelected == true ? styles.selectedText : styles.text} >
-                                     {moment(p.timestamp).format('MMM D, h:mm a')}
+                                     {moment(p.timestamp).format('D, HH:mm')}
                                  </Text>
+
                              </TouchableOpacity>
                          )
 
@@ -187,7 +195,8 @@
          alignItems: 'center',
          justifyContent: 'center',
          paddingLeft: 10,
-         paddingRight: 10
+         paddingRight: 10,
+         flexDirection: 'row'
      },
 
      selectedItem: {
@@ -198,7 +207,8 @@
         alignItems: 'center',
         paddingLeft: 10,
         paddingRight: 10,
-        justifyContent: 'center'
+        justifyContent: 'center',
+         flexDirection: 'row'
      },
 
      selectedText: {

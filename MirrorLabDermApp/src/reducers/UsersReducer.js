@@ -70,7 +70,7 @@ const UsersReducer =  (state = initialState, action = {}) => {
             return {...state, currentUserId: undefined, loading: false, error: undefined, usersMap: Map()}
 
         case types.INITIALIZE_AUTH:
-            return {...state, loading: true, initialized: false}
+            return {...state, loading: true, initialized: false, error: undefined}
 
         case types.INITIALIZE_AUTH_FAIL:
             return { ...state,

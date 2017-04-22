@@ -6,6 +6,8 @@ import * as types from '../constants/ActionTypes.js'
 import ParseAPI from '../api/ParseAPI.js';
 import Parse from 'parse/react-native'
 
+import * as initActions from './InitActions'
+
 //LOGIN
 let startLoggingIn = () => {
     return {
@@ -31,6 +33,8 @@ export function logIn(data){
         return ParseAPI.logInAsPromise(data.email, data.password).then(
                 user => dispatch(onLoggedIn(user)),
                 error => dispatch(onLoginFailed(error))
+        ).then(
+            () => dispatch(initActions.init())
         )
     }
 }

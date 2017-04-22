@@ -48,6 +48,8 @@
 
  import I18nHelper from '../../../helpers/I18nHelper'
 
+ import I18nText from '../../i18n/I18nText'
+
  class ChatFriendsPanel extends React.Component {
 
      static defaultProps = {
@@ -130,6 +132,12 @@
              <View style={styles.container} >
 
                  <StatusBar hidden={true} />
+
+                 {users.length == 0 ?
+                    <View style={{alignItems: 'center', justifyContent: 'center', padding: 10}} >
+                        <I18nText name={'YOU_HAVE_NO_DOCTORS'} style={{textAlign: 'center'}} />
+                    </View> : null
+                 }
 
                  <View style={styles.listPlaceholder}>
 

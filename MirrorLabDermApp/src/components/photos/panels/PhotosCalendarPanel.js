@@ -43,11 +43,17 @@ import CacheableFitImage from '../../image/CacheableFitImage'
  
  class PhotosCalendarPanel extends React.Component {
  
-     static defaultProps = {}
+     static defaultProps = {
+         onPhotoClick: (id) => {
+
+         },
+     }
  
      static propTypes = {}
  
-     state = {}
+     state = {
+         selectedTimestamp: this.props.lastTimestamp
+     }
  
      //ES5 - componentWillMount
      constructor(props) {
@@ -58,8 +64,12 @@ import CacheableFitImage from '../../image/CacheableFitImage'
  
      }
  
-     componentWillReceiveProps() {
- 
+     componentWillReceiveProps(nextProps) {
+        if (nextProps.lastTimestamp != this.props.lastTimestamp){
+            this.setState({
+                selectedTimestamp: nextProps.lastTimestamp
+            });
+        }
      }
 
      onDayClick = (t) => {
@@ -68,11 +78,17 @@ import CacheableFitImage from '../../image/CacheableFitImage'
          }
          let {getPhotosByTimestamp} = this.props;
          let photos = getPhotosByTimestamp(t);
+         let {selectedTimestamp} = this.state;
+
+         if (__DEV__){
+             console.log('photos in this timestamp: ', photos);
+         }
+
          if (photos.length == 0){
              return;
          }
 
-         if (+moment(t).startOf('day') == +moment(this.state.selectedTimestamp).startOf('day')){
+         if ((+moment(t).startOf('day') == +moment(selectedTimestamp).startOf('day')) && (selectedTimestamp != undefined)){
              this.setState({
                  selectedTimestamp: undefined
              });
@@ -84,7 +100,7 @@ import CacheableFitImage from '../../image/CacheableFitImage'
      }
 
      selectedContentFunction = () => {
-         let {getPhotosByTimestamp} = this.props;
+         let {getPhotosByTimestamp, onPhotoClick} = this.props;
          let {selectedTimestamp} = this.state;
          if (selectedTimestamp == undefined){
              return null;
@@ -96,8 +112,8 @@ import CacheableFitImage from '../../image/CacheableFitImage'
                      let key = k+ '_' + p.id;
                      return (
                          <View style={styles.photoItem} key={key} >
-                             <View style={styles.imagePlaceholder} >
-                                 <CacheableFitImage url={p.url}
+                             <TouchableOpacity style={styles.imagePlaceholder} onPress={() => {onPhotoClick(p.id)}} >
+                                 <CacheableFitImage url={p.thumbnail}
                                                     originalWidth={40}
                                                     originalHeight={60}
                                                     style={{
@@ -105,7 +121,7 @@ import CacheableFitImage from '../../image/CacheableFitImage'
                                                         width: 40,
                                                         borderRadius: 4
                                                     }} />
-                             </View>
+                             </TouchableOpacity>
                          </View>
                      )
                  } )}
@@ -136,6 +152,9 @@ import CacheableFitImage from '../../image/CacheableFitImage'
  
      render = () => {
          let {selectedTimestamp} = this.state;
+         if (__DEV__){
+             console.log('PhotosCalendarPanel: render: selectedTimestamp = ', selectedTimestamp);
+         }
  
          return (
              <View style={styles.container} >
@@ -167,9 +186,10 @@ import CacheableFitImage from '../../image/CacheableFitImage'
 
      photoItem: {
          height: 60,
-         padding: 5,
+         // padding: 5,
          // marginBottom: 10,
-         flexDirection: 'row'
+         flexDirection: 'row',
+         // backgroundColor: 'pink'
      },
 
      imagePlaceholder: {
@@ -187,6 +207,8 @@ import CacheableFitImage from '../../image/CacheableFitImage'
  
  });
 
+
+
  let getPhotosByDayTimestamp = (state, timestamp) => {
      let {photosMap} = state.photos;
      let from = +moment(timestamp).startOf('day')
@@ -195,15 +217,34 @@ import CacheableFitImage from '../../image/CacheableFitImage'
          return (
              (p.timestamp > from && p.timestamp < to)
          )
+     }).sort((a, b) => {
+         return (a.timestamp - b.timestamp);
      })
      return photos;
+ }
+
+ let getAllPhotos = (state) => {
+     let {photosMap} = state.photos;
+     let photos = photosMap.toArray().sort((a, b) => {
+         return (a.timestamp - b.timestamp)
+     });
+     return photos;
+ }
+
+ let getLastPhotoTimestamp = (state) => {
+     let photos = getAllPhotos(state);
+     if (photos.length == 0){
+         return undefined;
+     }
+     return photos[photos.length - 1].timestamp;
  }
  
  const mapStateToProps = (state) => {
     return {
         getPhotosByTimestamp: (timestamp) => {
             return getPhotosByDayTimestamp(state, timestamp)
-        }
+        },
+        lastTimestamp: getLastPhotoTimestamp(state)
     }
  }
  

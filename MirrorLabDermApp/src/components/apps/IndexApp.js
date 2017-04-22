@@ -105,9 +105,6 @@ class IndexApp extends React.Component {
                 <PhotosHistoryTabbedPanel />
 
 
-                <UploadDaemon />
-
-
             </View>
         )
     }

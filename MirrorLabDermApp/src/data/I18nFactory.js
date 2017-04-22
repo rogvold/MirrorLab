@@ -279,19 +279,8 @@ let I18nFactory = {
         en: 'Sunday'
     },
 
-
-
-
-
-
-
-
-
-
-
-
     LOGIN: {
-        en: 'Log in',
+        en: 'Login',
         ru: 'Вход'
     },
 
@@ -308,7 +297,7 @@ let I18nFactory = {
 
     ALREADY_REGISTERED: {
         ru: 'Уже зарегистрированы?',
-        en: 'Already registered?'
+        en: 'Have an account?'
     },
 
     SHOW_COMMENT: {
@@ -337,7 +326,7 @@ let I18nFactory = {
     },
 
     REGISTRATION: {
-        en: 'Sign up',
+        en: 'Signup',
         ru: 'Регистрация'
     },
 
@@ -526,6 +515,141 @@ let I18nFactory = {
     SEND: {
         en: 'Send',
         ru: 'Отправить'
+    },
+
+    ABOUT_DOCTOR: {
+        en: 'About doctor',
+        ru: 'О докторе'
+    },
+
+    JANUARY: {
+        ru: 'Январь',
+        en: 'January'
+    },
+
+    FEBRUARY: {
+        ru: 'Февраль',
+        en: 'February'
+    },
+
+    MARCH: {
+        ru: 'Март',
+        en: 'March'
+    },
+
+    APRIL: {
+        ru: 'Апрель',
+        en: 'April'
+    },
+
+    MAY: {
+        ru: 'Май',
+        en: 'May'
+    },
+
+    JUNE: {
+        ru: 'Июнь',
+        en: 'June'
+    },
+
+    JULY: {
+        ru: 'Июль',
+        en: 'July'
+    },
+
+    AUGUST: {
+        ru: 'Август',
+        en: 'August'
+    },
+
+    SEPTEMBER: {
+        ru: 'Сентябрь',
+        en: 'September'
+    },
+
+    OCTOBER: {
+        ru: 'Октябрь',
+        en: 'October'
+    },
+
+    NOVEMBER: {
+        ru: 'Ноябрь',
+        en: 'November'
+    },
+
+    DECEMBER: {
+        ru: 'Декабрь',
+        en: 'December'
+    },
+
+    JAN: {
+        ru: 'Янв',
+        en: 'Jan'
+    },
+
+    FEB: {
+        ru: 'Фев',
+        en: 'Feb'
+    },
+
+    MAR: {
+        ru: 'Мар',
+        en: 'Mar'
+    },
+
+    APR: {
+        ru: 'Апр',
+        en: 'Apr'
+    },
+
+    MAY: {
+        ru: 'Май',
+        en: 'May'
+    },
+
+    JUN: {
+        ru: 'Июн',
+        en: 'Jun'
+    },
+
+    JUL: {
+        ru: 'Июль',
+        en: 'Jul'
+    },
+
+    AUG: {
+        ru: 'Авг',
+        en: 'Aug'
+    },
+
+    SEP: {
+        ru: 'Сен',
+        en: 'Sep'
+    },
+
+    OCT: {
+        ru: 'Окт',
+        en: 'Oct'
+    },
+
+    NOV: {
+        ru: 'Ноя',
+        en: 'Nov'
+    },
+
+    DEC: {
+        ru: 'Дек',
+        en: 'Dec'
+    },
+
+    YOU_HAVE_NO_PHOTOS: {
+        ru: 'У вас еще нет фотографий. Сделайте первую фотографию, нажав на кнопку "+"',
+        en: 'You have no photos. Please press "+" button.'
+    },
+
+    YOU_HAVE_NO_DOCTORS: {
+        ru: 'Вас еще не наблюдает ни один доктор. Добавьте доктора, нажав на кнопку "+"',
+        en: 'You have no doctors. Please press "+" button.'
     }
 
 

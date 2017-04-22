@@ -39,6 +39,8 @@
 
  import * as colors from '../../constants/AppColors'
 
+ import I18nText from '../i18n/I18nText'
+
  class MonthSwitcher extends React.Component {
 
      static defaultProps = {
@@ -103,6 +105,8 @@
         }[m.toLowerCase()];
     }
 
+
+
     isCurrentMonth = () => {
         let currStart = +moment(new Date().getTime()).startOf('month').startOf('day').format('x');
         let start = +moment(this.props.monthTimestamp).startOf('month').startOf('dat').format('x');
@@ -110,6 +114,7 @@
     }
 
      render = () => {
+         var mLocName = moment(this.props.monthTimestamp).format('MMMM').toUpperCase();
 
          return (
              <View style={styles.container} >
@@ -124,9 +129,7 @@
 
                  <View className={'month_name_placeholder'} style={styles.monthPlaceholder}  >
                      <View className={'month'} >
-                         <Text style={{textAlign: 'center', fontSize: 20}}>
-                             {this.getRuMonth()}
-                         </Text>
+                         <I18nText name={mLocName} style={{textAlign: 'center', fontSize: 20}} />
                      </View>
                      <View className={'year'} style={{marginLeft: 5}} >
                          <Text style={{fontSize: 20}} >

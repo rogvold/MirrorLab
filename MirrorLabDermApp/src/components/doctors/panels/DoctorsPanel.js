@@ -94,7 +94,9 @@
              <View style={styles.container} >
 
                  <View style={styles.headerPlaceholder} >
-                     <I18nText name={'FIND_DOCTOR'} style={{textAlign: 'center', fontSize: 20, fontWeight: 'bold', color: colors.fbColor}} />
+                     <I18nText name={'FIND_DOCTOR'}
+                               style={{textAlign: 'center', fontSize: 20,
+                                       fontWeight: 'bold', color: colors.fbColor}} />
 
                      <TouchableOpacity onPress={() => {closeFindDoctor()}}
                          style={{position: 'absolute', left: 5, top: 0, bottom: 0, width: 80, justifyContent: 'center'}} >
@@ -178,7 +180,7 @@
                          </TouchableOpacity>
 
                          {selectedDoctor == undefined ? null :
-                             <View>
+                             <View style={styles.doctorInfoPanelPlaceholder} >
                                  <DoctorInfoPanel />
                              </View>
                          }
@@ -287,8 +289,13 @@
 
      modal_style: {
          height: height,
-         marginTop: Platform.OS === 'android' ? -StatusBar.currentHeight : 0
+         // marginTop: Platform.OS === 'android' ? -StatusBar.currentHeight : 0
      },
+
+     doctorInfoPanelPlaceholder: {
+         height: height - 40 - (Platform.OS == 'android' ? StatusBar.currentHeight : 0),
+         width: width
+     }
 
  });
 

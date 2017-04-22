@@ -5,6 +5,11 @@ import * as types from '../constants/ActionTypes.js'
 import ParseAPI from '../api/ParseAPI.js';
 import PhotosAPI from '../api/PhotosAPI.js';
 
+import AnalyticsHelper from '../helpers/AnalyticsHelper'
+import * as anConstants from '../constants/AnalyticsConstants'
+
+
+
 //LOAD PHOTOS
 let loadPhotos_ = () => {
     return {
@@ -64,8 +69,10 @@ let createPhotoSuccess = (photo) => {
 //thunk
 export function createPhoto(data){
     return (dispatch, getState) => {
-        dispatch(createPhoto_())
-        return ParseAPI.runCloudFunctionAsPromise("createPhoto", data).then(
+        dispatch(createPhoto_());
+        data.userId = getState().users.currentUserId;
+        // AnalyticsHelper.logEvent(anConstants.TAKE_PHOTO);
+        return ParseAPI.createObject('Photo', data, PhotosAPI.transformPhoto).then(
             photo => dispatch(createPhotoSuccess(photo)),
             error => dispatch(createPhotoFail(error))
         )

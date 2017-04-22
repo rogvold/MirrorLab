@@ -20,7 +20,8 @@ const PhotosAPI = {
             version: s.get('version'),
             data: s.get('data'),
             hash: s.get('hash'),
-            url: s.get('url')
+            url: s.get('url'),
+            thumbnail: (s.get('thumbnail') == undefined) ? s.get('url') : s.get('thumbnail')
         }
     },
 

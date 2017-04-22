@@ -43,6 +43,11 @@
 
  import Emoji from 'react-native-emoji'
 
+ import CacheableFitImage from '../../image/CacheableFitImage'
+
+ const pW = 2.0 * width / 3;
+ const pH = (height / width) * pW;
+
  class PhotoAnalysisPanel extends React.Component {
 
      static defaultProps = {
@@ -88,12 +93,12 @@
      render = () => {
          let {photo, hasPrevNextControls, canNext, canPrev, showSkinry} = this.props;
 
-         if (photo == undefined || photo.data == undefined || photo.data.imgInfo == undefined){
-             return null;
-         }
-         let {spots} = photo.data;
+         // if (photo == undefined || photo.data == undefined || photo.data.imgInfo == undefined){
+         //     return null;
+         // }
 
-         let w = 2.0 * width / 3;
+         // let {spots} = photo.data == undefined ? [] : photo.data;
+         let {spots} = photo.data == undefined ? {spots: []} : photo.data;
 
 
          return (
@@ -109,9 +114,10 @@
                          </TouchableOpacity>
                      }
 
-                     <SkinryUserImage
-                         showSkinry={showSkinry}
-                         photoId={photo.id} photoWidth={w} />
+                     <CacheableFitImage style={{width: pW, height: pH}}
+                                        originalWidth={pW}
+                                        originalHeight={pH}
+                                        url={photo.url} />
 
                      {hasPrevNextControls == false ? null :
                          <TouchableOpacity style={styles.rightSidebar} onPress={this.props.onNext} >
@@ -148,7 +154,8 @@
      photoPlaceholder: {
         alignItems: 'center',
          // backgroundColor: 'pink',
-         padding: 5
+         padding: 5,
+         height: pH + 10
      },
 
      infoPlaceholder: {

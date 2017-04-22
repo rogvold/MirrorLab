@@ -29,6 +29,12 @@ import ReactNative from 'react-native';
 
 import {Input, Button, Spinner} from 'nachos-ui';
 
+import I18nText from '../../i18n/I18nText'
+
+import PrimaryButton from '../../buttons/PrimaryButton'
+
+import I18nHelper from '../../../helpers/I18nHelper'
+
 class SignupForm extends React.Component {
 
     static defaultProps = {
@@ -70,6 +76,10 @@ class SignupForm extends React.Component {
     }
 
     onSubmit = () => {
+        let {password, confirmPassword} = this.state;
+        if (password == undefined || password.trim() == '' || password != confirmPassword){
+            return;
+        }
         this.props.onSubmit(this.getData());
     }
 
@@ -86,46 +96,63 @@ class SignupForm extends React.Component {
     }
 
     render = () => {
-        let {loading} = this.props;
+        let {loading, lang} = this.props;
         let canSubmit = this.canSubmit() && (loading == false);
+        let {confirmPassword, email, password} = this.state;
 
         return (
             <View style={styles.container} >
 
                 <View style={styles.field} >
-                    <Text style={styles.label}>
-                        Email
-                    </Text>
-                    <Input value={this.state.email}
-                           placeholder={'Email'}
-                           onChangeText={(v) => {this.setState({email: v})}} />
+
+                    {(email == undefined || email.trim() == '') ? null :
+                        <I18nText style={styles.label} name={'EMAIL'}/>
+                    }
+
+                    <TextInput value={email}
+                               underlineColorAndroid={'rgba(0, 0, 0, 0)'}
+                               placeholderTextColor={'rgba(255, 255, 255, 0.5)'}
+                               style={styles.input}
+                               placeholder={I18nHelper.getString(lang, 'EMAIL')}
+                               onChangeText={(v) => {this.setState({email: v.toLowerCase().trim()})}} />
                 </View>
 
                 <View style={styles.field} >
-                    <Text style={styles.label}>
-                        Password
-                    </Text>
-                    <Input value={this.state.password}
-                           placeholder={'Password'} type={'password'}
-                           onChangeText={(v) => {this.setState({password: v})}} />
+
+                    {(password == undefined || password.trim() == '') ? null :
+                        <I18nText style={styles.label} name={'PASSWORD'}/>
+                    }
+
+                    <TextInput value={password}
+                               underlineColorAndroid={'rgba(0, 0, 0, 0)'}
+                               secureTextEntry={true}
+                               style={styles.input}
+                               placeholderTextColor={'rgba(255, 255, 255, 0.5)'}
+                               placeholder={I18nHelper.getString(lang, 'PASSWORD')}
+                               type={'password'}
+                               onChangeText={(v) => {this.setState({password: v.toLowerCase().trim()})}} />
                 </View>
 
                 <View style={styles.field} >
-                    <Text style={styles.label}>
-                        Confirm password
-                    </Text>
-                    <Input value={this.state.confirmPassword}
-                           placeholder={'Confirm password'} type={'password'}
-                           onChangeText={(v) => {this.setState({confirmPassword: v})}} />
+
+                    {(confirmPassword == undefined || confirmPassword.trim() == '') ? null :
+                        <I18nText style={styles.label} name={'CONFIRM_PASSWORD'} />
+                    }
+
+                    <TextInput value={confirmPassword}
+                               secureTextEntry={true}
+                               underlineColorAndroid={'rgba(0, 0, 0, 0)'}
+                               style={styles.input}
+                               placeholderTextColor={'rgba(255, 255, 255, 0.5)'}
+                               placeholder={I18nHelper.getString(lang, 'CONFIRM_PASSWORD')}
+                               type={'password'}
+                               onChangeText={(v) => {this.setState({confirmPassword: v.toLowerCase().trim()})}} />
                 </View>
 
                 <View style={styles.button_placeholder}>
-                    {Platform.OS != 'ios' ?
-                        <ReactNative.Button onPress={this.onSubmit} disabled={!canSubmit} title={loading == true ? 'Loading...' : 'Signup'} /> :
-                        <Button  onPress={this.onSubmit} disabled={!canSubmit} >
-                            {loading == true ? 'Loading...' : 'Signup'}
-                        </Button>
-                    }
+                    <PrimaryButton onPress={this.onSubmit} >
+                        <I18nText name={'REGISTRATION'} style={styles.buttonText} isUpper={true} />
+                    </PrimaryButton>
                 </View>
 
             </View>
@@ -142,41 +169,53 @@ var styles = StyleSheet.create({
     },
 
     form_placeholder: {
-
+        backgroundColor: 'transparent'
     },
 
     field: {
-        marginVertical: 5
+        marginVertical: 5,
+        borderBottomWidth: 2,
+        borderBottomColor: 'rgba(255, 255, 255, 0.5)'
     },
 
     label: {
+        backgroundColor: 'transparent',
+        color: 'white',
+        opacity: 0.7
+    },
 
+    input: {
+        color: 'white',
+        height: 40,
+        fontSize: 18
     },
 
     button_placeholder: {
         marginVertical: 10
-    }
+    },
 
+    buttonText: {
+        textAlign: 'center',
+        color: 'white',
+        fontSize: 18
+    }
 
 });
 
 
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
+const mapStateToProps = (state) => {
+   return {
+       lang: state.settings.lang
+   }
+}
 
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
+const mapDispatchToProps = (dispatch) => {
+   return {
 
-// SignupForm = connect(mapStateToProps, mapDispatchToProps)(SignupForm)
+   }
+}
+
+SignupForm = connect(mapStateToProps, mapDispatchToProps)(SignupForm)
 
 export default SignupForm
 

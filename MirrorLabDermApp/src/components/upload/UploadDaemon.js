@@ -51,18 +51,33 @@
          if (__DEV__){
              console.log('UploadDaemon: componentWillReceiveProps occured');
          }
-         this.props.uploadPhotoFromQueue();
      }
 
-     componentDidUpdate = () => {
+     componentWillUpdate = () => {
+         if (__DEV__){
+             console.log('UploadDaemon: componentWillUpdate occured');
+         }
+     }
 
+     componentDidUpdate = (prevProps) => {
+        if (__DEV__){
+            console.log('UploadDaemon: componentDidUpdate occured');
+        }
+        let {uploadPhotoFromQueue, queueSet} = prevProps;
+        if (!queueSet.isEmpty()){
+            uploadPhotoFromQueue();
+        }
      }
 
      render = () => {
-         let {visible} = this.props;
+         let {visible, uploadPhotoFromQueue, queueSet} = this.props;
          if (__DEV__){
              console.log('UploadDaemon: render');
          }
+         // if (queueSet.isEmpty() == false){
+         //     uploadPhotoFromQueue();
+         // }
+
 
          // if (visible == false){
          //     return null;

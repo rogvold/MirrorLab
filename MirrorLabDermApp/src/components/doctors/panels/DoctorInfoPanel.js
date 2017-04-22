@@ -96,7 +96,7 @@
          }
 
          return (
-             <View style={{height: height}}>
+             <View style={{height: height - ((Platform.OS == 'android') ? 22 : 0)}}>
 
                  <ScrollView style={styles.container} >
 
@@ -108,9 +108,7 @@
 
                          <View style={styles.aboutPlaceholder} >
                              <View style={styles.headerBlock}>
-                                <Text style={styles.header} >
-                                    About
-                                </Text>
+                                <I18nText style={styles.header} name={'ABOUT_DOCTOR'} />
                              </View>
                              <View>
                                  <Text style={[styles.about, styles.p]} >
@@ -124,7 +122,7 @@
 
                  </ScrollView>
 
-                 <View style={{height: 100, padding: 10}}  >
+                 <View style={{height: 100, padding: 10, paddingBottom: ((Platform.OS == 'android') ? 22 : 0)}}  >
                      {isFriend == true ?
                          <View style={{alignItems: 'center', justifyContent: 'center'}} >
                              <TouchableOpacity style={styles.deleteDoctorButton} onPress={this.onDelete} >
@@ -169,7 +167,8 @@
 
      addDoctorButtonPlaceholder: {
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        paddingBottom: ((Platform.OS == 'android') ? 22 : 0)
      },
 
      addDoctorButton: {

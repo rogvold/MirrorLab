@@ -173,7 +173,12 @@ const ParseAPI = {
             self.signUp(data, function(user){
                 resolve(user);
             }, function(error){
-                reject(error);
+                if (__DEV__){
+                    console.log('can not sign up: error = ', error);
+                }
+                reject({
+                    message: error.message
+                });
             })
         });
         return promise;

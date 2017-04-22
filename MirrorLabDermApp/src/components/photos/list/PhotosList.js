@@ -36,6 +36,8 @@
 
 import CacheableFitImage from '../../image/CacheableFitImage'
 
+import I18nText from '../../i18n/I18nText'
+
  class PhotosList extends React.Component {
 
      static defaultProps = {
@@ -116,12 +118,12 @@ import CacheableFitImage from '../../image/CacheableFitImage'
                                                 flexDirection:'row',
                                                 justifyContent: 'flex-start',
                                                 alignItems: 'center'
-                                            }}
+                                          }}
                                   onPress={this.onPhotoClick.bind(this, photo.id)} >
                     <View style={styles.image_placeholder} >
 
                         <CacheableFitImage
-                            url={photo.url}
+                            url={photo.thumbnail}
                             originalWidth={50}
                             originalHeight={50}
                             style={{borderRadius: 4}}
@@ -129,8 +131,9 @@ import CacheableFitImage from '../../image/CacheableFitImage'
 
                     </View>
                     <View style={styles.info_placeholder} >
+                        <I18nText name={moment(photo.timestamp).format('MMMM').toUpperCase()} style={{marginRight: 4}} />
                         <Text>
-                            {moment(photo.timestamp).format('LLL')}
+                            {moment(photo.timestamp).format('D, YYYY HH:mm')}
                         </Text>
                     </View>
 
@@ -174,7 +177,8 @@ import CacheableFitImage from '../../image/CacheableFitImage'
      },
 
      info_placeholder: {
-        paddingLeft: 5
+        paddingLeft: 5,
+        flexDirection: 'row'
      }
 
  });

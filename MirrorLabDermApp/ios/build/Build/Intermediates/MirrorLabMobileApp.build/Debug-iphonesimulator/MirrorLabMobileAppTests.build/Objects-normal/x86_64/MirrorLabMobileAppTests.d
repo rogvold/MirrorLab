@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/MirrorLabMobileAppTests/MirrorLabMobileAppTests.m \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/MirrorLabMobileAppTests/MirrorLabMobileAppTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h \
@@ -29,13 +29,13 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

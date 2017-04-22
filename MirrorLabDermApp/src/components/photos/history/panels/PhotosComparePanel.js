@@ -37,6 +37,9 @@
 
  const { width, height } = Dimensions.get('window')
 
+const pW = width / 2.0 - 10;
+const pH = (height / width) * pW;
+
  import moment from 'moment'
 
 
@@ -46,6 +49,7 @@
 
  import * as colors from '../../../../constants/AppColors'
 
+ import CacheableFitImage from '../../../image/CacheableFitImage'
 
  class PhotosComparePanel extends React.Component {
 
@@ -111,9 +115,23 @@
          )
      }
 
+     getPhotoById = (id) => {
+         let {photos} = this.props;
+         let res = undefined;
+         for (let i in photos){
+             let p = photos[i];
+             if ((p.id) == id){
+                 res = p;
+             }
+         }
+         return res;
+     }
+
      render = () => {
          let {firstPhotoId, secondPhotoId} = this.state;
          let {photos, showSkinry} = this.props;
+         let firstPhoto = this.getPhotoById(firstPhotoId);
+         let secondPhoto = this.getPhotoById(secondPhotoId);
 
          if (__DEV__){
              console.log('PhotosComparePanel: firstPhotoId, secondPhotoId = ', firstPhotoId, secondPhotoId);
@@ -127,9 +145,10 @@
                      <View style={styles.leftPlaceholder}>
 
                          {firstPhotoId == undefined ? <View><Text>no photos</Text></View> :
-                            <SkinryUserImage
-                                showSkinry={showSkinry}
-                                photoId={firstPhotoId} photoWidth={width / 2.0 - 10} photoHeight={height * 0.4 - 10} />
+                            <CacheableFitImage
+                                url={firstPhoto.url}
+                                style={{width: pW, height: pH}}
+                                originalWidth={pW} originalHeight={pH} />
                          }
 
                      </View>
@@ -137,11 +156,10 @@
                      <View style={styles.rightPlaceholder}>
 
                          {secondPhotoId == undefined ? <View><Text>no photos</Text></View> :
-                             <SkinryUserImage
-                                            showSkinry={showSkinry}
-                                            photoId={secondPhotoId}
-                                              photoWidth={width / 2.0 - 10}
-                                              photoHeight={height * 0.4 - 10}  />
+                             <CacheableFitImage
+                                 url={secondPhoto.url}
+                                 style={{width: pW, height: pH}}
+                                 originalWidth={pW} originalHeight={pH} />
                          }
 
                      </View>
@@ -151,7 +169,6 @@
 
                  {secondPhotoId == undefined || firstPhotoId == undefined ? null :
                      <View style={styles.middlePlaceholder} >
-
 
                          <View style={styles.leftPickerPlaceholder} >
                              <PhotoPicker selectedPhotoId={firstPhotoId}
@@ -169,7 +186,6 @@
 
                      </View>
                  }
-
 
              </View>
          )
@@ -189,7 +205,7 @@
          justifyContent: 'flex-start',
          alignItems: 'center',
          width: width,
-         height: height * 0.4,
+         height: pH + 10,
          marginTop: 10
      },
 

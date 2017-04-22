@@ -27,7 +27,8 @@
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
-     ActivityIndicator
+     ActivityIndicator,
+     Keyboard
  } from 'react-native';
 
  import ReactNative from 'react-native';
@@ -53,7 +54,9 @@
 
      static propTypes = {}
 
-     state = {}
+     state = {
+
+     }
 
      //ES5 - componentWillMount
      constructor(props) {
@@ -67,6 +70,8 @@
      componentWillReceiveProps() {
 
      }
+
+
 
      onSend = () => {
          let {createComment} = this.props;
@@ -108,6 +113,7 @@
                  <View style={styles.bottomPlaceholder} >
                      <View style={styles.inputPlaceholder} >
                          <TextInput
+                             underlineColorAndroid={'rgba(0, 0, 0, 0)'}
                              multiline={true}
                              placeholder={I18nHelper.getString(lang, 'COMMENT_INPUT_PLACEHOLDER')}
                              value={this.state.text}
@@ -135,8 +141,6 @@
                      }
 
                  </View>
-
-                 <KeyboardSpacer />
 
              </View>
          )

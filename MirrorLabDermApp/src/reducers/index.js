@@ -19,5 +19,4 @@ export const reducer = combineReducers({
     chat: ChatReducer,
     comments: CommentsReducer,
     settings: SettingsReducer,
-
 });

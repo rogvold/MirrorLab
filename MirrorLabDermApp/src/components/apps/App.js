@@ -38,6 +38,7 @@
  import ChatApp from './ChatApp'
  import DoctorsApp from './DoctorsApp'
  import TakePhotoApp from './TakePhotoApp'
+ import InfoApp from './InfoApp'
 
  import LogoutButton from '../auth/buttons/LogoutButton'
 
@@ -49,6 +50,11 @@
  import UploadDaemon from '../upload/UploadDaemon'
 
  import KeyboardSpacer from 'react-native-keyboard-spacer';
+
+import ReactNativeI18n from 'react-native-i18n'
+const deviceLocale = ReactNativeI18n.locale
+
+
 
  class App extends React.Component {
 
@@ -64,7 +70,9 @@
      }
 
      componentDidMount() {
-
+         if (__DEV__){
+             console.log('App: componentDidMount: deviceLocale = ', deviceLocale);
+         }
      }
 
      componentWillReceiveProps() {
@@ -92,8 +100,8 @@
                  return <DoctorsApp/>
              case 'chat':
                  return <ChatApp />
-             case 'dev':
-                 return <DevApp />
+             case 'info':
+                 return <InfoApp />
 
              default:
                  return null;
@@ -129,7 +137,7 @@
                      {this.getCurrentTab()}
                  </View>
 
-                 <KeyboardSpacer />
+
 
                  <DermaNavigationTabBarsPanel />
 

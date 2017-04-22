@@ -107,6 +107,7 @@
                      </View>
                      <View style={styles.inputPlaceholder} >
                          <TextInput value={firstName}
+                                    underlineColorAndroid={'rgba(0, 0, 0, 0)'}
                                     style={styles.input}
                                     onChangeText={(t)=>{this.setState({firstName: t, changed: true})}} />
                      </View>
@@ -118,6 +119,7 @@
                      </View>
                      <View style={styles.inputPlaceholder} >
                          <TextInput value={lastName}
+                                    underlineColorAndroid={'rgba(0, 0, 0, 0)'}
                                     style={styles.input}
                                     onChangeText={(t)=>{this.setState({lastName: t, changed: true})}} />
                      </View>

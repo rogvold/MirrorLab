@@ -135,7 +135,12 @@ class SkinryPimpleEditor extends React.Component {
                         Количество кругов: <b>{points.length}</b>
                     </div>
 
+
+
                     <div className={'save_button_placeholder'} >
+                        <div style={{color: 'firebrick', fontWeight: 'bold', textAlign: 'center'}} >
+                            Не забудьте сохранить!
+                        </div>
                         <button className={'ui primary button fluid'} onClick={this.onSave} >
                             <i className={'icon save'} ></i> Сохранить
                         </button>

@@ -1845,19 +1845,20 @@ containing a value of this type.
         public static final int node_modules_reactnativeexperimentalnavigation_assets_back=0x7f02003f;
         public static final int node_modules_reactnativerouterflux_src_back_chevron=0x7f020040;
         public static final int node_modules_reactnativerouterflux_src_menu_burger=0x7f020041;
-        public static final int notification_template_icon_bg=0x7f02004e;
-        public static final int src_assets_images_oval_transparent=0x7f020042;
-        public static final int src_assets_images_skinry_splash=0x7f020043;
-        public static final int src_assets_images_start_blackheads=0x7f020044;
-        public static final int src_assets_images_start_creams=0x7f020045;
-        public static final int src_assets_images_start_creams_and_pills=0x7f020046;
-        public static final int src_assets_images_start_female=0x7f020047;
-        public static final int src_assets_images_start_male=0x7f020048;
-        public static final int src_assets_images_start_mild=0x7f020049;
-        public static final int src_assets_images_start_moderate=0x7f02004a;
-        public static final int src_assets_images_start_nothing=0x7f02004b;
-        public static final int src_assets_images_start_pills=0x7f02004c;
-        public static final int src_assets_images_start_severe=0x7f02004d;
+        public static final int notification_template_icon_bg=0x7f02004f;
+        public static final int src_assets_images_km_auth_background=0x7f020042;
+        public static final int src_assets_images_oval_transparent=0x7f020043;
+        public static final int src_assets_images_skinry_splash=0x7f020044;
+        public static final int src_assets_images_start_blackheads=0x7f020045;
+        public static final int src_assets_images_start_creams=0x7f020046;
+        public static final int src_assets_images_start_creams_and_pills=0x7f020047;
+        public static final int src_assets_images_start_female=0x7f020048;
+        public static final int src_assets_images_start_male=0x7f020049;
+        public static final int src_assets_images_start_mild=0x7f02004a;
+        public static final int src_assets_images_start_moderate=0x7f02004b;
+        public static final int src_assets_images_start_nothing=0x7f02004c;
+        public static final int src_assets_images_start_pills=0x7f02004d;
+        public static final int src_assets_images_start_severe=0x7f02004e;
     }
     public static final class id {
         public static final int action0=0x7f0d0057;

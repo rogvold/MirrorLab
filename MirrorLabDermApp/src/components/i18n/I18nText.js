@@ -42,7 +42,10 @@
      static defaultProps = {
          name: undefined,
          params: undefined,
-         isUpper: false
+         isUpper: false,
+
+         additionalText: ''
+
      }
 
      static propTypes = {}
@@ -63,11 +66,15 @@
      }
 
      render = () => {
-         let {name, style, lang, params, isUpper} = this.props;
+         let {name, style, lang, params, isUpper, additionalText} = this.props;
          let text = I18nHelper.getString(lang, name, params);
+         if (text == undefined){
+             text = '';
+         }
          if (isUpper == true){
              text = text.toUpperCase();
          }
+         text = text + additionalText;
 
          return (
              <Text style={style} >

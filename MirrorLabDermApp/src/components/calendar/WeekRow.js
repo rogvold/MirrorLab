@@ -198,7 +198,7 @@
                                   key={key}  >
                                  <TouchableOpacity onPress={onClick} style={innerDaySt} >
                                      <View style={dayNumSt} >
-                                         <Text style={styles.dayText} >
+                                         <Text style={(isSelected == true) ? [styles.dayText, styles.bold] : styles.dayText} >
                                              {moment(t).format('D')}
                                          </Text>
                                      </View>
@@ -242,6 +242,7 @@
          // flexWrap: 'wrap',
          // alignItems: 'flex-start',
          flexDirection:'row',
+         // backgroundColor: 'purple'
      },
 
      day: {
@@ -256,7 +257,7 @@
      selectedInnerDay: {
          padding: 3,
          paddingBottom: 0,
-         fontWeight: 'bold',
+         // fontWeight: 'bold',
          backgroundColor: '#FCF9FC',
          borderTopLeftRadius: 4,
          borderTopRightRadius: 4,
@@ -265,6 +266,10 @@
      notThisMonthDay: {
         opacity: 0.3,
          flex: 1
+     },
+
+     bold: {
+        fontWeight: 'bold'
      },
 
      dayText: {
@@ -286,7 +291,8 @@
      selectedContentPlaceholder: {
          height: 84,
          // backgroundColor: 'whitesmoke'
-         backgroundColor: '#FCF9FC',
+         // backgroundColor: '#FCF9FC',
+         // backgroundColor: 'pink',
          // flex: 1,
          alignSelf: 'stretch',
          justifyContent: 'center',

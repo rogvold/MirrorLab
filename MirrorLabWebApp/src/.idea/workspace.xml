@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SkinryImage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SkinryImage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="52" column="105" lean-forward="false" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
+            <state relative-caret-position="1242">
+              <caret line="188" column="9" lean-forward="true" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file leaf-file-name="SkinryUserImage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="-168">
               <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding />
             </state>
@@ -106,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkinryPimpleEditor.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SkinryPimpleEditor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="140" column="52" lean-forward="false" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -121,7 +121,7 @@
       <file leaf-file-name="DraggablePimpledImage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="-1548">
               <caret line="151" column="45" lean-forward="true" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
               <folding />
             </state>
@@ -224,10 +224,10 @@
         <option value="$PROJECT_DIR$/components/status/panels/UpdatePhotoStatusPanel.js" />
         <option value="$PROJECT_DIR$/components/skinry/list/PhotosList.js" />
         <option value="$PROJECT_DIR$/assets/css/styles.scss" />
-        <option value="$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js" />
         <option value="$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js" />
         <option value="$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js" />
         <option value="$PROJECT_DIR$/components/skinry/image/SkinryImage.js" />
+        <option value="$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js" />
       </list>
     </option>
   </component>
@@ -754,12 +754,12 @@
       <workItem from="1489676034188" duration="481000" />
       <workItem from="1490122640529" duration="4527000" />
       <workItem from="1490130979189" duration="340000" />
-      <workItem from="1491331371825" duration="5129000" />
+      <workItem from="1491331371825" duration="6010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252749000" />
+    <option name="totallyTimeSpent" value="253630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="728" extended-state="6" />
@@ -1112,21 +1112,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js">
+    <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="151" column="45" lean-forward="true" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
+        <state relative-caret-position="1242">
+          <caret line="188" column="9" lean-forward="true" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js">
+    <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-168">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,19 +1138,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryUserImage.js">
+    <entry file="file://$PROJECT_DIR$/components/skinry/image/DraggablePimpledImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="-1548">
+          <caret line="151" column="45" lean-forward="true" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/skinry/image/SkinryImage.js">
+    <entry file="file://$PROJECT_DIR$/components/skinry/editor/SkinryPimpleEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="52" column="105" lean-forward="false" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
-          <folding />
+        <state relative-caret-position="282">
+          <caret line="140" column="52" lean-forward="false" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

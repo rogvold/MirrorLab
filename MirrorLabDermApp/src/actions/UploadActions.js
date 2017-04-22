@@ -24,7 +24,11 @@ export function addToQueue(urls){
     return (dispatch, getState) => {
         return new Promise((resolve, reject) => {
             resolve(dispatch(putPhotosInUploadingSet(urls)))
-        })
+        }).then(
+            () => {
+                return dispatch(uploadPhotoFromQueue())
+            }
+        )
     }
 }
 
@@ -62,16 +66,27 @@ export function uploadPhotoFromQueue() {
         }
 
         if (queueSet.isEmpty() == true){
-            return;
+            if (__DEV__){
+                console.log('EMPTY!!!!');
+            }
+            return dispatch({type: 'NO_TYPE'});
         }
+
         let url = queueSet.first();
         let currentUserId = getState().users.currentUserId;
         dispatch(uploadPhoto_(url));
         return UploadHelper.uploadPhotoAsPromise(url).then(
             data => {
-                data.userId = currentUserId;
-                dispatch(uploadPhotoSuccess(url, data));
-                return dispatch(photosActions.createPhoto(data));
+                if (__DEV__){
+                    console.log('photo successfully uploaded: data = ', data);
+                }
+                let d = {
+                    url: data.url,
+                    thumbnail: data.mini_url,
+                    userId: currentUserId
+                }
+                dispatch(uploadPhotoSuccess(url, d));
+                return dispatch(photosActions.createPhoto(d));
             },
             error => dispatch(uploadPhotoFail(error))
         )

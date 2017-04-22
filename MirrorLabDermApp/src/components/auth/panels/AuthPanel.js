@@ -22,7 +22,8 @@
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
-     ActivityIndicator
+     ActivityIndicator,
+     Dimensions
  } from 'react-native';
 
  import {Spinner} from 'nachos-ui'
@@ -30,6 +31,8 @@
  import AuthForm from '../forms/AuthForm'
 
  import KeyboardSpacer from 'react-native-keyboard-spacer';
+
+ let {width, height} = Dimensions.get('window')
 
  class AuthPanel extends React.Component {
 
@@ -66,11 +69,16 @@
          return (
              <View style={styles.container} >
 
-                 <AuthForm onLogin={this.onLogin}
-                           error={error}
-                           onSignup={this.onSignup} loading={loading} />
+                 <Image source={require('../../../assets/images/km_auth_background.jpg')}
+                        style={styles.backgroundImage}>
 
-                 <KeyboardSpacer />
+                     <AuthForm onLogin={this.onLogin}
+                               error={error}
+                               onSignup={this.onSignup} loading={loading} />
+
+                     <KeyboardSpacer />
+
+                 </Image>
 
              </View>
          )
@@ -80,13 +88,21 @@
 
  var styles = StyleSheet.create({
      container: {
-         flex: 2,
+         width: width,
+         height: height
      },
 
      spinner_placeholer: {
          justifyContent: 'center',
          alignItems: 'center',
          flex: 1
+     },
+
+     backgroundImage: {
+         width: width,
+         height: height
+         // resizeMode: 'cover', // or 'stretch',
+
      }
 
  });

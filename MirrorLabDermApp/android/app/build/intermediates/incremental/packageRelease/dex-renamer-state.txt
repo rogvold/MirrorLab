@@ -1,4 +1,4 @@
-#Tue Mar 14 02:45:21 MSK 2017
-base.0=/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+#Sat Apr 22 17:10:14 MSK 2017
+base.0=/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabMobileApp/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
+file.0=/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

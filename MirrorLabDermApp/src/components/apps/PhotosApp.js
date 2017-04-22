@@ -65,8 +65,6 @@ class PhotosApp extends React.Component {
 
                 <PhotosHistoryTabbedPanel />
 
-                <UploadDaemon/>
-
             </View>
         )
     }

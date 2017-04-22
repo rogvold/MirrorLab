@@ -19,6 +19,7 @@ import ParseAPI from '../../../api/ParseAPI'
      TextInput,
      Navigator,
      TouchableHighlight,
+     TouchableOpacity,
      NativeAppEventEmitter,
      Platform,
      BackAndroid,
@@ -33,13 +34,24 @@ import ParseAPI from '../../../api/ParseAPI'
 
  // import MyButton from '../../buttons/MyButton'
 
+ import * as colors from '../../../constants/AppColors'
+
+ import I18nText from '../../i18n/I18nText'
+
+ import PrimaryButton from '../../buttons/PrimaryButton'
+
+ import I18nHelper from '../../../helpers/I18nHelper'
+
+ import CommonHelper from '../../../helpers/CommonHelpers'
+
  class LoginForm extends React.Component {
 
      static defaultProps = {
          onSubmit (data){
              console.log('default onSubmit occured: data = ', data);
          },
-         loading: false
+         loading: false,
+         dotChar: '*'
      }
 
      static propTypes = {
@@ -86,37 +98,48 @@ import ParseAPI from '../../../api/ParseAPI'
 
 
      render = () => {
-         let {loading} = this.props;
+         let {loading, lang} = this.props;
          let canSubmit = this.canSubmit() && (loading == false);
+         let {email, password} = this.state;
 
          return (
              <View style={styles.container} >
 
                  <View style={styles.field} >
-                     <Text style={styles.label}>
-                         Email
-                     </Text>
-                     <Input value={this.state.email}
-                            placeholder={'Email'}
-                            onChangeText={(v) => {this.setState({email: v})}} />
+                     {(email == undefined || email.trim() == '') ? null :
+                         <I18nText style={styles.label} name={'EMAIL'} />
+                     }
+                     <TextInput
+                            underlineColorAndroid={'rgba(0, 0, 0, 0)'}
+                            value={email}
+                            style={styles.input}
+                            placeholder={I18nHelper.getString(lang, 'EMAIL')}
+                            placeholderTextColor={'rgba(255, 255, 255, 0.5)'}
+                            onChangeText={(v) => {this.setState({email: v.toLowerCase().trim()})}} />
                  </View>
 
                  <View style={styles.field} >
-                     <Text style={styles.label}>
-                         Password
-                     </Text>
-                     <Input value={this.state.password}
-                            placeholder={'Password'} type={'password'}
-                            onChangeText={(v) => {this.setState({password: v})}} />
+                     {(password == undefined || password.trim() == '') ? null :
+                         <I18nText style={styles.label} name={'PASSWORD'} />
+                     }
+                     <TextInput
+                            underlineColorAndroid={'rgba(0, 0, 0, 0)'}
+                            value={password}
+                            style={styles.input}
+                            secureTextEntry={true}
+                            placeholderTextColor={'rgba(255, 255, 255, 0.5)'}
+                            placeholder={I18nHelper.getString(lang, 'PASSWORD')} type={'password'}
+                            onChangeText={(v) => {this.setState({password: v.toLowerCase().trim()})}} />
                  </View>
 
                  <View style={styles.button_placeholder}>
-                     {Platform.OS != 'ios' ?
-                         <ReactNative.Button onPress={this.onSubmit} disabled={!canSubmit} title={loading == true ? 'Loading...' : 'Login'} /> :
-                         <Button onPress={this.onSubmit} disabled={!canSubmit} >
-                             {loading == true ? 'Loading...' : 'Login'}
-                         </Button>
-                     }
+                     <PrimaryButton
+                         disabled={!canSubmit}
+                         onPress={this.onSubmit} >
+                         <I18nText name={'LOGIN'}
+                                   isUpper={true}
+                                   style={styles.buttonText} />
+                     </PrimaryButton>
 
                  </View>
 
@@ -138,37 +161,52 @@ import ParseAPI from '../../../api/ParseAPI'
      },
 
      field: {
-        marginVertical: 5
+        marginVertical: 5,
+        borderBottomWidth: 2,
+        borderBottomColor: 'rgba(255, 255, 255, 0.5)'
      },
 
      label: {
+        backgroundColor: 'transparent',
+        color: 'white',
+        opacity: 0.7
+     },
 
+     input: {
+         color: 'white',
+         height: 40,
+         fontSize: 18
      },
 
      button_placeholder: {
         marginVertical: 10
+     },
+
+
+
+     buttonText: {
+         textAlign: 'center',
+         color: 'white',
+         fontSize: 18
      }
 
 
  });
 
 
- //const mapStateToProps = (state) => {
- //    return {
- //        currentUserId: state.users.currentUserId,
- //        loading: state.users.loading
- //    }
- //}
+ const mapStateToProps = (state) => {
+    return {
+        lang: state.settings.lang
+    }
+ }
 
- //const mapDispatchToProps = (dispatch) => {
- //    return {
- //        onLogout: (data) => {
- //            dispatch(actions.logOut())
- //        }
- //    }
- //}
+ const mapDispatchToProps = (dispatch) => {
+    return {
 
- // LoginForm = connect(mapStateToProps, mapDispatchToProps)(LoginForm)
+    }
+ }
+
+ LoginForm = connect(mapStateToProps, mapDispatchToProps)(LoginForm)
 
 export default LoginForm
 

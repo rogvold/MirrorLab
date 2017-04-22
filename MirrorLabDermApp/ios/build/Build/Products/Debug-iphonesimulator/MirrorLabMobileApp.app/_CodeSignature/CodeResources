@@ -16,9 +16,13 @@
 		<data>
 		7T5ktvvXyDSJtKLhs9ZTloNZpJc=
 		</data>
+		<key>Assets.car</key>
+		<data>
+		6EReS40Nal5ZSQqE7jFBNjrtHus=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		hXvZn09i7qe0c1hoYtLO0Q+5AEs=
+		vnI8bOel118pR1UNjslwDwjaRsU=
 		</data>
 		<key>Comic Sans MS.ttf</key>
 		<data>
@@ -275,7 +279,7 @@
 		</data>
 		<key>PlugIns/MirrorLabMobileAppTests.xctest/MirrorLabMobileAppTests</key>
 		<data>
-		FSpGgdkDpArohYzeqsPWxsyDP08=
+		0xw7HS6P8QQ8CbD7U5I1RKxEfGI=
 		</data>
 		<key>PlugIns/MirrorLabMobileAppTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -405,15 +409,26 @@
 			Ull5giWRo0R8/EnZQ9b3aDUI4lVDQHhxwO2P7QX9K9k=
 			</data>
 		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6EReS40Nal5ZSQqE7jFBNjrtHus=
+			</data>
+			<key>hash2</key>
+			<data>
+			jtOZN/AcGETnebYm+8vV7vXxdF/BWaTZIXi+3Cqz4WY=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hXvZn09i7qe0c1hoYtLO0Q+5AEs=
+			vnI8bOel118pR1UNjslwDwjaRsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OQV7KGE0HJrI7H8l/7XlKPBru23lGGI9ZZ6orYTfaKU=
+			6ytTWcW74cwRZglGFQk1mdJO6p45GXoDh2bo6CmuopE=
 			</data>
 		</dict>
 		<key>Comic Sans MS.ttf</key>
@@ -1087,11 +1102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FSpGgdkDpArohYzeqsPWxsyDP08=
+			0xw7HS6P8QQ8CbD7U5I1RKxEfGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yzOmNk4kmQgdKsj4ypfGozRpDk5gdP8KJEQ1t5SrBi8=
+			G9dBN0SQrJ7Ytlsx777gMmvRKxNzaZQlDbsETR7Ast8=
 			</data>
 		</dict>
 		<key>PlugIns/MirrorLabMobileAppTests.xctest/_CodeSignature/CodeResources</key>

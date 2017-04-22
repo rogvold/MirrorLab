@@ -27,12 +27,13 @@
      Platform,
      BackAndroid,
      ActivityIndicator,
-     Dimensions
+     Dimensions,
+     Keyboard
  } from 'react-native';
 
  import {Spinner} from 'nachos-ui'
 
-import PhotosList from '../list/PhotosList'
+ import PhotosList from '../list/PhotosList'
 
  import SkinryUserImage from '../../skinry/image/SkinryUserImage'
  import PhotoAnalysisPanel from '../../skinry/panels/PhotoAnalysisPanel'
@@ -45,20 +46,23 @@ import PhotosList from '../list/PhotosList'
 
  const { width, height } = Dimensions.get('window')
 
-import KeyboardSpacer from 'react-native-keyboard-spacer';
+ import KeyboardSpacer from 'react-native-keyboard-spacer';
 
  import I18nText from '../../i18n/I18nText'
 
  class PhotosPanel extends React.Component {
 
      static defaultProps = {
-         commentsEnabled: true
+         commentsEnabled: true,
+         onPhotoClick: (id) => {
+
+         }
      }
 
      static propTypes = {}
 
      state = {
-         selectedPhotoId: undefined
+
      }
 
      //ES5 - componentWillMount
@@ -76,65 +80,16 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
      }
 
      onPhotoClick = (photoId) => {
-         this.setState({
-             selectedPhotoId: photoId
-         });
+         this.props.onPhotoClick(photoId);
      }
-
-     getSelectedPhoto = () => {
-         let {photos} = this.props;
-         let {selectedPhotoId} = this.state;
-         let res = undefined;
-         for (let i in photos){
-             if (photos[i].id == selectedPhotoId){
-                 res = photos[i];
-             }
-         }
-         return res;
-     }
-
-     getCurrentNumber = () => {
-        let {photos} = this.props;
-        let {selectedPhotoId} = this.state;
-        let n = -1;
-        for (let i in photos){
-            if (photos[i].id == selectedPhotoId){
-                n = i;
-            }
-        }
-        return n;
-     }
-
-     onPrev = () => {
-        let n = this.getCurrentNumber();
-
-        let {photos} = this.props;
-        if (n > 0){
-            this.setState({
-                selectedPhotoId: photos[n - 1].id
-            });
-        }
-     }
-
-     onNext = () => {
-         let n = this.getCurrentNumber();
-         if (__DEV__){
-             console.log('onNext: n = ', n);
-         }
-         let {photos} = this.props;
-         if (+n < photos.length - 1){
-             this.setState({
-                 selectedPhotoId: photos[+n + 1].id
-             });
-         }
-     }
-
 
      render = () => {
          let {loading, photos, commentsEnabled} = this.props;
-         let {selectedPhotoId} = this.state;
-         let selectedPhoto = this.getSelectedPhoto();
-         let currentNumber = this.getCurrentNumber();
+         let {selectedPhotoId, keyboardVisible} = this.state;
+
+         if (__DEV__){
+             console.log('selectedPhotoId = ', selectedPhotoId);
+         }
 
          return (
              <View style={styles.container} >
@@ -143,58 +98,7 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
                      <View style={{alignItems: 'center', justifyContent: 'center', height: 30}} >
                          <Spinner />
                      </View>}
-
                  <PhotosList photos={photos} onPhotoClick={this.onPhotoClick} />
-
-                 <Modal
-                     animationType={'slide'}
-                     transparent={this.state.transparent}
-                     visible={(selectedPhotoId != undefined)}
-                     onRequestClose={() => {this.setState({selectedPhotoId: undefined})}}
-                 >
-
-                     {selectedPhotoId == undefined ? null :
-                         <View style={styles.modalInner} >
-
-                             <View style={styles.modalHeader} >
-
-                                 <TouchableOpacity style={styles.headerBackPlaceholder} onPress={() => {this.setState({selectedPhotoId: undefined})}} >
-                                     <View style={{flexDirection: 'row', alignItems: 'center'}} >
-                                         <Text style={styles.backButton} >
-                                             <Icon name="chevron-left" color={colors.fbColor} size={16} style={{marginRight: 5}} />
-                                         </Text>
-                                         <I18nText name={'BACK'}  style={styles.backButton}  />
-                                     </View>
-                                 </TouchableOpacity>
-
-                                 <View style={styles.selectedUserPlaceholder} >
-                                     <Text style={styles.selectedUserText}>
-                                         {moment(selectedPhoto.timestamp).format('LLL')}
-                                     </Text>
-                                 </View>
-
-                             </View>
-
-                             <ScrollView style={styles.modalContent} >
-
-                                 <PhotoAnalysisPanel
-                                     showSkinry={false}
-                                     canPrev={+currentNumber > 0}
-                                     canNext={+currentNumber < photos.length - 1}
-                                     photoId={selectedPhotoId}
-                                     onPrev={this.onPrev} onNext={this.onNext} />
-
-                                 {commentsEnabled == false ? null :
-                                    <CommentsPanel relatedId={selectedPhotoId} />
-                                 }
-
-                             </ScrollView>
-
-
-                         </View>
-                     }
-
-                 </Modal>
 
              </View>
          )
@@ -206,7 +110,8 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
      container: {
          flex: 1,
          // alignSelf: 'stretch',
-         marginBottom: 25
+         // marginBottom: 25
+         marginBottom: 40
      },
 
      modalInner: {
