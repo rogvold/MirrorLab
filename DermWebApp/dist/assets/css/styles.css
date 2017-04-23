@@ -2113,8 +2113,7 @@ button.primary_button {
       width: 300px; }
 
 .user_index_app_content {
-  height: 100%;
-  padding: 10px; }
+  height: 100%; }
 
 .cute_sessions_list > .item {
   margin-bottom: 10px;
@@ -2272,3 +2271,146 @@ button.primary_button {
   .comments_list .comment_item .text_placeholder .text {
     font-size: 24px;
     line-height: 32px; }
+
+.chat_users_list .user_item {
+  height: 64px;
+  padding: 2px;
+  background-color: white;
+  cursor: pointer; }
+  .chat_users_list .user_item:hover {
+    opacity: 0.8;
+    background-color: #F2F2F2; }
+  .chat_users_list .user_item.selected {
+    background-color: #F2F2F2; }
+  .chat_users_list .user_item .left_placeholder {
+    width: 60px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: none; }
+    .chat_users_list .user_item .left_placeholder .avatar_placeholder .avatar {
+      margin: 0 auto;
+      width: 50px;
+      height: 50px;
+      border-radius: 1000px;
+      background-size: cover;
+      background-position: center; }
+  .chat_users_list .user_item .center_placeholder {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 100px);
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .chat_users_list .user_item .center_placeholder .user_name_placeholder .name {
+      font-size: 15px; }
+  .chat_users_list .user_item .right_placeholder {
+    width: 40px;
+    display: inline-block;
+    vertical-align: top; }
+    .chat_users_list .user_item .right_placeholder .last_message_time_placeholder .last_message_time {
+      font-size: 13px;
+      opacity: 0.7; }
+
+.chat_panel {
+  width: 100%;
+  height: 100%;
+  background-color: white; }
+  .chat_panel .left_placeholder {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    border-right: 1px solid #F3F3F8; }
+  .chat_panel .right_placeholder {
+    width: calc(100% - 280px);
+    display: inline-block;
+    vertical-align: top;
+    height: 100%; }
+    .chat_panel .right_placeholder .right_top_placeholder {
+      height: 50px;
+      padding: 8px;
+      border-bottom: 1px solid #F3F3F8; }
+      .chat_panel .right_placeholder .right_top_placeholder .selected_user_name_placeholder {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        line-height: 34px; }
+    .chat_panel .right_placeholder .right_content_placeholder {
+      height: calc(100% - 50px); }
+      .chat_panel .right_placeholder .right_content_placeholder .messages_placeholder {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 300px);
+        height: 100%;
+        max-height: 100%;
+        overflow-y: hidden;
+        border-right: 1px solid #F3F3F8; }
+      .chat_panel .right_placeholder .right_content_placeholder .info_placeholder {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        height: 100%; }
+
+.chat_user_panel {
+  width: 100%;
+  height: 100%; }
+  .chat_user_panel .chat_messages_placeholder {
+    height: calc(100% - 70px);
+    max-height: calc(100% - 70px);
+    overflow-y: auto; }
+  .chat_user_panel .create_message_placeholder {
+    height: 70px;
+    border-top: 1px solid #F3F3F8; }
+
+.create_message_panel {
+  height: 100%; }
+  .create_message_panel .form {
+    height: 100%;
+    width: 100%; }
+    .create_message_panel .form .ui.input {
+      height: 100%;
+      width: 100%; }
+      .create_message_panel .form .ui.input textarea {
+        height: 100% !important;
+        min-height: 100% !important;
+        max-height: 100% !important;
+        border: none !important; }
+      .create_message_panel .form .ui.input .ui.button {
+        border-radius: 0px !important; }
+
+.messages_panel {
+  padding: 15px; }
+  .messages_panel .empty_placeholder .no_messages_image_placeholder {
+    width: 100%;
+    text-align: center;
+    padding: 10px; }
+    .messages_panel .empty_placeholder .no_messages_image_placeholder img {
+      display: inline-block;
+      width: 40%; }
+  .messages_panel .empty_placeholder .no_messages_text {
+    text-align: center;
+    color: #858598;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px; }
+
+.messages_list .message_item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block; }
+  .messages_list .message_item.my_message {
+    text-align: right; }
+  .messages_list .message_item.friend_message {
+    text-align: left; }
+  .messages_list .message_item.my_message .inner_placeholder {
+    color: white;
+    background-color: #48468E; }
+  .messages_list .message_item.friend_message .inner_placeholder {
+    background-color: #F1F0F0; }
+  .messages_list .message_item .inner_placeholder {
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+    padding: 5px; }

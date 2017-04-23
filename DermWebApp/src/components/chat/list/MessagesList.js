@@ -11,7 +11,9 @@ import moment from 'moment';
 class MessagesList extends React.Component {
 
     static defaultProps = {
-        messages: []
+        messages: [],
+        currentUserId: undefined
+
     }
 
     static propTypes = {}
@@ -32,26 +34,31 @@ class MessagesList extends React.Component {
     }
 
     render = () => {
-        let {messages} = this.props;
+        let {messages, currentUserId} = this.props;
+        console.log('MessagesList: render: messages = ', messages);
 
         return (
             <div className={'messages_list'} >
 
                 {messages.map((m, k) =>{
-                    let text = m.text == undefined ? '' : m.text;
+                    let text = (m.content == undefined) ? '' : m.content;
                     text = text.replace(/\n/g, '<br/>');
+                    let isFromMe = (currentUserId == m.fromId);
+
                     return (
-                        <div className={'message_item'} key={m.id} >
+                        <div className={'message_item  ' + (isFromMe == true ? ' my_message' : 'friend_message')} key={m.id} >
 
-                            <div className={'date_placeholder'} >
-                                <div className={'date'} >
-                                    {moment(m.timestamp).format('D MMM YYYY HH:mm')}
+                            <div className={'inner_placeholder'} >
+                                <div className={'date_placeholder'} >
+                                    <div className={'date'} >
+                                        {moment(m.timestamp).format('D MMM YYYY HH:mm')}
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div className={'text_placeholder'} >
-                                <div className={'text'} >
-                                    <div dangerouslySetInnerHTML={{__html: text}} ></div>
+                                <div className={'text_placeholder'} >
+                                    <div className={'text'} >
+                                        <div dangerouslySetInnerHTML={{__html: text}} ></div>
+                                    </div>
                                 </div>
                             </div>
 

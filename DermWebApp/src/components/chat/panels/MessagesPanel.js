@@ -32,7 +32,7 @@ class MessagesPanel extends React.Component {
     }
 
     render = () => {
-        let {messages} = this.props;
+        let {messages, currentUserId} = this.props;
 
 
         return (
@@ -40,10 +40,18 @@ class MessagesPanel extends React.Component {
 
                 {messages.length == 0 ?
                     <div className={'empty_placeholder'} >
-                        У вас еще нет ни одного сообщения от этого пациента. Начните диалог.
+
+                        <div className={'no_messages_image_placeholder'} >
+                            <img src={'./assets/images/no_messages.png'} />
+                        </div>
+
+                        <div className={'no_messages_text'} >
+                            У вас еще нет ни одного сообщения от этого пациента. Начните диалог.
+                        </div>
+
                     </div> :
                     <div className={'messages_list_placeholder'} >
-                        <MessagesList messages={messages} />
+                        <MessagesList messages={messages} currentUserId={currentUserId} />
                     </div>
                 }
 
@@ -56,7 +64,7 @@ class MessagesPanel extends React.Component {
 
 let getMessages = (state, userId) => {
     let {messagesMap} = state.chat;
-    let {currentUserId} = state.userId;
+    let {currentUserId} = state.users;
     let messages = messagesMap.toArray().filter((m) => {
         return ((m.fromId == currentUserId && m.toId == userId) || (m.fromId == userId && m.toId == currentUserId) );
     }).sort((a, b) => {
@@ -68,7 +76,8 @@ let getMessages = (state, userId) => {
 const mapStateToProps = (state, ownProps) => {
    return {
        loading: state.chat.loading,
-       messages: getMessages(state, ownProps.userId)
+       messages: getMessages(state, ownProps.userId),
+       currentUserId: state.users.currentUserId
    }
 }
 

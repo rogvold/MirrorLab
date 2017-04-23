@@ -18,36 +18,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/dermdoctormobileapp/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/dermdoctormobileapp/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +28,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ChatFriendsPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatFriendsPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="280" column="12" lean-forward="true" selection-start-line="280" selection-start-column="12" selection-end-line="280" selection-end-column="12" />
+              <folding>
+                <element signature="e#834#890#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatUsersList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/chat/list/ChatUsersList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-995">
+              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PhotosActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/PhotosActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+            <state relative-caret-position="295">
+              <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
               <folding>
                 <element signature="e#41#93#0" expanded="true" />
               </folding>
@@ -73,11 +65,21 @@
       <file leaf-file-name="ChatActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/ChatActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatAPI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/ChatAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseAPI.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParseAPI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/ParseAPI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="295">
+              <caret line="274" column="23" lean-forward="true" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -135,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>FIND_DOCTOR</find>
       <find>find a doctor</find>
       <find>'FIND_DOCTOR'</find>
       <find>Platform.OS</find>
@@ -165,6 +166,7 @@
       <find>buildTypes</find>
       <find>application</find>
       <find>photos</find>
+      <find>loadFreshMessages</find>
     </findStrings>
     <replaceStrings>
       <replace>DoctorsApp</replace>
@@ -336,6 +338,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MirrorLabDermApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -372,7 +440,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="i18&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/data/I18nFactory.js&#10;doctors&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/DoctorsApp.js&#10;i1&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/data/I18nFactory.js&#10;calenda&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/calendar/CalendarPanel.js&#10;calend&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosCalendarPanel.js&#10;inf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/InfoApp.js&#10;nav&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/navigation/DermaNavigationTabBarsPanel.js&#10;login&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/auth/forms/LoginForm.js&#10;uplo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UploadActions.js&#10;photosac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/PhotosActions.js&#10;sign&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/auth/forms/SignupForm.js&#10;cale&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosCalendarPanel.js&#10;prof&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/settings/forms/UserProfileForm.js&#10;tabbe&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/history/panels/PhotosHistoryTabbedPanel.js&#10;photosl&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/list/PhotosList.js&#10;commen&#9;null&#9;null&#10;indexa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/IndexApp.js&#10;users&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UsersActions.js&#10;auth&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/auth/forms/AuthForm.js&#10;anal&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/helpers/AnalyticsHelper.js&#10;photospan&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosPanel.js&#10;takeph&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/TakePhotoPanel.js&#10;pho&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/PhotosActions.js&#10;comp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/history/panels/PhotosComparePanel.js&#10;CacheableFitImage&#9;null&#9;null&#10;doc&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/doctors/panels/DoctorInfoPanel.js&#10;chat&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/chat/panels/ChatFriendsPanel.js&#10;photosp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosPanel.js&#10;upload&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UploadActions.js&#10;index&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/IndexApp.js&#10;take&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/TakePhotoApp.js&#10;appcolors&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/constants/AppColors.js&#10;sett&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/SettingsApp.js&#10;comments&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/panels/CommentsPanel.js&#10;settings&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/SettingsApp.js&#10;lang&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/settings/panels/LanguageSwitcherPanel.js&#10;comm&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/panels/CommentsPanel.js&#10;usersre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/reducers/UsersReducer.js&#10;comme&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/panels/CommentsPanel.js&#10;doctor&#9;null&#9;null&#10;usersred&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/reducers/UsersReducer.js&#10;usersa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UsersActions.js&#10;derma&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/navigation/DermaNavigationTabBarsPanel.js&#10;deva&#9;null&#9;null&#10;photos&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosPanel.js&#10;гыукыфс&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UsersActions.js&#10;comment&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/list/CommentsList.js&#10;compa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/history/panels/PhotosComparePanel.js&#10;cal&#9;null&#9;null&#10;скуф&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="users&#9;null&#9;null&#10;i18&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/data/I18nFactory.js&#10;doctors&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/DoctorsApp.js&#10;i1&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/data/I18nFactory.js&#10;calenda&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/calendar/CalendarPanel.js&#10;calend&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosCalendarPanel.js&#10;inf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/InfoApp.js&#10;nav&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/navigation/DermaNavigationTabBarsPanel.js&#10;login&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/auth/forms/LoginForm.js&#10;uplo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UploadActions.js&#10;photosac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/PhotosActions.js&#10;sign&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/auth/forms/SignupForm.js&#10;cale&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosCalendarPanel.js&#10;prof&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/settings/forms/UserProfileForm.js&#10;tabbe&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/history/panels/PhotosHistoryTabbedPanel.js&#10;photosl&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/list/PhotosList.js&#10;commen&#9;null&#9;null&#10;indexa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/IndexApp.js&#10;auth&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/auth/forms/AuthForm.js&#10;anal&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/helpers/AnalyticsHelper.js&#10;photospan&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosPanel.js&#10;takeph&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/TakePhotoPanel.js&#10;pho&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/PhotosActions.js&#10;comp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/history/panels/PhotosComparePanel.js&#10;CacheableFitImage&#9;null&#9;null&#10;doc&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/doctors/panels/DoctorInfoPanel.js&#10;chat&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/chat/panels/ChatFriendsPanel.js&#10;photosp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosPanel.js&#10;upload&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UploadActions.js&#10;index&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/IndexApp.js&#10;take&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/TakePhotoApp.js&#10;appcolors&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/constants/AppColors.js&#10;sett&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/SettingsApp.js&#10;comments&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/panels/CommentsPanel.js&#10;settings&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/apps/SettingsApp.js&#10;lang&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/settings/panels/LanguageSwitcherPanel.js&#10;comm&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/panels/CommentsPanel.js&#10;usersre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/reducers/UsersReducer.js&#10;comme&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/panels/CommentsPanel.js&#10;doctor&#9;null&#9;null&#10;usersred&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/reducers/UsersReducer.js&#10;usersa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UsersActions.js&#10;derma&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/navigation/DermaNavigationTabBarsPanel.js&#10;deva&#9;null&#9;null&#10;photos&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/panels/PhotosPanel.js&#10;гыукыфс&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/actions/UsersActions.js&#10;comment&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/comments/list/CommentsList.js&#10;compa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/src/components/photos/history/panels/PhotosComparePanel.js&#10;cal&#9;null&#9;null&#10;скуф&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -467,12 +535,12 @@
       <workItem from="1492275086619" duration="1354000" />
       <workItem from="1492856628722" duration="7018000" />
       <workItem from="1492875351063" duration="217000" />
-      <workItem from="1492882026699" duration="4978000" />
+      <workItem from="1492882026699" duration="6993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166287000" />
+    <option name="totallyTimeSpent" value="168302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="1" />
@@ -531,20 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/helpers/AnalyticsHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/SettingsActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/apps/SettingsApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -647,6 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="125" column="48" lean-forward="false" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
+          <folding>
+            <element signature="e#678#739#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -924,64 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatFriendsPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <marker date="1492864850000" expanded="false" signature="0:40" ph="/** Created by sabir on 08.03.17. ...*/" />
-            <marker date="1492864850000" expanded="false" signature="51:571" ph="..." />
-            <marker date="1492864850000" expanded="false" signature="626:778" ph="..." />
-            <marker date="1492864850000" expanded="true" signature="841:1105" ph="..." />
-            <marker date="1492864850000" expanded="true" signature="1155:2487" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1185:1235" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1278:1321" ph="{&quot;selectedUserId&quot;: undefined...}" />
-            <marker date="1492864850000" expanded="true" signature="1379:1410" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1437:1808" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1618:1801" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1666:1703" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1838:1942" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1880:1935" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="1976:2313" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2119:2152" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2232:2265" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2348:2357" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2385:2429" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2566:2864" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2711:2836" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2752:2825" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="2887:5322" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="3986:5255" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="5360:6639" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="5378:5440" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="5465:5525" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="5545:5733" ph="{&quot;backgroundColor&quot;: 'whitesmoke'...}" />
-            <marker date="1492864850000" expanded="true" signature="5613:5726" ph="//..." />
-            <marker date="1492864850000" expanded="true" signature="5754:6077" ph="{&quot;backgroundColor&quot;: 'white'...}" />
-            <marker date="1492864850000" expanded="true" signature="5821:5884" ph="//..." />
-            <marker date="1492864850000" expanded="true" signature="6009:6070" ph="//..." />
-            <marker date="1492864850000" expanded="true" signature="6108:6181" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="6201:6263" ph="{&quot;color&quot;: colors.fbColor...}" />
-            <marker date="1492864850000" expanded="true" signature="6296:6371" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="6397:6494" ph="{&quot;textAlign&quot;: 'center'...}" />
-            <marker date="1492864850000" expanded="true" signature="6516:6634" ph="{&quot;width&quot;: width...}" />
-            <marker date="1492864850000" expanded="true" signature="6671:7316" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="6804:6853" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="6923:6988" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="7245:7265" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="7376:7623" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="7661:7974" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="7674:7921" ph="{&quot;currentUserId&quot;: state.users.currentUserId...}" />
-            <marker date="1492864850000" expanded="true" signature="8018:8454" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="8031:8064" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="8066:8123" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="8162:8228" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="8255:8320" ph="{...}" />
-            <marker date="1492864850000" expanded="true" signature="8366:8445" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/I18nFactory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7110">
@@ -1231,26 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/PhotosActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-          <folding>
-            <element signature="e#41#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/ChatActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/ActionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1279,8 +1258,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/ParseAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="295">
+          <caret line="274" column="23" lean-forward="true" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/ChatAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/ChatActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/PhotosActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatFriendsPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="280" column="12" lean-forward="true" selection-start-line="280" selection-start-column="12" selection-end-line="280" selection-end-column="12" />
+          <folding>
+            <element signature="e#834#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chat/list/ChatUsersList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-995">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -49,10 +49,10 @@ class CreateMessagePanel extends React.Component {
                                   value={text}
                                   onChange={(evt) => {this.setState({text: evt.target.value})}}
                                   placeholder="Ваше сообщение" ></textarea>
-                        <button className="ui button"
+                        <button className="ui button primary"
                                 onClick={() => {
                                     createMessage({
-                                        text: text,
+                                        content: text,
                                         fromId: fromId,
                                         toId: toId
                                     }).then(

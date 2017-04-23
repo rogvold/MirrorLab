@@ -42,11 +42,8 @@ class ChatUserPanel extends React.Component {
         return (
             <div className={'chat_user_panel'} >
 
-                <div className={'user_name_placeholder'} >
-                    {user.firstName} {user.lastName}
-                </div>
 
-                <div className={'messages_placeholder'} >
+                <div className={'chat_messages_placeholder'} >
                     <MessagesPanel userId={user.id} />
                 </div>
 

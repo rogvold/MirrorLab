@@ -138,9 +138,6 @@ export function closeChatUser(id){
 //additionals
 
 let loadUsersFromMessages = (state, dispatch, messages) => {
-    if (__DEV__){
-        console.log('loadUsersFromMessages: messages = ', messages);
-    }
 
     let notLoadedMap = {};
     let {usersMap} = state.users;

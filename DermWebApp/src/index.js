@@ -20,6 +20,7 @@ import ParseAPI from './api/ParseAPI.js';
 
 import * as usersActions from './redux/actions/UsersActions.js';
 import * as photosActions from './redux/actions/PhotosActions.js';
+import * as chatActions from './redux/actions/ChatActions.js';
 
 import {reducer} from './redux/reducers'
 
@@ -83,6 +84,10 @@ let init = () => {
             ).then(
                 () => {
                     return dispatch(photosActions.loadPhotosOfFriends())
+                }
+            ).then(
+                () => {
+                    return dispatch(chatActions.loadUserMessages())
                 }
             )
     }

@@ -7,6 +7,8 @@ import { connect } from 'react-redux';
 
 import LeftSidebarTemplate from '../template/LeftSidebarTemplate'
 
+import ChatPanel from '../chat/panels/ChatPanel'
+
 class ChatApp extends React.Component {
 
     static defaultProps = {
@@ -43,6 +45,8 @@ class ChatApp extends React.Component {
 
         return (
             <div className={'user_index_app_content'} >
+
+                <ChatPanel />
 
             </div>
         )
