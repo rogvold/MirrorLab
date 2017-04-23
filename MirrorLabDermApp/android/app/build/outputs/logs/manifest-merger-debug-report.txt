@@ -2,11 +2,11 @@
 manifest
 ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:1:1-31:12
 	package
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:2:5-37
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:2:5-38
 		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:4:5-30
+		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:4:5-32
 		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml
 	android:versionCode
@@ -73,7 +73,7 @@ MERGED from [MirrorLabMobileApp:react-native-fetch-blob:unspecified] /Users/sabi
 		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
 		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:14:7-38
-activity#com.mirrorlabmobileapp.MainActivity
+activity#com.dermdoctormobileapp.MainActivity
 ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:19:7-27:18
 	android:label
 		ADDED from /Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/AndroidManifest.xml:21:9-41

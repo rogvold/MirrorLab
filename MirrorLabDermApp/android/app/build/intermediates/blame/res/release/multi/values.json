@@ -2162,8 +2162,8 @@
                     "startLine": 212,
                     "startColumn": 4,
                     "startOffset": 31752,
-                    "endColumn": 55,
-                    "endOffset": 31803
+                    "endColumn": 49,
+                    "endOffset": 31797
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/res/values/strings.xml"
@@ -2173,9 +2173,9 @@
                 "to": {
                     "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 31808,
+                    "startOffset": 31802,
                     "endColumn": 93,
-                    "endOffset": 31897
+                    "endOffset": 31891
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2185,9 +2185,9 @@
                 "to": {
                     "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 31902,
+                    "startOffset": 31896,
                     "endColumn": 102,
-                    "endOffset": 32000
+                    "endOffset": 31994
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2197,9 +2197,9 @@
                 "to": {
                     "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 32005,
+                    "startOffset": 31999,
                     "endColumn": 113,
-                    "endOffset": 32114
+                    "endOffset": 32108
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2209,9 +2209,9 @@
                 "to": {
                     "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 32119,
+                    "startOffset": 32113,
                     "endColumn": 106,
-                    "endOffset": 32221
+                    "endOffset": 32215
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2221,9 +2221,9 @@
                 "to": {
                     "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 32226,
+                    "startOffset": 32220,
                     "endColumn": 111,
-                    "endOffset": 32333
+                    "endOffset": 32327
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2233,9 +2233,9 @@
                 "to": {
                     "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 32338,
+                    "startOffset": 32332,
                     "endColumn": 102,
-                    "endOffset": 32436
+                    "endOffset": 32430
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2245,9 +2245,9 @@
                 "to": {
                     "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 32441,
+                    "startOffset": 32435,
                     "endColumn": 120,
-                    "endOffset": 32557
+                    "endOffset": 32551
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2257,9 +2257,9 @@
                 "to": {
                     "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 32562,
+                    "startOffset": 32556,
                     "endColumn": 125,
-                    "endOffset": 32683
+                    "endOffset": 32677
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2269,9 +2269,9 @@
                 "to": {
                     "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 32688,
+                    "startOffset": 32682,
                     "endColumn": 190,
-                    "endOffset": 32874
+                    "endOffset": 32868
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2281,9 +2281,9 @@
                 "to": {
                     "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 32879,
+                    "startOffset": 32873,
                     "endColumn": 110,
-                    "endOffset": 32985
+                    "endOffset": 32979
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2293,9 +2293,9 @@
                 "to": {
                     "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 32990,
+                    "startOffset": 32984,
                     "endColumn": 102,
-                    "endOffset": 33088
+                    "endOffset": 33082
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2305,9 +2305,9 @@
                 "to": {
                     "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 33093,
+                    "startOffset": 33087,
                     "endColumn": 107,
-                    "endOffset": 33196
+                    "endOffset": 33190
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2317,9 +2317,9 @@
                 "to": {
                     "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 33201,
+                    "startOffset": 33195,
                     "endColumn": 112,
-                    "endOffset": 33309
+                    "endOffset": 33303
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2329,9 +2329,9 @@
                 "to": {
                     "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 33314,
+                    "startOffset": 33308,
                     "endColumn": 107,
-                    "endOffset": 33417
+                    "endOffset": 33411
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2341,9 +2341,9 @@
                 "to": {
                     "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 33422,
+                    "startOffset": 33416,
                     "endColumn": 111,
-                    "endOffset": 33529
+                    "endOffset": 33523
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2353,9 +2353,9 @@
                 "to": {
                     "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 33534,
+                    "startOffset": 33528,
                     "endColumn": 128,
-                    "endOffset": 33658
+                    "endOffset": 33652
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2365,9 +2365,9 @@
                 "to": {
                     "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 33663,
+                    "startOffset": 33657,
                     "endColumn": 110,
-                    "endOffset": 33769
+                    "endOffset": 33763
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2377,9 +2377,9 @@
                 "to": {
                     "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 33774,
+                    "startOffset": 33768,
                     "endColumn": 92,
-                    "endOffset": 33862
+                    "endOffset": 33856
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2389,9 +2389,9 @@
                 "to": {
                     "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 33867,
+                    "startOffset": 33861,
                     "endColumn": 131,
-                    "endOffset": 33994
+                    "endOffset": 33988
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2401,9 +2401,9 @@
                 "to": {
                     "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 33999,
+                    "startOffset": 33993,
                     "endColumn": 124,
-                    "endOffset": 34119
+                    "endOffset": 34113
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2413,9 +2413,9 @@
                 "to": {
                     "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 34124,
+                    "startOffset": 34118,
                     "endColumn": 97,
-                    "endOffset": 34217
+                    "endOffset": 34211
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2425,9 +2425,9 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 34222,
+                    "startOffset": 34216,
                     "endColumn": 98,
-                    "endOffset": 34316
+                    "endOffset": 34310
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2437,9 +2437,9 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 34321,
+                    "startOffset": 34315,
                     "endColumn": 113,
-                    "endOffset": 34430
+                    "endOffset": 34424
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2449,9 +2449,9 @@
                 "to": {
                     "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 34435,
+                    "startOffset": 34429,
                     "endColumn": 126,
-                    "endOffset": 34557
+                    "endOffset": 34551
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/res/values/strings.xml"
@@ -2461,9 +2461,9 @@
                 "to": {
                     "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 34562,
+                    "startOffset": 34556,
                     "endColumn": 70,
-                    "endOffset": 34628
+                    "endOffset": 34622
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2473,9 +2473,9 @@
                 "to": {
                     "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 34633,
+                    "startOffset": 34627,
                     "endColumn": 77,
-                    "endOffset": 34706
+                    "endOffset": 34700
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2485,9 +2485,9 @@
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 34711,
+                    "startOffset": 34705,
                     "endColumn": 89,
-                    "endOffset": 34796
+                    "endOffset": 34790
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2497,9 +2497,9 @@
                 "to": {
                     "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 34801,
+                    "startOffset": 34795,
                     "endColumn": 87,
-                    "endOffset": 34884
+                    "endOffset": 34878
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2509,9 +2509,9 @@
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 34889,
+                    "startOffset": 34883,
                     "endColumn": 95,
-                    "endOffset": 34980
+                    "endOffset": 34974
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2521,10 +2521,10 @@
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 34985,
+                    "startOffset": 34979,
                     "endLine": 245,
                     "endColumn": 10,
-                    "endOffset": 35228
+                    "endOffset": 35222
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -2534,10 +2534,10 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 35233,
+                    "startOffset": 35227,
                     "endLine": 248,
                     "endColumn": 12,
-                    "endOffset": 35321
+                    "endOffset": 35315
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/src/main/res/values/styles.xml"
@@ -2547,10 +2547,10 @@
                 "to": {
                     "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 35326,
+                    "startOffset": 35320,
                     "endLine": 255,
                     "endColumn": 12,
-                    "endOffset": 35822
+                    "endOffset": 35816
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2560,9 +2560,9 @@
                 "to": {
                     "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 35827,
+                    "startOffset": 35821,
                     "endColumn": 88,
-                    "endOffset": 35911
+                    "endOffset": 35905
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2572,10 +2572,10 @@
                 "to": {
                     "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 35916,
+                    "startOffset": 35910,
                     "endLine": 260,
                     "endColumn": 12,
-                    "endOffset": 36158
+                    "endOffset": 36152
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2585,10 +2585,10 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 36163,
+                    "startOffset": 36157,
                     "endLine": 264,
                     "endColumn": 12,
-                    "endOffset": 36439
+                    "endOffset": 36433
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2598,10 +2598,10 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 36444,
+                    "startOffset": 36438,
                     "endLine": 269,
                     "endColumn": 12,
-                    "endOffset": 36724
+                    "endOffset": 36718
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2611,10 +2611,10 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 36729,
+                    "startOffset": 36723,
                     "endLine": 275,
                     "endColumn": 12,
-                    "endOffset": 37117
+                    "endOffset": 37111
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2624,10 +2624,10 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 37122,
+                    "startOffset": 37116,
                     "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 37594
+                    "endOffset": 37588
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2637,10 +2637,10 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 37599,
+                    "startOffset": 37593,
                     "endLine": 286,
                     "endColumn": 12,
-                    "endOffset": 37816
+                    "endOffset": 37810
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2650,10 +2650,10 @@
                 "to": {
                     "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 37821,
+                    "startOffset": 37815,
                     "endLine": 290,
                     "endColumn": 12,
-                    "endOffset": 38038
+                    "endOffset": 38032
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2663,10 +2663,10 @@
                 "to": {
                     "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 38043,
+                    "startOffset": 38037,
                     "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 38306
+                    "endOffset": 38300
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2676,10 +2676,10 @@
                 "to": {
                     "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 38311,
+                    "startOffset": 38305,
                     "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 38533
+                    "endOffset": 38527
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2689,10 +2689,10 @@
                 "to": {
                     "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 38538,
+                    "startOffset": 38532,
                     "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 38763
+                    "endOffset": 38757
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2702,10 +2702,10 @@
                 "to": {
                     "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 38768,
+                    "startOffset": 38762,
                     "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 38993
+                    "endOffset": 38987
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2715,10 +2715,10 @@
                 "to": {
                     "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 38998,
+                    "startOffset": 38992,
                     "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 39223
+                    "endOffset": 39217
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2728,10 +2728,10 @@
                 "to": {
                     "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 39228,
+                    "startOffset": 39222,
                     "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 39453
+                    "endOffset": 39447
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2741,10 +2741,10 @@
                 "to": {
                     "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 39458,
+                    "startOffset": 39452,
                     "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 39680
+                    "endOffset": 39674
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2754,10 +2754,10 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 39685,
+                    "startOffset": 39679,
                     "endLine": 323,
                     "endColumn": 12,
-                    "endOffset": 39919
+                    "endOffset": 39913
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2767,10 +2767,10 @@
                 "to": {
                     "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 39924,
+                    "startOffset": 39918,
                     "endLine": 327,
                     "endColumn": 12,
-                    "endOffset": 40145
+                    "endOffset": 40139
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2780,10 +2780,10 @@
                 "to": {
                     "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 40150,
+                    "startOffset": 40144,
                     "endLine": 331,
                     "endColumn": 12,
-                    "endOffset": 40390
+                    "endOffset": 40384
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2793,10 +2793,10 @@
                 "to": {
                     "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 40395,
+                    "startOffset": 40389,
                     "endLine": 333,
                     "endColumn": 12,
-                    "endOffset": 40520
+                    "endOffset": 40514
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2806,10 +2806,10 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 40525,
+                    "startOffset": 40519,
                     "endLine": 335,
                     "endColumn": 12,
-                    "endOffset": 40650
+                    "endOffset": 40644
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2819,10 +2819,10 @@
                 "to": {
                     "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 40655,
+                    "startOffset": 40649,
                     "endLine": 339,
                     "endColumn": 12,
-                    "endOffset": 40880
+                    "endOffset": 40874
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2832,10 +2832,10 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 40885,
+                    "startOffset": 40879,
                     "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 41128
+                    "endOffset": 41122
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2845,10 +2845,10 @@
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 41133,
+                    "startOffset": 41127,
                     "endLine": 347,
                     "endColumn": 12,
-                    "endOffset": 41347
+                    "endOffset": 41341
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2858,10 +2858,10 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 41352,
+                    "startOffset": 41346,
                     "endLine": 352,
                     "endColumn": 12,
-                    "endOffset": 41630
+                    "endOffset": 41624
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2871,10 +2871,10 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 41635,
+                    "startOffset": 41629,
                     "endLine": 356,
                     "endColumn": 12,
-                    "endOffset": 41838
+                    "endOffset": 41832
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2884,10 +2884,10 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 41843,
+                    "startOffset": 41837,
                     "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 41969
+                    "endOffset": 41963
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2897,10 +2897,10 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 41974,
+                    "startOffset": 41968,
                     "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 42196
+                    "endOffset": 42190
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2910,10 +2910,10 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 42201,
+                    "startOffset": 42195,
                     "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 42442
+                    "endOffset": 42436
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2923,10 +2923,10 @@
                 "to": {
                     "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 42447,
+                    "startOffset": 42441,
                     "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 42667
+                    "endOffset": 42661
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2936,10 +2936,10 @@
                 "to": {
                     "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 42672,
+                    "startOffset": 42666,
                     "endLine": 375,
                     "endColumn": 12,
-                    "endOffset": 42914
+                    "endOffset": 42908
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2949,10 +2949,10 @@
                 "to": {
                     "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 42919,
+                    "startOffset": 42913,
                     "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 43135
+                    "endOffset": 43129
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2962,10 +2962,10 @@
                 "to": {
                     "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 43140,
+                    "startOffset": 43134,
                     "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 43380
+                    "endOffset": 43374
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2975,10 +2975,10 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 43385,
+                    "startOffset": 43379,
                     "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 43654
+                    "endOffset": 43648
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -2988,10 +2988,10 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 43659,
+                    "startOffset": 43653,
                     "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 43955
+                    "endOffset": 43949
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3001,10 +3001,10 @@
                 "to": {
                     "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 43960,
+                    "startOffset": 43954,
                     "endLine": 395,
                     "endColumn": 12,
-                    "endOffset": 44279
+                    "endOffset": 44273
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3014,10 +3014,10 @@
                 "to": {
                     "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 44284,
+                    "startOffset": 44278,
                     "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 44570
+                    "endOffset": 44564
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3027,10 +3027,10 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 44575,
+                    "startOffset": 44569,
                     "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 44884
+                    "endOffset": 44878
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3040,9 +3040,9 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 44889,
+                    "startOffset": 44883,
                     "endColumn": 136,
-                    "endOffset": 45021
+                    "endOffset": 45015
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3052,9 +3052,9 @@
                 "to": {
                     "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 45026,
+                    "startOffset": 45020,
                     "endColumn": 130,
-                    "endOffset": 45152
+                    "endOffset": 45146
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3064,9 +3064,9 @@
                 "to": {
                     "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 45157,
+                    "startOffset": 45151,
                     "endColumn": 104,
-                    "endOffset": 45257
+                    "endOffset": 45251
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3076,10 +3076,10 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 45262,
+                    "startOffset": 45256,
                     "endLine": 409,
                     "endColumn": 12,
-                    "endOffset": 45461
+                    "endOffset": 45455
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3089,10 +3089,10 @@
                 "to": {
                     "startLine": 410,
                     "startColumn": 4,
-                    "startOffset": 45466,
+                    "startOffset": 45460,
                     "endLine": 412,
                     "endColumn": 12,
-                    "endOffset": 45669
+                    "endOffset": 45663
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3102,10 +3102,10 @@
                 "to": {
                     "startLine": 413,
                     "startColumn": 4,
-                    "startOffset": 45674,
+                    "startOffset": 45668,
                     "endLine": 414,
                     "endColumn": 12,
-                    "endOffset": 45793
+                    "endOffset": 45787
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3115,10 +3115,10 @@
                 "to": {
                     "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 45798,
+                    "startOffset": 45792,
                     "endLine": 416,
                     "endColumn": 12,
-                    "endOffset": 45917
+                    "endOffset": 45911
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3128,9 +3128,9 @@
                 "to": {
                     "startLine": 417,
                     "startColumn": 4,
-                    "startOffset": 45922,
+                    "startOffset": 45916,
                     "endColumn": 104,
-                    "endOffset": 46022
+                    "endOffset": 46016
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3140,9 +3140,9 @@
                 "to": {
                     "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 46027,
+                    "startOffset": 46021,
                     "endColumn": 116,
-                    "endOffset": 46139
+                    "endOffset": 46133
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3152,10 +3152,10 @@
                 "to": {
                     "startLine": 419,
                     "startColumn": 4,
-                    "startOffset": 46144,
+                    "startOffset": 46138,
                     "endLine": 421,
                     "endColumn": 12,
-                    "endOffset": 46353
+                    "endOffset": 46347
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3165,10 +3165,10 @@
                 "to": {
                     "startLine": 422,
                     "startColumn": 4,
-                    "startOffset": 46358,
+                    "startOffset": 46352,
                     "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 46499
+                    "endOffset": 46493
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3178,10 +3178,10 @@
                 "to": {
                     "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 46504,
+                    "startOffset": 46498,
                     "endLine": 425,
                     "endColumn": 12,
-                    "endOffset": 46639
+                    "endOffset": 46633
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3191,10 +3191,10 @@
                 "to": {
                     "startLine": 426,
                     "startColumn": 4,
-                    "startOffset": 46644,
+                    "startOffset": 46638,
                     "endLine": 427,
                     "endColumn": 12,
-                    "endOffset": 46725
+                    "endOffset": 46719
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3204,10 +3204,10 @@
                 "to": {
                     "startLine": 428,
                     "startColumn": 4,
-                    "startOffset": 46730,
+                    "startOffset": 46724,
                     "endLine": 432,
                     "endColumn": 12,
-                    "endOffset": 47073
+                    "endOffset": 47067
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3217,9 +3217,9 @@
                 "to": {
                     "startLine": 433,
                     "startColumn": 4,
-                    "startOffset": 47078,
+                    "startOffset": 47072,
                     "endColumn": 87,
-                    "endOffset": 47161
+                    "endOffset": 47155
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3229,10 +3229,10 @@
                 "to": {
                     "startLine": 434,
                     "startColumn": 4,
-                    "startOffset": 47166,
+                    "startOffset": 47160,
                     "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 47391
+                    "endOffset": 47385
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3242,10 +3242,10 @@
                 "to": {
                     "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 47396,
+                    "startOffset": 47390,
                     "endLine": 443,
                     "endColumn": 12,
-                    "endOffset": 47793
+                    "endOffset": 47787
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3255,10 +3255,10 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 47798,
+                    "startOffset": 47792,
                     "endLine": 447,
                     "endColumn": 12,
-                    "endOffset": 48026
+                    "endOffset": 48020
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3268,9 +3268,9 @@
                 "to": {
                     "startLine": 448,
                     "startColumn": 4,
-                    "startOffset": 48031,
+                    "startOffset": 48025,
                     "endColumn": 81,
-                    "endOffset": 48108
+                    "endOffset": 48102
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3280,10 +3280,10 @@
                 "to": {
                     "startLine": 449,
                     "startColumn": 4,
-                    "startOffset": 48113,
+                    "startOffset": 48107,
                     "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 48206
+                    "endOffset": 48200
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3293,10 +3293,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 48211,
+                    "startOffset": 48205,
                     "endLine": 461,
                     "endColumn": 12,
-                    "endOffset": 48798
+                    "endOffset": 48792
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3306,9 +3306,9 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 48803,
+                    "startOffset": 48797,
                     "endColumn": 99,
-                    "endOffset": 48898
+                    "endOffset": 48892
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3318,10 +3318,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 48903,
+                    "startOffset": 48897,
                     "endLine": 466,
                     "endColumn": 12,
-                    "endOffset": 49134
+                    "endOffset": 49128
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3331,10 +3331,10 @@
                 "to": {
                     "startLine": 467,
                     "startColumn": 4,
-                    "startOffset": 49139,
+                    "startOffset": 49133,
                     "endLine": 472,
                     "endColumn": 12,
-                    "endOffset": 49542
+                    "endOffset": 49536
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3344,10 +3344,10 @@
                 "to": {
                     "startLine": 473,
                     "startColumn": 4,
-                    "startOffset": 49547,
+                    "startOffset": 49541,
                     "endLine": 476,
                     "endColumn": 12,
-                    "endOffset": 49781
+                    "endOffset": 49775
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3357,9 +3357,9 @@
                 "to": {
                     "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 49786,
+                    "startOffset": 49780,
                     "endColumn": 93,
-                    "endOffset": 49875
+                    "endOffset": 49869
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3369,9 +3369,9 @@
                 "to": {
                     "startLine": 478,
                     "startColumn": 4,
-                    "startOffset": 49880,
+                    "startOffset": 49874,
                     "endColumn": 88,
-                    "endOffset": 49964
+                    "endOffset": 49958
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3381,10 +3381,10 @@
                 "to": {
                     "startLine": 479,
                     "startColumn": 4,
-                    "startOffset": 49969,
+                    "startOffset": 49963,
                     "endLine": 482,
                     "endColumn": 12,
-                    "endOffset": 50201
+                    "endOffset": 50195
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3394,10 +3394,10 @@
                 "to": {
                     "startLine": 483,
                     "startColumn": 4,
-                    "startOffset": 50206,
+                    "startOffset": 50200,
                     "endLine": 508,
                     "endColumn": 12,
-                    "endOffset": 52124
+                    "endOffset": 52118
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3407,10 +3407,10 @@
                 "to": {
                     "startLine": 509,
                     "startColumn": 4,
-                    "startOffset": 52129,
+                    "startOffset": 52123,
                     "endLine": 512,
                     "endColumn": 12,
-                    "endOffset": 52366
+                    "endOffset": 52360
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3420,10 +3420,10 @@
                 "to": {
                     "startLine": 513,
                     "startColumn": 4,
-                    "startOffset": 52371,
+                    "startOffset": 52365,
                     "endLine": 539,
                     "endColumn": 12,
-                    "endOffset": 54420
+                    "endOffset": 54414
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3433,10 +3433,10 @@
                 "to": {
                     "startLine": 540,
                     "startColumn": 4,
-                    "startOffset": 54425,
+                    "startOffset": 54419,
                     "endLine": 686,
                     "endColumn": 12,
-                    "endOffset": 63282
+                    "endOffset": 63276
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3446,10 +3446,10 @@
                 "to": {
                     "startLine": 687,
                     "startColumn": 4,
-                    "startOffset": 63287,
+                    "startOffset": 63281,
                     "endLine": 708,
                     "endColumn": 12,
-                    "endOffset": 64549
+                    "endOffset": 64543
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3459,10 +3459,10 @@
                 "to": {
                     "startLine": 709,
                     "startColumn": 4,
-                    "startOffset": 64554,
+                    "startOffset": 64548,
                     "endLine": 855,
                     "endColumn": 12,
-                    "endOffset": 73521
+                    "endOffset": 73515
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3472,10 +3472,10 @@
                 "to": {
                     "startLine": 856,
                     "startColumn": 4,
-                    "startOffset": 73526,
+                    "startOffset": 73520,
                     "endLine": 877,
                     "endColumn": 12,
-                    "endOffset": 74802
+                    "endOffset": 74796
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3485,10 +3485,10 @@
                 "to": {
                     "startLine": 878,
                     "startColumn": 4,
-                    "startOffset": 74807,
+                    "startOffset": 74801,
                     "endLine": 884,
                     "endColumn": 12,
-                    "endOffset": 75338
+                    "endOffset": 75332
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3498,10 +3498,10 @@
                 "to": {
                     "startLine": 885,
                     "startColumn": 4,
-                    "startOffset": 75343,
+                    "startOffset": 75337,
                     "endLine": 889,
                     "endColumn": 12,
-                    "endOffset": 75668
+                    "endOffset": 75662
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3511,10 +3511,10 @@
                 "to": {
                     "startLine": 890,
                     "startColumn": 4,
-                    "startOffset": 75673,
+                    "startOffset": 75667,
                     "endLine": 910,
                     "endColumn": 12,
-                    "endOffset": 76791
+                    "endOffset": 76785
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3524,10 +3524,10 @@
                 "to": {
                     "startLine": 911,
                     "startColumn": 4,
-                    "startOffset": 76796,
+                    "startOffset": 76790,
                     "endLine": 915,
                     "endColumn": 12,
-                    "endOffset": 77047
+                    "endOffset": 77041
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3537,10 +3537,10 @@
                 "to": {
                     "startLine": 916,
                     "startColumn": 4,
-                    "startOffset": 77052,
+                    "startOffset": 77046,
                     "endLine": 920,
                     "endColumn": 12,
-                    "endOffset": 77283
+                    "endOffset": 77277
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3550,10 +3550,10 @@
                 "to": {
                     "startLine": 921,
                     "startColumn": 4,
-                    "startOffset": 77288,
+                    "startOffset": 77282,
                     "endLine": 930,
                     "endColumn": 12,
-                    "endOffset": 77830
+                    "endOffset": 77824
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3563,10 +3563,10 @@
                 "to": {
                     "startLine": 931,
                     "startColumn": 4,
-                    "startOffset": 77835,
+                    "startOffset": 77829,
                     "endLine": 939,
                     "endColumn": 12,
-                    "endOffset": 78324
+                    "endOffset": 78318
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3576,10 +3576,10 @@
                 "to": {
                     "startLine": 940,
                     "startColumn": 4,
-                    "startOffset": 78329,
+                    "startOffset": 78323,
                     "endLine": 950,
                     "endColumn": 12,
-                    "endOffset": 78997
+                    "endOffset": 78991
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3589,10 +3589,10 @@
                 "to": {
                     "startLine": 951,
                     "startColumn": 4,
-                    "startOffset": 79002,
+                    "startOffset": 78996,
                     "endLine": 953,
                     "endColumn": 12,
-                    "endOffset": 79145
+                    "endOffset": 79139
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3602,10 +3602,10 @@
                 "to": {
                     "startLine": 954,
                     "startColumn": 4,
-                    "startOffset": 79150,
+                    "startOffset": 79144,
                     "endLine": 960,
                     "endColumn": 12,
-                    "endOffset": 79673
+                    "endOffset": 79667
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3615,10 +3615,10 @@
                 "to": {
                     "startLine": 961,
                     "startColumn": 4,
-                    "startOffset": 79678,
+                    "startOffset": 79672,
                     "endLine": 968,
                     "endColumn": 12,
-                    "endOffset": 80237
+                    "endOffset": 80231
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3628,10 +3628,10 @@
                 "to": {
                     "startLine": 969,
                     "startColumn": 4,
-                    "startOffset": 80242,
+                    "startOffset": 80236,
                     "endLine": 975,
                     "endColumn": 12,
-                    "endOffset": 80612
+                    "endOffset": 80606
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3641,9 +3641,9 @@
                 "to": {
                     "startLine": 976,
                     "startColumn": 4,
-                    "startOffset": 80617,
+                    "startOffset": 80611,
                     "endColumn": 117,
-                    "endOffset": 80730
+                    "endOffset": 80724
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3653,10 +3653,10 @@
                 "to": {
                     "startLine": 977,
                     "startColumn": 4,
-                    "startOffset": 80735,
+                    "startOffset": 80729,
                     "endLine": 985,
                     "endColumn": 12,
-                    "endOffset": 81268
+                    "endOffset": 81262
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3666,10 +3666,10 @@
                 "to": {
                     "startLine": 986,
                     "startColumn": 4,
-                    "startOffset": 81273,
+                    "startOffset": 81267,
                     "endLine": 988,
                     "endColumn": 12,
-                    "endOffset": 81425
+                    "endOffset": 81419
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3679,10 +3679,10 @@
                 "to": {
                     "startLine": 989,
                     "startColumn": 4,
-                    "startOffset": 81430,
+                    "startOffset": 81424,
                     "endLine": 991,
                     "endColumn": 12,
-                    "endOffset": 81569
+                    "endOffset": 81563
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3692,10 +3692,10 @@
                 "to": {
                     "startLine": 992,
                     "startColumn": 4,
-                    "startOffset": 81574,
+                    "startOffset": 81568,
                     "endLine": 996,
                     "endColumn": 12,
-                    "endOffset": 81889
+                    "endOffset": 81883
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3705,10 +3705,10 @@
                 "to": {
                     "startLine": 997,
                     "startColumn": 4,
-                    "startOffset": 81894,
+                    "startOffset": 81888,
                     "endLine": 1000,
                     "endColumn": 12,
-                    "endOffset": 82145
+                    "endOffset": 82139
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3718,10 +3718,10 @@
                 "to": {
                     "startLine": 1001,
                     "startColumn": 4,
-                    "startOffset": 82150,
+                    "startOffset": 82144,
                     "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 82315
+                    "endOffset": 82309
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3731,10 +3731,10 @@
                 "to": {
                     "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 82320,
+                    "startOffset": 82314,
                     "endLine": 1007,
                     "endColumn": 12,
-                    "endOffset": 82456
+                    "endOffset": 82450
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3744,9 +3744,9 @@
                 "to": {
                     "startLine": 1008,
                     "startColumn": 4,
-                    "startOffset": 82461,
+                    "startOffset": 82455,
                     "endColumn": 63,
-                    "endOffset": 82520
+                    "endOffset": 82514
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3756,10 +3756,10 @@
                 "to": {
                     "startLine": 1009,
                     "startColumn": 4,
-                    "startOffset": 82525,
+                    "startOffset": 82519,
                     "endLine": 1012,
                     "endColumn": 12,
-                    "endOffset": 82802
+                    "endOffset": 82796
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3769,10 +3769,10 @@
                 "to": {
                     "startLine": 1013,
                     "startColumn": 4,
-                    "startOffset": 82807,
+                    "startOffset": 82801,
                     "endLine": 1016,
                     "endColumn": 12,
-                    "endOffset": 83088
+                    "endOffset": 83082
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3782,10 +3782,10 @@
                 "to": {
                     "startLine": 1017,
                     "startColumn": 4,
-                    "startOffset": 83093,
+                    "startOffset": 83087,
                     "endLine": 1024,
                     "endColumn": 12,
-                    "endOffset": 83630
+                    "endOffset": 83624
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3795,10 +3795,10 @@
                 "to": {
                     "startLine": 1025,
                     "startColumn": 4,
-                    "startOffset": 83635,
+                    "startOffset": 83629,
                     "endLine": 1029,
                     "endColumn": 12,
-                    "endOffset": 83894
+                    "endOffset": 83888
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3808,10 +3808,10 @@
                 "to": {
                     "startLine": 1030,
                     "startColumn": 4,
-                    "startOffset": 83899,
+                    "startOffset": 83893,
                     "endLine": 1036,
                     "endColumn": 12,
-                    "endOffset": 84232
+                    "endOffset": 84226
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3821,10 +3821,10 @@
                 "to": {
                     "startLine": 1037,
                     "startColumn": 4,
-                    "startOffset": 84237,
+                    "startOffset": 84231,
                     "endLine": 1042,
                     "endColumn": 12,
-                    "endOffset": 84585
+                    "endOffset": 84579
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3834,9 +3834,9 @@
                 "to": {
                     "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 84590,
+                    "startOffset": 84584,
                     "endColumn": 93,
-                    "endOffset": 84679
+                    "endOffset": 84673
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3846,10 +3846,10 @@
                 "to": {
                     "startLine": 1044,
                     "startColumn": 4,
-                    "startOffset": 84684,
+                    "startOffset": 84678,
                     "endLine": 1047,
                     "endColumn": 12,
-                    "endOffset": 84985
+                    "endOffset": 84979
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3859,10 +3859,10 @@
                 "to": {
                     "startLine": 1048,
                     "startColumn": 4,
-                    "startOffset": 84990,
+                    "startOffset": 84984,
                     "endLine": 1052,
                     "endColumn": 12,
-                    "endOffset": 85247
+                    "endOffset": 85241
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3872,10 +3872,10 @@
                 "to": {
                     "startLine": 1053,
                     "startColumn": 4,
-                    "startOffset": 85252,
+                    "startOffset": 85246,
                     "endLine": 1054,
                     "endColumn": 12,
-                    "endOffset": 85372
+                    "endOffset": 85366
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3885,10 +3885,10 @@
                 "to": {
                     "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 85377,
+                    "startOffset": 85371,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 85499
+                    "endOffset": 85493
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3898,10 +3898,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 85504,
+                    "startOffset": 85498,
                     "endLine": 1059,
                     "endColumn": 12,
-                    "endOffset": 85738
+                    "endOffset": 85732
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3911,10 +3911,10 @@
                 "to": {
                     "startLine": 1060,
                     "startColumn": 4,
-                    "startOffset": 85743,
+                    "startOffset": 85737,
                     "endLine": 1062,
                     "endColumn": 12,
-                    "endOffset": 85949
+                    "endOffset": 85943
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3924,10 +3924,10 @@
                 "to": {
                     "startLine": 1063,
                     "startColumn": 4,
-                    "startOffset": 85954,
+                    "startOffset": 85948,
                     "endLine": 1064,
                     "endColumn": 12,
-                    "endOffset": 86068
+                    "endOffset": 86062
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3937,10 +3937,10 @@
                 "to": {
                     "startLine": 1065,
                     "startColumn": 4,
-                    "startOffset": 86073,
+                    "startOffset": 86067,
                     "endLine": 1068,
                     "endColumn": 12,
-                    "endOffset": 86261
+                    "endOffset": 86255
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3950,10 +3950,10 @@
                 "to": {
                     "startLine": 1069,
                     "startColumn": 4,
-                    "startOffset": 86266,
+                    "startOffset": 86260,
                     "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 86716
+                    "endOffset": 86710
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3963,10 +3963,10 @@
                 "to": {
                     "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 86721,
+                    "startOffset": 86715,
                     "endLine": 1078,
                     "endColumn": 12,
-                    "endOffset": 86897
+                    "endOffset": 86891
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3976,10 +3976,10 @@
                 "to": {
                     "startLine": 1079,
                     "startColumn": 4,
-                    "startOffset": 86902,
+                    "startOffset": 86896,
                     "endLine": 1081,
                     "endColumn": 12,
-                    "endOffset": 87019
+                    "endOffset": 87013
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -3989,10 +3989,10 @@
                 "to": {
                     "startLine": 1082,
                     "startColumn": 4,
-                    "startOffset": 87024,
+                    "startOffset": 87018,
                     "endLine": 1085,
                     "endColumn": 12,
-                    "endOffset": 87278
+                    "endOffset": 87272
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4002,10 +4002,10 @@
                 "to": {
                     "startLine": 1086,
                     "startColumn": 4,
-                    "startOffset": 87283,
+                    "startOffset": 87277,
                     "endLine": 1087,
                     "endColumn": 12,
-                    "endOffset": 87391
+                    "endOffset": 87385
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4015,10 +4015,10 @@
                 "to": {
                     "startLine": 1088,
                     "startColumn": 4,
-                    "startOffset": 87396,
+                    "startOffset": 87390,
                     "endLine": 1091,
                     "endColumn": 12,
-                    "endOffset": 87578
+                    "endOffset": 87572
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4028,10 +4028,10 @@
                 "to": {
                     "startLine": 1092,
                     "startColumn": 4,
-                    "startOffset": 87583,
+                    "startOffset": 87577,
                     "endLine": 1093,
                     "endColumn": 12,
-                    "endOffset": 87680
+                    "endOffset": 87674
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4041,10 +4041,10 @@
                 "to": {
                     "startLine": 1094,
                     "startColumn": 4,
-                    "startOffset": 87685,
+                    "startOffset": 87679,
                     "endLine": 1099,
                     "endColumn": 12,
-                    "endOffset": 88124
+                    "endOffset": 88118
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4054,10 +4054,10 @@
                 "to": {
                     "startLine": 1100,
                     "startColumn": 4,
-                    "startOffset": 88129,
+                    "startOffset": 88123,
                     "endLine": 1101,
                     "endColumn": 12,
-                    "endOffset": 88248
+                    "endOffset": 88242
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4067,10 +4067,10 @@
                 "to": {
                     "startLine": 1102,
                     "startColumn": 4,
-                    "startOffset": 88253,
+                    "startOffset": 88247,
                     "endLine": 1105,
                     "endColumn": 12,
-                    "endOffset": 88533
+                    "endOffset": 88527
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4080,10 +4080,10 @@
                 "to": {
                     "startLine": 1106,
                     "startColumn": 4,
-                    "startOffset": 88538,
+                    "startOffset": 88532,
                     "endLine": 1117,
                     "endColumn": 12,
-                    "endOffset": 89420
+                    "endOffset": 89414
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4093,10 +4093,10 @@
                 "to": {
                     "startLine": 1118,
                     "startColumn": 4,
-                    "startOffset": 89425,
+                    "startOffset": 89419,
                     "endLine": 1123,
                     "endColumn": 12,
-                    "endOffset": 89714
+                    "endOffset": 89708
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4106,10 +4106,10 @@
                 "to": {
                     "startLine": 1124,
                     "startColumn": 4,
-                    "startOffset": 89719,
+                    "startOffset": 89713,
                     "endLine": 1134,
                     "endColumn": 12,
-                    "endOffset": 90446
+                    "endOffset": 90440
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4119,10 +4119,10 @@
                 "to": {
                     "startLine": 1135,
                     "startColumn": 4,
-                    "startOffset": 90451,
+                    "startOffset": 90445,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 90618
+                    "endOffset": 90612
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4132,10 +4132,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 90623,
+                    "startOffset": 90617,
                     "endLine": 1142,
                     "endColumn": 12,
-                    "endOffset": 90954
+                    "endOffset": 90948
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4145,10 +4145,10 @@
                 "to": {
                     "startLine": 1143,
                     "startColumn": 4,
-                    "startOffset": 90959,
+                    "startOffset": 90953,
                     "endLine": 1154,
                     "endColumn": 12,
-                    "endOffset": 91821
+                    "endOffset": 91815
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4158,10 +4158,10 @@
                 "to": {
                     "startLine": 1155,
                     "startColumn": 4,
-                    "startOffset": 91826,
+                    "startOffset": 91820,
                     "endLine": 1159,
                     "endColumn": 12,
-                    "endOffset": 92099
+                    "endOffset": 92093
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4171,10 +4171,10 @@
                 "to": {
                     "startLine": 1160,
                     "startColumn": 4,
-                    "startOffset": 92104,
+                    "startOffset": 92098,
                     "endLine": 1162,
                     "endColumn": 12,
-                    "endOffset": 92302
+                    "endOffset": 92296
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -4184,10 +4184,10 @@
                 "to": {
                     "startLine": 1163,
                     "startColumn": 4,
-                    "startOffset": 92307,
+                    "startOffset": 92301,
                     "endLine": 1165,
                     "endColumn": 12,
-                    "endOffset": 92493
+                    "endOffset": 92487
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -4197,10 +4197,10 @@
                 "to": {
                     "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 92498,
+                    "startOffset": 92492,
                     "endLine": 1169,
                     "endColumn": 10,
-                    "endOffset": 92677
+                    "endOffset": 92671
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -4210,10 +4210,10 @@
                 "to": {
                     "startLine": 1170,
                     "startColumn": 4,
-                    "startOffset": 92682,
+                    "startOffset": 92676,
                     "endLine": 1173,
                     "endColumn": 10,
-                    "endOffset": 92865
+                    "endOffset": 92859
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -4223,10 +4223,10 @@
                 "to": {
                     "startLine": 1174,
                     "startColumn": 4,
-                    "startOffset": 92870,
+                    "startOffset": 92864,
                     "endLine": 1211,
                     "endColumn": 12,
-                    "endOffset": 95665
+                    "endOffset": 95659
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4236,10 +4236,10 @@
                 "to": {
                     "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 95670,
+                    "startOffset": 95664,
                     "endLine": 1250,
                     "endColumn": 12,
-                    "endOffset": 98605
+                    "endOffset": 98599
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4249,9 +4249,9 @@
                 "to": {
                     "startLine": 1251,
                     "startColumn": 4,
-                    "startOffset": 98610,
+                    "startOffset": 98604,
                     "endColumn": 61,
-                    "endOffset": 98667
+                    "endOffset": 98661
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4261,10 +4261,10 @@
                 "to": {
                     "startLine": 1252,
                     "startColumn": 4,
-                    "startOffset": 98672,
+                    "startOffset": 98666,
                     "endLine": 1261,
                     "endColumn": 12,
-                    "endOffset": 99245
+                    "endOffset": 99239
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4274,10 +4274,10 @@
                 "to": {
                     "startLine": 1262,
                     "startColumn": 4,
-                    "startOffset": 99250,
+                    "startOffset": 99244,
                     "endLine": 1270,
                     "endColumn": 12,
-                    "endOffset": 99829
+                    "endOffset": 99823
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4287,9 +4287,9 @@
                 "to": {
                     "startLine": 1271,
                     "startColumn": 4,
-                    "startOffset": 99834,
+                    "startOffset": 99828,
                     "endColumn": 85,
-                    "endOffset": 99915
+                    "endOffset": 99909
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4299,10 +4299,10 @@
                 "to": {
                     "startLine": 1272,
                     "startColumn": 4,
-                    "startOffset": 99920,
+                    "startOffset": 99914,
                     "endLine": 1273,
                     "endColumn": 12,
-                    "endOffset": 100028
+                    "endOffset": 100022
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4312,10 +4312,10 @@
                 "to": {
                     "startLine": 1274,
                     "startColumn": 4,
-                    "startOffset": 100033,
+                    "startOffset": 100027,
                     "endLine": 1277,
                     "endColumn": 12,
-                    "endOffset": 100257
+                    "endOffset": 100251
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4325,10 +4325,10 @@
                 "to": {
                     "startLine": 1278,
                     "startColumn": 4,
-                    "startOffset": 100262,
+                    "startOffset": 100256,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 100595
+                    "endOffset": 100589
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4338,10 +4338,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 100600,
+                    "startOffset": 100594,
                     "endLine": 1284,
                     "endColumn": 12,
-                    "endOffset": 100755
+                    "endOffset": 100749
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4351,10 +4351,10 @@
                 "to": {
                     "startLine": 1285,
                     "startColumn": 4,
-                    "startOffset": 100760,
+                    "startOffset": 100754,
                     "endLine": 1287,
                     "endColumn": 12,
-                    "endOffset": 100907
+                    "endOffset": 100901
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4364,10 +4364,10 @@
                 "to": {
                     "startLine": 1288,
                     "startColumn": 4,
-                    "startOffset": 100912,
+                    "startOffset": 100906,
                     "endLine": 1290,
                     "endColumn": 12,
-                    "endOffset": 101078
+                    "endOffset": 101072
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4377,10 +4377,10 @@
                 "to": {
                     "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 101083,
+                    "startOffset": 101077,
                     "endLine": 1293,
                     "endColumn": 12,
-                    "endOffset": 101245
+                    "endOffset": 101239
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4390,10 +4390,10 @@
                 "to": {
                     "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 101250,
+                    "startOffset": 101244,
                     "endLine": 1297,
                     "endColumn": 12,
-                    "endOffset": 101488
+                    "endOffset": 101482
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4403,10 +4403,10 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 101493,
+                    "startOffset": 101487,
                     "endLine": 1300,
                     "endColumn": 12,
-                    "endOffset": 101658
+                    "endOffset": 101652
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4416,10 +4416,10 @@
                 "to": {
                     "startLine": 1301,
                     "startColumn": 4,
-                    "startOffset": 101663,
+                    "startOffset": 101657,
                     "endLine": 1303,
                     "endColumn": 12,
-                    "endOffset": 101831
+                    "endOffset": 101825
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4429,10 +4429,10 @@
                 "to": {
                     "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 101836,
+                    "startOffset": 101830,
                     "endLine": 1306,
                     "endColumn": 12,
-                    "endOffset": 102002
+                    "endOffset": 101996
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4442,10 +4442,10 @@
                 "to": {
                     "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 102007,
+                    "startOffset": 102001,
                     "endLine": 1310,
                     "endColumn": 12,
-                    "endOffset": 102276
+                    "endOffset": 102270
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4455,10 +4455,10 @@
                 "to": {
                     "startLine": 1311,
                     "startColumn": 4,
-                    "startOffset": 102281,
+                    "startOffset": 102275,
                     "endLine": 1313,
                     "endColumn": 12,
-                    "endOffset": 102475
+                    "endOffset": 102469
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4468,10 +4468,10 @@
                 "to": {
                     "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 102480,
+                    "startOffset": 102474,
                     "endLine": 1316,
                     "endColumn": 12,
-                    "endOffset": 102676
+                    "endOffset": 102670
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -4481,10 +4481,10 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 102681,
+                    "startOffset": 102675,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 102865
+                    "endOffset": 102859
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -4494,9 +4494,9 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 102870,
+                    "startOffset": 102864,
                     "endColumn": 83,
-                    "endOffset": 102949
+                    "endOffset": 102943
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4506,9 +4506,9 @@
                 "to": {
                     "startLine": 1321,
                     "startColumn": 4,
-                    "startOffset": 102954,
+                    "startOffset": 102948,
                     "endColumn": 95,
-                    "endOffset": 103045
+                    "endOffset": 103039
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4518,9 +4518,9 @@
                 "to": {
                     "startLine": 1322,
                     "startColumn": 4,
-                    "startOffset": 103050,
+                    "startOffset": 103044,
                     "endColumn": 95,
-                    "endOffset": 103141
+                    "endOffset": 103135
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4530,9 +4530,9 @@
                 "to": {
                     "startLine": 1323,
                     "startColumn": 4,
-                    "startOffset": 103146,
+                    "startOffset": 103140,
                     "endColumn": 97,
-                    "endOffset": 103239
+                    "endOffset": 103233
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4542,9 +4542,9 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 103244,
+                    "startOffset": 103238,
                     "endColumn": 99,
-                    "endOffset": 103339
+                    "endOffset": 103333
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4554,9 +4554,9 @@
                 "to": {
                     "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 103344,
+                    "startOffset": 103338,
                     "endColumn": 101,
-                    "endOffset": 103441
+                    "endOffset": 103435
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4566,9 +4566,9 @@
                 "to": {
                     "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 103446,
+                    "startOffset": 103440,
                     "endColumn": 101,
-                    "endOffset": 103543
+                    "endOffset": 103537
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4578,9 +4578,9 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 103548,
+                    "startOffset": 103542,
                     "endColumn": 101,
-                    "endOffset": 103645
+                    "endOffset": 103639
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4590,9 +4590,9 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 103650,
+                    "startOffset": 103644,
                     "endColumn": 101,
-                    "endOffset": 103747
+                    "endOffset": 103741
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4602,9 +4602,9 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 103752,
+                    "startOffset": 103746,
                     "endColumn": 101,
-                    "endOffset": 103849
+                    "endOffset": 103843
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4614,9 +4614,9 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 103854,
+                    "startOffset": 103848,
                     "endColumn": 99,
-                    "endOffset": 103949
+                    "endOffset": 103943
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4626,9 +4626,9 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 103954,
+                    "startOffset": 103948,
                     "endColumn": 95,
-                    "endOffset": 104045
+                    "endOffset": 104039
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4638,9 +4638,9 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 104050,
+                    "startOffset": 104044,
                     "endColumn": 111,
-                    "endOffset": 104157
+                    "endOffset": 104151
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4650,9 +4650,9 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 104162,
+                    "startOffset": 104156,
                     "endColumn": 128,
-                    "endOffset": 104286
+                    "endOffset": 104280
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4662,9 +4662,9 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 104291,
+                    "startOffset": 104285,
                     "endColumn": 122,
-                    "endOffset": 104409
+                    "endOffset": 104403
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4674,10 +4674,10 @@
                 "to": {
                     "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 104414,
+                    "startOffset": 104408,
                     "endLine": 1336,
                     "endColumn": 12,
-                    "endOffset": 104563
+                    "endOffset": 104557
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4687,10 +4687,10 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 104568,
+                    "startOffset": 104562,
                     "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 104717
+                    "endOffset": 104711
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4700,9 +4700,9 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 104722,
+                    "startOffset": 104716,
                     "endColumn": 97,
-                    "endOffset": 104815
+                    "endOffset": 104809
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4712,9 +4712,9 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 104820,
+                    "startOffset": 104814,
                     "endColumn": 113,
-                    "endOffset": 104929
+                    "endOffset": 104923
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4724,9 +4724,9 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 104934,
+                    "startOffset": 104928,
                     "endColumn": 93,
-                    "endOffset": 105023
+                    "endOffset": 105017
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4736,10 +4736,10 @@
                 "to": {
                     "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 105028,
+                    "startOffset": 105022,
                     "endLine": 1343,
                     "endColumn": 12,
-                    "endOffset": 105163
+                    "endOffset": 105157
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4749,10 +4749,10 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 105168,
+                    "startOffset": 105162,
                     "endLine": 1345,
                     "endColumn": 12,
-                    "endOffset": 105297
+                    "endOffset": 105291
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4762,9 +4762,9 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 105302,
+                    "startOffset": 105296,
                     "endColumn": 95,
-                    "endOffset": 105393
+                    "endOffset": 105387
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4774,9 +4774,9 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 105398,
+                    "startOffset": 105392,
                     "endColumn": 111,
-                    "endOffset": 105505
+                    "endOffset": 105499
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4786,9 +4786,9 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 105510,
+                    "startOffset": 105504,
                     "endColumn": 99,
-                    "endOffset": 105605
+                    "endOffset": 105599
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4798,9 +4798,9 @@
                 "to": {
                     "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 105610,
+                    "startOffset": 105604,
                     "endColumn": 115,
-                    "endOffset": 105721
+                    "endOffset": 105715
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4810,9 +4810,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 105726,
+                    "startOffset": 105720,
                     "endColumn": 95,
-                    "endOffset": 105817
+                    "endOffset": 105811
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4822,9 +4822,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 105822,
+                    "startOffset": 105816,
                     "endColumn": 111,
-                    "endOffset": 105929
+                    "endOffset": 105923
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4834,10 +4834,10 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 105934,
+                    "startOffset": 105928,
                     "endLine": 1353,
                     "endColumn": 12,
-                    "endOffset": 106069
+                    "endOffset": 106063
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4847,9 +4847,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 106074,
+                    "startOffset": 106068,
                     "endColumn": 135,
-                    "endOffset": 106205
+                    "endOffset": 106199
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4859,10 +4859,10 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 106210,
+                    "startOffset": 106204,
                     "endLine": 1356,
                     "endColumn": 12,
-                    "endOffset": 106369
+                    "endOffset": 106363
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4872,9 +4872,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 106374,
+                    "startOffset": 106368,
                     "endColumn": 129,
-                    "endOffset": 106499
+                    "endOffset": 106493
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4884,10 +4884,10 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 106504,
+                    "startOffset": 106498,
                     "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 106657
+                    "endOffset": 106651
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4897,10 +4897,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 106662,
+                    "startOffset": 106656,
                     "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 106807
+                    "endOffset": 106801
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4910,9 +4910,9 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 106812,
+                    "startOffset": 106806,
                     "endColumn": 140,
-                    "endOffset": 106948
+                    "endOffset": 106942
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4922,10 +4922,10 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 106953,
+                    "startOffset": 106947,
                     "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 107092
+                    "endOffset": 107086
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4935,9 +4935,9 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 107097,
+                    "startOffset": 107091,
                     "endColumn": 134,
-                    "endOffset": 107227
+                    "endOffset": 107221
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4947,9 +4947,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 107232,
+                    "startOffset": 107226,
                     "endColumn": 111,
-                    "endOffset": 107339
+                    "endOffset": 107333
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4959,9 +4959,9 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 107344,
+                    "startOffset": 107338,
                     "endColumn": 127,
-                    "endOffset": 107467
+                    "endOffset": 107461
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4971,10 +4971,10 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 107472,
+                    "startOffset": 107466,
                     "endLine": 1369,
                     "endColumn": 12,
-                    "endOffset": 107603
+                    "endOffset": 107597
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4984,10 +4984,10 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 107608,
+                    "startOffset": 107602,
                     "endLine": 1371,
                     "endColumn": 12,
-                    "endOffset": 107745
+                    "endOffset": 107739
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -4997,10 +4997,10 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 107750,
+                    "startOffset": 107744,
                     "endLine": 1373,
                     "endColumn": 12,
-                    "endOffset": 107887
+                    "endOffset": 107881
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5010,9 +5010,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 107892,
+                    "startOffset": 107886,
                     "endColumn": 111,
-                    "endOffset": 107999
+                    "endOffset": 107993
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5022,9 +5022,9 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 108004,
+                    "startOffset": 107998,
                     "endColumn": 139,
-                    "endOffset": 108139
+                    "endOffset": 108133
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5034,9 +5034,9 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 108144,
+                    "startOffset": 108138,
                     "endColumn": 67,
-                    "endOffset": 108207
+                    "endOffset": 108201
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5046,9 +5046,9 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 108212,
+                    "startOffset": 108206,
                     "endColumn": 72,
-                    "endOffset": 108280
+                    "endOffset": 108274
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5058,9 +5058,9 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 108285,
+                    "startOffset": 108279,
                     "endColumn": 73,
-                    "endOffset": 108354
+                    "endOffset": 108348
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5070,9 +5070,9 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 108359,
+                    "startOffset": 108353,
                     "endColumn": 72,
-                    "endOffset": 108427
+                    "endOffset": 108421
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5082,9 +5082,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 108432,
+                    "startOffset": 108426,
                     "endColumn": 73,
-                    "endOffset": 108501
+                    "endOffset": 108495
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5094,10 +5094,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 108506,
+                    "startOffset": 108500,
                     "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 108647
+                    "endOffset": 108641
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5107,10 +5107,10 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 108652,
+                    "startOffset": 108646,
                     "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 108791
+                    "endOffset": 108785
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5120,10 +5120,10 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 108796,
+                    "startOffset": 108790,
                     "endLine": 1386,
                     "endColumn": 12,
-                    "endOffset": 108929
+                    "endOffset": 108923
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5133,9 +5133,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 108934,
+                    "startOffset": 108928,
                     "endColumn": 25,
-                    "endOffset": 108955
+                    "endOffset": 108949
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5145,9 +5145,9 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 108960,
+                    "startOffset": 108954,
                     "endColumn": 65,
-                    "endOffset": 109021
+                    "endOffset": 109015
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5157,9 +5157,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 109026,
+                    "startOffset": 109020,
                     "endColumn": 89,
-                    "endOffset": 109111
+                    "endOffset": 109105
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5169,9 +5169,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 109116,
+                    "startOffset": 109110,
                     "endColumn": 79,
-                    "endOffset": 109191
+                    "endOffset": 109185
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5181,9 +5181,9 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 109196,
+                    "startOffset": 109190,
                     "endColumn": 91,
-                    "endOffset": 109283
+                    "endOffset": 109277
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5193,9 +5193,9 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 109288,
+                    "startOffset": 109282,
                     "endColumn": 97,
-                    "endOffset": 109381
+                    "endOffset": 109375
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5205,10 +5205,10 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 109386,
+                    "startOffset": 109380,
                     "endLine": 1394,
                     "endColumn": 12,
-                    "endOffset": 109491
+                    "endOffset": 109485
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5218,9 +5218,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 109496,
+                    "startOffset": 109490,
                     "endColumn": 77,
-                    "endOffset": 109569
+                    "endOffset": 109563
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5230,9 +5230,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 109574,
+                    "startOffset": 109568,
                     "endColumn": 105,
-                    "endOffset": 109675
+                    "endOffset": 109669
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5242,9 +5242,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 109680,
+                    "startOffset": 109674,
                     "endColumn": 91,
-                    "endOffset": 109767
+                    "endOffset": 109761
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5254,9 +5254,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 109772,
+                    "startOffset": 109766,
                     "endColumn": 103,
-                    "endOffset": 109871
+                    "endOffset": 109865
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5266,9 +5266,9 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 109876,
+                    "startOffset": 109870,
                     "endColumn": 109,
-                    "endOffset": 109981
+                    "endOffset": 109975
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5278,10 +5278,10 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 109986,
+                    "startOffset": 109980,
                     "endLine": 1401,
                     "endColumn": 12,
-                    "endOffset": 110103
+                    "endOffset": 110097
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5291,10 +5291,10 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 110108,
+                    "startOffset": 110102,
                     "endLine": 1405,
                     "endColumn": 12,
-                    "endOffset": 110266
+                    "endOffset": 110260
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5304,10 +5304,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 110271,
+                    "startOffset": 110265,
                     "endLine": 1409,
                     "endColumn": 12,
-                    "endOffset": 110423
+                    "endOffset": 110417
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5317,9 +5317,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 110428,
+                    "startOffset": 110422,
                     "endColumn": 34,
-                    "endOffset": 110458
+                    "endOffset": 110452
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5329,10 +5329,10 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 110463,
+                    "startOffset": 110457,
                     "endLine": 1417,
                     "endColumn": 10,
-                    "endOffset": 110924
+                    "endOffset": 110918
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5342,10 +5342,10 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 110929,
+                    "startOffset": 110923,
                     "endLine": 1423,
                     "endColumn": 10,
-                    "endOffset": 111220
+                    "endOffset": 111214
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5355,10 +5355,10 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 111225,
+                    "startOffset": 111219,
                     "endLine": 1426,
                     "endColumn": 10,
-                    "endOffset": 111397
+                    "endOffset": 111391
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5368,10 +5368,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 111402,
+                    "startOffset": 111396,
                     "endLine": 1429,
                     "endColumn": 10,
-                    "endOffset": 111576
+                    "endOffset": 111570
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5381,10 +5381,10 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 111581,
+                    "startOffset": 111575,
                     "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 111759
+                    "endOffset": 111753
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5394,10 +5394,10 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 111764,
+                    "startOffset": 111758,
                     "endLine": 1438,
                     "endColumn": 12,
-                    "endOffset": 112124
+                    "endOffset": 112118
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/values/values.xml"
@@ -5407,9 +5407,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 112129,
+                    "startOffset": 112123,
                     "endColumn": 79,
-                    "endOffset": 112204
+                    "endOffset": 112198
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5419,9 +5419,9 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 112209,
+                    "startOffset": 112203,
                     "endColumn": 99,
-                    "endOffset": 112304
+                    "endOffset": 112298
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5431,9 +5431,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 112309,
+                    "startOffset": 112303,
                     "endColumn": 89,
-                    "endOffset": 112394
+                    "endOffset": 112388
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5443,9 +5443,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 112399,
+                    "startOffset": 112393,
                     "endColumn": 109,
-                    "endOffset": 112504
+                    "endOffset": 112498
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5455,9 +5455,9 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 112509,
+                    "startOffset": 112503,
                     "endColumn": 91,
-                    "endOffset": 112596
+                    "endOffset": 112590
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5467,10 +5467,10 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 112601,
+                    "startOffset": 112595,
                     "endLine": 1445,
                     "endColumn": 12,
-                    "endOffset": 112696
+                    "endOffset": 112690
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5480,10 +5480,10 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 112701,
+                    "startOffset": 112695,
                     "endLine": 1447,
                     "endColumn": 12,
-                    "endOffset": 112808
+                    "endOffset": 112802
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5493,10 +5493,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 112813,
+                    "startOffset": 112807,
                     "endLine": 1449,
                     "endColumn": 12,
-                    "endOffset": 112922
+                    "endOffset": 112916
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5506,10 +5506,10 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 112927,
+                    "startOffset": 112921,
                     "endLine": 1451,
                     "endColumn": 12,
-                    "endOffset": 113038
+                    "endOffset": 113032
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5519,10 +5519,10 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 113043,
+                    "startOffset": 113037,
                     "endLine": 1453,
                     "endColumn": 12,
-                    "endOffset": 113154
+                    "endOffset": 113148
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5532,9 +5532,9 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 113159,
+                    "startOffset": 113153,
                     "endColumn": 93,
-                    "endOffset": 113248
+                    "endOffset": 113242
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5544,9 +5544,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 113253,
+                    "startOffset": 113247,
                     "endColumn": 113,
-                    "endOffset": 113362
+                    "endOffset": 113356
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5556,9 +5556,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 113367,
+                    "startOffset": 113361,
                     "endColumn": 117,
-                    "endOffset": 113480
+                    "endOffset": 113474
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5568,10 +5568,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 113485,
+                    "startOffset": 113479,
                     "endLine": 1458,
                     "endColumn": 12,
-                    "endOffset": 113582
+                    "endOffset": 113576
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5581,10 +5581,10 @@
                 "to": {
                     "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 113587,
+                    "startOffset": 113581,
                     "endLine": 1460,
                     "endColumn": 12,
-                    "endOffset": 113702
+                    "endOffset": 113696
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5594,10 +5594,10 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 113707,
+                    "startOffset": 113701,
                     "endLine": 1462,
                     "endColumn": 12,
-                    "endOffset": 113824
+                    "endOffset": 113818
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5607,9 +5607,9 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 113829,
+                    "startOffset": 113823,
                     "endColumn": 81,
-                    "endOffset": 113906
+                    "endOffset": 113900
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5619,9 +5619,9 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 113911,
+                    "startOffset": 113905,
                     "endColumn": 103,
-                    "endOffset": 114010
+                    "endOffset": 114004
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5631,9 +5631,9 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 114015,
+                    "startOffset": 114009,
                     "endColumn": 119,
-                    "endOffset": 114130
+                    "endOffset": 114124
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5643,9 +5643,9 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 114135,
+                    "startOffset": 114129,
                     "endColumn": 125,
-                    "endOffset": 114256
+                    "endOffset": 114250
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5655,9 +5655,9 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 114261,
+                    "startOffset": 114255,
                     "endColumn": 97,
-                    "endOffset": 114354
+                    "endOffset": 114348
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5667,9 +5667,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 114359,
+                    "startOffset": 114353,
                     "endColumn": 93,
-                    "endOffset": 114448
+                    "endOffset": 114442
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5679,9 +5679,9 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 114453,
+                    "startOffset": 114447,
                     "endColumn": 87,
-                    "endOffset": 114536
+                    "endOffset": 114530
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5691,9 +5691,9 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 114541,
+                    "startOffset": 114535,
                     "endColumn": 111,
-                    "endOffset": 114648
+                    "endOffset": 114642
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5703,9 +5703,9 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 114653,
+                    "startOffset": 114647,
                     "endColumn": 115,
-                    "endOffset": 114764
+                    "endOffset": 114758
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5715,9 +5715,9 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 114769,
+                    "startOffset": 114763,
                     "endColumn": 121,
-                    "endOffset": 114886
+                    "endOffset": 114880
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5727,9 +5727,9 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 114891,
+                    "startOffset": 114885,
                     "endColumn": 111,
-                    "endOffset": 114998
+                    "endOffset": 114992
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5739,10 +5739,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 115003,
+                    "startOffset": 114997,
                     "endLine": 1476,
                     "endColumn": 12,
-                    "endOffset": 115173
+                    "endOffset": 115167
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5752,9 +5752,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 115178,
+                    "startOffset": 115172,
                     "endColumn": 115,
-                    "endOffset": 115289
+                    "endOffset": 115283
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5764,9 +5764,9 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 115294,
+                    "startOffset": 115288,
                     "endColumn": 85,
-                    "endOffset": 115375
+                    "endOffset": 115369
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5776,10 +5776,10 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 115380,
+                    "startOffset": 115374,
                     "endLine": 1480,
                     "endColumn": 12,
-                    "endOffset": 115487
+                    "endOffset": 115481
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5789,10 +5789,10 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 115492,
+                    "startOffset": 115486,
                     "endLine": 1482,
                     "endColumn": 12,
-                    "endOffset": 115611
+                    "endOffset": 115605
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5802,9 +5802,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 115616,
+                    "startOffset": 115610,
                     "endColumn": 66,
-                    "endOffset": 115678
+                    "endOffset": 115672
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5814,10 +5814,10 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 115683,
+                    "startOffset": 115677,
                     "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 115804
+                    "endOffset": 115798
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5827,9 +5827,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 115809,
+                    "startOffset": 115803,
                     "endColumn": 67,
-                    "endOffset": 115872
+                    "endOffset": 115866
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5839,10 +5839,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 115877,
+                    "startOffset": 115871,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 116000
+                    "endOffset": 115994
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5852,10 +5852,10 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 116005,
+                    "startOffset": 115999,
                     "endLine": 1490,
                     "endColumn": 12,
-                    "endOffset": 116144
+                    "endOffset": 116138
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5865,10 +5865,10 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 116149,
+                    "startOffset": 116143,
                     "endLine": 1492,
                     "endColumn": 12,
-                    "endOffset": 116272
+                    "endOffset": 116266
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5878,9 +5878,9 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 116277,
+                    "startOffset": 116271,
                     "endColumn": 68,
-                    "endOffset": 116341
+                    "endOffset": 116335
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5890,9 +5890,9 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 116346,
+                    "startOffset": 116340,
                     "endColumn": 94,
-                    "endOffset": 116436
+                    "endOffset": 116430
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5902,9 +5902,9 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 116441,
+                    "startOffset": 116435,
                     "endColumn": 114,
-                    "endOffset": 116551
+                    "endOffset": 116545
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5914,9 +5914,9 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 116556,
+                    "startOffset": 116550,
                     "endColumn": 112,
-                    "endOffset": 116664
+                    "endOffset": 116658
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5926,9 +5926,9 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 116669,
+                    "startOffset": 116663,
                     "endColumn": 98,
-                    "endOffset": 116763
+                    "endOffset": 116757
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5938,9 +5938,9 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 116768,
+                    "startOffset": 116762,
                     "endColumn": 108,
-                    "endOffset": 116872
+                    "endOffset": 116866
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5950,9 +5950,9 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 116877,
+                    "startOffset": 116871,
                     "endColumn": 110,
-                    "endOffset": 116983
+                    "endOffset": 116977
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5962,9 +5962,9 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 116988,
+                    "startOffset": 116982,
                     "endColumn": 110,
-                    "endOffset": 117094
+                    "endOffset": 117088
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5974,9 +5974,9 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 117099,
+                    "startOffset": 117093,
                     "endColumn": 100,
-                    "endOffset": 117195
+                    "endOffset": 117189
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5986,9 +5986,9 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 117200,
+                    "startOffset": 117194,
                     "endColumn": 104,
-                    "endOffset": 117300
+                    "endOffset": 117294
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -5998,10 +5998,10 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 117305,
+                    "startOffset": 117299,
                     "endLine": 1504,
                     "endColumn": 12,
-                    "endOffset": 117412
+                    "endOffset": 117406
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6011,10 +6011,10 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 117417,
+                    "startOffset": 117411,
                     "endLine": 1506,
                     "endColumn": 12,
-                    "endOffset": 117542
+                    "endOffset": 117536
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6024,9 +6024,9 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 117547,
+                    "startOffset": 117541,
                     "endColumn": 90,
-                    "endOffset": 117633
+                    "endOffset": 117627
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6036,9 +6036,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 117638,
+                    "startOffset": 117632,
                     "endColumn": 122,
-                    "endOffset": 117756
+                    "endOffset": 117750
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6048,10 +6048,10 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 117761,
+                    "startOffset": 117755,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 117868
+                    "endOffset": 117862
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6061,9 +6061,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 117873,
+                    "startOffset": 117867,
                     "endColumn": 85,
-                    "endOffset": 117954
+                    "endOffset": 117948
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6073,9 +6073,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 117959,
+                    "startOffset": 117953,
                     "endColumn": 103,
-                    "endOffset": 118058
+                    "endOffset": 118052
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6085,10 +6085,10 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 118063,
+                    "startOffset": 118057,
                     "endLine": 1514,
                     "endColumn": 12,
-                    "endOffset": 118166
+                    "endOffset": 118160
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6098,10 +6098,10 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 118171,
+                    "startOffset": 118165,
                     "endLine": 1516,
                     "endColumn": 12,
-                    "endOffset": 118266
+                    "endOffset": 118260
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6111,10 +6111,10 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 118271,
+                    "startOffset": 118265,
                     "endLine": 1518,
                     "endColumn": 12,
-                    "endOffset": 118384
+                    "endOffset": 118378
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6124,10 +6124,10 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 118389,
+                    "startOffset": 118383,
                     "endLine": 1520,
                     "endColumn": 12,
-                    "endOffset": 118488
+                    "endOffset": 118482
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6137,10 +6137,10 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 118493,
+                    "startOffset": 118487,
                     "endLine": 1522,
                     "endColumn": 12,
-                    "endOffset": 118592
+                    "endOffset": 118586
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6150,10 +6150,10 @@
                 "to": {
                     "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 118597,
+                    "startOffset": 118591,
                     "endLine": 1524,
                     "endColumn": 12,
-                    "endOffset": 118718
+                    "endOffset": 118712
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6163,9 +6163,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 118723,
+                    "startOffset": 118717,
                     "endColumn": 87,
-                    "endOffset": 118806
+                    "endOffset": 118800
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6175,9 +6175,9 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 118811,
+                    "startOffset": 118805,
                     "endColumn": 89,
-                    "endOffset": 118896
+                    "endOffset": 118890
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6187,9 +6187,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 118901,
+                    "startOffset": 118895,
                     "endColumn": 109,
-                    "endOffset": 119006
+                    "endOffset": 119000
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6199,9 +6199,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 119011,
+                    "startOffset": 119005,
                     "endColumn": 83,
-                    "endOffset": 119090
+                    "endOffset": 119084
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6211,9 +6211,9 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 119095,
+                    "startOffset": 119089,
                     "endColumn": 53,
-                    "endOffset": 119144
+                    "endOffset": 119138
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6223,9 +6223,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 119149,
+                    "startOffset": 119143,
                     "endColumn": 63,
-                    "endOffset": 119208
+                    "endOffset": 119202
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6235,9 +6235,9 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 119213,
+                    "startOffset": 119207,
                     "endColumn": 105,
-                    "endOffset": 119314
+                    "endOffset": 119308
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6247,9 +6247,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 119319,
+                    "startOffset": 119313,
                     "endColumn": 109,
-                    "endOffset": 119424
+                    "endOffset": 119418
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6259,9 +6259,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 119429,
+                    "startOffset": 119423,
                     "endColumn": 83,
-                    "endOffset": 119508
+                    "endOffset": 119502
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
@@ -6271,9 +6271,9 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 119513,
+                    "startOffset": 119507,
                     "endColumn": 119,
-                    "endOffset": 119628
+                    "endOffset": 119622
                 },
                 "from": {
                     "file": "/Users/sabir/Documents/GitHub/MirrorLab/MirrorLabDermApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml"
