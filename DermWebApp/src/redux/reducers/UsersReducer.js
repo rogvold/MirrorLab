@@ -62,7 +62,7 @@ const UsersReducers =  (state = initialState, action = {}) => {
             return stopLoading(state, action)
 
         case  types.LOGOUT_SUCCESS:
-            return initialState;
+            return {...state, ...initialState, initialized: true};
 
         case types.INITIALIZE_AUTH:
             return {...state, loading: true, initialized: false}

@@ -6,6 +6,8 @@ import * as types from '../ActionTypes'
 import ParseAPI from '../../api/ParseAPI';
 import CommentsAPI from '../../api/CommentsAPI';
 
+import {Map} from 'immutable'
+
 let loadComments_ = () => {
 
     return {
@@ -81,6 +83,17 @@ export function createComment(data){
         return ParseAPI.createObject('Comment', data, CommentsAPI.transformComment).then(
             comment => dispatch(createCommentSuccess(comment)),
             err => dispatch(createCommentFail(err))
+        )
+    }
+}
+
+export function loadMyComments() {
+    return (dispatch, getState) => {
+        let {currentUserId} = getState().users;
+        dispatch(loadComments_());
+        return ParseAPI.getFreshObjects('Comment', Map(), {equalTo: [['userId', currentUserId]]}, CommentsAPI.transformComment).then(
+            comments => dispatch(loadCommentsSuccess(comments)),
+            err => dispatch(loadCommentsFail(err))
         )
     }
 }

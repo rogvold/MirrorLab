@@ -10,6 +10,7 @@ import { connect } from 'react-redux';
 
 import LeftSidebarTemplate from '../template/LeftSidebarTemplate'
 
+import DoctorDashboardPanel from '../dashboard/panels/DoctorDashboardPanel'
 
 class UserIndexApp extends React.Component {
 
@@ -46,9 +47,9 @@ class UserIndexApp extends React.Component {
         }
 
         return (
-            <div className={'user_index_app_content'} >
+            <div className={'user_index_app_content p10'} >
 
-                user index app
+                <DoctorDashboardPanel />
 
             </div>
         )

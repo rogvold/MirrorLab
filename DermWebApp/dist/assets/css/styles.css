@@ -2516,3 +2516,55 @@ button.primary_button {
     line-height: 0.45em;
     padding: .45em !important;
     font-size: 12px; }
+
+.p10 {
+  padding: 10px; }
+
+.cute_photos_list {
+  text-align: center; }
+  .cute_photos_list .item {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px;
+    height: 140px;
+    padding: 5px;
+    border: 1px solid #F3F3F8;
+    border-radius: 4px;
+    background-color: white; }
+    .cute_photos_list .item:hover {
+      opacity: 0.7; }
+    .cute_photos_list .item .img_placeholder {
+      height: calc(100% - 40px); }
+      .cute_photos_list .item .img_placeholder img {
+        height: 100%;
+        border-radius: 4px; }
+    .cute_photos_list .item .info_placeholder {
+      height: 20px;
+      line-height: 20px; }
+      .cute_photos_list .item .info_placeholder .user_name {
+        font-size: 12px;
+        color: #858598;
+        width: 120px;
+        max-width: 120px;
+        margin: 0 auto;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+    .cute_photos_list .item .photo_name {
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      color: #858598;
+      width: 120px;
+      max-width: 120px;
+      margin: 0 auto;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden; }
+
+.calendar_sessions_panel {
+  width: 100% !important; }
+
+.day_placeholder.selected {
+  background-color: #f3f3f8; }

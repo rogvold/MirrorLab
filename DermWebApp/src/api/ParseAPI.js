@@ -21,6 +21,7 @@ const ParseAPI = {
         return {
             id: u.id,
             timestamp: (new Date(u.createdAt)).getTime(),
+
             email: u.get('email'),
             firstName: u.get('firstName'),
             lastName: u.get('lastName'),
@@ -144,6 +145,7 @@ const ParseAPI = {
             user.set(key, data[key]);
         }
         user.set('username', data.email);
+        user.set('userRole', data.userRole);
         var self = this;
         user.signUp(null, {
             success: function(u) {

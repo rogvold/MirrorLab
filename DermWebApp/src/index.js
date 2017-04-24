@@ -21,6 +21,8 @@ import ParseAPI from './api/ParseAPI.js';
 import * as usersActions from './redux/actions/UsersActions.js';
 import * as photosActions from './redux/actions/PhotosActions.js';
 import * as chatActions from './redux/actions/ChatActions.js';
+import * as commentsActions from './redux/actions/CommentsActions.js';
+import * as initActions from './redux/actions/InitActions'
 
 import {reducer} from './redux/reducers'
 
@@ -72,24 +74,7 @@ ReactDOM.render(
 
 let init = () => {
     return (dispatch, getState) => {
-        return dispatch(usersActions.initializeAuthorization())
-            .then(
-                (payload) => {
-                    if (payload == undefined || payload.user == undefined){
-                        return Promise.resolve();
-                    }
-                    let {user} = payload;
-                    return dispatch(usersActions.loadUserUserLinks(user.id));
-                }
-            ).then(
-                () => {
-                    return dispatch(photosActions.loadPhotosOfFriends())
-                }
-            ).then(
-                () => {
-                    return dispatch(chatActions.loadUserMessages())
-                }
-            )
+        return dispatch(initActions.init())
     }
 }
 

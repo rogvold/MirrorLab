@@ -18,23 +18,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatFriendsPanel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatFriendsPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/chat/panels/ChatFriendsPanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
               <caret line="286" column="83" lean-forward="false" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="83" />
               <folding>
                 <element signature="e#834#890#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitActions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/InitActions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#42#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>find a doctor</find>
       <find>'FIND_DOCTOR'</find>
       <find>Platform.OS</find>
       <find>put</find>
@@ -167,6 +168,7 @@
       <find>application</find>
       <find>photos</find>
       <find>loadFreshMessages</find>
+      <find>notR</find>
     </findStrings>
     <replaceStrings>
       <replace>DoctorsApp</replace>
@@ -536,12 +538,12 @@
       <workItem from="1492275086619" duration="1354000" />
       <workItem from="1492856628722" duration="7018000" />
       <workItem from="1492875351063" duration="217000" />
-      <workItem from="1492882026699" duration="8420000" />
+      <workItem from="1492882026699" duration="8982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169729000" />
+    <option name="totallyTimeSpent" value="170291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="282" y="261" width="1280" height="725" extended-state="0" />
@@ -653,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/InitActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1307,6 +1302,16 @@
           <caret line="286" column="83" lean-forward="false" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="83" />
           <folding>
             <element signature="e#834#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/InitActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#90#0" expanded="true" />
           </folding>
         </state>
       </provider>

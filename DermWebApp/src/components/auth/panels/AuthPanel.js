@@ -13,7 +13,9 @@ import CoolPreloader from '../../preloader/CoolPreloader.js'
 
 class AuthPanel extends React.Component {
 
-    static defaultProps = {}
+    static defaultProps = {
+        defaultUserRole: 'doctor'
+    }
 
     static propTypes = {
 
@@ -39,6 +41,9 @@ class AuthPanel extends React.Component {
     }
 
     onSignUp = (data) => {
+        if (data.userRole == undefined){
+            data.userRole = this.props.defaultUserRole;
+        }
         this.props.onSignUp(data);
     }
 
@@ -83,7 +88,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         onLogin: (data) => {
-            dispatch(actions.logIn(data))
+            return dispatch(actions.logIn(data))
         },
         onSignUp: (data) => {
             dispatch(actions.signUp(data))

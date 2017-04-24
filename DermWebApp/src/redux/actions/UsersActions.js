@@ -281,6 +281,7 @@
 import * as types from '../ActionTypes'
 import ParseAPI from '../../api/ParseAPI';
 import Parse from 'parse'
+import * as initActions from './InitActions'
 
 //LOGIN
 let startLoggingIn = () => {
@@ -307,6 +308,8 @@ export function logIn(data){
         return ParseAPI.logInAsPromise(data.email, data.password).then(
             user => dispatch(onLoggedIn(user)),
             error => dispatch(onLoginFailed(error))
+        ).then(
+            () => dispatch(initActions.init())
         )
     }
 }

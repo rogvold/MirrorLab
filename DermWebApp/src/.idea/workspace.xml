@@ -18,117 +18,115 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatDaemon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/daemons/ChatDaemon.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroundComponent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/ground/GroundComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectedPhotoPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/photos/panels/SelectedPhotoPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotoPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/photos/panels/PhotoPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="4128" column="17" lean-forward="true" selection-start-line="4128" selection-start-column="17" selection-end-line="4128" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="4193" column="21" lean-forward="true" selection-start-line="4193" selection-start-column="21" selection-end-line="4193" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatBadgeIcon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/icon/ChatBadgeIcon.js">
+      <file leaf-file-name="ParseAPI.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/ParseAPI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="44" />
+            <state relative-caret-position="48">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditProfilePanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/profile/panels/EditProfilePanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redux/reducers/UsersReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#42#81#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabbedUserInfoPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/info/panels/TabbedUserInfoPanel.js">
+      <file leaf-file-name="InitActions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redux/actions/InitActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+            <state relative-caret-position="435">
+              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
-                <element signature="e#42#81#0" expanded="true" />
+                <element signature="e#41#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/panels/ChatPanel.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="107" column="68" lean-forward="false" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+            <state relative-caret-position="424">
+              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
               <folding>
-                <element signature="e#42#81#0" expanded="true" />
+                <element signature="e#42#65#0" expanded="true" />
+                <element signature="e#369#410#0" expanded="true" />
+                <element signature="e#1012#1069#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatUsersList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/list/ChatUsersList.js">
+      <file leaf-file-name="UpdateUserForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/profile/forms/UpdateUserForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="175" column="47" lean-forward="false" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignupForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/auth/forms/SignupForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-941">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#42#81#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeftSidebarTemplate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/template/LeftSidebarTemplate.js">
+      <file leaf-file-name="UsersActions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redux/actions/UsersActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="104" column="82" lean-forward="false" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="82" />
+            <state relative-caret-position="204">
+              <caret line="307" column="32" lean-forward="true" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
               <folding>
-                <element signature="e#42#81#0" expanded="true" />
+                <element signature="e#7186#7225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/auth/panels/AuthPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,19 +139,13 @@
       <list>
         <option value="HTML File" />
         <option value="CreateReactClass" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>photo_placeholder</find>
-      <find>__de</find>
-      <find>background-</find>
-      <find>background</find>
-      <find>user_index_app_content</find>
-      <find>.user_index_app_content</find>
-      <find>right_top_placeholder</find>
       <find>selected</find>
       <find>create_message_panel</find>
       <find>button</find>
@@ -177,6 +169,13 @@
       <find>.messages_</find>
       <find>.messages</find>
       <find>chat_badge_icon</find>
+      <find>SessionsCalendarPanel</find>
+      <find>session</find>
+      <find>photos</find>
+      <find>loadFriendsAndSessionsAndNotes</find>
+      <find>ellips</find>
+      <find>jobTitle</find>
+      <find>init</find>
     </findStrings>
     <replaceStrings>
       <replace>LeftSidebarTemplate</replace>
@@ -184,25 +183,15 @@
       <replace>UsersApp</replace>
       <replace>ChatApp</replace>
       <replace>PhotosPanel</replace>
+      <replace>PhotosCalendarPanel</replace>
+      <replace>PhotosList</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/apps/DevApp.js" />
-        <option value="$PROJECT_DIR$/helpers/XHRHelper.js" />
-        <option value="$PROJECT_DIR$/api/ChatAPI.js" />
-        <option value="$PROJECT_DIR$/constants/config.js" />
-        <option value="$PROJECT_DIR$/api/CommentsAPI.js" />
-        <option value="$PROJECT_DIR$/api/PhotosAPI.js" />
-        <option value="$PROJECT_DIR$/components/template/LeftSidebar.js" />
-        <option value="$PROJECT_DIR$/components/apps/UsersApp.js" />
-        <option value="$PROJECT_DIR$/components/user_links/panels/CreateUserPanel.js" />
-        <option value="$PROJECT_DIR$/redux/reducers/index.js" />
-        <option value="$PROJECT_DIR$/redux/reducers/ChatReducer.js" />
         <option value="$PROJECT_DIR$/redux/reducers/CommentsReducer.js" />
         <option value="$PROJECT_DIR$/redux/reducers/FileUploadReducer.js" />
-        <option value="$PROJECT_DIR$/redux/reducers/UsersReducer.js" />
         <option value="$PROJECT_DIR$/components/users/panels/ExpressUsersPanel.js" />
         <option value="$PROJECT_DIR$/components/users/panels/SearchableUsersPanel.js" />
         <option value="$PROJECT_DIR$/components/users/panels/UsersPanel.js" />
@@ -214,18 +203,14 @@
         <option value="$PROJECT_DIR$/components/users/panels/UserPanel.js" />
         <option value="$PROJECT_DIR$/components/photos/panels/UserPhotosPanel.js" />
         <option value="$PROJECT_DIR$/components/apps/App.js" />
-        <option value="$PROJECT_DIR$/redux/actions/UsersActions.js" />
-        <option value="$PROJECT_DIR$/api/ParseAPI.js" />
         <option value="$PROJECT_DIR$/components/profile/panels/EditProfilePanel.js" />
         <option value="$PROJECT_DIR$/components/profile/forms/UpdateUserForm.js" />
         <option value="$PROJECT_DIR$/components/photos/panels/PhotoPanel.js" />
-        <option value="$PROJECT_DIR$/redux/actions/CommentsActions.js" />
         <option value="$PROJECT_DIR$/components/comments/panels/CommentsPanel.js" />
         <option value="$PROJECT_DIR$/components/comments/list/CommentsList.js" />
         <option value="$PROJECT_DIR$/components/chat/panels/MessagesContainer.js" />
         <option value="$PROJECT_DIR$/components/apps/ChatApp.js" />
         <option value="$PROJECT_DIR$/components/chat/panels/ChatUserPanel.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/redux/actions/ChatActions.js" />
         <option value="$PROJECT_DIR$/components/chat/panels/MessagesPanel.js" />
         <option value="$PROJECT_DIR$/components/chat/panels/CreateMessagePanel.js" />
@@ -239,7 +224,23 @@
         <option value="$PROJECT_DIR$/components/chat/list/ChatUsersList.js" />
         <option value="$PROJECT_DIR$/components/template/LeftSidebarTemplate.js" />
         <option value="$PROJECT_DIR$/components/chat/icon/ChatBadgeIcon.js" />
+        <option value="$PROJECT_DIR$/components/calendar/panels/PhotosCalendarPanel.js" />
+        <option value="$PROJECT_DIR$/components/calendar/PhotosCalendarPanel.js" />
+        <option value="$PROJECT_DIR$/components/dashboard/DoctorDashboard.js" />
+        <option value="$PROJECT_DIR$/components/dashboard/calendar/PhotosCalendarPanel.js" />
+        <option value="$PROJECT_DIR$/assets/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/components/apps/UserIndexApp.js" />
+        <option value="$PROJECT_DIR$/components/dashboard/panels/DoctorDashboardPanel.js" />
+        <option value="$PROJECT_DIR$/redux/actions/CommentsActions.js" />
+        <option value="$PROJECT_DIR$/components/dashboard/list/PhotosList.js" />
         <option value="$PROJECT_DIR$/assets/css/styles.scss" />
+        <option value="$PROJECT_DIR$/redux/reducers/UsersReducer.js" />
+        <option value="$PROJECT_DIR$/redux/actions/InitActions.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/components/auth/panels/AuthPanel.js" />
+        <option value="$PROJECT_DIR$/redux/actions/UsersActions.js" />
+        <option value="$PROJECT_DIR$/api/ParseAPI.js" />
       </list>
     </option>
   </component>
@@ -473,7 +474,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
+              <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -495,7 +496,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
+              <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -517,7 +518,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,11 +540,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,7 +689,8 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="st&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;templa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;gr&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/ground/GroundComponent.js&#10;chatac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/ChatActions.js&#10;chata&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/apps/ChatApp.js&#10;create&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/CreateMessagePanel.js&#10;messagesp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/MessagesPanel.js&#10;styles.&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;expre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;chat&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/ChatPanel.js&#10;comme&#9;null&#9;null&#10;comm&#9;null&#9;null&#10;photo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/photos/panels/PhotoPanel.js&#10;pro&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/profile/panels/EditProfilePanel.js&#10;usersa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;гыукыфс&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;sty&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;зкщ&#9;null&#9;null&#10;ыен&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;users&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/list/UsersList.js&#10;ex&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;usersre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/reducers/UsersReducer.js&#10;left&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;lefts&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;usersac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/actions/UsersActions.js&#10;userre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/reducers/UsersReducer.js&#10;setting&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/apps/SettingsApp.js&#10;conf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/constants/config.js&#10;auth&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/AuthForm.js&#10;signup&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/SignupForm.js&#10;loginf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/LoginForm.js&#10;logout&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/buttons/LogoutWrapper.js" />
+    <property name="SearchEverywhereHistoryKey" value="auth&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/auth/panels/AuthPanel.js&#10;гыукыку&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/reducers/UsersReducer.js&#10;prof&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/profile/panels/EditProfilePanel.js&#10;sign&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/auth/forms/SignupForm.js&#10;sty&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;st&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;templa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;gr&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/ground/GroundComponent.js&#10;chatac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/ChatActions.js&#10;chata&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/apps/ChatApp.js&#10;create&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/CreateMessagePanel.js&#10;messagesp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/MessagesPanel.js&#10;styles.&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;expre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;chat&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/ChatPanel.js&#10;comme&#9;null&#9;null&#10;comm&#9;null&#9;null&#10;photo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/photos/panels/PhotoPanel.js&#10;pro&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/profile/panels/EditProfilePanel.js&#10;usersa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;гыукыфс&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;зкщ&#9;null&#9;null&#10;ыен&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;users&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/list/UsersList.js&#10;ex&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;usersre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/reducers/UsersReducer.js&#10;left&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;lefts&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;usersac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/actions/UsersActions.js&#10;userre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/reducers/UsersReducer.js&#10;setting&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/apps/SettingsApp.js&#10;conf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/constants/config.js&#10;signup&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/SignupForm.js&#10;loginf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/LoginForm.js&#10;logout&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/buttons/LogoutWrapper.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -704,12 +786,12 @@
       <workItem from="1491432680162" duration="3310000" />
       <workItem from="1492875616797" duration="2713000" />
       <workItem from="1492879745088" duration="21868000" />
-      <workItem from="1492971384996" duration="23671000" />
+      <workItem from="1492971384996" duration="31091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87123000" />
+    <option name="totallyTimeSpent" value="94543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -764,158 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/template/LeftSidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/user_links/buttons/FollowUserButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/forms/UpdateAboutForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/forms/UpdateSensorForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/user_links/forms/UpdateUserForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/user_links/panels/CreateUserPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/reducers/FileUploadReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/reducers/UsersReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constants/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/user_links/panels/UserFriendsPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/user_links/lists/PaginatedUsersList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" column="59" lean-forward="true" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/panels/SearchableUsersPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/ActionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="141" column="45" lean-forward="false" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/list/UsersList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-          <folding>
-            <element signature="e#10#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/actions/PhotosActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="111" column="58" lean-forward="true" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/reducers/PhotosReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#83#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/panels/UsersPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/panels/UserPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="137" column="60" lean-forward="false" selection-start-line="137" selection-start-column="60" selection-end-line="137" selection-end-column="60" />
-          <folding>
-            <element signature="e#10#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/apps/UsersApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#41#80#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/modals/CoolModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -926,62 +856,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/ParseAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#42#90#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/actions/UsersActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="578" column="9" lean-forward="true" selection-start-line="578" selection-start-column="9" selection-end-line="578" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redux/reducers/CommentsReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/actions/CommentsActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/profile/panels/EditProfilePanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/profile/forms/UpdateUserForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="127" column="45" lean-forward="true" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1048,18 +926,6 @@
           <caret line="56" column="50" lean-forward="true" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding>
             <element signature="e#42#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-          <folding>
-            <element signature="e#42#65#0" expanded="false" />
-            <element signature="e#369#410#0" expanded="false" />
-            <element signature="e#882#939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1206,10 +1072,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
+    <entry file="file://$PROJECT_DIR$/components/calendar/panels/PhotosCalendarPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/calendar/MonthPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/calendar/MonthSwitcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/calendar/WeekRow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/calendar/CalendarPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/calendar/CalendarHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/calendar/PhotosCalendarPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dashboard/DoctorDashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dashboard/list/PhotosList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/apps/UserIndexApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="49" column="55" lean-forward="false" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux/actions/CommentsActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dashboard/panels/DoctorDashboardPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="109" column="39" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#10#49#0" expanded="true" />
+            <element signature="e#321#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dashboard/calendar/PhotosCalendarPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#10#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dashboard/list/PhotosList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="4128" column="17" lean-forward="true" selection-start-line="4128" selection-start-column="17" selection-end-line="4128" selection-end-column="17" />
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding>
+            <element signature="e#10#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="4193" column="21" lean-forward="true" selection-start-line="4193" selection-start-column="21" selection-end-line="4193" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/auth/forms/SignupForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-941">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/profile/panels/EditProfilePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/profile/forms/UpdateUserForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="175" column="47" lean-forward="false" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux/reducers/UsersReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux/actions/InitActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#41#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding>
+            <element signature="e#42#65#0" expanded="true" />
+            <element signature="e#369#410#0" expanded="true" />
+            <element signature="e#1012#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/auth/panels/AuthPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux/actions/UsersActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="307" column="32" lean-forward="true" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
+          <folding>
+            <element signature="e#7186#7225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ParseAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
