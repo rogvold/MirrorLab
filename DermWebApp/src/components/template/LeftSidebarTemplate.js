@@ -10,6 +10,8 @@ import LeftSidebar from './LeftSidebar'
 
 import * as constants from '../../constants/config'
 
+import ChatBadgeIcon from '../chat/icon/ChatBadgeIcon'
+
 class LeftSidebarTemplate extends React.Component {
 
     static defaultProps = {
@@ -97,7 +99,12 @@ class LeftSidebarTemplate extends React.Component {
 
                             <div className={'right_placeholder'} >
 
+
                                 <div className={'current_user_placeholder'} >
+
+                                    <div className={'messages_envelope_placeholder'} >
+                                        <ChatBadgeIcon />
+                                    </div>
 
                                     <div className={'avatar_placeholder'} >
                                         <img src={avatar} className={'avatar'} />

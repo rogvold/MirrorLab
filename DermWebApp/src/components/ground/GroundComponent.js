@@ -11,6 +11,9 @@ import * as photosActions from '../../redux/actions/PhotosActions'
 import CoolModal from '../modals/CoolModal'
 
 import PhotoPanel from '../photos/panels/PhotoPanel'
+import SelectedPhotoPanel from '../photos/panels/SelectedPhotoPanel'
+
+import ChatDaemon from '../chat/daemons/ChatDaemon'
 
 class GroundComponent extends React.Component {
 
@@ -35,36 +38,35 @@ class GroundComponent extends React.Component {
 
     render = () => {
         let {closePhoto, selectedPhotoId} = this.props;
-        if (selectedPhotoId == undefined){
-            return null;
-        }
 
         return (
-            <CoolModal close={() => {closePhoto()}} >
+            <div>
 
-                <PhotoPanel id={selectedPhotoId} />
+                <SelectedPhotoPanel />
 
-            </CoolModal>
+                <ChatDaemon />
+
+            </div>
         )
     }
 
 }
 
 
-const mapStateToProps = (state) => {
-   return {
-       selectedPhotoId: state.photos.selectedPhotoId
-   }
-}
-
-const mapDispatchToProps = (dispatch) => {
-   return {
-       closePhoto: () => {
-           return dispatch(photosActions.unselectPhoto())
-       }
-   }
-}
-
-GroundComponent = connect(mapStateToProps, mapDispatchToProps)(GroundComponent)
+// const mapStateToProps = (state) => {
+//    return {
+//        selectedPhotoId: state.photos.selectedPhotoId
+//    }
+// }
+//
+// const mapDispatchToProps = (dispatch) => {
+//    return {
+//        closePhoto: () => {
+//            return dispatch(photosActions.unselectPhoto())
+//        }
+//    }
+// }
+//
+// GroundComponent = connect(mapStateToProps, mapDispatchToProps)(GroundComponent)
 
 export default GroundComponent

@@ -6,6 +6,12 @@ import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
+import * as photosActions from '../../../redux/actions/PhotosActions'
+
+import CoolModal from '../../modals/CoolModal'
+
+import PhotoPanel from './PhotoPanel'
+
 class SelectedPhotoPanel extends React.Component {
 
     static defaultProps = {}
@@ -28,32 +34,36 @@ class SelectedPhotoPanel extends React.Component {
     }
 
     render = () => {
+        let {closePhoto, selectedPhotoId} = this.props;
+        console.log('SelectedPhotoPanel: selectedPhotoId = ', selectedPhotoId);
+        if (selectedPhotoId == undefined){
+            return null;
+        }
 
         return (
-            <div>
-
-            </div>
+            <CoolModal close={() => {closePhoto()}} >
+                <PhotoPanel id={selectedPhotoId} />
+            </CoolModal>
         )
     }
 
 }
 
 
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
+const mapStateToProps = (state) => {
+    return {
+        selectedPhotoId: state.photos.selectedPhotoId
+    }
+}
 
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
+const mapDispatchToProps = (dispatch) => {
+    return {
+        closePhoto: () => {
+            return dispatch(photosActions.unselectPhoto())
+        }
+    }
+}
 
-//SelectedPhotoPanel = connect(mapStateToProps, mapDispatchToProps)(SelectedPhotoPanel)
+SelectedPhotoPanel = connect(mapStateToProps, mapDispatchToProps)(SelectedPhotoPanel)
 
 export default SelectedPhotoPanel

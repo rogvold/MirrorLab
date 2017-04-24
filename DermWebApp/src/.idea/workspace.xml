@@ -18,12 +18,70 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ChatDaemon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/chat/daemons/ChatDaemon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="e#42#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroundComponent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/ground/GroundComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="e#42#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectedPhotoPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/photos/panels/SelectedPhotoPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-426">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/photos/panels/PhotoPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding>
+                <element signature="e#42#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="3811" column="34" lean-forward="false" selection-start-line="3811" selection-start-column="34" selection-end-line="3811" selection-end-column="34" />
+            <state relative-caret-position="154">
+              <caret line="4128" column="17" lean-forward="true" selection-start-line="4128" selection-start-column="17" selection-end-line="4128" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatBadgeIcon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/chat/icon/ChatBadgeIcon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="44" />
+              <folding>
+                <element signature="e#42#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +89,8 @@
       <file leaf-file-name="TabbedUserInfoPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/info/panels/TabbedUserInfoPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="64" column="47" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="47" />
+            <state relative-caret-position="414">
+              <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -43,31 +101,11 @@
       <file leaf-file-name="ChatPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/chat/panels/ChatPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="84" column="71" lean-forward="false" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+            <state relative-caret-position="339">
+              <caret line="107" column="68" lean-forward="false" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPhotosPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/photos/panels/UserPhotosPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotosList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/photos/list/PhotosList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -75,8 +113,8 @@
       <file leaf-file-name="ChatUsersList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/chat/list/ChatUsersList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="67" column="163" lean-forward="false" selection-start-line="67" selection-start-column="163" selection-end-line="67" selection-end-column="163" />
+            <state relative-caret-position="-56">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -84,49 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessagesList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/list/MessagesList.js">
+      <file leaf-file-name="LeftSidebarTemplate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/template/LeftSidebarTemplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="102" column="54" lean-forward="true" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-              <folding>
-                <element signature="e#42#65#0" expanded="true" />
-                <element signature="e#369#410#0" expanded="true" />
-                <element signature="e#882#939#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessagesPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/panels/MessagesPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatUserPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/panels/ChatUserPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="229">
+              <caret line="104" column="82" lean-forward="false" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="82" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -147,14 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;PaginatedUsersList</find>
-      <find>UNSELECT_PHOTO</find>
-      <find>PhotosList</find>
-      <find>firstName</find>
-      <find>updateUser</find>
-      <find>changed:</find>
-      <find>640</find>
-      <find>updateU</find>
       <find>photo_placeholder</find>
       <find>__de</find>
       <find>background-</find>
@@ -177,6 +169,14 @@
       <find>photo_item</find>
       <find>.photo_item</find>
       <find>.info_placeholder</find>
+      <find>chat</find>
+      <find>&lt;GroundComponent</find>
+      <find>.user_item</find>
+      <find>.left_si</find>
+      <find>0.45</find>
+      <find>.messages_</find>
+      <find>.messages</find>
+      <find>chat_badge_icon</find>
     </findStrings>
     <replaceStrings>
       <replace>LeftSidebarTemplate</replace>
@@ -189,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/auth/panels/AuthPanel.js" />
-        <option value="$PROJECT_DIR$/components/auth/buttons/LogoutWrapper.js" />
         <option value="$PROJECT_DIR$/components/apps/DevApp.js" />
         <option value="$PROJECT_DIR$/helpers/XHRHelper.js" />
         <option value="$PROJECT_DIR$/api/ChatAPI.js" />
@@ -198,7 +196,6 @@
         <option value="$PROJECT_DIR$/api/CommentsAPI.js" />
         <option value="$PROJECT_DIR$/api/PhotosAPI.js" />
         <option value="$PROJECT_DIR$/components/template/LeftSidebar.js" />
-        <option value="$PROJECT_DIR$/components/template/LeftSidebarTemplate.js" />
         <option value="$PROJECT_DIR$/components/apps/UsersApp.js" />
         <option value="$PROJECT_DIR$/components/user_links/panels/CreateUserPanel.js" />
         <option value="$PROJECT_DIR$/redux/reducers/index.js" />
@@ -216,8 +213,6 @@
         <option value="$PROJECT_DIR$/components/photos/panels/PhotosPanel.js" />
         <option value="$PROJECT_DIR$/components/users/panels/UserPanel.js" />
         <option value="$PROJECT_DIR$/components/photos/panels/UserPhotosPanel.js" />
-        <option value="$PROJECT_DIR$/components/photos/panels/SelectedPhotoPanel.js" />
-        <option value="$PROJECT_DIR$/components/ground/GroundComponent.js" />
         <option value="$PROJECT_DIR$/components/apps/App.js" />
         <option value="$PROJECT_DIR$/redux/actions/UsersActions.js" />
         <option value="$PROJECT_DIR$/api/ParseAPI.js" />
@@ -235,10 +230,15 @@
         <option value="$PROJECT_DIR$/components/chat/panels/MessagesPanel.js" />
         <option value="$PROJECT_DIR$/components/chat/panels/CreateMessagePanel.js" />
         <option value="$PROJECT_DIR$/components/chat/list/MessagesList.js" />
-        <option value="$PROJECT_DIR$/components/chat/list/ChatUsersList.js" />
-        <option value="$PROJECT_DIR$/components/chat/panels/ChatPanel.js" />
         <option value="$PROJECT_DIR$/components/info/panels/TabbedUserInfoPanel.js" />
         <option value="$PROJECT_DIR$/components/photos/list/PhotosList.js" />
+        <option value="$PROJECT_DIR$/components/ground/GroundComponent.js" />
+        <option value="$PROJECT_DIR$/components/photos/panels/SelectedPhotoPanel.js" />
+        <option value="$PROJECT_DIR$/components/chat/daemons/ChatDaemon.js" />
+        <option value="$PROJECT_DIR$/components/chat/panels/ChatPanel.js" />
+        <option value="$PROJECT_DIR$/components/chat/list/ChatUsersList.js" />
+        <option value="$PROJECT_DIR$/components/template/LeftSidebarTemplate.js" />
+        <option value="$PROJECT_DIR$/components/chat/icon/ChatBadgeIcon.js" />
         <option value="$PROJECT_DIR$/assets/css/styles.scss" />
       </list>
     </option>
@@ -414,6 +414,28 @@
               <option name="myItemId" value="photos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -498,10 +520,6 @@
               <option name="myItemId" value="chat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="panels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -521,7 +539,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
+              <option name="myItemId" value="icon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,7 +608,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="chatac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/ChatActions.js&#10;chata&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/apps/ChatApp.js&#10;create&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/CreateMessagePanel.js&#10;messagesp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/MessagesPanel.js&#10;styles.&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;expre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;chat&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/ChatPanel.js&#10;comme&#9;null&#9;null&#10;comm&#9;null&#9;null&#10;photo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/photos/panels/PhotoPanel.js&#10;pro&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/profile/panels/EditProfilePanel.js&#10;usersa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;гыукыфс&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;sty&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;зкщ&#9;null&#9;null&#10;ыен&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;users&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/list/UsersList.js&#10;ex&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;usersre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/reducers/UsersReducer.js&#10;left&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;lefts&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;usersac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/actions/UsersActions.js&#10;userre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/reducers/UsersReducer.js&#10;setting&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/apps/SettingsApp.js&#10;conf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/constants/config.js&#10;auth&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/AuthForm.js&#10;signup&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/SignupForm.js&#10;loginf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/LoginForm.js&#10;logout&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/buttons/LogoutWrapper.js" />
+    <property name="SearchEverywhereHistoryKey" value="st&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;templa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;gr&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/ground/GroundComponent.js&#10;chatac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/ChatActions.js&#10;chata&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/apps/ChatApp.js&#10;create&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/CreateMessagePanel.js&#10;messagesp&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/MessagesPanel.js&#10;styles.&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;expre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;chat&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/chat/panels/ChatPanel.js&#10;comme&#9;null&#9;null&#10;comm&#9;null&#9;null&#10;photo&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/photos/panels/PhotoPanel.js&#10;pro&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/profile/panels/EditProfilePanel.js&#10;usersa&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;гыукыфс&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/actions/UsersActions.js&#10;sty&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;зкщ&#9;null&#9;null&#10;ыен&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/assets/css/styles.scss&#10;users&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/list/UsersList.js&#10;ex&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/users/panels/ExpressUsersPanel.js&#10;usersre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/redux/reducers/UsersReducer.js&#10;left&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;lefts&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/MirrorLab/DermWebApp/src/components/template/LeftSidebarTemplate.js&#10;usersac&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/actions/UsersActions.js&#10;userre&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/redux/reducers/UsersReducer.js&#10;setting&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/apps/SettingsApp.js&#10;conf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/constants/config.js&#10;auth&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/AuthForm.js&#10;signup&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/SignupForm.js&#10;loginf&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/forms/LoginForm.js&#10;logout&#9;FILE&#9;file:///Users/sabir/Documents/GitHub/SabirPlatform/SabirPlatformWebApp/src/components/auth/buttons/LogoutWrapper.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -686,12 +704,12 @@
       <workItem from="1491432680162" duration="3310000" />
       <workItem from="1492875616797" duration="2713000" />
       <workItem from="1492879745088" duration="21868000" />
-      <workItem from="1492971384996" duration="15018000" />
+      <workItem from="1492971384996" duration="23671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78470000" />
+    <option name="totallyTimeSpent" value="87123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -701,6 +719,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37183544" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -712,7 +731,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -746,38 +764,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/apps/SettingsApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="75" column="26" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="75" selection-end-column="26" />
-          <folding>
-            <element signature="e#41#80#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/apps/UserIndexApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/template/LeftSidebar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/template/LeftSidebarTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,6 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,34 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ground/GroundComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#42#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/apps/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="102" column="35" lean-forward="false" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
-          <folding>
-            <element signature="e#42#81#0" expanded="false" />
-            <element signature="e#399#441#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/photos/panels/SelectedPhotoPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#42#81#0" expanded="false" />
           </folding>
@@ -1023,22 +986,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/photos/panels/PhotoPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/comments/panels/CommentsPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1064,7 +1017,7 @@
         <state relative-caret-position="129">
           <caret line="51" column="65" lean-forward="true" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1074,7 +1027,7 @@
         <state relative-caret-position="169">
           <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
-            <element signature="e#41#80#0" expanded="true" />
+            <element signature="e#41#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1084,7 +1037,7 @@
         <state relative-caret-position="276">
           <caret line="149" column="37" lean-forward="true" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1094,7 +1047,7 @@
         <state relative-caret-position="219">
           <caret line="56" column="50" lean-forward="true" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1104,9 +1057,9 @@
         <state relative-caret-position="109">
           <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
           <folding>
-            <element signature="e#42#65#0" expanded="true" />
-            <element signature="e#369#410#0" expanded="true" />
-            <element signature="e#882#939#0" expanded="true" />
+            <element signature="e#42#65#0" expanded="false" />
+            <element signature="e#369#410#0" expanded="false" />
+            <element signature="e#882#939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,7 +1069,7 @@
         <state relative-caret-position="159">
           <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1126,17 +1079,7 @@
         <state relative-caret-position="294">
           <caret line="102" column="54" lean-forward="true" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/chat/list/ChatUsersList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="67" column="163" lean-forward="false" selection-start-line="67" selection-start-column="163" selection-end-line="67" selection-end-column="163" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1146,17 +1089,7 @@
         <state relative-caret-position="399">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/chat/panels/ChatPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="84" column="71" lean-forward="false" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1169,16 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/info/panels/TabbedUserInfoPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="64" column="47" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="47" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/photos/list/PhotosList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -1187,10 +1110,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/apps/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ground/GroundComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/photos/panels/SelectedPhotoPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/daemons/ChatDaemon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/panels/ChatPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="107" column="68" lean-forward="false" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/info/panels/TabbedUserInfoPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/list/ChatUsersList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/template/LeftSidebarTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="104" column="82" lean-forward="false" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="82" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/photos/panels/PhotoPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/icon/ChatBadgeIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="3811" column="34" lean-forward="false" selection-start-line="3811" selection-start-column="34" selection-end-line="3811" selection-end-column="34" />
+        <state relative-caret-position="154">
+          <caret line="4128" column="17" lean-forward="true" selection-start-line="4128" selection-start-column="17" selection-end-line="4128" selection-end-column="17" />
           <folding />
         </state>
       </provider>

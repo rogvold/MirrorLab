@@ -42,6 +42,7 @@ class ChatUsersList extends React.Component {
 
     render = () => {
         let {users, selectedUserId, onUserSelect} = this.props;
+        console.log('ChatUsersList: render: users = ', users);
 
         return (
             <div className={'chat_users_list'} >
@@ -51,7 +52,7 @@ class ChatUsersList extends React.Component {
                     let hasNoName = ((u.firstName == undefined || u.firstName.trim() == '') && (u.lastName == undefined || u.lastName.trim() == '' ));
                     let isSelected = (selectedUserId == u.id);
                     let ava = (u.avatar == undefined) ? constants.FACELESS_AVATAR : u.avatar;
-                    let {lastMessage} = u;
+                    let {lastMessage, notReadNumber} = u;
                     let lastMessageText = 'Нет сообщений';
                     if (lastMessage != undefined){
                         if (lastMessage.toId == u.id){
@@ -60,6 +61,7 @@ class ChatUsersList extends React.Component {
                             lastMessageText = lastMessage.content;
                         }
                     }
+
 
                     return (
                         <div
@@ -71,6 +73,11 @@ class ChatUsersList extends React.Component {
                                 <div className={'avatar_placeholder'} >
                                     <div className={'avatar'} style={{backgroundImage: 'url("' + ava + '")'}} ></div>
                                 </div>
+                                {notReadNumber == 0 ? null :
+                                    <div className={'ui green circular label mini'} >
+                                        {notReadNumber}
+                                    </div>
+                                }
                             </div>
 
                             <div className={'center_placeholder'} >
@@ -87,7 +94,7 @@ class ChatUsersList extends React.Component {
                                     </div>
                                 </div>
                                 <div className={'last_message_placeholder'} >
-                                    <div className={'last_message'} >
+                                    <div className={'last_message'} style={{fontWeight: (notReadNumber > 0 ? 'bold' : 'normal')}} >
                                         {lastMessageText}
                                     </div>
                                 </div>
@@ -96,7 +103,7 @@ class ChatUsersList extends React.Component {
                             <div className={'right_placeholder'} >
                                 {u.lastMessage == undefined ? null :
                                     <div className={'last_message_time_placeholder'} >
-                                        <div className={'last_message_time'} >
+                                        <div className={'last_message_time'} style={{fontWeight: (notReadNumber > 0 ? 'bold' : 'normal')}} >
                                             {moment(u.lastMessage.timestamp).format('HH:mm')}
                                         </div>
                                     </div>

@@ -158,7 +158,7 @@
             font-weight: bold;
             color: #858598; }
         .corporate_template .main_area > .header .header_inner .middle_placeholder {
-          width: calc(100% - 450px);
+          width: calc(100% - 550px);
           height: 100%;
           display: inline-block;
           vertical-align: top; }
@@ -169,8 +169,17 @@
           position: absolute;
           top: 0px;
           right: 0px;
-          width: 250px;
+          width: 350px;
           padding-right: 10px; }
+          .corporate_template .main_area > .header .header_inner .right_placeholder .messages_envelope_placeholder {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer; }
+            .corporate_template .main_area > .header .header_inner .right_placeholder .messages_envelope_placeholder:hover {
+              opacity: 0.7; }
           .corporate_template .main_area > .header .header_inner .right_placeholder .current_user_placeholder {
             height: 100%;
             text-align: right; }
@@ -2276,6 +2285,7 @@ button.primary_button {
   height: 64px;
   padding: 2px;
   background-color: white;
+  position: relative;
   cursor: pointer; }
   .chat_users_list .user_item:hover {
     opacity: 0.8;
@@ -2288,6 +2298,14 @@ button.primary_button {
     display: inline-block;
     vertical-align: top;
     border-right: none; }
+    .chat_users_list .user_item .left_placeholder .label.circular {
+      min-width: 1em;
+      min-height: 1em;
+      line-height: 0.45em;
+      padding: .45em !important;
+      position: absolute;
+      left: 40px;
+      top: 8px; }
     .chat_users_list .user_item .left_placeholder .avatar_placeholder .avatar {
       margin: 0 auto;
       width: 50px;
@@ -2321,6 +2339,7 @@ button.primary_button {
       opacity: 0.7; }
 
 .chat_panel {
+  font-family: "Helvetica Neue";
   width: 100%;
   height: 100%;
   background-color: white; }
@@ -2483,3 +2502,17 @@ button.primary_button {
       .tabbed_user_info_panel .content_placeholder .photo_item .date_placeholder {
         font-size: 12px;
         text-align: center; }
+
+.chat_badge_icon {
+  position: relative; }
+  .chat_badge_icon .icon.envelope {
+    color: #858598; }
+  .chat_badge_icon .label {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    min-width: 0.9em;
+    min-height: 0.9em;
+    line-height: 0.45em;
+    padding: .45em !important;
+    font-size: 12px; }

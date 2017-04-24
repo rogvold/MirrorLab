@@ -95,6 +95,13 @@ class ChatPanel extends React.Component {
 
 }
 
+let getNotReadFriendMessagesNumber = (state, friendId) => {
+    let {messagesMap} = state.chat;
+    let {currentUserId} = state.users;
+    let messages = messagesMap.toArray().filter((m) => {return ((m.fromId == friendId) && (m.toId == currentUserId) && (m.viewed != true))})
+    return messages.length;
+}
+
 
 let getUsers = (state) => {
     let {currentUserId, usersMap} = state.users;
@@ -109,7 +116,12 @@ let getUsers = (state) => {
     let arr = usersMap.toArray();
     console.log('getUsers: arr = ', arr);
     if (currentUserId == undefined){return []}
-    arr = arr.filter(function(u){return (u.id != currentUserId)}).map((u) => {return Object.assign({}, u, {lastMessage: getLastUserMessage(u.id)})})
+    arr = arr.filter(function(u){return (u.id != currentUserId)}).map((u) => {
+            return Object.assign({}, u, {
+                lastMessage: getLastUserMessage(u.id),
+                notReadNumber: getNotReadFriendMessagesNumber(state, u.id)
+            })
+        })
     return arr;
 }
 
