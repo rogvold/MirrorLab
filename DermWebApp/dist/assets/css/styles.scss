@@ -3807,13 +3807,27 @@ $calendar_bubble_size: 40px;
       .user_name_placeholder{
         .name{
           font-size: 15px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
       }
+
+      .last_message_placeholder{
+        .last_message{
+          opacity: 0.4;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
     }
 
 
     .right_placeholder{
       width: 40px;
+      padding-top: 11px;
       display: inline-block;
       vertical-align: top;
       .last_message_time_placeholder{
@@ -3881,6 +3895,9 @@ $chat_right_info_width: 300px;
         display: inline-block;
         vertical-align: top;
         height: 100%;
+
+
+
       }
 
     }
@@ -3974,19 +3991,110 @@ $create_message_placeholder_height: 70px;
     &.my_message .inner_placeholder{
       color: white;
       background-color: $primary_button_color;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+      .date_placeholder{
+        text-align: right;
+      }
     }
 
     &.friend_message .inner_placeholder{
       background-color: #F1F0F0;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
 
     .inner_placeholder{
       text-align: left;
       display: inline-block;
-      width: 80%;
+      max-width: 70%;
       padding: 5px;
+      border-radius: $normal-border-radius;
+
+      .date_placeholder{
+        .date{
+          opacity: 0.3;
+          font-size: 10px;
+          font-style: italic;
+        }
+      }
+
     }
 
+
+  }
+}
+
+.messages_days_list{
+  .day_item{
+    .day_name_placeholder{
+      padding: 10px;
+      text-align: center;
+      .day_name{
+        color: rgba(0, 0, 0, 0.40);
+      }
+    }
+  }
+}
+
+.tabs_placeholder{
+
+  text-align: center;
+  margin-top: 20px;
+  line-height: 10px;
+
+  .tab{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: $user_name_color;
+    opacity: 0.7;
+    &.active{
+      color: $primary_button_color;
+      font-weight: bold;
+      opacity: 0.99;
+      cursor: default;
+      padding-bottom: 7px;
+      border-bottom: 3px solid $primary_button_color;
+    }
+    &:hover{
+      opacity: 0.99;
+      color: $primary_button_color;
+    }
+  }
+}
+
+.tabbed_user_info_panel{
+  height: 100%;
+
+  .tabs_placeholder{
+    margin-top: 0px;
+    padding: 10px;
+    height: 40px;
+  }
+  .content_placeholder{
+    height: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+    overflow-y: auto;
+
+    padding: 10px;
+
+    .user_info_placeholder{
+      opacity: 0.7;
+    }
+
+    .photo_item{
+      width: calc(50% - 20px) !important;
+
+      .date_placeholder{
+        font-size: 12px;
+        text-align: center;
+      }
+    }
 
   }
 }

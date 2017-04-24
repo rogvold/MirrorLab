@@ -12,6 +12,8 @@ import * as chatActions from '../../../redux/actions/ChatActions'
 
 import ChatUserPanel from './ChatUserPanel'
 
+import TabbedUserInfoPanel from '../../info/panels/TabbedUserInfoPanel'
+
 class ChatPanel extends React.Component {
 
     static defaultProps = {}
@@ -80,7 +82,7 @@ class ChatPanel extends React.Component {
                         </div>
 
                         <div className={'info_placeholder'} >
-
+                            <TabbedUserInfoPanel userId={selectedUserId} />
                         </div>
                     </div>
 
@@ -96,10 +98,18 @@ class ChatPanel extends React.Component {
 
 let getUsers = (state) => {
     let {currentUserId, usersMap} = state.users;
+    let messages = state.chat.messagesMap.toArray().sort((a, b) => {return (b.timestamp - a.timestamp)});
+    const getLastUserMessage = (userId) => {
+        for (let i in messages){
+            if (messages[i].fromId == userId || messages[i].toId == userId){
+                return messages[i];
+            }
+        }
+    }
     let arr = usersMap.toArray();
     console.log('getUsers: arr = ', arr);
     if (currentUserId == undefined){return []}
-    arr = arr.filter(function(u){return (u.id != currentUserId)})
+    arr = arr.filter(function(u){return (u.id != currentUserId)}).map((u) => {return Object.assign({}, u, {lastMessage: getLastUserMessage(u.id)})})
     return arr;
 }
 

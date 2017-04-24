@@ -8,11 +8,15 @@ import {bindActionCreators} from 'redux';
 
 import moment from 'moment';
 
+import {Map} from 'immutable';
+
 class MessagesList extends React.Component {
 
     static defaultProps = {
         messages: [],
-        currentUserId: undefined
+        currentUserId: undefined,
+
+        showDaysDivider: true
 
     }
 
@@ -33,38 +37,83 @@ class MessagesList extends React.Component {
 
     }
 
+    getDays = () => {
+        let {messages} = this.props;
+        let timestamps = messages.reduce((map, message) => {
+            let dayStart = +moment(message.timestamp).startOf('day');
+            return map.set(dayStart, dayStart)
+        }, Map()).toArray().sort((a, b) => {return (b.timestamp - a.timestamp)});
+        let getMessagesByTimestamp = (t) => {
+            let start = +moment(t).startOf('day');
+            let end = +moment(t).endOf('day');
+            return messages.filter((mess) => {
+                return (mess.timestamp >= start && mess.timestamp < end)
+            })
+        }
+        return timestamps.map((time, k) => {
+            return {
+                timestamp: time,
+                messages: getMessagesByTimestamp(time)
+            }
+        })
+    }
+
     render = () => {
-        let {messages, currentUserId} = this.props;
-        console.log('MessagesList: render: messages = ', messages);
+        let {currentUserId} = this.props;
+        let {showDaysDivider} = this.props;
+        let days = this.getDays();
+        console.log('MessagesList: days = ', days);
 
         return (
-            <div className={'messages_list'} >
+            <div className={'messages_days_list'} >
 
-                {messages.map((m, k) =>{
-                    let text = (m.content == undefined) ? '' : m.content;
-                    text = text.replace(/\n/g, '<br/>');
-                    let isFromMe = (currentUserId == m.fromId);
+                {days.map((day, k) => {
+                    let messages = day.messages;
 
                     return (
-                        <div className={'message_item  ' + (isFromMe == true ? ' my_message' : 'friend_message')} key={m.id} >
+                        <div className={'day_item'} key={day.timestamp}  >
 
-                            <div className={'inner_placeholder'} >
-                                <div className={'date_placeholder'} >
-                                    <div className={'date'} >
-                                        {moment(m.timestamp).format('D MMM YYYY HH:mm')}
-                                    </div>
+                            <div className={'day_name_placeholder'} >
+                                <div className={'day_name'} >
+                                    {moment(day.timestamp).format('D MMMM YYYY')}
                                 </div>
+                            </div>
 
-                                <div className={'text_placeholder'} >
-                                    <div className={'text'} >
-                                        <div dangerouslySetInnerHTML={{__html: text}} ></div>
-                                    </div>
-                                </div>
+                            <div className={'messages_list'} >
+
+                                {messages.map((m, k) =>{
+                                    let text = (m.content == undefined) ? '' : m.content;
+                                    text = text.replace(/\n/g, '<br/>');
+                                    let isFromMe = (currentUserId == m.fromId);
+
+                                    return (
+                                        <div className={'message_item  ' + (isFromMe == true ? ' my_message' : 'friend_message')} key={m.id} >
+
+                                            <div className={'inner_placeholder'} >
+                                                <div className={'date_placeholder'} >
+                                                    <div className={'date'} >
+                                                        {moment(m.timestamp).format('HH:mm')}
+                                                    </div>
+                                                </div>
+
+                                                <div className={'text_placeholder'} >
+                                                    <div className={'text'} >
+                                                        <div dangerouslySetInnerHTML={{__html: text}} ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    )
+                                })}
+
                             </div>
 
                         </div>
                     )
+
                 })}
+
 
             </div>
         )

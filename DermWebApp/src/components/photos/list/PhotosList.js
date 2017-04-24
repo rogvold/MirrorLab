@@ -51,7 +51,7 @@ class PhotosList extends React.Component {
 
                             <div className={'date_placeholder'} >
                                 <i className={'icon '} ></i>
-                                {moment(p.timestamp).format('D MMMM YYYY HH:mm')}
+                                {moment(p.timestamp).format('DD.MM.YYYY HH:mm')}
                             </div>
 
                         </div>
